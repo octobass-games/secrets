@@ -5,14 +5,16 @@ public class Conversable : MonoBehaviour
 {
     private Dialogue Dialogue = new Dialogue(
         new List<Line> {
-            new("0", "Speaker", "How are you?", new List<Response>
+            new("0", "Speaker", "How are you?", null, new List<Choice>
             {
                 new("Hi", "", "1")
             }),
-            new("1", "Speaker", "How are you today?", new List<Response>
+            new("1", "Speaker", "How are you today?", null, new List<Choice>
             {
-                new("Hi again", "", null)
-            })
+                new("Hi again", "", "2")
+            }),
+            new("2", "Speaker", "How are you today again?", "3", null),
+            new("3", "Speaker", "How are you today again again?", null, null)
         }
     );
 
@@ -27,7 +29,6 @@ public class Conversable : MonoBehaviour
         SpeakLine();
     }
 
-
     public void End()
     {
         ConversationView.Close();
@@ -35,10 +36,24 @@ public class Conversable : MonoBehaviour
 
     private void SpeakLine()
     {
-        ConversationView.Display(LineToSpeak, OnResponse);
+        ConversationView.Display(LineToSpeak, OnChoice, OnNext);
     }
 
-    private void OnResponse(Response response)
+    private void OnNext()
+    {
+        LineToSpeak = Dialogue.Lines.Find(l => l.Id == LineToSpeak.NextLineId);
+
+        if (LineToSpeak != null)
+        {
+            SpeakLine();
+        }
+        else
+        {
+            End();
+        }
+    }
+
+    private void OnChoice(Choice response)
     {
         if (response.LineId != null)
         {

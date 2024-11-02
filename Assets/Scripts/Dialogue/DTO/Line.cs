@@ -7,13 +7,15 @@ public class Line
     public string Id;
     public string Speaker;
     public string Text;
-    public List<Response> Responses;
+    public string NextLineId;
+    public List<Choice> Choices;
 
-    public Line(string id, string speaker, string text, List<Response> responses)
+    public Line(string id, string speaker, string text, string nextLineId, List<Choice> choices)
     {
         Id = id;
         Speaker = speaker;
         Text = text;
-        Responses = responses;
+        NextLineId = nextLineId;
+        Choices = choices;
     }
 }

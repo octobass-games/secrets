@@ -21,12 +21,23 @@ public class ConversationView : MonoBehaviour
         Canvas.SetActive(false);
     }
 
-    public void Display(Line line, Action<Response> onResponse)
+    public void Display(Line line, Action<Choice> onChoice, Action onNext)
     {
-        Debug.Log(line.Text);
+        Response.onClick.RemoveAllListeners();
+
         Speaker.text = line.Speaker;
         Line.text = line.Text;
-        Response.onClick.AddListener(() => onResponse(line.Responses[0]));
-        Response.GetComponentInChildren<TMP_Text>().text = line.Responses[0].Text;
+
+
+        if (line.Choices != null)
+        {
+            Response.onClick.AddListener(() => onChoice(line.Choices[0]));
+        }
+        else
+        {
+            Response.onClick.AddListener(() => onNext());
+        }
+
+        Response.GetComponentInChildren<TMP_Text>().text = line.Choices != null ? line.Choices[0].Text : "Next";
     }
 }
