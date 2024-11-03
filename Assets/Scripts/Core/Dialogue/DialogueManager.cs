@@ -13,7 +13,6 @@ public class DialogueManager : MonoBehaviour
         Dialogue = dialogue;
 
         ConversationView.Open();
-        Debug.Log(Dialogue.Lines.Count);
         LineToSpeak = Dialogue.Lines[0];
         SpeakLine();
     }
