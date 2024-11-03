@@ -7,11 +7,11 @@ public class Conversable : MonoBehaviour
         new List<Line> {
             new("0", "Speaker", "How are you?", null, new List<Choice>
             {
-                new("Hi", "", "1")
+                new("Hi", "", "1", null)
             }),
             new("1", "Speaker", "How are you today?", null, new List<Choice>
             {
-                new("Hi again", "", "2")
+                new("Hi again", "", "2", null)
             }),
             new("2", "Speaker", "How are you today again?", "3", null),
             new("3", "Speaker", "How are you today again again?", null, null)
