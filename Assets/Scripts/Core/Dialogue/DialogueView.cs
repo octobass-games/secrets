@@ -7,10 +7,13 @@ using UnityEngine.UI;
 public class DialogueView : MonoBehaviour
 {
     public GameObject Canvas;
+    public GameObject ResponsePrefab;
+    public Transform ResponseSpawn;
 
     public TMP_Text Speaker;
     public TMP_Text Line;
-    public Button Response;
+
+    private List<GameObject> Responses = new();
 
     public void Open()
     {
@@ -24,20 +27,37 @@ public class DialogueView : MonoBehaviour
 
     public void Display(string speaker, string text, List<Choice> choices, Action<Choice> onChoice)
     {
-        Response.onClick.RemoveAllListeners();
-
         Speaker.text = speaker;
         Line.text = text;
 
+        foreach (GameObject response in Responses)
+        {
+            Destroy(response);
+        }
+
         if (choices.Count > 0)
         {
-            Response.onClick.AddListener(() => onChoice(choices[0]));
+            for (int i = 0; i < choices.Count; i++)
+            {
+                Choice choice = choices[i];
+
+                GameObject go = Instantiate(ResponsePrefab, ResponseSpawn);
+
+                go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y + 30 * i, go.transform.position.z);
+                go.GetComponentInChildren<TMP_Text>().text = choice.Text;
+                go.GetComponent<Button>().onClick.AddListener(() => onChoice(choice));
+
+                Responses.Add(go);
+            }
         }
         else
         {
-            Response.onClick.AddListener(() => onChoice(null));
-        }
+            GameObject go = Instantiate(ResponsePrefab, ResponseSpawn);
 
-        Response.GetComponentInChildren<TMP_Text>().text = choices != null && choices.Count > 0 ? choices[0].Text : "Next";
+            go.GetComponentInChildren<TMP_Text>().text = "Next";
+            go.GetComponentInChildren<Button>().onClick.AddListener(() => onChoice(null));
+
+            Responses.Add(go);
+        }
     }
 }

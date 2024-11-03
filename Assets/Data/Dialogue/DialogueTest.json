@@ -11,6 +11,12 @@
 					"NextLineId": "1",
 					"Event": "is.fine",
 					"Requirements": []
+				},
+				{
+					"Text": "I'm fine, thanks!",
+					"NextLineId": "1",
+					"Event": "is.fine",
+					"Requirements": []
 				}
 			],
 			"NextLineId":  null
@@ -19,8 +25,14 @@
 			"Id": "1",
 			"Speaker": "Jenny",
 			"Text": "That's great! Bye!",
-			"Choices": null,
-			"NextLineId":  null
+			"Choices": [
+				{
+					"Text": "Bye!",
+					"NextLineId": "1",
+					"Requirements": ["is.finee"]
+				}
+			],
+			"NextLineId": null
 		}
 	]
 }
