@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,23 +22,22 @@ public class DialogueView : MonoBehaviour
         Canvas.SetActive(false);
     }
 
-    public void Display(Line line, Action<Choice> onChoice, Action onNext)
+    public void Display(string speaker, string text, List<Choice> choices, Action<Choice> onChoice)
     {
         Response.onClick.RemoveAllListeners();
 
-        Speaker.text = line.Speaker;
-        Line.text = line.Text;
+        Speaker.text = speaker;
+        Line.text = text;
 
-
-        if (line.Choices != null)
+        if (choices.Count > 0)
         {
-            Response.onClick.AddListener(() => onChoice(line.Choices[0]));
+            Response.onClick.AddListener(() => onChoice(choices[0]));
         }
         else
         {
-            Response.onClick.AddListener(() => onNext());
+            Response.onClick.AddListener(() => onChoice(null));
         }
 
-        Response.GetComponentInChildren<TMP_Text>().text = line.Choices != null ? line.Choices[0].Text : "Next";
+        Response.GetComponentInChildren<TMP_Text>().text = choices != null && choices.Count > 0 ? choices[0].Text : "Next";
     }
 }
