@@ -50,6 +50,11 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+            if (response.Event != null)
+            {
+                History.Record(response.Event);
+            }
+
             if (response.NextLineId != null)
             {
                 LineToSpeak = Dialogue.Lines.Find(l => l.Id == response.NextLineId);
