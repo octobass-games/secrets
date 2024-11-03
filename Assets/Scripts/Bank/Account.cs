@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Account : MonoBehaviour
+public class Account : MonoBehaviour, Savable
 {
     [SerializeField]
     private int Balance;
@@ -35,5 +35,15 @@ public class Account : MonoBehaviour
         {
             OnWithdraw?.Invoke(Balance);
         }
+    }
+
+    public void Save(SaveData saveData)
+    {
+        saveData.Account = new AccountData(Balance);
+    }
+
+    public void Load(SaveData saveData)
+    {
+        Balance = saveData.Account.Balance;
     }
 }
