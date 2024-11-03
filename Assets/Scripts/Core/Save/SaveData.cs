@@ -7,15 +7,15 @@ public class SaveData
     public string Day;
     public List<Book> Books;
     public AccountData Account;
-    public Memory Memory;
+    public HistoryData History;
     public List<CharacterData> Characters;
 
-    public SaveData(string day, List<Book> books, AccountData account, Memory memory, List<CharacterData> characters)
+    public SaveData(string day, List<Book> books, AccountData account, HistoryData history, List<CharacterData> characters)
     {
         Day = day;
         Books = books;
         Account = account;
-        Memory = memory;
+        History = history;
         Characters = characters;
     }
 

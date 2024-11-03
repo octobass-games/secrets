@@ -9,7 +9,8 @@
 				{
 					"Text": "I'm fine, thanks!",
 					"NextLineId": "1",
-					"Event":  "is.fine"
+					"Event": "is.fine",
+					"Requirements": []
 				}
 			],
 			"NextLineId":  null

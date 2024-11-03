@@ -5,14 +5,14 @@ public class Choice
 {
     public string Text;
     public string Event;
-    public string LineId;
+    public string NextLineId;
     public string[] Requirements;
 
-    public Choice(string text, string @event, string lineId, string[] requirements)
+    public Choice(string text, string @event, string nextLineId, string[] requirements)
     {
         Text = text;
         Event = @event;
-        LineId = lineId;
+        NextLineId = nextLineId;
         Requirements = requirements;
     }
 }
