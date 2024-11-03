@@ -59,7 +59,5 @@ public class DialogueView : MonoBehaviour
 
             Responses.Add(go);
         }
-
-        // Response.GetComponentInChildren<TMP_Text>().text = choices != null && choices.Count > 0 ? choices[0].Text : "Next";
     }
 }
