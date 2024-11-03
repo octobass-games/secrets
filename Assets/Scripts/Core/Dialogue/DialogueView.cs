@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ConversationView : MonoBehaviour
+public class DialogueView : MonoBehaviour
 {
     public GameObject Canvas;
 
