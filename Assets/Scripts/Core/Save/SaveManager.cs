@@ -9,7 +9,7 @@ public class SaveManager : MonoBehaviour
 
     void Awake()
     {
-        SaveFilePath = Application.persistentDataPath + "/save.json";
+        SaveFilePath = Application.persistentDataPath + "/save-data.json";
     }
 
     public void Save()

@@ -8,17 +8,20 @@ public class SaveData
     public List<Book> Books;
     public Account Account;
     public Memory Memory;
+    public List<CharacterData> Characters;
 
-    public SaveData(string day, List<Book> books, Account account, Memory memory)
+    public SaveData(string day, List<Book> books, Account account, Memory memory, List<CharacterData> characters)
     {
         Day = day;
         Books = books;
         Account = account;
         Memory = memory;
+        Characters = characters;
     }
 
     public SaveData()
     {
         Books = new List<Book>();
+        Characters = new List<CharacterData>();
     }
 }
