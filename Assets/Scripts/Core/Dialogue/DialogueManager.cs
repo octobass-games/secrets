@@ -1,30 +1,19 @@
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Conversable : MonoBehaviour
+public class DialogueManager : MonoBehaviour
 {
-    private Dialogue Dialogue = new Dialogue(
-        new List<Line> {
-            new("0", "Speaker", "How are you?", null, new List<Choice>
-            {
-                new("Hi", "", "1", null)
-            }),
-            new("1", "Speaker", "How are you today?", null, new List<Choice>
-            {
-                new("Hi again", "", "2", null)
-            }),
-            new("2", "Speaker", "How are you today again?", "3", null),
-            new("3", "Speaker", "How are you today again again?", null, null)
-        }
-    );
+    private Dialogue Dialogue;
 
-    public ConversationView ConversationView;
+    public DialogueView ConversationView;
 
     private Line LineToSpeak;
 
-    public void Begin()
+    public void Begin(Dialogue dialogue)
     {
+        Dialogue = dialogue;
+
         ConversationView.Open();
+        Debug.Log(Dialogue.Lines.Count);
         LineToSpeak = Dialogue.Lines[0];
         SpeakLine();
     }

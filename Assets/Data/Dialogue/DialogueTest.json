@@ -1,0 +1,24 @@
+{
+	"Relationship": 0,
+	"Lines": [
+		{
+			"Id": "0",
+			"Speaker": "Jenny",
+			"Text": "Hello! How are you today?",
+			"Choices": [
+				{
+					"Text": "I'm fine, thanks!",
+					"NextLineId": "1"
+				}
+			],
+			"NextLineId":  null
+		},
+		{
+			"Id": "1",
+			"Speaker": "Jenny",
+			"Text": "That's great! Bye!",
+			"Choices": null,
+			"NextLineId":  null
+		}
+	]
+}
