@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 
 public class Clickable : MonoBehaviour
 {
@@ -7,6 +8,9 @@ public class Clickable : MonoBehaviour
 
     void OnMouseDown()
     {
-        OnClick?.Invoke();
+        if (!EventSystem.current.IsPointerOverGameObject())
+        {
+            OnClick?.Invoke();
+        }
     }
 }
