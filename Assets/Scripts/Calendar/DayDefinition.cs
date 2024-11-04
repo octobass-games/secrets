@@ -5,6 +5,6 @@ using UnityEngine;
 public class DayDefinition : ScriptableObject
 {
     public string Date;
-    public List<string> VisitingCharacters;
+    public List<CharacterDefinition> VisitingCharacters;
     public bool IsInThePast;
 }
