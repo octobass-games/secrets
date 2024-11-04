@@ -128,10 +128,4 @@ public class DialogueView : MonoBehaviour
 
         IsWriting = false;
     }
-
-    void OnMouseDown()
-    {
-        Debug.Log("Hello!");
-        SkipTypeWriting();
-    }
 }
