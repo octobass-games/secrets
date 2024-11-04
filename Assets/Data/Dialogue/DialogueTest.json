@@ -9,13 +9,13 @@
 				{
 					"Text": "I'm fine, thanks!",
 					"NextLineId": "1",
-					"Event": "is.fine",
+					"Events": [ { "type": "history", "record": "is.fine" } ],
 					"Requirements": []
 				},
 				{
 					"Text": "I'm fine, thanks!",
 					"NextLineId": "1",
-					"Event": "is.fine",
+					"Event": "is.finee",
 					"Requirements": []
 				}
 			],
@@ -28,7 +28,6 @@
 			"Choices": [
 				{
 					"Text": "Bye!",
-					"NextLineId": "1",
 					"Requirements": ["is.finee"]
 				}
 			],
