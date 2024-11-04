@@ -1,10 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 
 public class Calendar : MonoBehaviour, Savable
 {
     public List<DayDefinition> DayDefinitions = new();
+    public TMP_Text CalendarText;
 
     private DayDefinition Today;
 
@@ -15,7 +17,7 @@ public class Calendar : MonoBehaviour, Savable
 
     public void StartDay()
     {
-
+        CalendarText.text = Today.Date;
     }
 
     public void EndDay()
