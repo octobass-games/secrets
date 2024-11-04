@@ -8,7 +8,7 @@ public class DialogueView : MonoBehaviour
 {
     public GameObject Canvas;
     public GameObject ResponsePrefab;
-    public Transform ResponseSpawn;
+    public RectTransform ResponseSpawn;
 
     public TMP_Text Speaker;
     public TMP_Text Line;
@@ -32,6 +32,8 @@ public class DialogueView : MonoBehaviour
 
         foreach (GameObject response in Responses)
         {
+            response.GetComponentInChildren<Button>().onClick.RemoveAllListeners();
+
             Destroy(response);
         }
 
@@ -43,9 +45,9 @@ public class DialogueView : MonoBehaviour
 
                 GameObject go = Instantiate(ResponsePrefab, ResponseSpawn);
 
-                go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y + 30 * i, go.transform.position.z);
+                go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y + 70 * i, go.transform.position.z);
                 go.GetComponentInChildren<TMP_Text>().text = choice.Text;
-                go.GetComponent<Button>().onClick.AddListener(() => onChoice(choice));
+                go.GetComponentInChildren<Button>().onClick.AddListener(() => onChoice(choice));
 
                 Responses.Add(go);
             }

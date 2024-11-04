@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d30453d2fa5724749a8599c5e36eb607, type: 3}
-  m_Name: FirstDay
+  m_Script: {fileID: 11500000, guid: fd38e5fec1b86ff4d9fe400986412c7e, type: 3}
+  m_Name: OtherOtherTestCharacter
   m_EditorClassIdentifier: 
-  Date: 01/01
-  VisitingCharacters:
-  - {fileID: 11400000, guid: a3d61ea5dc2659d4791598a2db80288f, type: 2}
-  - {fileID: 11400000, guid: 1c1fbe42678686346a3e51c7834e62cf, type: 2}
-  IsInThePast: 0
+  Name: A
+  Dialogues: []
+  Relationship: 0
