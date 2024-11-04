@@ -22,6 +22,7 @@ public class DialogueManager : MonoBehaviour
     public void End()
     {
         ConversationView.Close();
+        FindFirstObjectByType<EventManager>().Publish("dialogue.complete");
     }
 
     private void SpeakLine()

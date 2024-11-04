@@ -1,36 +1,61 @@
 {
 	"Relationship": 0,
-	"Lines": [
+	"Dialogues": [
 		{
-			"Id": "0",
-			"Speaker": "Jenny",
-			"Text": "Hello! How are you today?",
-			"Choices": [
+			"Lines": [
 				{
-					"Text": "I'm fine, thanks!!",
-					"NextLineId": "1",
-					"Requirements": []
+					"Id": "0",
+					"Speaker": "Jenny",
+					"Text": "Hello! How are you today?",
+					"Choices": [
+						{
+							"Text": "I'm fine, thanks!!",
+							"NextLineId": "1",
+							"Requirements": []
+						}
+					]
 				},
 				{
-					"Text": "I'm fine, thanks!",
-					"NextLineId": "1",
-					"Event": "is.finee",
-					"Requirements": []
+					"Id": "1",
+					"Speaker": "Jenny",
+					"Text": "Could you recommend me a book please about dragons?",
+					"Event":  "jenny.requested.dragon.book",
+					"Choices": [
+						{
+							"Text": "Certainly, I'll just go fetch one",
+							"Requirements": []
+						}
+					]
 				}
-			],
-			"NextLineId":  null
+			]
 		},
 		{
-			"Id": "1",
-			"Speaker": "Jenny",
-			"Text": "That's great! Bye!",
-			"Choices": [
+			"Lines": [
 				{
-					"Text": "Bye!",
-					"Requirements": ["is.finee"]
+					"Id": "0",
+					"Speaker": "Jenny",
+					"Text": "Did you find a good one?",
+					"Choices": [
+						{
+							"Text": "Of course! This one should suffice",
+							"Requirements": []
+						}
+					],
+					"NextLineId": null
+				},
+				{
+					"Id": "1",
+					"Speaker": "Jenny",
+					"Text": "Did you find a good one?",
+					"Choices": [
+						{
+							"Text": "Of course! This one should suffice",
+							"Requirements": []
+						}
+					],
+					"NextLineId": null
 				}
-			],
-			"NextLineId": null
+			]
 		}
 	]
 }

@@ -5,6 +5,6 @@ using UnityEngine;
 public class CharacterDefinition : ScriptableObject
 {
     public string Name;
-    public List<TextAsset> Dialogues;
+    public List<TextAsset> Interactions;
     public int Relationship;
 }

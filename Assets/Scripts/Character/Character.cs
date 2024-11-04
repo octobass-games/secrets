@@ -2,27 +2,40 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class Character : MonoBehaviour, Savable
+public class Character : MonoBehaviour, Savable, EventSubscriber
 {
     public CharacterDefinition CharacterDefinition;
 
-    private List<Dialogue> Dialogues;
+    private List<Interaction> Interactions;
+    private Interaction CurrentInteraction;
+    private int CurrentInteractionDialogueIndex;
 
     void Awake()
     {
-        Dialogues = CharacterDefinition.Dialogues.Select(d => JsonUtility.FromJson<Dialogue>(d.text)).ToList();
+        Interactions = CharacterDefinition.Interactions.Select(d => JsonUtility.FromJson<Interaction>(d.text)).ToList();
     }
 
-    public void Converse()
+    void Start()
     {
-        Dialogue dialogue = Dialogues.FindAll(d => d.Relationship == CharacterDefinition.Relationship)[0];
+        FindFirstObjectByType<EventManager>().Subscribe("dialogue.complete", this);
+    }
+
+    public void BeginInteraction()
+    {
+        CurrentInteraction = Interactions.FindAll(i => i.RelationshipRequirement == CharacterDefinition.Relationship)[0];
 
         DialogueManager dialogueManager = FindAnyObjectByType<DialogueManager>();
 
         if (dialogueManager != null)
         {
-            dialogueManager.Begin(dialogue);
+            dialogueManager.Begin(CurrentInteraction.Dialogues[CurrentInteractionDialogueIndex]);
         }
+    }
+
+    public void EndInteraction()
+    {
+        CurrentInteraction = null;
+        CurrentInteractionDialogueIndex = 0;
     }
 
     public void Load(SaveData saveData)
@@ -37,5 +50,13 @@ public class Character : MonoBehaviour, Savable
         CharacterData characterData = new(CharacterDefinition.Name, CharacterDefinition.Relationship);
 
         saveData.Characters.Add(characterData);
+    }
+
+    public void OnReceive(string eventName)
+    {
+        if (eventName == "dialogue.complete")
+        {
+            CurrentInteractionDialogueIndex++;
+        }
     }
 }

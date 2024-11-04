@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TestCharacter
   m_EditorClassIdentifier: 
   Name: Hello
-  Dialogues:
+  Interactions:
   - {fileID: 4900000, guid: a096d6044612f9c47b4b933a293b0c26, type: 3}
   Relationship: 0
