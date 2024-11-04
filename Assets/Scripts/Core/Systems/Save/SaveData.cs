@@ -9,16 +9,16 @@ public class SaveData
     public AccountData Account;
     public HistoryData History;
     public List<CharacterData> Characters;
-    public CalendarData Calendar;
+    public List<DayData> Days;
 
-    public SaveData(string day, List<Book> books, AccountData account, HistoryData history, List<CharacterData> characters, CalendarData calendar)
+    public SaveData(string day, List<Book> books, AccountData account, HistoryData history, List<CharacterData> characters, List<DayData> days)
     {
         Day = day;
         Books = books;
         Account = account;
         History = history;
         Characters = characters;
-        Calendar = calendar;
+        Days = days;
     }
 
     public SaveData()

@@ -27,9 +27,7 @@ public class Calendar : MonoBehaviour, Savable
 
     public void Load(SaveData saveData)
     {
-        List<DayData> Days = saveData.Calendar.Days;
-
-        foreach (DayData day in Days)
+        foreach (DayData day in saveData.Days)
         {
             DayDefinition dayDefinition = DayDefinitions.Find(d => d.Date == day.Date);
 
@@ -41,7 +39,7 @@ public class Calendar : MonoBehaviour, Savable
     {
         List<DayData> days = DayDefinitions.Select(d => new DayData(d.Date, d.IsInThePast)).ToList();
 
-        saveData.Calendar = new CalendarData(days);
+        saveData.Days = days;
     }
 
     private DayDefinition FindNextDay()
