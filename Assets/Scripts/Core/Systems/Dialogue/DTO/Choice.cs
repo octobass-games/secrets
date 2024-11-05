@@ -1,18 +1,19 @@
 using System;
+using System.Collections.Generic;
 
 [Serializable]
 public class Choice
 {
     public string Text;
-    public string Event;
+    public List<string> Events;
     public int RelationshipPoints;
     public string NextLineId;
     public string[] Requirements;
 
-    public Choice(string text, string @event, int relationshipPoints, string nextLineId, string[] requirements)
+    public Choice(string text, List<string> events, int relationshipPoints, string nextLineId, string[] requirements)
     {
         Text = text;
-        Event = @event;
+        Events = events;
         RelationshipPoints = relationshipPoints;
         NextLineId = nextLineId;
         Requirements = requirements;

@@ -27,6 +27,12 @@ public class DialogueManager : MonoBehaviour
 
     private void SpeakLine()
     {
+        if (LineToSpeak.Events != null && LineToSpeak.Events.Count > 0)
+        {
+            Debug.Log("Hello");
+            LineToSpeak.Events.ForEach(e => History.Record(e));
+        }
+
         var choices = LineToSpeak.Choices.FindAll(c => c.Requirements.All(r => History.Contains(r)));
 
         ConversationView.Display(LineToSpeak.Speaker, LineToSpeak.Text, choices, OnChoice);
@@ -51,9 +57,10 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            if (response.Event != null)
+            if (response.Events != null && response.Events.Count > 0)
             {
-                History.Record(response.Event);
+                Debug.Log("World");
+                response.Events.ForEach(e => History.Record(e));
             }
 
             if (response.NextLineId != null)

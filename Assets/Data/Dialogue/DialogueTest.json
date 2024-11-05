@@ -19,10 +19,11 @@
 					"Id": "1",
 					"Speaker": "Jenny",
 					"Text": "Could you recommend me a book please about dragons?",
-					"Event":  "jenny.requested.dragon.book",
+					"Events": [ "jenny.requested.dragon.book", "another.event" ],
 					"Choices": [
 						{
 							"Text": "Certainly, I'll just go fetch one",
+							"Events": ["agreed.to.get.book"],
 							"Requirements": []
 						}
 					]
