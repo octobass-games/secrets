@@ -10,4 +10,5 @@ public class CharacterDefinition : ScriptableObject
     public int Relationship;
     public Sprite Profile;
     public AnimatorController Animator;
+    public CharacterTidbit[] Tidbits;
 }
