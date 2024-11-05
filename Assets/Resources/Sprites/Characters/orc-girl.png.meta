@@ -52,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -122,10 +122,10 @@ TextureImporter:
       name: orc-girl_0
       rect:
         serializedVersion: 2
-        x: 15
+        x: 0
         y: 0
-        width: 179
-        height: 206
+        width: 194
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: orc-girl_1
       rect:
         serializedVersion: 2
-        x: 187
-        y: 206
-        width: 7
-        height: 6
+        x: 194
+        y: 0
+        width: 194
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: orc-girl_2
       rect:
         serializedVersion: 2
-        x: 9
-        y: 8
-        width: 10
-        height: 15
+        x: 388
+        y: 0
+        width: 194
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,6 +180,50 @@ TextureImporter:
       bones: []
       spriteID: 91cd2a3c6c93db500800000000000000
       internalID: 413550266636491801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc-girl_3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 0
+        width: 194
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e55ab03bdb36d46aad814e70854bea
+      internalID: 853244716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc-girl_4
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 0
+        width: 194
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c520e533b246334fa2d2acd7e5b2be6
+      internalID: 777810972
       vertices: []
       indices: 
       edges: []
@@ -201,6 +245,8 @@ TextureImporter:
       orc-girl_0: 9039659638412690358
       orc-girl_1: -7056857411482815716
       orc-girl_2: 413550266636491801
+      orc-girl_3: 853244716
+      orc-girl_4: 777810972
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
