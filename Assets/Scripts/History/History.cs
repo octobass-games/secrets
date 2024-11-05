@@ -1,12 +1,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class History : MonoBehaviour, Savable
+public class History : MonoBehaviour, Savable, EventSubscriber
 {
     private List<string> Events = new();
 
+    void Start()
+    {
+        FindFirstObjectByType<EventManager>().Subscribe("history", this);
+    }
+
     public void Record(string eventName)
     {
+        Debug.Log("Recorded: " + eventName);
         Events.Add(eventName);
     }
 
@@ -23,5 +29,10 @@ public class History : MonoBehaviour, Savable
     public void Save(SaveData saveData)
     {
         saveData.History.Events = Events;
+    }
+
+    public void OnReceive(GameEvent @event)
+    {
+        Record(@event.Memory);
     }
 }

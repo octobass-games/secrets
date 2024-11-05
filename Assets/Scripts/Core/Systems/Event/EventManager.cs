@@ -25,15 +25,17 @@ public class EventManager : MonoBehaviour
         }
     }
 
-    public void Publish(string eventName)
+    public void Publish(GameEvent gameEvent)
     {
+        string eventName = gameEvent.Type;
+
         if (EventSubscribers.ContainsKey(eventName))
         {
             // loop backwards to handle one-shot events where the subscriber will
             // unsubscribe in their OnReceive
             for (int i = EventSubscribers[eventName].Count - 1; i >= 0; i--)
             {
-                EventSubscribers[eventName][i].OnReceive(eventName);
+                EventSubscribers[eventName][i].OnReceive(gameEvent);
             }
         }
     }

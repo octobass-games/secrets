@@ -22,15 +22,16 @@ public class DialogueManager : MonoBehaviour
     public void End()
     {
         ConversationView.Close();
-        FindFirstObjectByType<EventManager>().Publish("dialogue.complete");
+        FindFirstObjectByType<EventManager>().Publish(new GameEvent("dialogue.complete", null, null));
     }
 
     private void SpeakLine()
     {
         if (LineToSpeak.Events != null && LineToSpeak.Events.Count > 0)
         {
-            Debug.Log("Hello");
-            LineToSpeak.Events.ForEach(e => History.Record(e));
+            EventManager eventManager = FindFirstObjectByType<EventManager>();
+
+            LineToSpeak.Events.ForEach(e => eventManager.Publish(e));
         }
 
         var choices = LineToSpeak.Choices.FindAll(c => c.Requirements.All(r => History.Contains(r)));
@@ -59,8 +60,9 @@ public class DialogueManager : MonoBehaviour
         {
             if (response.Events != null && response.Events.Count > 0)
             {
-                Debug.Log("World");
-                response.Events.ForEach(e => History.Record(e));
+                EventManager eventManager = FindFirstObjectByType<EventManager>();
+
+                response.Events.ForEach(e => eventManager.Publish(e));
             }
 
             if (response.NextLineId != null)

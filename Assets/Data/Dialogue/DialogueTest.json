@@ -19,11 +19,25 @@
 					"Id": "1",
 					"Speaker": "Jenny",
 					"Text": "Could you recommend me a book please about dragons?",
-					"Events": [ "jenny.requested.dragon.book", "another.event" ],
+					"Events": [
+						{
+							"Type": "history",
+							"Memory": "jenny.requested.dragon.book"
+						}
+					],
 					"Choices": [
 						{
 							"Text": "Certainly, I'll just go fetch one",
-							"Events": ["agreed.to.get.book"],
+							"Events": [
+								{
+									"Type": "history",
+									"Memory": "agreed.to.get.book"
+								},
+								{
+									"Type": "receive.newspaper",
+									"Paper":  "12.12"
+								}
+							],
 							"Requirements": []
 						}
 					]

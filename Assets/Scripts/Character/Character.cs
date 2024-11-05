@@ -52,11 +52,8 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
         saveData.Characters.Add(characterData);
     }
 
-    public void OnReceive(string eventName)
+    public void OnReceive(GameEvent _)
     {
-        if (eventName == "dialogue.complete")
-        {
-            CurrentInteractionDialogueIndex++;
-        }
+        CurrentInteractionDialogueIndex++;
     }
 }

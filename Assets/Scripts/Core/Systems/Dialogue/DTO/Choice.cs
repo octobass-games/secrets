@@ -5,12 +5,12 @@ using System.Collections.Generic;
 public class Choice
 {
     public string Text;
-    public List<string> Events;
+    public List<GameEvent> Events;
     public int RelationshipPoints;
     public string NextLineId;
     public string[] Requirements;
 
-    public Choice(string text, List<string> events, int relationshipPoints, string nextLineId, string[] requirements)
+    public Choice(string text, List<GameEvent> events, int relationshipPoints, string nextLineId, string[] requirements)
     {
         Text = text;
         Events = events;
