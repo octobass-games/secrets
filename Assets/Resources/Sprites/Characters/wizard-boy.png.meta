@@ -52,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -122,10 +122,10 @@ TextureImporter:
       name: wizard-boy_0
       rect:
         serializedVersion: 2
-        x: 12
+        x: 0
         y: 0
-        width: 147
-        height: 157
+        width: 159
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: wizard-boy_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 129
-        width: 7
-        height: 12
+        x: 159
+        y: 0
+        width: 159
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: wizard-boy_2
       rect:
         serializedVersion: 2
-        x: 117
+        x: 318
         y: 0
-        width: 10
-        height: 16
+        width: 159
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,6 +180,50 @@ TextureImporter:
       bones: []
       spriteID: b96271be3eff426f0800000000000000
       internalID: -710161486850873701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wizard-boy_3
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 0
+        width: 159
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a9a3505604ea24183a030ffac02f1b
+      internalID: 1496498271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wizard-boy_4
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 159
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b962ac257daf4814dad0a9872a6324f2
+      internalID: -2031702877
       vertices: []
       indices: 
       edges: []
@@ -201,6 +245,8 @@ TextureImporter:
       wizard-boy_0: 2866490012920588950
       wizard-boy_1: -6473019643564192074
       wizard-boy_2: -710161486850873701
+      wizard-boy_3: 1496498271
+      wizard-boy_4: -2031702877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
