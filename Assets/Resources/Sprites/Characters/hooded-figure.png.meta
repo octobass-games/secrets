@@ -55,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -125,10 +125,10 @@ TextureImporter:
       name: hooded-figure_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 150
-        height: 177
+        width: 159
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: hooded-figure_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 171
-        width: 9
-        height: 8
+        x: 159
+        y: 0
+        width: 159
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: hooded-figure_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 98
-        width: 7
-        height: 21
+        x: 318
+        y: 0
+        width: 159
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: hooded-figure_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 87
-        width: 6
-        height: 9
+        x: 477
+        y: 0
+        width: 159
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,6 +205,28 @@ TextureImporter:
       bones: []
       spriteID: 2cd1af995f2d14780800000000000000
       internalID: -8700441052810961470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded-figure_4
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 159
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f06572ead000d42b021f3e2dbbf41f
+      internalID: -2034826892
       vertices: []
       indices: 
       edges: []
@@ -227,6 +249,7 @@ TextureImporter:
       hooded-figure_1: -5516156343437192402
       hooded-figure_2: 3829745672690566533
       hooded-figure_3: -8700441052810961470
+      hooded-figure_4: -2034826892
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
