@@ -5,13 +5,13 @@ using System.Collections.Generic;
 public class SaveData
 {
     public string Day;
-    public List<Book> Books;
+    public List<BookData> Books;
     public AccountData Account;
     public HistoryData History;
     public List<CharacterData> Characters;
     public List<DayData> Days;
 
-    public SaveData(string day, List<Book> books, AccountData account, HistoryData history, List<CharacterData> characters, List<DayData> days)
+    public SaveData(string day, List<BookData> books, AccountData account, HistoryData history, List<CharacterData> characters, List<DayData> days)
     {
         Day = day;
         Books = books;
@@ -23,7 +23,7 @@ public class SaveData
 
     public SaveData()
     {
-        Books = new List<Book>();
+        Books = new List<BookData>();
         Characters = new List<CharacterData>();
     }
 }
