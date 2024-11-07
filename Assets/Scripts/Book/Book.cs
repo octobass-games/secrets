@@ -16,7 +16,7 @@ public class Book : MonoBehaviour, Savable
 
     public int GetSellPrice()
     {
-        return BookDefinition.SellPrice; 
+        return BookDefinition.SellPrice;
     }
 
     public bool InStock()
