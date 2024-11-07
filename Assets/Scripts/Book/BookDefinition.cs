@@ -8,4 +8,5 @@ public class BookDefinition : ScriptableObject
     public int SellPrice;
     public int Stock;
     public int CostToOrder;
+    public GameObject Item;
 }

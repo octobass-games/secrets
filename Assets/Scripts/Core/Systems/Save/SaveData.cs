@@ -6,12 +6,12 @@ public class SaveData
 {
     public string Day;
     public List<BookData> Books;
-    public AccountData Account;
+    public TillData Account;
     public HistoryData History;
     public List<CharacterData> Characters;
     public List<DayData> Days;
 
-    public SaveData(string day, List<BookData> books, AccountData account, HistoryData history, List<CharacterData> characters, List<DayData> days)
+    public SaveData(string day, List<BookData> books, TillData account, HistoryData history, List<CharacterData> characters, List<DayData> days)
     {
         Day = day;
         Books = books;

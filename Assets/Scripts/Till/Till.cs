@@ -1,26 +1,23 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Account : MonoBehaviour, Savable
+public class Till : MonoBehaviour, Savable
 {
-    [SerializeField]
-    private int Balance;
-
-    public UnityEvent<int> OnOpen;
     public UnityEvent<int> OnDeposit;
     public UnityEvent<int> OnWithdraw;
     public UnityEvent<int> OnBankrupt;
 
-    void Start()
-    {
-        OnOpen?.Invoke(Balance);    
-    }
+    [SerializeField]
+    private int Balance;
 
-    public void Deposit(int amount)
+    public void SellBook(Book book)
     {
-        Balance += amount;
+        if (book.InStock())
+        {
+            Balance += book.GetSellPrice();
 
-        OnDeposit?.Invoke(Balance);
+            OnDeposit?.Invoke(Balance);
+        }
     }
 
     public void Withdraw(int amount)
@@ -39,7 +36,7 @@ public class Account : MonoBehaviour, Savable
 
     public void Save(SaveData saveData)
     {
-        saveData.Account = new AccountData(Balance);
+        saveData.Account = new TillData(Balance);
     }
 
     public void Load(SaveData saveData)

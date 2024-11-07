@@ -1,11 +1,11 @@
 using System;
 
 [Serializable]
-public class AccountData
+public class TillData
 {
     public int Balance;
 
-    public AccountData(int balance)
+    public TillData(int balance)
     {
         Balance = balance;
     }

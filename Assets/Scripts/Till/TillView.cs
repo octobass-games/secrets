@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class AccountView : MonoBehaviour
+public class TillView : MonoBehaviour
 {
     public TMP_Text Balance;
 

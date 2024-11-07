@@ -1,36 +1,50 @@
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class Book : MonoBehaviour, Savable
 {
     public BookDefinition BookDefinition;
 
-    // items should have stock as well (maybe)
-    public void InsertIntoBook(BookDefinition book, GameObject item)
+    public void InsertIntoBook(GameObject item)
     {
+        BookDefinition.Item = item;
     }
 
-    // might not be needed
-    public void RemoveItemFrom(BookData book, GameObject item)
+    public void RemoveItemFromBook()
     {
-
+        BookDefinition.Item = null;
     }
 
-    public void SellBook(BookDefinition book)
+    public int GetSellPrice()
     {
-        Debug.Log("Selling: " + book.Name);
+        return BookDefinition.SellPrice; 
     }
 
-    public void OrderStock(BookDefinition book, int amount)
+    public bool InStock()
     {
-        int totalCost = book.CostToOrder * amount;
-        Debug.Log("Ordering stock for: " + totalCost);
+        return BookDefinition.Stock > 0;
     }
 
-    public void SetPrice(int price)
+    public void DecrementStock()
     {
-        BookDefinition.SellPrice = price;
+        if (BookDefinition.Stock > 0)
+        {
+            BookDefinition.Stock--;
+        }
+    }
+
+    public void OrderStock(int amount)
+    {
+        BookDefinition.Stock += amount;
+    }
+
+    public void IncrementPrice()
+    {
+        BookDefinition.SellPrice += 1;
+    }
+
+    public void DecrementPrice()
+    {
+        BookDefinition.SellPrice -= 1;
     }
 
     public void Save(SaveData saveData)
