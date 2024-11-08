@@ -8,9 +8,9 @@ public class Choice
     public List<GameEvent> Events;
     public int RelationshipPoints;
     public string NextLineId;
-    public string[] Requirements;
+    public List<Requirement> Requirements;
 
-    public Choice(string text, List<GameEvent> events, int relationshipPoints, string nextLineId, string[] requirements)
+    public Choice(string text, List<GameEvent> events, int relationshipPoints, string nextLineId, List<Requirement> requirements)
     {
         Text = text;
         Events = events;

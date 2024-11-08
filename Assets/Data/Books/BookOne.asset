@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
   m_Name: BookOne
   m_EditorClassIdentifier: 
-  Name: Magic book
+  Name: Dragon Book
   RecommendedSellPrice: 100
   SellPrice: 100
   Stock: 10
   CostToOrder: 30
+  Item: {fileID: 0}

@@ -4,6 +4,7 @@ using UnityEngine;
 public class DialogueManager : MonoBehaviour
 {
     private Dialogue Dialogue;
+    public RequirementManager RequirementManager;
 
     public DialogueView ConversationView;
     public History History;
@@ -22,7 +23,7 @@ public class DialogueManager : MonoBehaviour
     public void End()
     {
         ConversationView.Close();
-        FindFirstObjectByType<EventManager>().Publish(new GameEvent("dialogue.complete", null, null));
+        FindFirstObjectByType<EventManager>().Publish(new GameEvent("dialogue.complete", null, null, null));
     }
 
     private void SpeakLine()
@@ -34,7 +35,7 @@ public class DialogueManager : MonoBehaviour
             LineToSpeak.Events.ForEach(e => eventManager.Publish(e));
         }
 
-        var choices = LineToSpeak.Choices.FindAll(c => c.Requirements.All(r => History.Contains(r)));
+        var choices = LineToSpeak.Choices.FindAll(c => RequirementManager.AllSatisfied(c.Requirements));
 
         ConversationView.Display(LineToSpeak.Speaker, LineToSpeak.Text, choices, OnChoice);
     }

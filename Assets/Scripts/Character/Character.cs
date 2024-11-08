@@ -13,6 +13,7 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
     void Awake()
     {
         Interactions = CharacterDefinition.Interactions.Select(d => JsonUtility.FromJson<Interaction>(d.text)).ToList();
+        Debug.Log("Hello: " + Interactions.Count);
     }
 
     void Start()

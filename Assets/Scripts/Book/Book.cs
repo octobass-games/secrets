@@ -2,7 +2,13 @@ using UnityEngine;
 
 public class Book : MonoBehaviour, Savable
 {
-    public BookDefinition BookDefinition;
+    [SerializeField]
+    private BookDefinition BookDefinition;
+
+    public bool IsCalled(string name)
+    {
+        return BookDefinition.Name == name;
+    }
 
     public void InsertIntoBook(GameObject item)
     {
