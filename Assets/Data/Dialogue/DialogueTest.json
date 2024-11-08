@@ -86,7 +86,10 @@
 					"Id": "2",
 					"Speaker": "Jenny",
 					"Text": "Wow, this looks amazing! Thanks",
-					"Events": [ { "Type": "interaction.advance" } ],
+					"Events": [
+						{ "Type": "interaction.advance" },
+						{ "Type":  "inventory.sell" }
+					],
 					"Choices": [],
 					"NextLineId": null
 				},
@@ -94,7 +97,10 @@
 					"Id": "3",
 					"Speaker": "Jenny",
 					"Text": "Hmm... I'll give it a go",
-					"Events": [{ "Type":  "interaction.advance" }],
+					"Events": [
+						{ "Type": "interaction.advance" },
+						{ "Type": "inventory.sell" }
+					],
 					"Choices": [],
 					"NextLineId": null
 				}

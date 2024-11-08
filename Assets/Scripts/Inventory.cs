@@ -3,6 +3,12 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     private Book Book;
+
+    public Book GetBook()
+    {
+        return Book;
+    }
+    
     public void Pickup(Book book)
     {
         Book = book;

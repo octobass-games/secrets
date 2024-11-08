@@ -1,10 +1,9 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class Till : MonoBehaviour, Savable, EventSubscriber
 {
-    public List<BookDefinition> BookInventory;
+    public Inventory Inventory;
 
     public UnityEvent<int> OnDeposit;
     public UnityEvent<int> OnWithdraw;
@@ -15,19 +14,7 @@ public class Till : MonoBehaviour, Savable, EventSubscriber
 
     void Start()
     {
-        FindFirstObjectByType<EventManager>().Subscribe("sell", this);
-    }
-
-    public void SellBook(string name)
-    {
-        BookDefinition book = BookInventory.Find(b => b.Name == name);
-
-        //if (book.InStock())
-        //{
-        //   Balance += book.GetSellPrice();
-
-        //    OnDeposit?.Invoke(Balance);
-        //}
+        FindFirstObjectByType<EventManager>().Subscribe("inventory.sell", this);
     }
 
     public void Withdraw(int amount)
@@ -56,6 +43,7 @@ public class Till : MonoBehaviour, Savable, EventSubscriber
 
     public void OnReceive(GameEvent @event)
     {
-        SellBook(@event.BookName);
+        Balance += Inventory.GetBook().GetSellPrice();
+        OnDeposit?.Invoke(Balance);
     }
 }
