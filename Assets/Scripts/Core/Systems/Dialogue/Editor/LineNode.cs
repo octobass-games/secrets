@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
@@ -47,10 +48,31 @@ public class LineNode : Node
         }
     }
 
-    protected override void SaveScriptableObject()
+    public override void ProcessConnections(List<Connection> connections)
+    {
+        foreach (Connection connection in connections)
+        {
+            if (connection.StartingNode == this)
+            {
+                if (connection.EndingNode is LineNode)
+                {
+                    Line.NextLine = ((LineNode) connection.EndingNode).Line;
+                    Debug.Log(Line.NextLine.Text);
+                }
+                else
+                {
+                    Line.Choices.Add(((ChoiceNode)connection.EndingNode).Choice);
+                }
+            }
+            else if (connection.EndingNode == this)
+            {
+                Debug.Log("This is an ending node!");
+            }
+        }
+    }
+
+    public override void SaveScriptableObject()
     {
         SerializedLine.ApplyModifiedProperties();
-
-        AssetDatabase.SaveAssets();
     }
 }

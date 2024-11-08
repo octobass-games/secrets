@@ -28,6 +28,21 @@ public class NodeBasedEditor : EditorWindow
     {
         Event current = Event.current;
 
+        if (GUILayout.Button("Save"))
+        {
+            foreach (Node node in Nodes)
+            {
+                node.SaveScriptableObject();
+            }
+
+            foreach (Node node in Nodes)
+            {
+                node.ProcessConnections(Connections);
+            }
+
+            AssetDatabase.SaveAssets();
+        }
+
         if (current != null && current.type == EventType.ContextClick)
         {
             GenericMenu menu = new GenericMenu();

@@ -8,17 +8,7 @@ public class Line : ScriptableObject
     public string Speaker;
     [TextArea]
     public string Text;
-    public string NextLineId;
+    public Line NextLine;
     public List<GameEvent> Events;
     public List<Choice> Choices;
-
-    public Line(string id, string speaker, string text, string nextLineId, List<GameEvent> events, List<Choice> choices)
-    {
-        Id = id;
-        Speaker = speaker;
-        Text = text;
-        NextLineId = nextLineId;
-        Events = events;
-        Choices = choices;
-    }
 }

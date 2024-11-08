@@ -45,7 +45,7 @@ public class DialogueManager : MonoBehaviour
 
         if (wasChoiceless)
         {
-            LineToSpeak = Dialogue.Lines.Find(l => l.Id == LineToSpeak.NextLineId);
+            LineToSpeak = Dialogue.Lines.Find(l => l.Id == LineToSpeak.NextLine.Id);
 
             if (LineToSpeak != null)
             {

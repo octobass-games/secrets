@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
@@ -40,10 +41,23 @@ public class ChoiceNode : Node
         GUILayout.EndArea();
     }
 
-    protected override void SaveScriptableObject()
+    public override void ProcessConnections(List<Connection> connections)
+    {
+        foreach (Connection connection in connections)
+        {
+            if (connection.StartingNode == this)
+            {
+                Debug.Log("This is a starting node!");
+            }
+            else if (connection.EndingNode == this)
+            {
+                Debug.Log("This is an ending node!");
+            }
+        }
+    }
+
+    public override void SaveScriptableObject()
     {
         SerializedChoice.ApplyModifiedProperties();
-
-        AssetDatabase.SaveAssets();
     }
 }

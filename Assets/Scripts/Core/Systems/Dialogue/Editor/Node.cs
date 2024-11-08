@@ -1,4 +1,6 @@
+using NUnit.Framework;
 using System;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
@@ -40,8 +42,10 @@ public abstract class Node
         }
     }
 
+    public  abstract void ProcessConnections(List<Connection> connections);
+    public abstract void SaveScriptableObject();
+    
     protected abstract void CreateScriptableObject();
-    protected abstract void SaveScriptableObject();
     protected abstract void DrawScriptableObject();
 
     private void DrawContextMenu()
