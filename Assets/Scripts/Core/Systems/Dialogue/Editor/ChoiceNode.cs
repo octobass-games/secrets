@@ -39,6 +39,16 @@ public class ChoiceNode : Node
         EditorGUILayout.PropertyField(Requirements);
 
         GUILayout.EndArea();
+
+        if (GUI.Button(new Rect(Rect.x + 5, Rect.y + 140, Rect.width, 20), "Start Connection"))
+        {
+            OnConnectionStart(this);
+        }
+
+        if (GUI.Button(new Rect(Rect.x + 5, Rect.y + 280, Rect.width, 20), "End Connection"))
+        {
+            OnConnectionEnd(this);
+        }
     }
 
     public override void ProcessConnections(List<Connection> connections)
@@ -47,7 +57,7 @@ public class ChoiceNode : Node
         {
             if (connection.StartingNode == this)
             {
-                Debug.Log("This is a starting node!");
+                Choice.NextLine = ((LineNode)connection.EndingNode).Line;
             }
             else if (connection.EndingNode == this)
             {
@@ -57,6 +67,12 @@ public class ChoiceNode : Node
     }
 
     public override void SaveScriptableObject()
+    {
+        Debug.Log("Creating");
+        AssetDatabase.CreateAsset(Choice, "Assets/Data/Test/Again/Again/asset-" + Choice.Text + ".asset");
+    }
+
+    public override void ApplyModifications()
     {
         SerializedChoice.ApplyModifiedProperties();
     }

@@ -42,8 +42,14 @@ public abstract class Node
         }
     }
 
+    public void OnDrag(Vector2 delta)
+    {
+        Rect.position += delta;
+    }
+
     public  abstract void ProcessConnections(List<Connection> connections);
     public abstract void SaveScriptableObject();
+    public abstract void ApplyModifications();
     
     protected abstract void CreateScriptableObject();
     protected abstract void DrawScriptableObject();

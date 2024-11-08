@@ -28,11 +28,19 @@ public class NodeBasedEditor : EditorWindow
     {
         Event current = Event.current;
 
+        if (current.type == EventType.MouseDrag)
+        {
+            foreach (var node in Nodes)
+            {
+                node.OnDrag(current.delta);
+            }
+        }
+
         if (GUILayout.Button("Save"))
         {
             foreach (Node node in Nodes)
             {
-                node.SaveScriptableObject();
+                node.ApplyModifications();
             }
 
             foreach (Node node in Nodes)
@@ -40,7 +48,10 @@ public class NodeBasedEditor : EditorWindow
                 node.ProcessConnections(Connections);
             }
 
-            AssetDatabase.SaveAssets();
+            foreach (Node node in Nodes)
+            {
+                node.SaveScriptableObject();
+            }
         }
 
         if (current != null && current.type == EventType.ContextClick)

@@ -31,21 +31,25 @@ public class LineNode : Node
     {
         GUILayout.BeginArea(new Rect(Rect.x, Rect.y + 15, Rect.width, Rect.height - 15));
 
-        EditorGUILayout.PropertyField(SpeakerProperty);
-        EditorGUILayout.PropertyField(TextProperty);
-        EditorGUILayout.PropertyField(EventsProperty);
-
-        GUILayout.EndArea();
-
-        if (GUI.Button(new Rect(Rect.x + 5, Rect.y + 140, Rect.width, (Rect.height / 5) * 3), "Start Connection"))
+        GUILayout.BeginHorizontal();
+        if (GUILayout.Button("Start Connection"))
         {
             OnConnectionStart(this);
         }
 
-        if (GUI.Button(new Rect(Rect.x + 5, Rect.y + 280, Rect.width, (Rect.height / 5) * 3), "End Connection"))
+        if (GUILayout.Button("End Connection"))
         {
             OnConnectionEnd(this);
         }
+        GUILayout.EndHorizontal();
+
+        EditorGUILayout.PropertyField(SpeakerProperty);
+        EditorGUILayout.PropertyField(TextProperty);
+        EditorGUILayout.PropertyField(EventsProperty);
+
+
+        GUILayout.EndArea();
+
     }
 
     public override void ProcessConnections(List<Connection> connections)
@@ -72,6 +76,12 @@ public class LineNode : Node
     }
 
     public override void SaveScriptableObject()
+    {
+        Debug.Log("Creating");
+        AssetDatabase.CreateAsset(Line, "Assets/Data/Test/asset-" + Line.Text + ".asset");
+    }
+
+    public override void ApplyModifications()
     {
         SerializedLine.ApplyModifiedProperties();
     }

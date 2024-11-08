@@ -65,9 +65,9 @@ public class DialogueManager : MonoBehaviour
                 response.Events.ForEach(e => eventManager.Publish(e));
             }
 
-            if (response.NextLineId != null)
+            if (response.NextLine != null)
             {
-                LineToSpeak = Dialogue.Lines.Find(l => l.Id == response.NextLineId);
+                LineToSpeak = Dialogue.Lines.Find(l => l.Id == response.NextLine.Id);
                 SpeakLine();
             }
             else
