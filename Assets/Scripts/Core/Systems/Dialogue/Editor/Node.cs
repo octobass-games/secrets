@@ -39,6 +39,11 @@ public abstract class Node
             {
                 DrawContextMenu();
             }
+            else if (e.type == EventType.MouseDrag)
+            {
+                Rect.position += e.delta;
+                e.Use();
+            }
         }
     }
 

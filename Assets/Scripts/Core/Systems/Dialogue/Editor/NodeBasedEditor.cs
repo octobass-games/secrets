@@ -28,14 +28,6 @@ public class NodeBasedEditor : EditorWindow
     {
         Event current = Event.current;
 
-        if (current.type == EventType.MouseDrag)
-        {
-            foreach (var node in Nodes)
-            {
-                node.OnDrag(current.delta);
-            }
-        }
-
         if (GUILayout.Button("Save"))
         {
             foreach (Node node in Nodes)
@@ -73,6 +65,14 @@ public class NodeBasedEditor : EditorWindow
         foreach(Connection connection in Connections)
         {
             connection.Draw();
+        }
+
+        if (Event.current.type == EventType.MouseDrag)
+        {
+            foreach (var node in Nodes)
+            {
+                node.OnDrag(current.delta);
+            }
         }
     }
 
