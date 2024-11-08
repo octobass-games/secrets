@@ -28,7 +28,7 @@
 					"Choices": [
 						{
 							"Text": "Certainly, I'll just go fetch one",
-							"Events": [],
+							"Events": [{ "Type": "interaction.advance" }],
 							"Requirements": []
 						}
 					]
@@ -86,7 +86,7 @@
 					"Id": "2",
 					"Speaker": "Jenny",
 					"Text": "Wow, this looks amazing! Thanks",
-					"Events": [],
+					"Events": [ { "Type": "interaction.advance" } ],
 					"Choices": [],
 					"NextLineId": null
 				},
@@ -94,7 +94,7 @@
 					"Id": "3",
 					"Speaker": "Jenny",
 					"Text": "Hmm... I'll give it a go",
-					"Events": [],
+					"Events": [{ "Type":  "interaction.advance" }],
 					"Choices": [],
 					"NextLineId": null
 				}

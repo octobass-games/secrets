@@ -13,12 +13,11 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
     void Awake()
     {
         Interactions = CharacterDefinition.Interactions.Select(d => JsonUtility.FromJson<Interaction>(d.text)).ToList();
-        Debug.Log("Hello: " + Interactions.Count);
     }
 
     void Start()
     {
-        FindFirstObjectByType<EventManager>().Subscribe("dialogue.complete", this);
+        FindFirstObjectByType<EventManager>().Subscribe("interaction.advance", this);
     }
 
     public void BeginInteraction()
@@ -55,6 +54,13 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
 
     public void OnReceive(GameEvent _)
     {
-        CurrentInteractionDialogueIndex++;
+        if (CurrentInteractionDialogueIndex < CurrentInteraction.Dialogues.Count - 1)
+        {
+            CurrentInteractionDialogueIndex++;
+        }
+        else
+        {
+            Debug.Log("Interaction complete");
+        }
     }
 }
