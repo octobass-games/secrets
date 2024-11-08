@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 [Serializable]
-public class Choice
+public class Choice : ScriptableObject
 {
     public string Text;
     public List<GameEvent> Events;

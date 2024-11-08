@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 [Serializable]
-public class Line
+public class Line : ScriptableObject
 {
     public string Id;
     public string Speaker;
