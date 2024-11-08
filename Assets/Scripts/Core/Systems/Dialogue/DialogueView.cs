@@ -96,7 +96,7 @@ public class DialogueView : MonoBehaviour
 
                 GameObject go = Instantiate(ResponsePrefab, ResponseSpawn);
 
-                go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y + 70 * i, go.transform.position.z);
+                go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y + 180 * i, go.transform.position.z);
                 go.GetComponentInChildren<TMP_Text>().text = choice.Text;
                 go.GetComponentInChildren<Button>().onClick.AddListener(() => onChoice(choice));
 
