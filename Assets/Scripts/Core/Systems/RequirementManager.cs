@@ -18,16 +18,16 @@ public class RequirementManager : MonoBehaviour
 
         switch (requirement.Type)
         {
-            case "history":
+            case RequirementType.HISTORY:
                 satisfied = History.Contains(requirement.Name);
                 break;
-            case "inventory.empty":
+            case RequirementType.INVENTORY_EMPTY:
                 satisfied = Inventory.IsEmpty();
                 break;
-            case "inventory.contains":
+            case RequirementType.INVENTORY_CONTAINS:
                 satisfied = Inventory.Contains(requirement.Name);
                 break;
-            case "inventory.not.empty":
+            case RequirementType.INVENTORY_NOT_EMPTY:
                 satisfied = Inventory.IsNotEmpty();
                 break;
             default:

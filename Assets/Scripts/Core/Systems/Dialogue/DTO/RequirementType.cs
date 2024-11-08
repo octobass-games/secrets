@@ -1,0 +1,7 @@
+public enum RequirementType
+{
+    HISTORY,
+    INVENTORY_CONTAINS,
+    INVENTORY_EMPTY,
+    INVENTORY_NOT_EMPTY
+}
