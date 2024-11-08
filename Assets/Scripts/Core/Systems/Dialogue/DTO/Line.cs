@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[Serializable]
 public class Line : ScriptableObject
 {
     public string Id;
     public string Speaker;
+    [TextArea]
     public string Text;
     public string NextLineId;
     public List<GameEvent> Events;
