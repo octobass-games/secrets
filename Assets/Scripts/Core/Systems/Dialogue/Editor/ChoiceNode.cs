@@ -33,22 +33,24 @@ public class ChoiceNode : Node
     {
         GUILayout.BeginArea(new Rect(Rect.x, Rect.y + 15, Rect.width, Rect.height - 15));
 
+        GUILayout.BeginHorizontal();
+        if (GUILayout.Button("Start Connection"))
+        {
+            OnConnectionStart(this);
+        }
+
+        if (GUILayout.Button("End Connection"))
+        {
+            OnConnectionEnd(this);
+        }
+        GUILayout.EndHorizontal();
+
         EditorGUILayout.PropertyField(Text);
         EditorGUILayout.PropertyField(Events);
         EditorGUILayout.PropertyField(RelationshipPoints);
         EditorGUILayout.PropertyField(Requirements);
 
         GUILayout.EndArea();
-
-        if (GUI.Button(new Rect(Rect.x + 5, Rect.y + 140, Rect.width, 20), "Start Connection"))
-        {
-            OnConnectionStart(this);
-        }
-
-        if (GUI.Button(new Rect(Rect.x + 5, Rect.y + 280, Rect.width, 20), "End Connection"))
-        {
-            OnConnectionEnd(this);
-        }
     }
 
     public override void ProcessConnections(List<Connection> connections)
