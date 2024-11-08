@@ -14,7 +14,7 @@ public class Till : MonoBehaviour, Savable, EventSubscriber
 
     void Start()
     {
-        FindFirstObjectByType<EventManager>().Subscribe("inventory.sell", this);
+        FindFirstObjectByType<EventManager>().Subscribe(GameEventType.INVENTORY_SELL, this);
     }
 
     public void Withdraw(int amount)

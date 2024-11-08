@@ -3,31 +3,31 @@ using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    public Dictionary<string, List<EventSubscriber>> EventSubscribers = new();
+    public Dictionary<GameEventType, List<EventSubscriber>> EventSubscribers = new();
 
-    public void Subscribe(string eventName, EventSubscriber receiver)
+    public void Subscribe(GameEventType eventType, EventSubscriber receiver)
     {
-        if (EventSubscribers.ContainsKey(eventName))
+        if (EventSubscribers.ContainsKey(eventType))
         {
-            EventSubscribers[eventName].Add(receiver);
+            EventSubscribers[eventType].Add(receiver);
         }
         else
         {
-            EventSubscribers.Add(eventName, new() { receiver });
+            EventSubscribers.Add(eventType, new() { receiver });
         }
     }
 
-    public void Unsubscribe(string eventName, EventSubscriber receiver)
+    public void Unsubscribe(GameEventType eventType, EventSubscriber receiver)
     {
-        if (EventSubscribers.ContainsKey(eventName))
+        if (EventSubscribers.ContainsKey(eventType))
         {
-            EventSubscribers[eventName].Remove(receiver);
+            EventSubscribers[eventType].Remove(receiver);
         }
     }
 
     public void Publish(GameEvent gameEvent)
     {
-        string eventName = gameEvent.Type;
+        GameEventType eventName = gameEvent.Type;
 
         if (EventSubscribers.ContainsKey(eventName))
         {

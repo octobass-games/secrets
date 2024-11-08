@@ -17,7 +17,7 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
 
     void Start()
     {
-        FindFirstObjectByType<EventManager>().Subscribe("interaction.advance", this);
+        FindFirstObjectByType<EventManager>().Subscribe(GameEventType.INTERACTION_ADVANCE, this);
     }
 
     public void BeginInteraction()

@@ -7,7 +7,7 @@ public class History : MonoBehaviour, Savable, EventSubscriber
 
     void Start()
     {
-        FindFirstObjectByType<EventManager>().Subscribe("history", this);
+        FindFirstObjectByType<EventManager>().Subscribe(GameEventType.HISTORY, this);
     }
 
     public void Record(string eventName)
