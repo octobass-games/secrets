@@ -43,6 +43,7 @@ public class Till : MonoBehaviour, Savable, EventSubscriber
 
     public void OnReceive(GameEvent @event)
     {
+        // Todo: Handle decrementing book stock etc.
         Balance += Inventory.GetBook().GetSellPrice();
         OnDeposit?.Invoke(Balance);
     }

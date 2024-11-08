@@ -60,7 +60,7 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
         }
         else
         {
-            Debug.Log("Todo: Handle moving to next interaction");
+            // Todo:Handle moving to next interaction
         }
     }
 }
