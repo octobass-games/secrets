@@ -1,15 +1,15 @@
-using System;
 using System.Collections.Generic;
+using UnityEngine;
 
-[Serializable]
-public class Interaction
+[CreateAssetMenu]
+public class Interaction : ScriptableObject
 {
     public int RelationshipRequirement;
-    public List<Dialogue> Dialogues;
+    public List<Line> RootLines;
 
-    public Interaction(int relationshipRequirement, List<Dialogue> dialogues)
+    public Interaction(int relationshipRequirement, List<Line> rootLines)
     {
         RelationshipRequirement = relationshipRequirement;
-        Dialogues = dialogues;
+        RootLines = rootLines;
     }
 }

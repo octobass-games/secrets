@@ -11,12 +11,10 @@ public class DialogueManager : MonoBehaviour
 
     private Line LineToSpeak;
 
-    public void Begin(Dialogue dialogue)
+    public void Begin(Line root)
     {
-        Dialogue = dialogue;
-
         ConversationView.Open();
-        LineToSpeak = Dialogue.Lines[0];
+        LineToSpeak = root;
         SpeakLine();
     }
 
@@ -45,7 +43,7 @@ public class DialogueManager : MonoBehaviour
 
         if (wasChoiceless)
         {
-            LineToSpeak = Dialogue.Lines.Find(l => l.Id == LineToSpeak.NextLine.Id);
+            LineToSpeak = LineToSpeak.NextLine;
 
             if (LineToSpeak != null)
             {
@@ -67,7 +65,7 @@ public class DialogueManager : MonoBehaviour
 
             if (response.NextLine != null)
             {
-                LineToSpeak = Dialogue.Lines.Find(l => l.Id == response.NextLine.Id);
+                LineToSpeak = LineToSpeak.NextLine;
                 SpeakLine();
             }
             else

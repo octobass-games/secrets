@@ -12,7 +12,7 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
 
     void Awake()
     {
-        Interactions = CharacterDefinition.Interactions.Select(d => JsonUtility.FromJson<Interaction>(d.text)).ToList();
+        Interactions = CharacterDefinition.Interactions;
     }
 
     void Start()
@@ -28,7 +28,7 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
 
         if (dialogueManager != null)
         {
-            dialogueManager.Begin(CurrentInteraction.Dialogues[CurrentInteractionDialogueIndex]);
+            dialogueManager.Begin(CurrentInteraction.RootLines[CurrentInteractionDialogueIndex]);
         }
     }
 
@@ -54,7 +54,7 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
 
     public void OnReceive(GameEvent _)
     {
-        if (CurrentInteractionDialogueIndex < CurrentInteraction.Dialogues.Count - 1)
+        if (CurrentInteractionDialogueIndex < CurrentInteraction.RootLines.Count - 1)
         {
             CurrentInteractionDialogueIndex++;
         }

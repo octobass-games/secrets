@@ -6,7 +6,7 @@ using UnityEngine;
 public class CharacterDefinition : ScriptableObject
 {
     public string Name;
-    public List<TextAsset> Interactions;
+    public List<Interaction> Interactions;
     public int Relationship;
     public Sprite Profile;
     public AnimatorController Animator;

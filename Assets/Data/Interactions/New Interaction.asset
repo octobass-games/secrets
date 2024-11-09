@@ -9,13 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd38e5fec1b86ff4d9fe400986412c7e, type: 3}
-  m_Name: TestCharacter
+  m_Script: {fileID: 11500000, guid: d6213566ad429a04c824721a064ee2fd, type: 3}
+  m_Name: New Interaction
   m_EditorClassIdentifier: 
-  Name: Hello
-  Interactions:
-  - {fileID: 11400000, guid: ccec77566df874a4484ab78c082583ea, type: 2}
-  Relationship: 0
-  Profile: {fileID: 0}
-  Animator: {fileID: 0}
-  Tidbits: []
+  RelationshipRequirement: 0
+  RootLines:
+  - {fileID: 11400000, guid: 1d379483afc9f3640a2dee57449fc84e, type: 2}
+  - {fileID: 11400000, guid: 84150350467fcd947a3e20213e6ee880, type: 2}

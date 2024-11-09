@@ -9,13 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd38e5fec1b86ff4d9fe400986412c7e, type: 3}
-  m_Name: TestCharacter
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-1
   m_EditorClassIdentifier: 
-  Name: Hello
-  Interactions:
-  - {fileID: 11400000, guid: ccec77566df874a4484ab78c082583ea, type: 2}
-  Relationship: 0
-  Profile: {fileID: 0}
-  Animator: {fileID: 0}
-  Tidbits: []
+  Text: Hi!
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 0}
+  Requirements: []
