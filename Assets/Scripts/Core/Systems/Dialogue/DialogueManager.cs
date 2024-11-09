@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class DialogueManager : MonoBehaviour
 {
-    private Dialogue Dialogue;
     public RequirementManager RequirementManager;
 
     public DialogueView ConversationView;
