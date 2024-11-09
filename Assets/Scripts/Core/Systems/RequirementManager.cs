@@ -25,7 +25,7 @@ public class RequirementManager : MonoBehaviour
                 satisfied = Inventory.IsEmpty();
                 break;
             case RequirementType.INVENTORY_CONTAINS:
-                satisfied = Inventory.Contains(requirement.Name);
+                satisfied = Inventory.Contains(requirement.Book.Name);
                 break;
             case RequirementType.INVENTORY_NOT_EMPTY:
                 satisfied = Inventory.IsNotEmpty();

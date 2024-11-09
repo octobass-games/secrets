@@ -18,5 +18,6 @@ MonoBehaviour:
   NextLine: {fileID: 11400000, guid: 1e13fad9365f85f41a28f8af67d62589, type: 2}
   Requirements:
   - Type: 1
-    Name: Magic Book
+    Name: 
+    Book: {fileID: 11400000, guid: 1b2fdc9c678ce2948b1f5abdb8d6145c, type: 2}
     Negate: 0

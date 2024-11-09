@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: line-0
   m_EditorClassIdentifier: 
   Id: 
-  Speaker: 
+  Speaker: Jenny
   Text: Did you find a good one?
   NextLine: {fileID: 0}
   Events: []
   Choices:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 7b006805d0611aa4d9464abffa4646fa, type: 2}
+  - {fileID: 11400000, guid: d4fbd09c99bd4454caa77a4939dc1ea7, type: 2}
+  - {fileID: 11400000, guid: 1c6bf8b16cd39814b86e409ac9101016, type: 2}
