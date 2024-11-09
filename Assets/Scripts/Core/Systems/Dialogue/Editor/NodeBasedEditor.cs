@@ -112,6 +112,8 @@ public class NodeBasedEditor : EditorWindow
             {
                 node.OnDrag(current.delta);
             }
+
+            GUI.changed = true;
         }
     }
 
