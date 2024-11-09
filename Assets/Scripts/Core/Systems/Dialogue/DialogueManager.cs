@@ -64,7 +64,7 @@ public class DialogueManager : MonoBehaviour
 
             if (response.NextLine != null)
             {
-                LineToSpeak = LineToSpeak.NextLine;
+                LineToSpeak = response.NextLine;
                 SpeakLine();
             }
             else

@@ -9,10 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6213566ad429a04c824721a064ee2fd, type: 3}
-  m_Name: New Interaction
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-0
   m_EditorClassIdentifier: 
-  RelationshipRequirement: 0
-  RootLines:
-  - {fileID: 11400000, guid: 1d379483afc9f3640a2dee57449fc84e, type: 2}
-  - {fileID: 11400000, guid: 84150350467fcd947a3e20213e6ee880, type: 2}
+  Id: 
+  Speaker: 
+  Text: Did you find a good one?
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

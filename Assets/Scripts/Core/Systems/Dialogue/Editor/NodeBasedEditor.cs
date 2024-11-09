@@ -25,15 +25,15 @@ public class NodeBasedEditor : EditorWindow
 
         GUILayout.BeginHorizontal();
 
-        EditorGUILayout.LabelField("Directory to save in (is prefixed with Assets/Data/Dialogue/): ");
+        EditorGUILayout.LabelField("Directory to save in (is prefixed with Assets/Data/Characters/): ");
         SaveDirectoryPath = EditorGUILayout.TextField(SaveDirectoryPath);
 
         if (GUILayout.Button("Save"))
         {
             if (SaveDirectoryPath?.Length > 0)
             {
-                string relativePathToSaveDirectory = "Assets/Data/Dialogue/" + SaveDirectoryPath;
-                string absolutePathToSaveDirectory = Application.dataPath + "/Data/Dialogue/" + SaveDirectoryPath;
+                string relativePathToSaveDirectory = "Assets/Data/Characters/" + SaveDirectoryPath;
+                string absolutePathToSaveDirectory = Application.dataPath + "/Data/Characters/" + SaveDirectoryPath;
 
                 if (!Directory.Exists(absolutePathToSaveDirectory))
                 {
