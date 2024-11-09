@@ -14,7 +14,7 @@ public abstract class Node
     protected Action<Node> OnConnectionEnd;
     protected string Title;
 
-    public Node(Vector2 position, int width, int height, Action<Node> onRemove, Action<Node> onConnectionStart, Action<Node> onConnectionEnd)
+    public Node(Vector2 position, int width, int height, Action<Node> onRemove, Action<Node> onConnectionStart, Action<Node> onConnectionEnd, ScriptableObject baseScriptableObject)
     {
         Rect = new Rect(position.x, position.y, width, height);
         
@@ -22,7 +22,7 @@ public abstract class Node
         OnConnectionStart = onConnectionStart;
         OnConnectionEnd = onConnectionEnd;
 
-        CreateScriptableObject();
+        CreateScriptableObject(baseScriptableObject);
     }
 
     public void Draw()
@@ -57,7 +57,7 @@ public abstract class Node
     public abstract void SaveScriptableObject(string pathToDirectory, int index);
     public abstract void ApplyModifications();
     
-    protected abstract void CreateScriptableObject();
+    protected abstract void CreateScriptableObject(ScriptableObject baseScriptableObject);
     protected abstract void DrawScriptableObject();
 
     private void DrawContextMenu()

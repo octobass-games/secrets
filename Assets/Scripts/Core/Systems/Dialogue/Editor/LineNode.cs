@@ -12,14 +12,14 @@ public class LineNode : Node
     protected SerializedProperty TextProperty;
     protected SerializedProperty EventsProperty;
 
-    public LineNode(Vector2 position, int width, int height, Action<Node> onRemove, Action<Node> onConnectionStart, Action<Node> onConnectionEnd) : base(position, width, height, onRemove, onConnectionStart, onConnectionEnd)
+    public LineNode(Vector2 position, int width, int height, Action<Node> onRemove, Action<Node> onConnectionStart, Action<Node> onConnectionEnd, ScriptableObject baseScriptableObject) : base(position, width, height, onRemove, onConnectionStart, onConnectionEnd, baseScriptableObject)
     {
         Title = "Line";
     }
 
-    protected override void CreateScriptableObject()
+    protected override void CreateScriptableObject(ScriptableObject baseScriptableObject)
     {
-        Line = ScriptableObject.CreateInstance<Line>();
+        Line = baseScriptableObject != null ? (Line)baseScriptableObject : ScriptableObject.CreateInstance<Line>();
         SerializedLine = new SerializedObject(Line);
 
         SpeakerProperty = SerializedLine.FindProperty("Speaker");

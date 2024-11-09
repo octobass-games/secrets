@@ -13,14 +13,14 @@ public class ChoiceNode : Node
     protected SerializedProperty RelationshipPoints;
     protected SerializedProperty Requirements;
 
-    public ChoiceNode(Vector2 position, int width, int height, Action<Node> onRemove, Action<Node> onConnectionStart, Action<Node> onConnectionEnd) : base(position, width, height, onRemove, onConnectionStart, onConnectionEnd)
+    public ChoiceNode(Vector2 position, int width, int height, Action<Node> onRemove, Action<Node> onConnectionStart, Action<Node> onConnectionEnd, ScriptableObject baseScriptableObject) : base(position, width, height, onRemove, onConnectionStart, onConnectionEnd, baseScriptableObject)
     {
         Title = "Choice";
     }
 
-    protected override void CreateScriptableObject()
+    protected override void CreateScriptableObject(ScriptableObject baseScriptableObject)
     {
-        Choice = ScriptableObject.CreateInstance<Choice>();
+        Choice = baseScriptableObject != null ? (Choice)baseScriptableObject : ScriptableObject.CreateInstance<Choice>();
         SerializedChoice = new SerializedObject(Choice);
 
         Text = SerializedChoice.FindProperty("Text");
