@@ -12,6 +12,7 @@ public class NodeBasedEditor : EditorWindow
     private Node ConnectionStart;
     private string SaveDirectoryPath;
     private Line RootLine;
+    private Vector2 nextLoadedNodePosition = Vector2.zero;
 
     [MenuItem("Window/Dialogue editor")]
     public static void ShowEditor()
@@ -157,14 +158,17 @@ public class NodeBasedEditor : EditorWindow
     {
         if (Nodes.Find(n => n is LineNode ? ((LineNode)n).Line == line : false) == null)
         {
-            AddLineNode(Vector2.zero, line);
+            AddLineNode(nextLoadedNodePosition, line);
 
             if (line.NextLine != null)
             {
+                nextLoadedNodePosition += new Vector2(250, 0);
                 LoadLine(line.NextLine);
             }
             else if (line.Choices != null)
             {
+                nextLoadedNodePosition += new Vector2(250, 0);
+
                 foreach (var choice in line.Choices)
                 {
                     LoadChoice(choice);
@@ -177,10 +181,11 @@ public class NodeBasedEditor : EditorWindow
     {
         if (Nodes.Find(n => n is ChoiceNode ? ((ChoiceNode)n).Choice == choice : false) == null)
         {
-            AddChoiceNode(Vector2.zero, choice);
+            AddChoiceNode(nextLoadedNodePosition, choice);
 
             if (choice.NextLine != null)
             {
+                nextLoadedNodePosition += new Vector2(250, 0);
                 LoadLine(choice.NextLine);
             }
         }
