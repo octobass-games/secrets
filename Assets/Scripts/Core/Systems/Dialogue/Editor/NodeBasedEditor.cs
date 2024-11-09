@@ -1,4 +1,3 @@
-using Codice.CM.Client.Differences;
 using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
