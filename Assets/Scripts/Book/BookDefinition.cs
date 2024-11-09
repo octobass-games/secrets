@@ -9,4 +9,7 @@ public class BookDefinition : ScriptableObject
     public int Stock;
     public int CostToOrder;
     public GameObject Item;
+
+    public Sprite Sprite;
+    public Color colour;
 }
