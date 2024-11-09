@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Choice : ScriptableObject
 {
+    public string Id;
     [TextArea]
     public string Text;
     public List<GameEvent> Events;

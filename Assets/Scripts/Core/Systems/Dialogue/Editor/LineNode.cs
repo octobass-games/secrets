@@ -8,6 +8,7 @@ public class LineNode : Node
     public Line Line;
 
     protected SerializedObject SerializedLine;
+    protected SerializedProperty Id;
     protected SerializedProperty SpeakerProperty;
     protected SerializedProperty TextProperty;
     protected SerializedProperty EventsProperty;
@@ -21,6 +22,13 @@ public class LineNode : Node
     {
         Line = baseScriptableObject != null ? (Line)baseScriptableObject : ScriptableObject.CreateInstance<Line>();
         SerializedLine = new SerializedObject(Line);
+
+        Id = SerializedLine.FindProperty("Id");
+
+        if (Id.stringValue == null || Id.stringValue == "")
+        {
+            Id.stringValue = System.Guid.NewGuid().ToString();
+        }
 
         SpeakerProperty = SerializedLine.FindProperty("Speaker");
         TextProperty = SerializedLine.FindProperty("Text");
@@ -54,6 +62,8 @@ public class LineNode : Node
 
     public override void ProcessConnections(List<Connection> connections)
     {
+        Line.Choices.Clear();
+
         foreach (Connection connection in connections)
         {
             if (connection.StartingNode == this)
@@ -61,7 +71,6 @@ public class LineNode : Node
                 if (connection.EndingNode is LineNode)
                 {
                     Line.NextLine = ((LineNode) connection.EndingNode).Line;
-                    Debug.Log(Line.NextLine.Text);
                 }
                 else
                 {
@@ -78,7 +87,15 @@ public class LineNode : Node
     public override void SaveScriptableObject(string pathToDirectory, int index)
     {
         Debug.Log(pathToDirectory);
-        AssetDatabase.CreateAsset(Line, pathToDirectory + "/line-" + index + ".asset");
+
+        if (AssetDatabase.Contains(Line))
+        {
+            AssetDatabase.SaveAssets();
+        }
+        else
+        {
+            AssetDatabase.CreateAsset(Line, pathToDirectory + "/line-" + Line.Id + ".asset");
+        }
     }
 
     public override void ApplyModifications()

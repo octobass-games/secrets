@@ -55,6 +55,8 @@ public class NodeBasedEditor : EditorWindow
                 {
                     Nodes[i].SaveScriptableObject(relativePathToSaveDirectory, i);
                 }
+
+                AssetDatabase.SaveAssets();
             }
             else
             {

@@ -8,6 +8,7 @@ public class ChoiceNode : Node
     public Choice Choice;
 
     protected SerializedObject SerializedChoice;
+    protected SerializedProperty Id;
     protected SerializedProperty Text;
     protected SerializedProperty Events;
     protected SerializedProperty RelationshipPoints;
@@ -22,6 +23,13 @@ public class ChoiceNode : Node
     {
         Choice = baseScriptableObject != null ? (Choice)baseScriptableObject : ScriptableObject.CreateInstance<Choice>();
         SerializedChoice = new SerializedObject(Choice);
+
+        Id = SerializedChoice.FindProperty("Id");
+
+        if (Id.stringValue == null || Id.stringValue == "")
+        {
+            Id.stringValue = System.Guid.NewGuid().ToString();
+        }
 
         Text = SerializedChoice.FindProperty("Text");
         Events = SerializedChoice.FindProperty("Events");
@@ -70,7 +78,14 @@ public class ChoiceNode : Node
 
     public override void SaveScriptableObject(string pathToDirectory, int index)
     {
-        AssetDatabase.CreateAsset(Choice, pathToDirectory + "/choice-" + index + ".asset");
+        if (AssetDatabase.Contains(Choice))
+        {
+            AssetDatabase.SaveAssets();
+        }
+        else
+        {
+            AssetDatabase.CreateAsset(Choice, pathToDirectory + "/choice-" + Choice.Id + ".asset");
+        }
     }
 
     public override void ApplyModifications()
