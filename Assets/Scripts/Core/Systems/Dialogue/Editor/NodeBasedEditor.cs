@@ -9,7 +9,8 @@ public class NodeBasedEditor : EditorWindow
     private List<Connection> Connections = new();
 
     private Node ConnectionStart;
-    private string DirectoryPath;
+    private string SaveDirectoryPath;
+    private Line RootLineToLoadFrom;
 
     [MenuItem("Window/Dialogue editor")]
     public static void ShowEditor()
@@ -23,20 +24,20 @@ public class NodeBasedEditor : EditorWindow
         Event current = Event.current;
 
         GUILayout.BeginHorizontal();
+
         EditorGUILayout.LabelField("Directory to save in (is prefixed with Assets/Data/Dialogue/): ");
-        DirectoryPath = EditorGUILayout.TextField(DirectoryPath);
-        GUILayout.EndHorizontal();
+        SaveDirectoryPath = EditorGUILayout.TextField(SaveDirectoryPath);
 
         if (GUILayout.Button("Save"))
         {
-            if (DirectoryPath?.Length > 0)
+            if (SaveDirectoryPath?.Length > 0)
             {
-                string relativePathToDirectory = "Assets/Data/Dialogue/" + DirectoryPath;
-                string absolutePathToDirectory = Application.dataPath + "/Data/Dialogue/" + DirectoryPath;
+                string relativePathToSaveDirectory = "Assets/Data/Dialogue/" + SaveDirectoryPath;
+                string absolutePathToSaveDirectory = Application.dataPath + "/Data/Dialogue/" + SaveDirectoryPath;
 
-                if (!Directory.Exists(absolutePathToDirectory))
+                if (!Directory.Exists(absolutePathToSaveDirectory))
                 {
-                    Directory.CreateDirectory(absolutePathToDirectory);
+                    Directory.CreateDirectory(absolutePathToSaveDirectory);
                 }
 
                 foreach (Node node in Nodes)
@@ -51,7 +52,7 @@ public class NodeBasedEditor : EditorWindow
 
                 for (int i = 0; i < Nodes.Count; i++)
                 {
-                    Nodes[i].SaveScriptableObject(relativePathToDirectory, i);
+                    Nodes[i].SaveScriptableObject(relativePathToSaveDirectory, i);
                 }
             }
             else
@@ -59,6 +60,35 @@ public class NodeBasedEditor : EditorWindow
                 Debug.LogWarning("Directory path must be provided");
             }
         }
+
+        GUILayout.EndHorizontal();
+        GUILayout.BeginHorizontal();
+
+        RootLineToLoadFrom = (Line)EditorGUILayout.ObjectField("Root Line to load from: ", RootLineToLoadFrom, typeof(Line), false);
+
+        if (GUILayout.Button("Load"))
+        {
+            if (RootLineToLoadFrom != null)
+            {
+                AddLineNode(Vector2.zero);
+
+                if (RootLineToLoadFrom.NextLine != null)
+                {
+                    // set line and load
+                }
+                else
+                {
+                    // iterate of choices and load
+                }
+            }
+            else
+            {
+                Debug.LogWarning("Must specify a root Line to load from");
+            }
+        }
+
+        GUILayout.EndHorizontal();
+
 
         if (current != null && current.type == EventType.ContextClick)
         {
