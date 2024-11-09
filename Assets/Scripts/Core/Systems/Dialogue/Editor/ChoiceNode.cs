@@ -68,10 +68,9 @@ public class ChoiceNode : Node
         }
     }
 
-    public override void SaveScriptableObject()
+    public override void SaveScriptableObject(string pathToDirectory, int index)
     {
-        Debug.Log("Creating");
-        AssetDatabase.CreateAsset(Choice, "Assets/Data/Test/Again/Again/asset-" + Choice.Text + ".asset");
+        AssetDatabase.CreateAsset(Choice, pathToDirectory + "/choice-" + index + ".asset");
     }
 
     public override void ApplyModifications()

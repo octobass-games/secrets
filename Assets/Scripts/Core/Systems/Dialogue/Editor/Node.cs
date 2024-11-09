@@ -1,3 +1,4 @@
+using Codice.CM.WorkspaceServer.Tree;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -53,7 +54,7 @@ public abstract class Node
     }
 
     public  abstract void ProcessConnections(List<Connection> connections);
-    public abstract void SaveScriptableObject();
+    public abstract void SaveScriptableObject(string pathToDirectory, int index);
     public abstract void ApplyModifications();
     
     protected abstract void CreateScriptableObject();

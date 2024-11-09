@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 
@@ -8,7 +9,7 @@ public class NodeBasedEditor : EditorWindow
     private List<Connection> Connections = new();
 
     private Node ConnectionStart;
-    private GUIStyle NodeStyle;
+    private string DirectoryPath;
 
     [MenuItem("Window/Dialogue editor")]
     public static void ShowEditor()
@@ -17,32 +18,45 @@ public class NodeBasedEditor : EditorWindow
         window.titleContent = new GUIContent("Dialogue Editor");
     }
 
-    private void OnEnable()
-    {
-        NodeStyle = new GUIStyle();
-        NodeStyle.normal.background = EditorGUIUtility.Load("builtin skins/darkskin/images/node1.png") as Texture2D;
-        NodeStyle.border = new RectOffset(12, 12, 12, 12);
-    }
-
     public void OnGUI()
     {
         Event current = Event.current;
 
+        GUILayout.BeginHorizontal();
+        EditorGUILayout.LabelField("Directory to save in (is prefixed with Assets/Data/Dialogue/): ");
+        DirectoryPath = EditorGUILayout.TextField(DirectoryPath);
+        GUILayout.EndHorizontal();
+
         if (GUILayout.Button("Save"))
         {
-            foreach (Node node in Nodes)
+            if (DirectoryPath?.Length > 0)
             {
-                node.ApplyModifications();
-            }
+                string relativePathToDirectory = "Assets/Data/Dialogue/" + DirectoryPath;
+                string absolutePathToDirectory = Application.dataPath + "/Data/Dialogue/" + DirectoryPath;
 
-            foreach (Node node in Nodes)
-            {
-                node.ProcessConnections(Connections);
-            }
+                if (!Directory.Exists(absolutePathToDirectory))
+                {
+                    Directory.CreateDirectory(absolutePathToDirectory);
+                }
 
-            foreach (Node node in Nodes)
+                foreach (Node node in Nodes)
+                {
+                    node.ApplyModifications();
+                }
+
+                foreach (Node node in Nodes)
+                {
+                    node.ProcessConnections(Connections);
+                }
+
+                for (int i = 0; i < Nodes.Count; i++)
+                {
+                    Nodes[i].SaveScriptableObject(relativePathToDirectory, i);
+                }
+            }
+            else
             {
-                node.SaveScriptableObject();
+                Debug.LogWarning("Directory path must be provided");
             }
         }
 

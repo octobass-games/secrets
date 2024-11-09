@@ -75,10 +75,10 @@ public class LineNode : Node
         }
     }
 
-    public override void SaveScriptableObject()
+    public override void SaveScriptableObject(string pathToDirectory, int index)
     {
-        Debug.Log("Creating");
-        AssetDatabase.CreateAsset(Line, "Assets/Data/Test/asset-" + Line.Text + ".asset");
+        Debug.Log(pathToDirectory);
+        AssetDatabase.CreateAsset(Line, pathToDirectory + "/line-" + index + ".asset");
     }
 
     public override void ApplyModifications()
