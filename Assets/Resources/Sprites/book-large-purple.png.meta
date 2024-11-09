@@ -1,10 +1,34 @@
 fileFormatVersion: 2
-guid: 38446581b0e76f4459c6f1af5acbce4e
+guid: 8c2ef164ebd14484aa4546e8c809cad4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8033975403568566451
-    second: desk_0
+      213: -664859076761010917
+    second: book-large-purple_0
+  - first:
+      213: 5029243729213895269
+    second: book-large-purple_1
+  - first:
+      213: 6749301564692982044
+    second: book-large-purple_2
+  - first:
+      213: -8378659047941768415
+    second: book-large-purple_3
+  - first:
+      213: -3640437740027239262
+    second: book-large-purple_4
+  - first:
+      213: 153571454018126790
+    second: book-large-purple_5
+  - first:
+      213: 3749935809804016164
+    second: book-large-purple_6
+  - first:
+      213: -3752240806030472185
+    second: book-large-purple_7
+  - first:
+      213: -5022047081954643701
+    second: book-large-purple_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,155 +137,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: desk_0
+      name: book-large-purple_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
         width: 480
         height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b01eef401a6e7f60800000000000000
-      internalID: 8033975403568566451
+      spriteID: b1d37f73132f5c6f0800000000000000
+      internalID: -664859076761010917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_inventory
+      name: book-large-purple_1
       rect:
         serializedVersion: 2
-        x: 490
-        y: 214
-        width: 85
-        height: 56
+        x: 480
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2f9f17017a65835449a35fe8333685f6
-      internalID: 906680522
+      spriteID: 562b7a096867bc540800000000000000
+      internalID: 5029243729213895269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_characterr_book
+      name: book-large-purple_2
       rect:
         serializedVersion: 2
-        x: 580
-        y: 245
-        width: 82
-        height: 25
+        x: 960
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6506bbff8f3d912498299e0b12cd1df3
-      internalID: -83397862
+      spriteID: c19638583065aad50800000000000000
+      internalID: 6749301564692982044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_other_book
+      name: book-large-purple_3
       rect:
         serializedVersion: 2
-        x: 667
-        y: 245
-        width: 84
-        height: 25
+        x: 1440
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9aed3899629af5741978b089e8aa01bb
-      internalID: 906522688
+      spriteID: 12b7159ecf509bb80800000000000000
+      internalID: -8378659047941768415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_post
+      name: book-large-purple_4
       rect:
         serializedVersion: 2
-        x: 789
-        y: 242
-        width: 115
-        height: 28
+        x: 1920
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cd0c55517bbb9a94c8b8cc6e7c16072a
-      internalID: 1503646192
+      spriteID: 2a420cec9219a7dc0800000000000000
+      internalID: -3640437740027239262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: till
+      name: book-large-purple_5
       rect:
         serializedVersion: 2
-        x: 906
-        y: 159
-        width: 103
-        height: 113
+        x: 2400
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 835cdd427f5bed441b0637126ef7e44d
-      internalID: -1611249972
+      spriteID: 6c3046c7c68912200800000000000000
+      internalID: 153571454018126790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_calander
+      name: book-large-purple_6
       rect:
         serializedVersion: 2
-        x: 756
-        y: 252
-        width: 29
-        height: 18
+        x: 2880
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5b97a51ed3495c940ab43ce8b5ea9292
-      internalID: -285267241
+      spriteID: 42a92e140c27a0430800000000000000
+      internalID: 3749935809804016164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-large-purple_7
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c04dcfddc5debc0800000000000000
+      internalID: -3752240806030472185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-large-purple_8
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b017ec279ca1e4ab0800000000000000
+      internalID: -5022047081954643701
       vertices: []
       indices: 
       edges: []
@@ -270,7 +338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 60f6126ad483b9f4f8e5137dd4049ac0
     internalID: 0
     vertices: []
     indices: 
@@ -280,13 +348,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      desk_0: 8033975403568566451
-      desk_calander: -285267241
-      desk_characterr_book: -83397862
-      desk_inventory: 906680522
-      desk_other_book: 906522688
-      desk_post: 1503646192
-      till: -1611249972
+      book-large-purple_0: -664859076761010917
+      book-large-purple_1: 5029243729213895269
+      book-large-purple_2: 6749301564692982044
+      book-large-purple_3: -8378659047941768415
+      book-large-purple_4: -3640437740027239262
+      book-large-purple_5: 153571454018126790
+      book-large-purple_6: 3749935809804016164
+      book-large-purple_7: -3752240806030472185
+      book-large-purple_8: -5022047081954643701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
