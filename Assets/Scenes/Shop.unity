@@ -1842,8 +1842,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 0
+    height: 0
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -5803,11 +5803,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -202861366
-      Data2: 1171516656
-      Data3: -778914677
-      Data4: 24972148
-    Path: event:/Menu Music
+      Data1: -667837278
+      Data2: 1075167169
+      Data3: -900724598
+      Data4: 1150349986
+    Path: event:/Tax Man
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
