@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -119,9 +119,9 @@ TextureImporter:
         x: 0
         y: 0
         width: 480
-        height: 266
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -139,11 +139,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 714
-        y: 66
+        y: 70
         width: 142
         height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,11 +161,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 856
-        y: 194
+        y: 198
         width: 93
         height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,11 +183,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 949
-        y: 165
-        width: 90
+        y: 169
+        width: 87
         height: 101
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: main-menu_4
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 190
-        width: 94
-        height: 76
+        x: 1036
+        y: 174
+        width: 96
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: main-menu_5
       rect:
         serializedVersion: 2
-        x: 1166
+        x: 1165
         y: 194
         width: 94
-        height: 72
+        height: 76
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,19 +248,19 @@ TextureImporter:
       name: main-menu_6
       rect:
         serializedVersion: 2
-        x: 1260
-        y: 250
-        width: 49
-        height: 16
+        x: 1259
+        y: 198
+        width: 94
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e164032d12d0e14a870cf0ac87979ed
+      spriteID: f7d8075f9be6b0848835194f3c173b03
       internalID: 2145842174
       vertices: []
       indices: 
@@ -270,98 +270,10 @@ TextureImporter:
       name: main-menu_7
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 216
-        width: 61
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0f6426bfcb68e148a55f817b1fe5263
-      internalID: -739286990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main-menu_8
-      rect:
-        serializedVersion: 2
-        x: 1278
-        y: 232
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93189b7a9c8acfd42a0d6cfe228aff8f
-      internalID: 64019876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main-menu_9
-      rect:
-        serializedVersion: 2
-        x: 1296
-        y: 233
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3ffc9e8bcae11d41a8070c334365de3
-      internalID: -216484350
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main-menu_10
-      rect:
-        serializedVersion: 2
-        x: 1311
-        y: 233
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a97fabed01d1a8b42b6baa00865cb007
-      internalID: -733128160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main-menu_11
-      rect:
-        serializedVersion: 2
         x: 480
-        y: 57
-        width: 234
-        height: 209
+        y: 69
+        width: 233
+        height: 201
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,8 +282,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a49bfaefd267ab4980623db3b938f95
-      internalID: -1821567148
+      spriteID: 9d275dea40d2e834ba55a50f2e314bad
+      internalID: -739286990
       vertices: []
       indices: 
       edges: []
@@ -392,16 +304,12 @@ TextureImporter:
     nameFileIdTable:
       main-menu_0: -2464461341538140640
       main-menu_1: -1148948401
-      main-menu_10: -733128160
-      main-menu_11: -1821567148
       main-menu_2: 1619667829
       main-menu_3: 452077660
       main-menu_4: 569493787
       main-menu_5: 679574713
       main-menu_6: 2145842174
       main-menu_7: -739286990
-      main-menu_8: 64019876
-      main-menu_9: -216484350
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
