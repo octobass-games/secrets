@@ -173,7 +173,7 @@ TextureImporter:
         width: 101
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,6 +182,28 @@ TextureImporter:
       bones: []
       spriteID: f1539ffa8612a864684ccb3667d92522
       internalID: 503895827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stamp
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 5
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef6ab145f5fdf24d92036a249251429
+      internalID: 1028301638
       vertices: []
       indices: 
       edges: []
@@ -211,6 +233,7 @@ TextureImporter:
       alphabett_8: 3395161467875609927
       alphabett_9: 1172633807315262361
       how to play: 5923874019814326411
+      stamp: 1028301638
       stamps: 503895827
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
