@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
@@ -12,6 +13,8 @@ public class LineNode : Node
     protected SerializedProperty SpeakerProperty;
     protected SerializedProperty TextProperty;
     protected SerializedProperty EventsProperty;
+
+    private bool IsRootLine;
 
     public LineNode(Vector2 position, int width, int height, Action<Node> onRemove, Action<Node> onConnectionStart, Action<Node> onConnectionEnd, ScriptableObject baseScriptableObject) : base(position, width, height, onRemove, onConnectionStart, onConnectionEnd, baseScriptableObject)
     {
@@ -64,6 +67,8 @@ public class LineNode : Node
     {
         Line.Choices.Clear();
 
+        IsRootLine = connections.All(c => c.EndingNode != this);
+
         foreach (Connection connection in connections)
         {
             if (connection.StartingNode == this)
@@ -84,7 +89,7 @@ public class LineNode : Node
         }
     }
 
-    public override void SaveScriptableObject(string pathToDirectory, int index)
+    public override void SaveScriptableObject(string pathToDirectory)
     {
         Debug.Log(pathToDirectory);
 
@@ -94,7 +99,7 @@ public class LineNode : Node
         }
         else
         {
-            AssetDatabase.CreateAsset(Line, pathToDirectory + "/line-" + Line.Id + ".asset");
+            AssetDatabase.CreateAsset(Line, pathToDirectory + (IsRootLine ? "/root" : ("/line-" + Line.Id)) + ".asset");
         }
     }
 

@@ -76,7 +76,7 @@ public class ChoiceNode : Node
         }
     }
 
-    public override void SaveScriptableObject(string pathToDirectory, int index)
+    public override void SaveScriptableObject(string pathToDirectory)
     {
         if (AssetDatabase.Contains(Choice))
         {

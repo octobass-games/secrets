@@ -54,7 +54,7 @@ public abstract class Node
     }
 
     public  abstract void ProcessConnections(List<Connection> connections);
-    public abstract void SaveScriptableObject(string pathToDirectory, int index);
+    public abstract void SaveScriptableObject(string pathToDirectory);
     public abstract void ApplyModifications();
     
     protected abstract void CreateScriptableObject(ScriptableObject baseScriptableObject);

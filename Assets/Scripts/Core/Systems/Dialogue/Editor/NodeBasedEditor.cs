@@ -49,11 +49,7 @@ public class NodeBasedEditor : EditorWindow
                 foreach (Node node in Nodes)
                 {
                     node.ProcessConnections(Connections);
-                }
-
-                for (int i = 0; i < Nodes.Count; i++)
-                {
-                    Nodes[i].SaveScriptableObject(relativePathToSaveDirectory, i);
+                    node.SaveScriptableObject(relativePathToSaveDirectory);
                 }
 
                 AssetDatabase.SaveAssets();
