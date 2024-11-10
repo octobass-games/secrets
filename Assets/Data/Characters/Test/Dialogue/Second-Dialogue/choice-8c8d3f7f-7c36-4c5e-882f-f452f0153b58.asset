@@ -16,7 +16,7 @@ MonoBehaviour:
   Text: Not yet sorry! I'm still looking
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 0}
+  NextLine: {fileID: 11400000, guid: fc7a24c408c0f6a4ab69aa8269f1f3d2, type: 2}
   Requirements:
   - Type: 2
     Name: 
