@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -204,7 +204,7 @@ TextureImporter:
       name: desk_post
       rect:
         serializedVersion: 2
-        x: 879
+        x: 968
         y: 242
         width: 115
         height: 28
@@ -226,8 +226,8 @@ TextureImporter:
       name: till
       rect:
         serializedVersion: 2
-        x: 996
-        y: 159
+        x: 1087
+        y: 158
         width: 103
         height: 113
       alignment: 0
@@ -248,7 +248,7 @@ TextureImporter:
       name: desk_calander
       rect:
         serializedVersion: 2
-        x: 846
+        x: 937
         y: 252
         width: 29
         height: 18
@@ -275,7 +275,7 @@ TextureImporter:
         width: 85
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,6 +284,28 @@ TextureImporter:
       bones: []
       spriteID: 248cd96e1e15ae545b159e6068bcd188
       internalID: 1243060292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desk_log
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 249
+        width: 86
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018e59b76fe0b194da9aa58a9364290d
+      internalID: -466695458
       vertices: []
       indices: 
       edges: []
@@ -306,6 +328,7 @@ TextureImporter:
       desk_calander: -285267241
       desk_characterr_book: -83397862
       desk_inventory: 906680522
+      desk_log: -466695458
       desk_other_book: 906522688
       desk_post: 1503646192
       desk_stamps: 1243060292
