@@ -16,5 +16,5 @@ MonoBehaviour:
   Text: Not too bad, thanks!
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 0}
+  NextLine: {fileID: 11400000, guid: 896a5057ee57382428a577627c900166, type: 2}
   Requirements: []

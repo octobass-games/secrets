@@ -18,5 +18,5 @@ MonoBehaviour:
   NextLine: {fileID: 0}
   Events: []
   Choices:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: b75c61a96785f4242beedea62388b6d4, type: 2}
+  - {fileID: 11400000, guid: ec6e11c1840620f408914ae4a1f355d4, type: 2}
