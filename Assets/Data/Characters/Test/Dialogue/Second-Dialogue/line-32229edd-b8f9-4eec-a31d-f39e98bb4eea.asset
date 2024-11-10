@@ -10,14 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-0
+  m_Name: line-32229edd-b8f9-4eec-a31d-f39e98bb4eea
   m_EditorClassIdentifier: 
-  Id: 
+  Id: 32229edd-b8f9-4eec-a31d-f39e98bb4eea
   Speaker: Jenny
-  Text: Did you find a good one?
+  Text: Wow, this looks amazing! Thanks
   NextLine: {fileID: 0}
-  Events: []
-  Choices:
-  - {fileID: 11400000, guid: 7b006805d0611aa4d9464abffa4646fa, type: 2}
-  - {fileID: 11400000, guid: d4fbd09c99bd4454caa77a4939dc1ea7, type: 2}
-  - {fileID: 11400000, guid: 1c6bf8b16cd39814b86e409ac9101016, type: 2}
+  Events:
+  - Type: 2
+    Memory: 
+    Paper: 
+    BookName: 
+  - Type: 1
+    Memory: 
+    Paper: 
+    BookName: 
+  Choices: []

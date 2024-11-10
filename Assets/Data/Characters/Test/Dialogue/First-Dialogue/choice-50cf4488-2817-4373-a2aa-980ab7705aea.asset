@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-4
+  m_Name: choice-50cf4488-2817-4373-a2aa-980ab7705aea
   m_EditorClassIdentifier: 
-  Text: Certainly, I'll just go fetch one
-  Events:
-  - Type: 1
-    Memory: 
-    Paper: 
-    BookName: 
+  Id: 50cf4488-2817-4373-a2aa-980ab7705aea
+  Text: Not too bad, thanks!
+  Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 0}
   Requirements: []

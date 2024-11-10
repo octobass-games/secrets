@@ -10,10 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-2
+  m_Name: choice-8c8d3f7f-7c36-4c5e-882f-f452f0153b58
   m_EditorClassIdentifier: 
-  Text: I'm fine, thanks!!
+  Id: 8c8d3f7f-7c36-4c5e-882f-f452f0153b58
+  Text: Not yet sorry! I'm still looking
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 0}
-  Requirements: []
+  Requirements:
+  - Type: 2
+    Name: 
+    Book: {fileID: 0}
+    Negate: 0

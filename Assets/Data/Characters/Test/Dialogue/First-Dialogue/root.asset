@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-0
+  m_Name: root
   m_EditorClassIdentifier: 
-  Id: 
-  Speaker: 
-  Text: aaaaaaa
+  Id: 6d1400ac-3958-4a9f-aefe-7f5e8f17ff0a
+  Speaker: Jenny
+  Text: Hello! How are you today?
   NextLine: {fileID: 0}
   Events: []
-  Choices: []
+  Choices:
+  - {fileID: 0}
+  - {fileID: 0}

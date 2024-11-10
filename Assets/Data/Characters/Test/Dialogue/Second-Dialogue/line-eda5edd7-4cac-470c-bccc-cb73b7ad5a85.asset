@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-6
+  m_Name: line-eda5edd7-4cac-470c-bccc-cb73b7ad5a85
   m_EditorClassIdentifier: 
-  Id: 
-  Speaker: Jenny
+  Id: eda5edd7-4cac-470c-bccc-cb73b7ad5a85
+  Speaker: 
   Text: Hmm... I'll give it a go
   NextLine: {fileID: 0}
   Events:

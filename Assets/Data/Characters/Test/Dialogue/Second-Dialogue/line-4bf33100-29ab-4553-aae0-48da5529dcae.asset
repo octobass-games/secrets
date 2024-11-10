@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-4
+  m_Name: line-4bf33100-29ab-4553-aae0-48da5529dcae
   m_EditorClassIdentifier: 
-  Id: 
+  Id: 4bf33100-29ab-4553-aae0-48da5529dcae
   Speaker: Jenny
   Text: That's no problem
   NextLine: {fileID: 0}
