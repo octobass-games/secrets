@@ -1840,9 +1840,9 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.008937438
+    x: 0
     y: 0
-    width: 0.98157346
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -5949,7 +5949,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1948967777}
   - component: {fileID: 1948967781}
-  - component: {fileID: 1948967782}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -6003,27 +6002,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
---- !u!114 &1948967782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948967775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd4a7f177fd83634296491812995f53f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fmodEvent:
-    Guid:
-      Data1: -1452102190
-      Data2: 1080040116
-      Data3: 189696666
-      Data4: -793960273
-    Path: event:/Shop Music
-  parameter: whatCharacter
-  parameterValue: NoCharacter
 --- !u!1 &2020563881
 GameObject:
   m_ObjectHideFlags: 0
