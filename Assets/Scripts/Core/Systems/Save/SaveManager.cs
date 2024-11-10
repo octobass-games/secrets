@@ -5,11 +5,23 @@ using UnityEngine;
 
 public class SaveManager : MonoBehaviour
 {
+    public static SaveManager Instance {  get; private set; }
+
     private string SaveFilePath;
 
     void Awake()
     {
         SaveFilePath = Application.persistentDataPath + "/save-data.json";
+
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+            DontDestroyOnLoad(Instance);
+        }
     }
 
     public void Save()
