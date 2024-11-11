@@ -24,16 +24,19 @@ public class DialogueManager : MonoBehaviour
 
     private void SpeakLine()
     {
+        var choices = LineToSpeak.Choices.FindAll(c => RequirementManager.AllSatisfied(c.Requirements));
+
+        ConversationView.Display(LineToSpeak.Speaker, LineToSpeak.Text, choices, OnChoice);
+    }
+
+    private void RunLineEvents()
+    {
         if (LineToSpeak.Events != null && LineToSpeak.Events.Count > 0)
         {
             EventManager eventManager = FindFirstObjectByType<EventManager>();
 
             LineToSpeak.Events.ForEach(e => eventManager.Publish(e));
         }
-
-        var choices = LineToSpeak.Choices.FindAll(c => RequirementManager.AllSatisfied(c.Requirements));
-
-        ConversationView.Display(LineToSpeak.Speaker, LineToSpeak.Text, choices, OnChoice);
     }
 
     private void OnChoice(Choice response)
@@ -42,6 +45,7 @@ public class DialogueManager : MonoBehaviour
 
         if (wasChoiceless)
         {
+            RunLineEvents();
             LineToSpeak = LineToSpeak.NextLine;
 
             if (LineToSpeak != null)
