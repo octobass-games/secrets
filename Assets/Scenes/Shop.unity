@@ -5838,6 +5838,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Event2:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1425153795}
+        m_TargetAssemblyTypeName: DayManager, Assembly-CSharp
+        m_MethodName: NextEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &839077699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8109,7 +8124,7 @@ GameObject:
   - component: {fileID: 1393925367}
   - component: {fileID: 1393925366}
   m_Layer: 0
-  m_Name: ShopCloser
+  m_Name: DayEnder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8127,7 +8142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd0fd417cdbd174588c3a6c2364b545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EventType: 7
+  EventType: 5
   UnityEvent:
     m_PersistentCalls:
       m_Calls:
