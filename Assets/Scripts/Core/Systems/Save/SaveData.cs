@@ -11,8 +11,9 @@ public class SaveData
     public List<CharacterData> Characters;
     public List<DayData> Days;
     public BookkeeperData Bookkeeper;
+    public int PaperCount;
 
-    public SaveData(string day, List<BookData> books, TillData account, HistoryData history, List<CharacterData> characters, List<DayData> days, BookkeeperData bookkeeper)
+    public SaveData(string day, List<BookData> books, TillData account, HistoryData history, List<CharacterData> characters, List<DayData> days, BookkeeperData bookkeeper, int paperCount)
     {
         Day = day;
         Books = books;
@@ -21,6 +22,7 @@ public class SaveData
         Characters = characters;
         Days = days;
         Bookkeeper = bookkeeper;
+        PaperCount = paperCount;
     }
 
     public SaveData()

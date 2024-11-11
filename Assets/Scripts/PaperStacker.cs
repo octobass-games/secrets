@@ -1,20 +1,13 @@
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
-public class PaperStacker :  MonoBehaviour, EventSubscriber
+public class PaperStacker : MonoBehaviour, EventSubscriber, Savable
 {
-    public Calendar Calendar;
-
-    public int PaperCount = 0;
-
-    public GameObject PaperOne;
-    public GameObject PaperTwo;
-    public GameObject PaperThree;
-    public GameObject PaperFour;
-
     public GameObject PostOpen;
     public GameObject PostClosed;
+    public List<GameObject> Papers;
 
+    private int PaperCount = 0;
 
     void Awake()
     {
@@ -35,28 +28,21 @@ public class PaperStacker :  MonoBehaviour, EventSubscriber
 
     private void RenderPapers()
     {
-        PaperOne.SetActive(false);
-        PaperTwo.SetActive(false);
-        PaperThree.SetActive(false);
-        PaperFour.SetActive(false);
-        if (PaperCount >= 1)
+        for (int i = 0; i < Papers.Count; i++)
         {
-            PaperOne.SetActive(true);
+            Papers[i].SetActive(true);
         }
+    }
 
-        if (PaperCount >= 2)
-        {
-            PaperTwo.SetActive(true);
-        }
+    public void Save(SaveData saveData)
+    {
+        saveData.PaperCount = PaperCount;
+    }
 
-        if (PaperCount >= 3)
-        {
-            PaperThree.SetActive(true);
-        }
+    public void Load(SaveData saveData)
+    {
+        PaperCount = saveData.PaperCount;
 
-        if (PaperCount >= 4)
-        {
-            PaperFour.SetActive(true);
-        }
+        RenderPapers();
     }
 }
