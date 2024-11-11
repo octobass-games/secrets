@@ -226,7 +226,7 @@ TextureImporter:
       name: till
       rect:
         serializedVersion: 2
-        x: 907
+        x: 1101
         y: 158
         width: 103
         height: 113
@@ -314,12 +314,12 @@ TextureImporter:
       name: nail
       rect:
         serializedVersion: 2
-        x: 1015
+        x: 1208
         y: 265
         width: 5
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,6 +328,50 @@ TextureImporter:
       bones: []
       spriteID: d64a2286b941bd643a0ec067370821a4
       internalID: -424336698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: post-open
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 232
+        width: 115
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2246f37328b2948920a4b0de6c939c
+      internalID: -1768915957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper-stacked
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 260
+        width: 68
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e8364c75f2f5c43aa2dc32884ea819
+      internalID: -242047412
       vertices: []
       indices: 
       edges: []
@@ -355,6 +399,8 @@ TextureImporter:
       desk_post: 1503646192
       desk_stamps: 1243060292
       nail: -424336698
+      paper-stacked: -242047412
+      post-open: -1768915957
       till: -1611249972
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
