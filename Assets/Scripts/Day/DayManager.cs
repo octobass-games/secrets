@@ -18,7 +18,7 @@ public class DayManager : MonoBehaviour, Savable, EventSubscriber
     {
         DailyEventIndex = 0;
         Today = FindNextDay();
-        
+
         PublishNextDailyEvent();
     }
 
@@ -68,10 +68,25 @@ public class DayManager : MonoBehaviour, Savable, EventSubscriber
 
     private void PublishNextDailyEvent()
     {
-
         if (Today.DailyEvents.Count > 0 && DailyEventIndex < Today.DailyEvents.Count)
         {
             EventManager.Instance.Publish(Today.DailyEvents[DailyEventIndex]);
+        }
+    }
+
+    public void TryFlipSign()
+    {
+        // TODO: Add check that index is in bounds
+        var nextEvent = Today.DailyEvents[DailyEventIndex + 1];
+
+        if (nextEvent.Type == GameEventType.CLOSE_SHOP)
+        {
+            NextEvent();
+
+        }
+        else if (nextEvent.Type == GameEventType.OPEN_SHOP)
+        {
+            NextEvent();
         }
     }
 }
