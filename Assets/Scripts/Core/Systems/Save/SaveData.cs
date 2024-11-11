@@ -10,8 +10,9 @@ public class SaveData
     public HistoryData History;
     public List<CharacterData> Characters;
     public List<DayData> Days;
+    public BookkeeperData Bookkeeper;
 
-    public SaveData(string day, List<BookData> books, TillData account, HistoryData history, List<CharacterData> characters, List<DayData> days)
+    public SaveData(string day, List<BookData> books, TillData account, HistoryData history, List<CharacterData> characters, List<DayData> days, BookkeeperData bookkeeper)
     {
         Day = day;
         Books = books;
@@ -19,6 +20,7 @@ public class SaveData
         History = history;
         Characters = characters;
         Days = days;
+        Bookkeeper = bookkeeper;
     }
 
     public SaveData()

@@ -28,7 +28,7 @@ public class History : MonoBehaviour, Savable, EventSubscriber
 
     public void Save(SaveData saveData)
     {
-        saveData.History.Events = Events;
+        saveData.History= new HistoryData(Events);
     }
 
     public void OnReceive(GameEvent @event)
