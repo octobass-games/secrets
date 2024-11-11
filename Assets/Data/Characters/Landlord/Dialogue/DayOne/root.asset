@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: root
   m_EditorClassIdentifier: 
   Id: a3b40ee8-cf00-41b5-a17b-1a18c1f4176d
-  Speaker: 
+  Speaker: Landlord
   Text: aaaaa
   NextLine: {fileID: 0}
-  Events: []
+  Events:
+  - Type: 3
+    Memory: 
+    Paper: 
+    BookName: 
+    Day: {fileID: 0}
+    Character: {fileID: 0}
   Choices: []
