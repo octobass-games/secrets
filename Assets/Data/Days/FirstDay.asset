@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: FirstDay
   m_EditorClassIdentifier: 
   Date: 01/01
-  VisitingCharacters:
-  - {fileID: 11400000, guid: a3d61ea5dc2659d4791598a2db80288f, type: 2}
-  - {fileID: 0}
   DailyEvents:
   - Type: 4
     Memory: 
@@ -23,6 +20,18 @@ MonoBehaviour:
     BookName: 
     Day: {fileID: 11400000}
     Character: {fileID: 0}
+  - Type: 8
+    Memory: 
+    Paper: 
+    BookName: 
+    Day: {fileID: 0}
+    Character: {fileID: 11400000, guid: a3d61ea5dc2659d4791598a2db80288f, type: 2}
+  - Type: 9
+    Memory: 
+    Paper: 
+    BookName: 
+    Day: {fileID: 0}
+    Character: {fileID: 11400000, guid: a3d61ea5dc2659d4791598a2db80288f, type: 2}
   - Type: 8
     Memory: 
     Paper: 
