@@ -10,4 +10,5 @@ public enum GameEventType
     CLOSE_SHOP,
     VISITOR_ARRIVAL,
     VISITOR_DEPARTURE,
+    PAPER_ARRIVED
 }
