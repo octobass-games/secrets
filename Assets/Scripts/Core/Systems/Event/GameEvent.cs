@@ -7,4 +7,6 @@ public class GameEvent
     public string Memory;
     public string Paper;
     public string BookName;
+    public DayDefinition Day;
+    public CharacterDefinition Character;
 }
