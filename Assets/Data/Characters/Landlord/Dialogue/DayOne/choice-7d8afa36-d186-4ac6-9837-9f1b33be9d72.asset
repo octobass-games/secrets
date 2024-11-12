@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-bf8a50d7-3abc-4143-9116-52e5ae0f5a51
+  m_Name: choice-7d8afa36-d186-4ac6-9837-9f1b33be9d72
   m_EditorClassIdentifier: 
-  Id: bf8a50d7-3abc-4143-9116-52e5ae0f5a51
-  Text: "I\u2019m not sure that\u2019s entirely legal without further notice\u2026"
+  Id: 7d8afa36-d186-4ac6-9837-9f1b33be9d72
+  Text: Well, it was worth a try. Here you go
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 0}

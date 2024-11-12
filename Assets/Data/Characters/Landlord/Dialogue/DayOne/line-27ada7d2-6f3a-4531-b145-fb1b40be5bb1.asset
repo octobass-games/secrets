@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root-landlord-payment
+  m_Name: line-27ada7d2-6f3a-4531-b145-fb1b40be5bb1
   m_EditorClassIdentifier: 
-  Id: a3b40ee8-cf00-41b5-a17b-1a18c1f4176d
+  Id: 27ada7d2-6f3a-4531-b145-fb1b40be5bb1
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: "I\u2019m sure you\u2019ve read in the papers that times are tough, so I\u2019ll
-    be immediately increasing your monthly rent by 200 coins."
+  Text: Oh really, and which law would I be breaking?
   NextLine: {fileID: 0}
   Events: []
-  Choices: []
+  Choices:
+  - {fileID: 0}
+  - {fileID: 0}

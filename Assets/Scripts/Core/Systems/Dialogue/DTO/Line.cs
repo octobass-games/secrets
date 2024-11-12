@@ -10,4 +10,9 @@ public class Line : ScriptableObject
     public Line NextLine;
     public List<GameEvent> Events;
     public List<Choice> Choices;
+
+    void Reset()
+    {
+        Debug.Log("Is Resetting");
+    }
 }

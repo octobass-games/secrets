@@ -10,12 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-405de328-209d-48b4-b183-a79515d357db
+  m_Name: line-5f35c5fc-dcb4-4842-80dc-b254562a1a90
   m_EditorClassIdentifier: 
-  Id: 405de328-209d-48b4-b183-a79515d357db
+  Id: 5f35c5fc-dcb4-4842-80dc-b254562a1a90
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: "Nice try, but unfortunately for you I\u2019m aware of the laws in this area."
+  Text: "I\u2019ll be back in a month"
   NextLine: {fileID: 0}
-  Events: []
-  Choices:
-  - {fileID: 0}
+  Events:
+  - Type: 3
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+  Choices: []

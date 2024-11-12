@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-17733dfb-553a-43fb-b039-1811ce55f7c6
+  m_Name: choice-06fcd0c4-4040-4866-975a-c9cd23bc37cd
   m_EditorClassIdentifier: 
-  Id: 17733dfb-553a-43fb-b039-1811ce55f7c6
-  Text: Well, it was worth a try. Here you go
+  Id: 06fcd0c4-4040-4866-975a-c9cd23bc37cd
+  Text: "Hmm, I suppose I don\u2019t. Here you go"
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 0}

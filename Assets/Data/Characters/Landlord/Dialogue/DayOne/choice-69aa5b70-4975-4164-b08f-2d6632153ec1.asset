@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-aaf75fc4-57af-4bfe-881a-ec42ccb6a334
+  m_Name: choice-69aa5b70-4975-4164-b08f-2d6632153ec1
   m_EditorClassIdentifier: 
-  Id: aaf75fc4-57af-4bfe-881a-ec42ccb6a334
-  Text: "Hmm, I suppose I don\u2019t. Here you go"
+  Id: 69aa5b70-4975-4164-b08f-2d6632153ec1
+  Text: LAW FROM PAPER
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 0}

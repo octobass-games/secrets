@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-17076881-5fe9-460b-99ce-c76221006a46
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-0aa74931-2677-470d-9e1b-719a2101753c
   m_EditorClassIdentifier: 
-  Id: 17076881-5fe9-460b-99ce-c76221006a46
-  Text: ' CHARACTER MAKING UP LAW'
-  Events: []
-  RelationshipPoints: 0
+  Id: 0aa74931-2677-470d-9e1b-719a2101753c
+  Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
+  Text: Thank you very much.
   NextLine: {fileID: 0}
-  Requirements: []
+  Events: []
+  Choices: []
