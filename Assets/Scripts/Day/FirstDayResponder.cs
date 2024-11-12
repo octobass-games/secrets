@@ -5,6 +5,7 @@ public class FirstDayResponder : MonoBehaviour, EventSubscriber
 {
     public Animator Sign;
     public DayDefinition DayOne;
+    public DayManager DayManager;
     void Awake()
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, this);
@@ -14,7 +15,11 @@ public class FirstDayResponder : MonoBehaviour, EventSubscriber
     {
         if (@event.Day == DayOne)
         {
+            // Start shop open on day one
             Sign.SetTrigger("OpenNoAnimation");
+
+            // Deliver post
+            DayManager.NextEvent();
         }
     }
 }

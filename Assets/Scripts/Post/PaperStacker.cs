@@ -6,6 +6,7 @@ public class PaperStacker : MonoBehaviour, EventSubscriber, Savable
     public GameObject PostOpen;
     public GameObject PostClosed;
     public List<GameObject> Papers;
+    public PaperDisplayer PaperDisplayer;
 
     private int PaperCount = 0;
 
@@ -18,6 +19,15 @@ public class PaperStacker : MonoBehaviour, EventSubscriber, Savable
     {
         PostOpen.SetActive(true);
         PostClosed.SetActive(true);
+        var OnClickPaper = PostOpen.GetComponent<Clickable>().OnClick;
+        OnClickPaper.RemoveAllListeners();
+        OnClickPaper.AddListener(() =>
+        {
+            PaperDisplayer.RenderPaper(@event.Paper);
+            PostOpen.SetActive(false);
+            PostClosed.SetActive(true);
+            PutPaperAway();
+        });
     }
 
     public void PutPaperAway()
@@ -28,7 +38,7 @@ public class PaperStacker : MonoBehaviour, EventSubscriber, Savable
 
     private void RenderPapers()
     {
-        for (int i = 0; i < Papers.Count; i++)
+        for (int i = 0; i < PaperCount; i++)
         {
             Papers[i].SetActive(true);
         }
