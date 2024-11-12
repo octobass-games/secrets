@@ -8,6 +8,7 @@ public class DayManager : MonoBehaviour, Savable, EventSubscriber
 
     private DayDefinition Today;
     private int DailyEventIndex;
+    public Interaction SignInteraction;
 
     void Awake()
     {
@@ -87,6 +88,15 @@ public class DayManager : MonoBehaviour, Savable, EventSubscriber
         else if (nextEvent.Type == GameEventType.OPEN_SHOP)
         {
             NextEvent();
+        }
+        else
+        {
+            DialogueManager dialogueManager = FindAnyObjectByType<DialogueManager>();
+
+            if (dialogueManager != null)
+            {
+                dialogueManager.Begin(SignInteraction.RootLines[0], null);
+            }
         }
     }
 }

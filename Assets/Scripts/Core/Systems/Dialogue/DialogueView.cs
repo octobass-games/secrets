@@ -55,7 +55,10 @@ public class DialogueView : MonoBehaviour
         OnChoice = onChoice;
 
         TypeWritingCoroutine = TypeWriteLine();
-        speakerAnimator.SetTrigger("Talk");
+        if (speakerAnimator != null)
+        {
+            speakerAnimator.SetTrigger("Talk");
+        }
         StartCoroutine(TypeWritingCoroutine);
     }
 
@@ -84,7 +87,11 @@ public class DialogueView : MonoBehaviour
         IsWriting = false;
         Line.maxVisibleCharacters = LineToWrite.Length;
         Line.text = LineToWrite;
-        SpeakerAnimator.SetTrigger("DoneTalk");
+        if (SpeakerAnimator != null)
+        {
+            SpeakerAnimator.SetTrigger("DoneTalk");
+        }
+
     }
 
     public void WriteChoices(List<Choice> choices, Action<Choice> onChoice)
@@ -130,8 +137,10 @@ public class DialogueView : MonoBehaviour
             Line.maxVisibleCharacters = i + 1;
             yield return Timer;
         }
-
-        SpeakerAnimator.SetTrigger("DoneTalk");
+        if (SpeakerAnimator != null)
+        {
+            SpeakerAnimator.SetTrigger("DoneTalk");
+        }
         IsWriting = false;
     }
 }
