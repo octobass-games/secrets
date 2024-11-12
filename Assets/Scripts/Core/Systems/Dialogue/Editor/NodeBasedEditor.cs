@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
@@ -10,6 +11,10 @@ public class NodeBasedEditor : EditorWindow
 
     private Node ConnectionStart;
     private string SaveDirectoryPath;
+
+    private string TextImportString;
+    private CharacterDefinition DefaultSpeaker;
+    private bool ShowTextImportString;
     private Line RootLine;
     private Vector2 nextLoadedNodePosition = Vector2.zero;
 
@@ -78,6 +83,38 @@ public class NodeBasedEditor : EditorWindow
             }
         }
 
+        DefaultSpeaker = EditorGUILayout.ObjectField("DefaultSpeaker", DefaultSpeaker, typeof(CharacterDefinition), true) as CharacterDefinition;
+
+        ShowTextImportString = EditorGUILayout.Foldout(ShowTextImportString, "Text to import");
+        if (ShowTextImportString)
+        {
+            EditorStyles.textField.wordWrap = true;
+            TextImportString = EditorGUILayout.TextArea(TextImportString, GUILayout.Height(100));
+        }
+
+        if (GUILayout.Button("Import Text String"))
+        {
+            var formattedList = TextImportString.Split('\n').Select(s => s.Trim()).Where(s => s != "");
+            foreach (string text in formattedList)
+            {
+                if (text.StartsWith("C:"))
+                {
+                    Choice newChoice = ScriptableObject.CreateInstance<Choice>();
+                    newChoice.Text = text.Replace("C:", "").Trim();
+                    AddChoiceNode(new Vector2(nextLoadedNodePosition.x, 350), newChoice);
+                    nextLoadedNodePosition += new Vector2(300, 0);
+                }
+                else
+                {
+                    Line newLine = ScriptableObject.CreateInstance<Line>();
+                    newLine.Text = text;
+                    newLine.Speaker = DefaultSpeaker;
+                    AddLineNode(nextLoadedNodePosition, newLine);
+                    nextLoadedNodePosition += new Vector2(300, 0);
+                }
+            }
+        }
+
         GUILayout.EndHorizontal();
 
 
@@ -97,7 +134,7 @@ public class NodeBasedEditor : EditorWindow
             node.Draw();
         }
 
-        foreach(Connection connection in Connections)
+        foreach (Connection connection in Connections)
         {
             connection.Draw();
         }
@@ -116,7 +153,7 @@ public class NodeBasedEditor : EditorWindow
     private Node AddLineNode(Vector2 position, ScriptableObject baseScriptableObject)
     {
         Node node = new LineNode(position, 250, 250, OnRemoveNode, BeginConnection, EndConnection, baseScriptableObject);
-        
+
         Nodes.Add(node);
 
         return node;
@@ -147,7 +184,7 @@ public class NodeBasedEditor : EditorWindow
         {
             Connections.Add(new Connection(ConnectionStart, end));
         }
-     
+
         ConnectionStart = null;
     }
 
@@ -194,13 +231,13 @@ public class NodeBasedEditor : EditorWindow
         {
             if (node is LineNode)
             {
-                LineNode lineNode = (LineNode) node;
+                LineNode lineNode = (LineNode)node;
 
                 if (lineNode.Line.NextLine != null)
                 {
                     Node nextLine = Nodes.Find(n =>
                     {
-                        return n is LineNode && ((LineNode) n).Line == lineNode.Line.NextLine;
+                        return n is LineNode && ((LineNode)n).Line == lineNode.Line.NextLine;
                     });
 
                     BeginConnection(lineNode);
@@ -222,7 +259,7 @@ public class NodeBasedEditor : EditorWindow
             }
             else
             {
-                ChoiceNode choiceNode = (ChoiceNode) node;
+                ChoiceNode choiceNode = (ChoiceNode)node;
 
                 if (choiceNode.Choice.NextLine != null)
                 {
