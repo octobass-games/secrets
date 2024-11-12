@@ -17,7 +17,7 @@ MonoBehaviour:
   Text: "I\u2019ll be back in a month"
   NextLine: {fileID: 0}
   Events:
-  - Type: 1
+  - Type: 3
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}

@@ -1,40 +1,19 @@
 fileFormatVersion: 2
-guid: cbd0a29003638d245be0ead003875b29
+guid: fd14c9941e6b31f4b97e5da0d1705dd0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5923874019814326411
-    second: alphabett_0
+      213: 1134638392711005752
+    second: post-post_0
   - first:
-      213: -7499779229978165056
-    second: alphabett_1
+      213: 7366741905609876809
+    second: post-post_1
   - first:
-      213: -524649789574889836
-    second: alphabett_2
+      213: 9105366805914828853
+    second: post-post_2
   - first:
-      213: -1709963306821950050
-    second: alphabett_3
-  - first:
-      213: 616899833303326135
-    second: alphabett_4
-  - first:
-      213: -6432233321772273993
-    second: alphabett_5
-  - first:
-      213: -3727194175107887881
-    second: alphabett_6
-  - first:
-      213: 7919517678704994258
-    second: alphabett_7
-  - first:
-      213: 3395161467875609927
-    second: alphabett_8
-  - first:
-      213: 1172633807315262361
-    second: alphabett_9
-  - first:
-      213: 3573010311772145455
-    second: alphabett_10
+      213: 5447180841127405406
+    second: post-post_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,133 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: how to play
+      name: post-post_0
       rect:
         serializedVersion: 2
-        x: 285
-        y: 222
-        width: 94
-        height: 33
+        x: 0
+        y: 0
+        width: 162
+        height: 66
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b80c235f804d53250800000000000000
-      internalID: 5923874019814326411
+      spriteID: 8364f0a4b9b0fbf00800000000000000
+      internalID: 1134638392711005752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stamps
+      name: post-post_1
       rect:
         serializedVersion: 2
-        x: 288
-        y: 270
-        width: 101
-        height: 17
+        x: 162
+        y: 0
+        width: 162
+        height: 66
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f1539ffa8612a864684ccb3667d92522
-      internalID: 503895827
+      spriteID: 9456cd38bbceb3660800000000000000
+      internalID: 7366741905609876809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stamp
+      name: post-post_2
       rect:
         serializedVersion: 2
-        x: 448
-        y: 71
-        width: 21
-        height: 27
+        x: 324
+        y: 0
+        width: 162
+        height: 66
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eef6ab145f5fdf24d92036a249251429
-      internalID: 1028301638
+      spriteID: 530cf202ed2cc5e70800000000000000
+      internalID: 9105366805914828853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ding
+      name: post-post_3
       rect:
         serializedVersion: 2
-        x: 302
-        y: 90
-        width: 81
-        height: 16
+        x: 486
+        y: 0
+        width: 162
+        height: 66
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 22ef53406532547408b0aa05df71d21a
-      internalID: -1689300303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dingsmall
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 68
-        width: 41
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5ffc75bc8cd0cc439dcbb031e31e1f9
-      internalID: 349057371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: thump-small
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 215
-        width: 65
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2af87d3db872d5b44b215d0f4412e1d9
-      internalID: 1090066929
+      spriteID: e5766b65d16489b40800000000000000
+      internalID: 5447180841127405406
       vertices: []
       indices: 
       edges: []
@@ -278,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: f557d27f5d209444fa34eb1c8b458237
     internalID: 0
     vertices: []
     indices: 
@@ -288,22 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ding: -1689300303
-      Dingsmall: 349057371
-      alphabett_1: -7499779229978165056
-      alphabett_10: 3573010311772145455
-      alphabett_2: -524649789574889836
-      alphabett_3: -1709963306821950050
-      alphabett_4: 616899833303326135
-      alphabett_5: -6432233321772273993
-      alphabett_6: -3727194175107887881
-      alphabett_7: 7919517678704994258
-      alphabett_8: 3395161467875609927
-      alphabett_9: 1172633807315262361
-      how to play: 5923874019814326411
-      stamp: 1028301638
-      stamps: 503895827
-      thump-small: 1090066929
+      post-post_0: 1134638392711005752
+      post-post_1: 7366741905609876809
+      post-post_2: 9105366805914828853
+      post-post_3: 5447180841127405406
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

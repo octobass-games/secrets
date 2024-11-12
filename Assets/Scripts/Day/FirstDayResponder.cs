@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -17,9 +18,16 @@ public class FirstDayResponder : MonoBehaviour, EventSubscriber
         {
             // Start shop open on day one
             Sign.SetTrigger("OpenNoAnimation");
-
-            // Deliver post
-            DayManager.NextEvent();
+            StartCoroutine(WaitForNSecondsThenSendPost());
         }
+    }
+
+
+    IEnumerator WaitForNSecondsThenSendPost()
+    {
+        yield return new WaitForSeconds(4);
+
+        // Deliver post
+        DayManager.NextEvent();
     }
 }
