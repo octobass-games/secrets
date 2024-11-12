@@ -75,11 +75,15 @@ public class LineNode : Node
             {
                 if (connection.EndingNode is LineNode)
                 {
-                    Line.NextLine = ((LineNode) connection.EndingNode).Line;
+                    Line newLine = ((LineNode)connection.EndingNode).Line;
+                    Line.NextLine = newLine;
+                    EditorUtility.SetDirty(Line.NextLine);
                 }
                 else
                 {
-                    Line.Choices.Add(((ChoiceNode)connection.EndingNode).Choice);
+                    Choice endingChoice = ((ChoiceNode)connection.EndingNode).Choice;
+                    Line.Choices.Add(endingChoice);
+                    EditorUtility.SetDirty(endingChoice);
                 }
             }
             else if (connection.EndingNode == this)
@@ -87,6 +91,8 @@ public class LineNode : Node
                 Debug.Log("This is an ending node!");
             }
         }
+
+        EditorUtility.SetDirty(Line);
     }
 
     public override void SaveScriptableObject(string pathToDirectory)

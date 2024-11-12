@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-7d8afa36-d186-4ac6-9837-9f1b33be9d72
+  m_Name: choice-e140f9ec-dd13-48e0-90b5-c261fca995e4
   m_EditorClassIdentifier: 
-  Id: 7d8afa36-d186-4ac6-9837-9f1b33be9d72
-  Text: Well, it was worth a try. Here you go
+  Id: e140f9ec-dd13-48e0-90b5-c261fca995e4
+  Text: c
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 0}

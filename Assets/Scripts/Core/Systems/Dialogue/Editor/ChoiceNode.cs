@@ -67,13 +67,16 @@ public class ChoiceNode : Node
         {
             if (connection.StartingNode == this)
             {
-                Choice.NextLine = ((LineNode)connection.EndingNode).Line;
+                Line line = ((LineNode)connection.EndingNode).Line;
+                Choice.NextLine = line;
+                EditorUtility.SetDirty(line);
             }
             else if (connection.EndingNode == this)
             {
                 Debug.Log("This is an ending node!");
             }
         }
+        EditorUtility.SetDirty(Choice);
     }
 
     public override void SaveScriptableObject(string pathToDirectory)

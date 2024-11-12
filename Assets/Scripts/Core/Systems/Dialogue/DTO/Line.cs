@@ -11,8 +11,4 @@ public class Line : ScriptableObject
     public List<GameEvent> Events;
     public List<Choice> Choices;
 
-    void Reset()
-    {
-        Debug.Log("Is Resetting");
-    }
 }

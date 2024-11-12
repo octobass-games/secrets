@@ -58,6 +58,7 @@ public class NodeBasedEditor : EditorWindow
                 }
 
                 AssetDatabase.SaveAssets();
+                AssetDatabase.Refresh();
             }
             else
             {

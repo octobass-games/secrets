@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
   m_Name: root
   m_EditorClassIdentifier: 
-  Id: a7d9025f-b101-43f3-94d5-1dfb2ca4742c
+  Id: a4a9d9bb-49e8-4a41-b9bf-2a9985eb5532
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: Good evening
+  Text: a
   NextLine: {fileID: 0}
   Events: []
   Choices: []
