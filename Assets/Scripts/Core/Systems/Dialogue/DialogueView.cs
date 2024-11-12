@@ -84,6 +84,7 @@ public class DialogueView : MonoBehaviour
         IsWriting = false;
         Line.maxVisibleCharacters = LineToWrite.Length;
         Line.text = LineToWrite;
+        SpeakerAnimator.SetTrigger("DoneTalk");
     }
 
     public void WriteChoices(List<Choice> choices, Action<Choice> onChoice)

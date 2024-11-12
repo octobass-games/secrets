@@ -526,8 +526,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../FMOD/Secret/Secret.fspro
-  sourceBankPath: ../../FMOD/Secret/Build
+  sourceProjectPath: FMOD/Secret/Secret.fspro
+  sourceBankPath: FMOD/Secret/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
