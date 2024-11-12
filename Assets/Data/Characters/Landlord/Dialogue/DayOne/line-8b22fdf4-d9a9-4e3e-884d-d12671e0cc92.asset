@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-8b22fdf4-d9a9-4e3e-884d-d12671e0cc92
   m_EditorClassIdentifier: 
-  Id: 1c055f41-f6a3-4d0d-ba75-3679f6f43f35
+  Id: 8b22fdf4-d9a9-4e3e-884d-d12671e0cc92
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: Good evening
-  NextLine: {fileID: 11400000, guid: 3810da58391571f44a67cfa8c97e022d, type: 2}
+  Text: Oh really, and which law would I be breaking?
+  NextLine: {fileID: 0}
   Events: []
-  Choices: []
+  Choices:
+  - {fileID: 11400000, guid: 625ee36fefd6d2343b404b238e42a811, type: 2}
+  - {fileID: 11400000, guid: 21baee68225279348addc5eeb8abca13, type: 2}

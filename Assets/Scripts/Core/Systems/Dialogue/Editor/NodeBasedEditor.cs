@@ -57,6 +57,12 @@ public class NodeBasedEditor : EditorWindow
                     node.SaveScriptableObject(relativePathToSaveDirectory);
                 }
 
+                foreach (Node node in Nodes)
+                {
+                    node.ProcessConnections(Connections);
+                    node.SaveScriptableObject(relativePathToSaveDirectory);
+                }
+
                 AssetDatabase.SaveAssets();
                 AssetDatabase.Refresh();
             }

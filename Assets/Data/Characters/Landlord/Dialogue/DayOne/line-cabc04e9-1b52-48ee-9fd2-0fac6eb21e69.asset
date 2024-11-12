@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-cabc04e9-1b52-48ee-9fd2-0fac6eb21e69
   m_EditorClassIdentifier: 
-  Id: 1c055f41-f6a3-4d0d-ba75-3679f6f43f35
+  Id: cabc04e9-1b52-48ee-9fd2-0fac6eb21e69
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: Good evening
-  NextLine: {fileID: 11400000, guid: 3810da58391571f44a67cfa8c97e022d, type: 2}
+  Text: "Nice try, but unfortunately for you I\u2019m aware of the laws in this area."
+  NextLine: {fileID: 0}
   Events: []
-  Choices: []
+  Choices:
+  - {fileID: 11400000, guid: c47ad45c0d6583844953db3765ae8275, type: 2}
