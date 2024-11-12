@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: root-landlord-payment
   m_EditorClassIdentifier: 
   Id: a3b40ee8-cf00-41b5-a17b-1a18c1f4176d
   Speaker: Landlord
