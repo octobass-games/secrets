@@ -8600,6 +8600,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158395889}
   m_CullTransparentMesh: 1
+--- !u!1 &1187112964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1187112965}
+  - component: {fileID: 1187112966}
+  m_Layer: 0
+  m_Name: FirstDayResponder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1187112965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187112964}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1425153796}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1187112966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187112964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3010d08d007d614da6befb7f3a27766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sign: {fileID: 839077695}
+  DayOne: {fileID: 11400000, guid: a51c3613560d77a4888136ca0845abcd, type: 2}
 --- !u!1 &1197534000
 GameObject:
   m_ObjectHideFlags: 0
@@ -9554,6 +9600,7 @@ Transform:
   m_Children:
   - {fileID: 1393925367}
   - {fileID: 1688612637}
+  - {fileID: 1187112965}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1429015554
@@ -12117,14 +12164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f00a3a25d89738f46bce2650c63a07b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Calendar: {fileID: 0}
-  PaperCount: 0
-  PaperOne: {fileID: 1998001666}
-  PaperTwo: {fileID: 1597355788}
-  PaperThree: {fileID: 675350297}
-  PaperFour: {fileID: 424053805}
   PostOpen: {fileID: 0}
   PostClosed: {fileID: 0}
+  Papers: []
 --- !u!1 &1836226114
 GameObject:
   m_ObjectHideFlags: 0
