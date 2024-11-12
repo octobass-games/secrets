@@ -26,7 +26,7 @@ public class DialogueManager : MonoBehaviour
     {
         var choices = LineToSpeak.Choices.FindAll(c => RequirementManager.AllSatisfied(c.Requirements));
 
-        ConversationView.Display(LineToSpeak.Speaker, LineToSpeak.Text, choices, OnChoice);
+        ConversationView.Display(LineToSpeak.Speaker.Name, LineToSpeak.Text, choices, OnChoice);
     }
 
     private void RunLineEvents()

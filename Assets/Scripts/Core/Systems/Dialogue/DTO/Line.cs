@@ -4,7 +4,7 @@ using UnityEngine;
 public class Line : ScriptableObject
 {
     public string Id;
-    public string Speaker;
+    public CharacterDefinition Speaker;
     [TextArea]
     public string Text;
     public Line NextLine;
