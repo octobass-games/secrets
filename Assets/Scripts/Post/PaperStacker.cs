@@ -23,7 +23,7 @@ public class PaperStacker : MonoBehaviour, EventSubscriber, Savable
         OnClickPaper.RemoveAllListeners();
         OnClickPaper.AddListener(() =>
         {
-            PaperDisplayer.RenderPaper(@event.Paper);
+            PaperDisplayer.RenderPaperFirstTime(@event.Paper);
             PostOpen.SetActive(false);
             PostClosed.SetActive(true);
             PutPaperAway();

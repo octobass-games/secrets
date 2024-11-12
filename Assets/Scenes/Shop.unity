@@ -2435,6 +2435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IssueOne: {fileID: 921446002}
+  IssueOneClose: {fileID: 792621084}
   IssueTwo: {fileID: 0}
   IssueThree: {fileID: 0}
   IssueFour: {fileID: 0}
@@ -2442,6 +2443,7 @@ MonoBehaviour:
   PaperIssueTwo: {fileID: 0}
   PaperIssueThree: {fileID: 0}
   PaperIssueFour: {fileID: 0}
+  DayManager: {fileID: 1425153795}
 --- !u!1 &335044016
 GameObject:
   m_ObjectHideFlags: 0
@@ -5720,7 +5722,7 @@ GameObject:
   - component: {fileID: 792621085}
   - component: {fileID: 792621084}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CloseIssueOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5733,7 +5735,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792621082}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5791,18 +5793,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 921446002}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -7616,9 +7606,8 @@ GameObject:
   - component: {fileID: 971544724}
   - component: {fileID: 971544727}
   - component: {fileID: 971544726}
-  - component: {fileID: 971544725}
   m_Layer: 5
-  m_Name: LogBook
+  m_Name: Paper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7644,24 +7633,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 480, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &971544725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971544723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46431de3a1d586e4a8a73e58a312b4f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  KeySalePrefab: {fileID: 7461511731230029210, guid: f46215dbf3f2506449a11aac0914096c, type: 3}
-  KeySaleContainer: {fileID: 0}
-  OtherSalePrefab: {fileID: 3419999866813948318, guid: 32e178a21e59ce547bd418619549d6df, type: 3}
-  OtherSaleContainer: {fileID: 0}
-  OutgoingsPrefab: {fileID: 7622402553243062626, guid: ebae43d63bbf35247bff21e42941a04e, type: 3}
-  OutgoingsContainer: {fileID: 0}
 --- !u!114 &971544726
 MonoBehaviour:
   m_ObjectHideFlags: 0
