@@ -9,9 +9,11 @@ public class DialogueManager : MonoBehaviour
     public History History;
 
     private Line LineToSpeak;
+    private Animator SpeakerAnimator;
 
-    public void Begin(Line root)
+    public void Begin(Line root, Animator speakerAnimator)
     {
+        this.SpeakerAnimator = speakerAnimator;
         ConversationView.Open();
         LineToSpeak = root;
         SpeakLine();
@@ -26,7 +28,7 @@ public class DialogueManager : MonoBehaviour
     {
         var choices = LineToSpeak.Choices.FindAll(c => RequirementManager.AllSatisfied(c.Requirements));
 
-        ConversationView.Display(LineToSpeak.Speaker.Name, LineToSpeak.Text, choices, OnChoice);
+        ConversationView.Display(LineToSpeak.Speaker.Name, LineToSpeak.Text, choices, OnChoice, SpeakerAnimator);
     }
 
     private void RunLineEvents()

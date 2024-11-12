@@ -12403,6 +12403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
+  SpeakerAnimator: {fileID: 708120567}
 --- !u!1 &1829038887
 GameObject:
   m_ObjectHideFlags: 0

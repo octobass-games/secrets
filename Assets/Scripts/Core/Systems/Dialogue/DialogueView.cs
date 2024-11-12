@@ -25,6 +25,8 @@ public class DialogueView : MonoBehaviour
 
     private bool IsWriting = false;
 
+    private Animator SpeakerAnimator;
+
     void Awake()
     {
         Timer = new WaitForSecondsRealtime(0.025f);
@@ -40,9 +42,10 @@ public class DialogueView : MonoBehaviour
         Canvas.SetActive(false);
     }
 
-    public void Display(string speaker, string text, List<Choice> choices, Action<Choice> onChoice)
+    public void Display(string speaker, string text, List<Choice> choices, Action<Choice> onChoice, Animator speakerAnimator)
     {
         Clear();
+        SpeakerAnimator = speakerAnimator;
         DarkOverlay.SetActive(false);
 
         Speaker.text = speaker;
@@ -52,6 +55,7 @@ public class DialogueView : MonoBehaviour
         OnChoice = onChoice;
 
         TypeWritingCoroutine = TypeWriteLine();
+        speakerAnimator.SetTrigger("Talk");
         StartCoroutine(TypeWritingCoroutine);
     }
 
@@ -126,6 +130,7 @@ public class DialogueView : MonoBehaviour
             yield return Timer;
         }
 
+        SpeakerAnimator.SetTrigger("DoneTalk");
         IsWriting = false;
     }
 }

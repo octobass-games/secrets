@@ -5,6 +5,7 @@ using UnityEngine;
 public class Character : MonoBehaviour, Savable, EventSubscriber
 {
     public CharacterDefinition CharacterDefinition;
+    public Animator SpeakerAnimator;
 
     private List<Interaction> Interactions;
     private Interaction CurrentInteraction;
@@ -28,7 +29,7 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
 
         if (dialogueManager != null)
         {
-            dialogueManager.Begin(CurrentInteraction.RootLines[CurrentInteractionDialogueIndex]);
+            dialogueManager.Begin(CurrentInteraction.RootLines[CurrentInteractionDialogueIndex], SpeakerAnimator);
         }
     }
 
