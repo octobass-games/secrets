@@ -11,6 +11,7 @@ public class DialogueView : MonoBehaviour
     public GameObject ResponsePrefab;
     public RectTransform ResponseSpawn;
     public GameObject DarkOverlay;
+    public VerticalLayoutGroup ChoicesContainer;
 
     public TMP_Text Speaker;
     public TMP_Text Line;
@@ -108,9 +109,9 @@ public class DialogueView : MonoBehaviour
 
                 GameObject go = Instantiate(ResponsePrefab, ResponseSpawn);
 
-                go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y + 180 * i, go.transform.position.z);
                 go.GetComponentInChildren<TMP_Text>().text = choice.Text;
                 go.GetComponentInChildren<Button>().onClick.AddListener(() => onChoice(choice));
+                go.transform.SetParent(ChoicesContainer.transform);
 
                 Responses.Add(go);
             }
