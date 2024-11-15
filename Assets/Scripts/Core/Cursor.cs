@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -9,6 +10,7 @@ public class Cursor : MonoBehaviour
     public Texture2D ClickableCursor;
     
     private Vector2 CursorHotspot = Vector2.zero;
+    private List<RaycastResult> UiObjectsUnderCursor = new();
 
     void Awake()
     {
@@ -17,56 +19,50 @@ public class Cursor : MonoBehaviour
 
     void Update()
     {
-        if (EventSystem.current.IsPointerOverGameObject())
+        if (IsClickableBeneathCursor())
         {
-            PointerEventData ped = new PointerEventData(EventSystem.current);
-            ped.position = Input.mousePosition;
-            List<RaycastResult> results = new();
-            
-            EventSystem.current.RaycastAll(ped, results);
-
-            bool isButton = false;
-
-            foreach (RaycastResult r in results) {
-                if (r.gameObject.GetComponent<Button>() != null)
-                {
-                    isButton = true;
-                }
-            }
-
-            if (isButton)
-            {
-                    SetClickableCursor();
-            }
-            else
-            {
-                SetNeutralCursor();
-            }
+            SetClickableCursor();
         }
-        else if (Camera.main != null)
+        else
         {
-            var mousePosition = Input.mousePosition;
-
-            var ray = Camera.main.ScreenPointToRay(mousePosition);
-            var hit = Physics2D.Raycast(ray.origin, ray.direction);
-
-            if (hit.collider?.GetComponent<Clickable>() != null)
-            {
-                SetClickableCursor();
-            }
-            else
-            {
-                SetNeutralCursor();
-            }
+            SetNeutralCursor();
         }
     }
 
-    public void SetNeutralCursor()
+    private bool IsClickableBeneathCursor()
+    {
+        UiObjectsUnderCursor.Clear();
+
+        var cursorPosition = Input.mousePosition;
+
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            PointerEventData ped = new(EventSystem.current)
+            {
+                position = cursorPosition
+            };
+
+            EventSystem.current.RaycastAll(ped, UiObjectsUnderCursor);
+
+            return UiObjectsUnderCursor.Any(result => result.gameObject.GetComponent<Button>() != null);
+        }
+        else if (Camera.main != null)
+        {
+            var ray = Camera.main.ScreenPointToRay(cursorPosition);
+            var hit = Physics2D.Raycast(ray.origin, ray.direction);
+
+            return hit.collider?.GetComponent<Clickable>() != null;
+        }
+
+        return false;
+    }
+
+    private void SetNeutralCursor()
     {
         SetCursor(NeutralCursor);
     }
 
-    public void SetClickableCursor()
+    private void SetClickableCursor()
     {
         SetCursor(ClickableCursor);
     }
