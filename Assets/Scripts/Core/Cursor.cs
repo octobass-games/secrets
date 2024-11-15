@@ -51,7 +51,7 @@ public class Cursor : MonoBehaviour
             var ray = Camera.main.ScreenPointToRay(cursorPosition);
             var hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-            return hit.collider?.GetComponent<Clickable>() != null;
+            return hit && hit.collider.GetComponent<Clickable>() != null;
         }
 
         return false;
