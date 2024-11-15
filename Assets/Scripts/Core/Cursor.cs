@@ -37,12 +37,12 @@ public class Cursor : MonoBehaviour
 
         if (EventSystem.current.IsPointerOverGameObject())
         {
-            PointerEventData ped = new(EventSystem.current)
+            PointerEventData @event = new(EventSystem.current)
             {
                 position = cursorPosition
             };
 
-            EventSystem.current.RaycastAll(ped, UiObjectsUnderCursor);
+            EventSystem.current.RaycastAll(@event, UiObjectsUnderCursor);
 
             return UiObjectsUnderCursor.Any(result => result.gameObject.GetComponent<Button>() != null);
         }
