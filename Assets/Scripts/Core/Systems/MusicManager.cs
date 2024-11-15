@@ -4,7 +4,7 @@ public class MusicManager : MonoBehaviour
 {
     public static MusicManager Instance { get; private set; }
 
-    public FMODUnity.EventReference Track;
+    public string Track;
 
     private FMOD.Studio.EventInstance MusicInstance;
 
@@ -43,14 +43,14 @@ public class MusicManager : MonoBehaviour
             MusicInstance.clearHandle();
         }
 
-        Track = FMODUnity.EventReference.Find(track);
+        Track = track;
 
         CreateAndPlayInstance();
     }
 
     private void CreateAndPlayInstance()
     {
-        if (!Track.IsNull)
+        if (Track != null && Track != "")
         { 
             MusicInstance = FMODUnity.RuntimeManager.CreateInstance(Track);
             MusicInstance.start();
