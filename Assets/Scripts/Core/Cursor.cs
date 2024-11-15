@@ -31,12 +31,12 @@ public class Cursor : MonoBehaviour
 
     private bool IsClickableBeneathCursor()
     {
-        UiObjectsUnderCursor.Clear();
-
         var cursorPosition = Input.mousePosition;
 
         if (EventSystem.current.IsPointerOverGameObject())
         {
+            UiObjectsUnderCursor.Clear();
+            
             PointerEventData @event = new(EventSystem.current)
             {
                 position = cursorPosition
