@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PaperStacker : MonoBehaviour, EventSubscriber, Savable
+public class PaperStacker : MonoBehaviour, Savable
 {
     public GameObject PostOpen;
     public GameObject PostClosed;
@@ -12,10 +12,10 @@ public class PaperStacker : MonoBehaviour, EventSubscriber, Savable
 
     void Awake()
     {
-        EventManager.Instance.Subscribe(GameEventType.PAPER_ARRIVED, this);
+        EventManager.Instance.Subscribe(GameEventType.PAPER_ARRIVED, OnPaperArrived);
     }
 
-    public void OnReceive(GameEvent @event)
+    public void OnPaperArrived(GameEvent @event)
     {
         PostOpen.SetActive(true);
         PostClosed.SetActive(true);

@@ -1,14 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VisitorManager : MonoBehaviour, EventSubscriber
+public class VisitorManager : MonoBehaviour
 {
     public List<Character> Visitors;
 
     void Awake()
     {
-        EventManager.Instance.Subscribe(GameEventType.VISITOR_ARRIVAL, this);
-        EventManager.Instance.Subscribe(GameEventType.VISITOR_DEPARTURE, this);
+        EventManager.Instance.Subscribe(GameEventType.VISITOR_ARRIVAL, OnVisitorArrival);
+        EventManager.Instance.Subscribe(GameEventType.VISITOR_DEPARTURE, OnVisitorDeparture);
     }
 
     void Start()
@@ -16,16 +16,15 @@ public class VisitorManager : MonoBehaviour, EventSubscriber
         Visitors.ForEach(v => v.gameObject.SetActive(false));
     }
 
-    public void OnReceive(GameEvent @event)
+    public void OnVisitorArrival(GameEvent @event)
     {
-        if (@event.Type == GameEventType.VISITOR_ARRIVAL)
-        {
-            SetCharacterState(@event.Character, true);
-        }
-        else if (@event.Type == GameEventType.VISITOR_DEPARTURE)
-        {
-            SetCharacterState(@event.Character, false);
-        }
+        SetCharacterState(@event.Character, true);
+
+    }
+
+    public void OnVisitorDeparture(GameEvent @event)
+    {
+        SetCharacterState(@event.Character, false);
     }
 
     private void SetCharacterState(CharacterDefinition character, bool isActive)

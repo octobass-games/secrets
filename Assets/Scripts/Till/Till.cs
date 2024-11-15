@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Till : MonoBehaviour, Savable, EventSubscriber
+public class Till : MonoBehaviour, Savable
 {
     public Inventory Inventory;
 
@@ -14,7 +14,7 @@ public class Till : MonoBehaviour, Savable, EventSubscriber
 
     void Start()
     {
-        FindFirstObjectByType<EventManager>().Subscribe(GameEventType.INVENTORY_SELL, this);
+        EventManager.Instance.Subscribe(GameEventType.INVENTORY_SELL, OnInventorySell);
     }
 
     public void Withdraw(int amount)
@@ -41,7 +41,7 @@ public class Till : MonoBehaviour, Savable, EventSubscriber
         Balance = saveData.Account.Balance;
     }
 
-    public void OnReceive(GameEvent @event)
+    public void OnInventorySell(GameEvent @event)
     {
         // Todo: Handle decrementing book stock etc.
         Balance += Inventory.GetBook().GetSellPrice();

@@ -2,17 +2,17 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class FirstDayResponder : MonoBehaviour, EventSubscriber
+public class FirstDayResponder : MonoBehaviour
 {
     public Animator Sign;
     public DayDefinition DayOne;
     public DayManager DayManager;
     void Awake()
     {
-        EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, this);
+        EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
     }
     
-    public void OnReceive(GameEvent @event)
+    public void OnBeginDay(GameEvent @event)
     {
         if (@event.Day == DayOne)
         {
@@ -21,7 +21,6 @@ public class FirstDayResponder : MonoBehaviour, EventSubscriber
             StartCoroutine(WaitForNSecondsThenSendPost());
         }
     }
-
 
     IEnumerator WaitForNSecondsThenSendPost()
     {

@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class History : MonoBehaviour, Savable, EventSubscriber
+public class History : MonoBehaviour, Savable
 {
     private List<string> Events = new();
 
     void Start()
     {
-        FindFirstObjectByType<EventManager>().Subscribe(GameEventType.HISTORY, this);
+        EventManager.Instance.Subscribe(GameEventType.HISTORY, OnHistoricalEvent);
     }
 
     public void Record(string eventName)
@@ -31,7 +31,7 @@ public class History : MonoBehaviour, Savable, EventSubscriber
         saveData.History= new HistoryData(Events);
     }
 
-    public void OnReceive(GameEvent @event)
+    public void OnHistoricalEvent(GameEvent @event)
     {
         Record(@event.Memory);
     }

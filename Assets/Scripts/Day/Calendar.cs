@@ -1,16 +1,16 @@
 using TMPro;
 using UnityEngine;
 
-public class Calendar : MonoBehaviour, EventSubscriber
+public class Calendar : MonoBehaviour
 {
     public TMP_Text View;
 
     void Awake()
     {
-        EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, this);
+        EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
     }
     
-    public void OnReceive(GameEvent @event)
+    public void OnBeginDay(GameEvent @event)
     {
         if (@event.Day != null)
         {

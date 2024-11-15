@@ -1,11 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public delegate void EventHandler(GameEvent gameEvent);
+
 public class EventManager : MonoBehaviour
 {
     public static EventManager Instance {  get; private set; }
 
-    private Dictionary<GameEventType, List<EventSubscriber>> EventSubscribers = new();
+    private Dictionary<GameEventType, List<EventHandler>> EventSubscribers = new();
 
     void Awake()
     {
@@ -20,7 +22,7 @@ public class EventManager : MonoBehaviour
         }
     }
 
-    public void Subscribe(GameEventType eventType, EventSubscriber receiver)
+    public void Subscribe(GameEventType eventType, EventHandler receiver)
     {
         if (Instance.EventSubscribers.ContainsKey(eventType))
         {
@@ -32,7 +34,7 @@ public class EventManager : MonoBehaviour
         }
     }
 
-    public void Unsubscribe(GameEventType eventType, EventSubscriber receiver)
+    public void Unsubscribe(GameEventType eventType, EventHandler receiver)
     {
         if (Instance.EventSubscribers.ContainsKey(eventType))
         {
@@ -51,7 +53,7 @@ public class EventManager : MonoBehaviour
             // unsubscribe in their OnReceive
             for (int i = Instance.EventSubscribers[eventName].Count - 1; i >= 0; i--)
             {
-                Instance.EventSubscribers[eventName][i].OnReceive(gameEvent);
+                Instance.EventSubscribers[eventName][i](gameEvent);
             }
         }
     }

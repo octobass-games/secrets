@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class DayManager : MonoBehaviour, Savable, EventSubscriber
+public class DayManager : MonoBehaviour, Savable
 {
     public List<DayDefinition> DayDefinitions = new();
 
@@ -12,7 +12,7 @@ public class DayManager : MonoBehaviour, Savable, EventSubscriber
 
     void Awake()
     {
-        EventManager.Instance.Subscribe(GameEventType.NEXT_DAILY_EVENT, this);
+        EventManager.Instance.Subscribe(GameEventType.NEXT_DAILY_EVENT, OnNextDailyEvent);
     }
 
     void Start()
@@ -52,7 +52,7 @@ public class DayManager : MonoBehaviour, Savable, EventSubscriber
         return DayDefinitions.Find(d => !d.IsInThePast);
     }
 
-    public void OnReceive(GameEvent @event)
+    public void OnNextDailyEvent(GameEvent @event)
     {
         if (Today.DailyEvents.Count > DailyEventIndex + 1)
         {

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class Character : MonoBehaviour, Savable, EventSubscriber
+public class Character : MonoBehaviour, Savable
 {
     public CharacterDefinition CharacterDefinition;
     public Animator SpeakerAnimator;
@@ -18,7 +18,7 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
 
     void Start()
     {
-        FindFirstObjectByType<EventManager>().Subscribe(GameEventType.INTERACTION_ADVANCE, this);
+        EventManager.Instance.Subscribe(GameEventType.INTERACTION_ADVANCE, OnInteractionAdvance);
     }
 
     public void BeginInteraction()
@@ -53,7 +53,7 @@ public class Character : MonoBehaviour, Savable, EventSubscriber
         saveData.Characters.Add(characterData);
     }
 
-    public void OnReceive(GameEvent _)
+    public void OnInteractionAdvance(GameEvent _)
     {
         if (CurrentInteractionDialogueIndex < CurrentInteraction.RootLines.Count - 1)
         {

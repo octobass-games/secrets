@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bookkeeper : MonoBehaviour, EventSubscriber, Savable
+public class Bookkeeper : MonoBehaviour, Savable
 {
     public List<BookDefinition> Books;
 
@@ -15,10 +15,10 @@ public class Bookkeeper : MonoBehaviour, EventSubscriber, Savable
 
     void Awake()
     {
-        EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, this);
+        EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
     }
     
-    public void OnReceive(GameEvent @event)
+    public void OnBeginDay(GameEvent @event)
     {
         SalesRecords = new();
         BookSalesToday = new();
