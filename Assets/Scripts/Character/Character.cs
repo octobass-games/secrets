@@ -42,16 +42,25 @@ public class Character : MonoBehaviour, Savable
 
     public void Load(SaveData saveData)
     {
-        // TODO: handle loading of tidbits
         CharacterData characterData = saveData.Characters.Find(c => c.Name == CharacterDefinition.Name);
 
         CharacterDefinition.Relationship = characterData.Relationship;
+        CharacterDefinition.Tidbits.ForEach(t =>
+        {
+            var savedTidbit = characterData.CharacterTidbits.Find(td => t.Id == td.Id);
+
+            if (savedTidbit != null)
+            {
+                t.IsUnlocked = savedTidbit.IsUnlocked;
+            }
+        });
     }
 
     public void Save(SaveData saveData)
     {
-        // TODO: handle saving of tidbits
-        CharacterData characterData = new(CharacterDefinition.Name, CharacterDefinition.Relationship, new List<string>());
+        List<CharacterTidbitData> characterTidbitsData = CharacterDefinition.Tidbits.Select(t => new CharacterTidbitData(t.Id, t.IsUnlocked)).ToList();
+
+        CharacterData characterData = new(CharacterDefinition.Name, CharacterDefinition.Relationship, characterTidbitsData);
 
         saveData.Characters.Add(characterData);
     }
@@ -72,6 +81,6 @@ public class Character : MonoBehaviour, Savable
     {
         var tidbit = CharacterDefinition.Tidbits.Find(t => t == @event.CharacterTidbit);
 
-        tidbit.Unlocked = true;
+        tidbit.IsUnlocked = true;
     }
 }

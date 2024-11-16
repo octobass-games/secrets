@@ -6,9 +6,9 @@ public class CharacterData
 {
     public string Name;
     public int Relationship;
-    public List<string> CharacterTidbits;
+    public List<CharacterTidbitData> CharacterTidbits;
 
-    public CharacterData(string name, int relationship, List<string> characterTidbits)
+    public CharacterData(string name, int relationship, List<CharacterTidbitData> characterTidbits)
     {
         Name = name;
         Relationship = relationship;
