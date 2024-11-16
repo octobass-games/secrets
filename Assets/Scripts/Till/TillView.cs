@@ -12,12 +12,18 @@ public class TillView : MonoBehaviour
     private IEnumerator ChangeVisibleBalanceCoroutine;
     private WaitForSecondsRealtime WaitBetweenChanges = new(0.0050f);
 
+    public void DisplayImmediately(int amount)
+    {
+        TryStopChangingBalance();
+
+        Balance = amount;
+
+        VisibleBalance.text = Balance.ToString();
+    }
+
     public void Display(int amount)
     {
-        if (ChangeVisibleBalanceCoroutine != null)
-        {
-            StopCoroutine(ChangeVisibleBalanceCoroutine);
-        }
+        TryStopChangingBalance();
 
         ChangeVisibleBalanceCoroutine = ChangeVisibleBalance(amount);
 
@@ -43,5 +49,15 @@ public class TillView : MonoBehaviour
         }
 
         ChangeVisibleBalanceCoroutine = null;
+    }
+
+    private void TryStopChangingBalance()
+    {
+        if (ChangeVisibleBalanceCoroutine != null)
+        {
+            StopCoroutine(ChangeVisibleBalanceCoroutine);
+
+            ChangeVisibleBalanceCoroutine = null;
+        }
     }
 }

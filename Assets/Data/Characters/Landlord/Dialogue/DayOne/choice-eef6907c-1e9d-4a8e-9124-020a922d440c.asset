@@ -14,7 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: eef6907c-1e9d-4a8e-9124-020a922d440c
   Text: Well, it was worth a try. Here you go
-  Events: []
+  Events:
+  - Type: 11
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    Amount: 8000
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: bdd74993ae3defa409f7212fc3015d63, type: 2}
   Requirements: []

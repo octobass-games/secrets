@@ -4,10 +4,11 @@ using UnityEngine;
 public class Bookkeeper : MonoBehaviour, Savable
 {
     public List<BookDefinition> Books;
+    public TillView TillView;
 
     private DayDefinition Today;
     private List<BookSale> BookSalesToday;
-    private int BankBalance;
+    private int BankBalance = 10000;
     private List<SalesRecord> SalesRecords;
     private List<BookOrder> BookOrders;
 
@@ -16,6 +17,9 @@ public class Bookkeeper : MonoBehaviour, Savable
     void Awake()
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
+        EventManager.Instance.Subscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
+
+        TillView.DisplayImmediately(BankBalance);
     }
     
     public void OnBeginDay(GameEvent @event)
@@ -24,6 +28,13 @@ public class Bookkeeper : MonoBehaviour, Savable
         BookSalesToday = new();
         BookOrders = new();
         Today = @event.Day;
+    }
+
+    public void OnBankWithdrawal(GameEvent @event)
+    {
+        BankBalance -= @event.Amount;
+
+        TillView.Display(BankBalance);
     }
 
     public void UpdateBooks()

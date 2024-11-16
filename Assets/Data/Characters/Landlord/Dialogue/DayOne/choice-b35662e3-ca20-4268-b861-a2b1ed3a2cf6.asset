@@ -14,7 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: b35662e3-ca20-4268-b861-a2b1ed3a2cf6
   Text: "Hmm, I suppose I don\u2019t. Here you go"
-  Events: []
+  Events:
+  - Type: 11
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    Amount: 7900
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: bdd74993ae3defa409f7212fc3015d63, type: 2}
   Requirements: []
