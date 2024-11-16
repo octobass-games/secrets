@@ -42,6 +42,7 @@ public class Character : MonoBehaviour, Savable
 
     public void Load(SaveData saveData)
     {
+        // TODO: handle loading of tidbits
         CharacterData characterData = saveData.Characters.Find(c => c.Name == CharacterDefinition.Name);
 
         CharacterDefinition.Relationship = characterData.Relationship;
@@ -49,6 +50,7 @@ public class Character : MonoBehaviour, Savable
 
     public void Save(SaveData saveData)
     {
+        // TODO: handle saving of tidbits
         CharacterData characterData = new(CharacterDefinition.Name, CharacterDefinition.Relationship, new List<string>());
 
         saveData.Characters.Add(characterData);
