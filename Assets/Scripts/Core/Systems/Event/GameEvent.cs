@@ -9,5 +9,6 @@ public class GameEvent
     public BookDefinition BookName;
     public DayDefinition Day;
     public CharacterDefinition Character;
+    public CharacterTidbit CharacterTidbit;
     public int Amount;
 }

@@ -1,11 +1,9 @@
-using System;
 using UnityEngine;
 
-[Serializable]
-public class CharacterTidbit
+[CreateAssetMenu]
+public class CharacterTidbit : ScriptableObject
 {
-    public string Requirement;
-
     [TextArea]
     public string Tidbit;
+    public bool Unlocked;
 }

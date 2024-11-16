@@ -17,5 +17,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4300c25257f64054db8011080f3cd042, type: 2}
   Relationship: 0
   Profile: {fileID: -2769040249091391924, guid: dd06d36d7c5372e468f756bb34d5db17, type: 3}
-  Animator: {fileID: 9100000, guid: 0eac1453b91d36a4aad673e9598b9f68, type: 2}
-  Tidbits: []
+  Tidbits:
+  - {fileID: 11400000, guid: 450eea2c09a08f24199f4912ac9ecf8b, type: 2}

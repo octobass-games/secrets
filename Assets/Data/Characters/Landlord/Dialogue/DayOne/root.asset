@@ -16,5 +16,13 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
   Text: Good evening
   NextLine: {fileID: 11400000, guid: 3810da58391571f44a67cfa8c97e022d, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 450eea2c09a08f24199f4912ac9ecf8b, type: 2}
+    Amount: 0
   Choices: []

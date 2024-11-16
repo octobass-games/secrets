@@ -8,5 +8,5 @@ public class CharacterDefinition : ScriptableObject
     public List<Interaction> Interactions;
     public int Relationship;
     public Sprite Profile;
-    public CharacterTidbit[] Tidbits;
+    public List<CharacterTidbit> Tidbits;
 }

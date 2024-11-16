@@ -19,6 +19,7 @@ public class Character : MonoBehaviour, Savable
     void Start()
     {
         EventManager.Instance.Subscribe(GameEventType.INTERACTION_ADVANCE, OnInteractionAdvance);
+        EventManager.Instance.Subscribe(GameEventType.CHARACTER_TIDBIT_UNLOCKED, OnCharacterTidbitUnlocked);
     }
 
     public void BeginInteraction()
@@ -48,7 +49,7 @@ public class Character : MonoBehaviour, Savable
 
     public void Save(SaveData saveData)
     {
-        CharacterData characterData = new(CharacterDefinition.Name, CharacterDefinition.Relationship);
+        CharacterData characterData = new(CharacterDefinition.Name, CharacterDefinition.Relationship, new List<string>());
 
         saveData.Characters.Add(characterData);
     }
@@ -63,5 +64,12 @@ public class Character : MonoBehaviour, Savable
         {
             // Todo:Handle moving to next interaction
         }
+    }
+
+    public void OnCharacterTidbitUnlocked(GameEvent @event)
+    {
+        var tidbit = CharacterDefinition.Tidbits.Find(t => t == @event.CharacterTidbit);
+
+        tidbit.Unlocked = true;
     }
 }
