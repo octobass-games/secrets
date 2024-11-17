@@ -22,6 +22,7 @@ MonoBehaviour:
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
     Amount: 0
+    BooksToOrder: []
   - Type: 10
     Memory: 
     Paper: {fileID: 11400000, guid: 764f1087aa3294d49b717764a4d39074, type: 2}
@@ -30,6 +31,7 @@ MonoBehaviour:
     Character: {fileID: 11400000, guid: a3d61ea5dc2659d4791598a2db80288f, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
+    BooksToOrder: []
   - Type: 8
     Memory: 
     Paper: {fileID: 0}
@@ -38,6 +40,7 @@ MonoBehaviour:
     Character: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
+    BooksToOrder: []
   - Type: 9
     Memory: 
     Paper: {fileID: 0}
@@ -46,6 +49,7 @@ MonoBehaviour:
     Character: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
+    BooksToOrder: []
   - Type: 7
     Memory: 
     Paper: {fileID: 0}
@@ -54,6 +58,7 @@ MonoBehaviour:
     Character: {fileID: 11400000, guid: a3d61ea5dc2659d4791598a2db80288f, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
+    BooksToOrder: []
   - Type: 5
     Memory: 
     Paper: {fileID: 0}
@@ -62,5 +67,6 @@ MonoBehaviour:
     Character: {fileID: 11400000, guid: a3d61ea5dc2659d4791598a2db80288f, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
+    BooksToOrder: []
   IsInThePast: 0
-  SupplierInteraction: {fileID: 11400000, guid: 4219a98e1ab011845b1ea2b078b68997, type: 2}
+  SupplierDialogue: {fileID: 11400000, guid: 800d468e40c073742970e8f990c19ccb, type: 2}

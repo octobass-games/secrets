@@ -100,8 +100,8 @@ public class DayManager : MonoBehaviour, Savable
         }
     }
 
-    public SupplierInteraction GetSupplierInteraction()
+    public Line GetSupplierDialogue()
     {
-        return Today.SupplierInteraction;
+        return Today.SupplierDialogue;
     }
 }
