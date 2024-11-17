@@ -46,16 +46,19 @@ public class Character : MonoBehaviour, Savable
     {
         CharacterData characterData = saveData.Characters.Find(c => c.Name == CharacterDefinition.Name);
 
-        CharacterDefinition.Relationship = characterData.Relationship;
-        CharacterDefinition.Tidbits.ForEach(t =>
+        if (characterData != null)
         {
-            var savedTidbit = characterData.CharacterTidbits.Find(td => t.Id == td.Id);
-
-            if (savedTidbit != null)
+            CharacterDefinition.Relationship = characterData.Relationship;
+            CharacterDefinition.Tidbits.ForEach(t =>
             {
-                t.IsUnlocked = savedTidbit.IsUnlocked;
-            }
-        });
+                var savedTidbit = characterData.CharacterTidbits.Find(td => t.Id == td.Id);
+
+                if (savedTidbit != null)
+                {
+                    t.IsUnlocked = savedTidbit.IsUnlocked;
+                }
+            });
+        }
     }
 
     public void Save(SaveData saveData)
