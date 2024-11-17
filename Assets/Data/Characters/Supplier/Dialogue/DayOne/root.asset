@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: root
+  m_EditorClassIdentifier: 
+  Id: 7974ce95-49de-4517-a7de-2722d59dc65c
+  Speaker: {fileID: 11400000, guid: 61287b88000fa1b4386797bcb2979580, type: 2}
+  Text: Would you like some amazing books?
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 8bd7f9b139d2ee245abd93f296435dbd, type: 2}
+  - {fileID: 11400000, guid: 2091bb3e5edc4d248876245510c2e521, type: 2}
+  - {fileID: 11400000, guid: bc2a1842d8b491d439bd37d80abdd70e, type: 2}

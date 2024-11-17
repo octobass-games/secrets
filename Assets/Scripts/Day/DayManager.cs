@@ -99,4 +99,9 @@ public class DayManager : MonoBehaviour, Savable
             }
         }
     }
+
+    public SupplierInteraction GetSupplierInteraction()
+    {
+        return Today.SupplierInteraction;
+    }
 }

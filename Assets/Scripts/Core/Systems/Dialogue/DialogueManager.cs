@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour
 
     public void Begin(Line root, Animator speakerAnimator)
     {
-        this.SpeakerAnimator = speakerAnimator;
+        SpeakerAnimator = speakerAnimator;
         ConversationView.Open();
         LineToSpeak = root;
         SpeakLine();

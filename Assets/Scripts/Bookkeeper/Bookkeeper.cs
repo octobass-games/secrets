@@ -18,6 +18,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Subscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
+        EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
 
         TillView.DisplayImmediately(BankBalance);
     }
@@ -43,17 +44,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         UpdateStock();
     }
 
-    public void RequestStock(BookDefinition book, int quantity)
+    private void OnBookOrder(GameEvent @event)
     {
-        var bookOrder = BookOrders.Find(b => b.Name == book.Name);
-
-        if (bookOrder != null)
+        foreach (var book in @event.BooksToOrder)
         {
-            bookOrder.Quantity = quantity;
-        }
-        else
-        {
-            BookOrders.Add(new BookOrder(book.Name, quantity));
+            BookOrders.Add(new BookOrder(book.Name, @event.Amount));
         }
     }
 

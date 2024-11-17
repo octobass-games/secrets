@@ -7,4 +7,5 @@ public class DayDefinition : ScriptableObject
     public string Date;
     public List<GameEvent> DailyEvents;
     public bool IsInThePast;
+    public SupplierInteraction SupplierInteraction;
 }

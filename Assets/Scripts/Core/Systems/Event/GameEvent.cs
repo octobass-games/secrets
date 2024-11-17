@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 [Serializable]
 public class GameEvent
@@ -11,4 +12,5 @@ public class GameEvent
     public CharacterDefinition Character;
     public CharacterTidbit CharacterTidbit;
     public int Amount;
+    public List<BookDefinition> BooksToOrder;
 }
