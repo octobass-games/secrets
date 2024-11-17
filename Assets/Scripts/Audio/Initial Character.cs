@@ -6,7 +6,7 @@ public class InitialCharacter : MonoBehaviour
     private FMOD.Studio.EventInstance instance;
     public FMODUnity.EventReference fmodEvent;
 
-    [SerializeField] private float parameter =  Random.Range(0,4);
+    [SerializeField] private float parameter =  Random.Range(0,6);
 
     void Start()
     {
