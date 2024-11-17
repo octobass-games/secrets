@@ -5,6 +5,11 @@ public class Book : MonoBehaviour, Savable
     [SerializeField]
     private BookDefinition BookDefinition;
 
+    void Awake()
+    {
+        BookDefinition = Instantiate(BookDefinition);
+    }
+
     public bool IsCalled(string name)
     {
         return BookDefinition.Name == name;

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Bookkeeper : MonoBehaviour, Savable
@@ -16,6 +17,8 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     void Awake()
     {
+        Books = Books.Select(b => Instantiate(b)).ToList();
+
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Subscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);

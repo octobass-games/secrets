@@ -13,6 +13,8 @@ public class Character : MonoBehaviour, Savable
 
     void Awake()
     {
+        CharacterDefinition = Instantiate(CharacterDefinition);
+
         Interactions = CharacterDefinition.Interactions;
     }
 
@@ -79,7 +81,7 @@ public class Character : MonoBehaviour, Savable
 
     public void OnCharacterTidbitUnlocked(GameEvent @event)
     {
-        var tidbit = CharacterDefinition.Tidbits.Find(t => t == @event.CharacterTidbit);
+        var tidbit = CharacterDefinition.Tidbits.Find(t => t.IsEqual(@event.CharacterTidbit));
 
         tidbit.IsUnlocked = true;
     }

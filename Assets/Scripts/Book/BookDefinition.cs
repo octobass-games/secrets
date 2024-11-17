@@ -15,4 +15,9 @@ public class BookDefinition : ScriptableObject
 
     public Sprite Sprite;
     public Color colour;
+
+    public bool IsEqual(BookDefinition other)
+    {
+        return Name == other.Name;
+    }
 }

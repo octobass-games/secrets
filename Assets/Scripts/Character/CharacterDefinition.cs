@@ -9,4 +9,9 @@ public class CharacterDefinition : ScriptableObject
     public int Relationship;
     public Sprite Profile;
     public List<CharacterTidbit> Tidbits;
+
+    public bool IsEqual(CharacterDefinition other)
+    {
+        return Name == other.Name;
+    }
 }
