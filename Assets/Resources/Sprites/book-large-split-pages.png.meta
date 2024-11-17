@@ -1,10 +1,34 @@
 fileFormatVersion: 2
-guid: 5ecd33234ec27d54c88f8738d87ab7a9
+guid: 9489156388fd59044a27146b66773e7e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8033975403568566451
-    second: desk_0
+      213: -2599973688354619894
+    second: book-large-split-pages_0
+  - first:
+      213: 4416606579029066602
+    second: book-large-split-pages_1
+  - first:
+      213: -3588170496976722101
+    second: book-large-split-pages_2
+  - first:
+      213: -6626574834065923902
+    second: book-large-split-pages_3
+  - first:
+      213: 6914521639902464800
+    second: book-large-split-pages_4
+  - first:
+      213: 4002801676605469172
+    second: book-large-split-pages_5
+  - first:
+      213: 7902096106401483449
+    second: book-large-split-pages_6
+  - first:
+      213: -2017144069185979643
+    second: book-large-split-pages_7
+  - first:
+      213: -8777096431378877929
+    second: book-large-split-pages_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,287 +137,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: desk_0
+      name: book-large-split-pages_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
         width: 480
         height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b01eef401a6e7f60800000000000000
-      internalID: 8033975403568566451
+      spriteID: a0eb248a4b90bebd0800000000000000
+      internalID: -2599973688354619894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_inventory
+      name: book-large-split-pages_1
       rect:
         serializedVersion: 2
-        x: 488
-        y: 211
-        width: 88
-        height: 61
+        x: 480
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2f9f17017a65835449a35fe8333685f6
-      internalID: 906680522
+      spriteID: a634eaf8840fa4d30800000000000000
+      internalID: 4416606579029066602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_characterr_book
+      name: book-large-split-pages_2
       rect:
         serializedVersion: 2
-        x: 651
-        y: 211
-        width: 13
-        height: 61
+        x: 960
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6506bbff8f3d912498299e0b12cd1df3
-      internalID: -83397862
+      spriteID: b476a26a1f1443ec0800000000000000
+      internalID: -3588170496976722101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_other_book
+      name: book-large-split-pages_3
       rect:
         serializedVersion: 2
-        x: 579
-        y: 250
-        width: 69
-        height: 21
+        x: 1440
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9aed3899629af5741978b089e8aa01bb
-      internalID: 906522688
+      spriteID: 2c025f92c4da904a0800000000000000
+      internalID: -6626574834065923902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_post
+      name: book-large-split-pages_4
       rect:
         serializedVersion: 2
-        x: 789
-        y: 242
-        width: 115
-        height: 28
+        x: 1920
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cd0c55517bbb9a94c8b8cc6e7c16072a
-      internalID: 1503646192
+      spriteID: 02b432afbc055ff50800000000000000
+      internalID: 6914521639902464800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: till
+      name: book-large-split-pages_5
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 157
-        width: 105
-        height: 115
+        x: 2400
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 835cdd427f5bed441b0637126ef7e44d
-      internalID: -1611249972
+      spriteID: 4f13868caeecc8730800000000000000
+      internalID: 4002801676605469172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_calander
+      name: book-large-split-pages_6
       rect:
         serializedVersion: 2
-        x: 755
-        y: 252
-        width: 32
-        height: 20
+        x: 2880
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5b97a51ed3495c940ab43ce8b5ea9292
-      internalID: -285267241
+      spriteID: 9bace0baa82e9ad60800000000000000
+      internalID: 7902096106401483449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_stamps
+      name: book-large-split-pages_7
       rect:
         serializedVersion: 2
-        x: 667
-        y: 254
-        width: 61
-        height: 17
+        x: 3360
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 248cd96e1e15ae545b159e6068bcd188
-      internalID: 1243060292
+      spriteID: 50b3267082aa104e0800000000000000
+      internalID: -2017144069185979643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_log
+      name: book-large-split-pages_8
       rect:
         serializedVersion: 2
-        x: 731
-        y: 213
-        width: 22
-        height: 58
+        x: 3840
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 018e59b76fe0b194da9aa58a9364290d
-      internalID: -466695458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nail
-      rect:
-        serializedVersion: 2
-        x: 1224
-        y: 265
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d64a2286b941bd643a0ec067370821a4
-      internalID: -424336698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-open
-      rect:
-        serializedVersion: 2
-        x: 908
-        y: 232
-        width: 115
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da2246f37328b2948920a4b0de6c939c
-      internalID: -1768915957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paper-stacked
-      rect:
-        serializedVersion: 2
-        x: 1027
-        y: 258
-        width: 70
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45e8364c75f2f5c43aa2dc32884ea819
-      internalID: -242047412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: desk_prices_outline
-      rect:
-        serializedVersion: 2
-        x: 1207
-        y: 212
-        width: 13
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93c4bff9dbdc4ed4790b31a0447c937a
-      internalID: 1166005351
+      spriteID: 71230587c4d713680800000000000000
+      internalID: -8777096431378877929
       vertices: []
       indices: 
       edges: []
@@ -402,7 +338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: de85c18973f9e764ab77874e2e7a9f35
     internalID: 0
     vertices: []
     indices: 
@@ -412,19 +348,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      desk_0: 8033975403568566451
-      desk_calander: -285267241
-      desk_characterr_book: -83397862
-      desk_inventory: 906680522
-      desk_log: -466695458
-      desk_other_book: 906522688
-      desk_post: 1503646192
-      desk_prices_outline: 1166005351
-      desk_stamps: 1243060292
-      nail: -424336698
-      paper-stacked: -242047412
-      post-open: -1768915957
-      till: -1611249972
+      book-large-split-pages_0: -2599973688354619894
+      book-large-split-pages_1: 4416606579029066602
+      book-large-split-pages_2: -3588170496976722101
+      book-large-split-pages_3: -6626574834065923902
+      book-large-split-pages_4: 6914521639902464800
+      book-large-split-pages_5: 4002801676605469172
+      book-large-split-pages_6: 7902096106401483449
+      book-large-split-pages_7: -2017144069185979643
+      book-large-split-pages_8: -8777096431378877929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
