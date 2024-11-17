@@ -13,12 +13,26 @@ public class DayManager : MonoBehaviour, Savable
     void Awake()
     {
         EventManager.Instance.Subscribe(GameEventType.NEXT_DAILY_EVENT, OnNextDailyEvent);
+        EventManager.Instance.Subscribe(GameEventType.END_DAY, OnEndDay);
     }
 
     void Start()
     {
         DailyEventIndex = 0;
         Today = FindNextDay();
+
+        PublishNextDailyEvent();
+    }
+
+    private void OnEndDay(GameEvent _)
+    {
+        Debug.Log("Ending day");
+
+        EndDay();
+
+        DailyEventIndex = 0;
+
+        Debug.Log("Today: " + Today.Date);
 
         PublishNextDailyEvent();
     }
@@ -83,7 +97,6 @@ public class DayManager : MonoBehaviour, Savable
         if (nextEvent.Type == GameEventType.CLOSE_SHOP)
         {
             NextEvent();
-
         }
         else if (nextEvent.Type == GameEventType.OPEN_SHOP)
         {
