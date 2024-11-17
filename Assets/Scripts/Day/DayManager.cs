@@ -4,51 +4,97 @@ using UnityEngine;
 
 public class DayManager : MonoBehaviour, Savable
 {
-    public List<DayDefinition> DayDefinitions = new();
-
+    [SerializeField]
+    private List<DayDefinition> Days;
     private DayDefinition Today;
-    private int DailyEventIndex;
+    private int TodayEventIndex;
     public Interaction SignInteraction;
 
     void Awake()
     {
+        Days = Days.Select(d => Instantiate(d)).ToList();
+
         EventManager.Instance.Subscribe(GameEventType.NEXT_DAILY_EVENT, OnNextDailyEvent);
-        EventManager.Instance.Subscribe(GameEventType.END_DAY, OnEndDay);
     }
 
     void Start()
     {
-        DailyEventIndex = 0;
-        Today = FindNextDay();
-
-        PublishNextDailyEvent();
+        BeginNextDay();
     }
 
-    private void OnEndDay(GameEvent _)
+    private void BeginNextDay()
     {
-        Debug.Log("Ending day");
+        TodayEventIndex = -1;
 
-        EndDay();
-
-        DailyEventIndex = 0;
-
-        Debug.Log("Today: " + Today.Date);
-
+        Today = Days.Find(d => !d.IsInThePast);
+        
         PublishNextDailyEvent();
     }
 
-    public void EndDay()
+    private void EndDay()
     {
         Today.IsInThePast = true;
 
-        Today = FindNextDay();
+        BeginNextDay();
+    }
+
+    private void OnNextDailyEvent(GameEvent @event)
+    {
+        PublishNextDailyEvent();
+    }
+
+    public void PublishNextDailyEvent()
+    {
+        TodayEventIndex++;
+
+        if (TodayEventIndex < Today.DailyEvents.Count)
+        {
+            EventManager.Instance.Publish(Today.DailyEvents[TodayEventIndex]);
+        }
+        else
+        {
+            EndDay();
+        }
+    }
+
+    public void TryFlipSign()
+    {
+        int nextEventIndex = TodayEventIndex + 1;
+
+        if (nextEventIndex < Today.DailyEvents.Count)
+        {
+            var nextEvent = Today.DailyEvents[TodayEventIndex + 1];
+
+            if (nextEvent.Type == GameEventType.OPEN_SHOP || nextEvent.Type == GameEventType.CLOSE_SHOP)
+            {
+                PublishNextDailyEvent();
+            }
+            else
+            {
+                DialogueManager dialogueManager = FindAnyObjectByType<DialogueManager>();
+
+                if (dialogueManager != null)
+                {
+                    dialogueManager.Begin(SignInteraction.RootLines[0], null);
+                }
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Attempted to fetch next daily event but none could be found");
+        }
+    }
+
+    public Line GetSupplierDialogue()
+    {
+        return Today.SupplierDialogue;
     }
 
     public void Load(SaveData saveData)
     {
         foreach (DayData day in saveData.Days)
         {
-            DayDefinition dayDefinition = DayDefinitions.Find(d => d.Date == day.Date);
+            DayDefinition dayDefinition = Days.Find(d => d.Date == day.Date);
 
             dayDefinition.IsInThePast = day.IsInPast;
         }
@@ -56,65 +102,8 @@ public class DayManager : MonoBehaviour, Savable
 
     public void Save(SaveData saveData)
     {
-        List<DayData> days = DayDefinitions.Select(d => new DayData(d.Date, d.IsInThePast)).ToList();
+        List<DayData> days = Days.Select(d => new DayData(d.Date, d.IsInThePast)).ToList();
 
         saveData.Days = days;
-    }
-
-    private DayDefinition FindNextDay()
-    {
-        return DayDefinitions.Find(d => !d.IsInThePast);
-    }
-
-    public void OnNextDailyEvent(GameEvent @event)
-    {
-        if (Today.DailyEvents.Count > DailyEventIndex + 1)
-        {
-            DailyEventIndex++;
-            PublishNextDailyEvent();
-        }
-    }
-
-    public void NextEvent()
-    {
-        DailyEventIndex++;
-        PublishNextDailyEvent();
-    }
-
-    private void PublishNextDailyEvent()
-    {
-        if (Today.DailyEvents.Count > 0 && DailyEventIndex < Today.DailyEvents.Count)
-        {
-            EventManager.Instance.Publish(Today.DailyEvents[DailyEventIndex]);
-        }
-    }
-
-    public void TryFlipSign()
-    {
-        // TODO: Add check that index is in bounds
-        var nextEvent = Today.DailyEvents[DailyEventIndex + 1];
-
-        if (nextEvent.Type == GameEventType.CLOSE_SHOP)
-        {
-            NextEvent();
-        }
-        else if (nextEvent.Type == GameEventType.OPEN_SHOP)
-        {
-            NextEvent();
-        }
-        else
-        {
-            DialogueManager dialogueManager = FindAnyObjectByType<DialogueManager>();
-
-            if (dialogueManager != null)
-            {
-                dialogueManager.Begin(SignInteraction.RootLines[0], null);
-            }
-        }
-    }
-
-    public Line GetSupplierDialogue()
-    {
-        return Today.SupplierDialogue;
     }
 }

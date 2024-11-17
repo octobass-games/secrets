@@ -14,7 +14,7 @@ public class FirstDayResponder : MonoBehaviour
     
     public void OnBeginDay(GameEvent @event)
     {
-        if (@event.Day == DayOne)
+        if (@event.Day.IsEqual(DayOne))
         {
             // Start shop open on day one
             Sign.SetTrigger("OpenNoAnimation");
@@ -27,6 +27,6 @@ public class FirstDayResponder : MonoBehaviour
         yield return new WaitForSeconds(4);
 
         // Deliver post
-        DayManager.NextEvent();
+        EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.NEXT_DAILY_EVENT });
     }
 }

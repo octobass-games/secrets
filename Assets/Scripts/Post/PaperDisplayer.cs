@@ -25,7 +25,7 @@ public class PaperDisplayer : MonoBehaviour
             IssueOneClose.onClick.RemoveAllListeners();
             IssueOneClose.onClick.AddListener(() =>
             {
-                DayManager.NextEvent();
+                EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.NEXT_DAILY_EVENT });
                 IssueOne.SetActive(false);
 
                 IssueOneClose.onClick.RemoveAllListeners();

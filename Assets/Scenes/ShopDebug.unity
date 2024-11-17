@@ -1004,6 +1004,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 832944026}
+        m_TargetAssemblyTypeName: DayManager, Assembly-CSharp
+        m_MethodName: PublishNextDailyEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &57605093
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7019,7 +7031,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 832944026}
         m_TargetAssemblyTypeName: DayManager, Assembly-CSharp
-        m_MethodName: NextEvent
+        m_MethodName: PublishNextDailyEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7946,8 +7958,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d38397495c801ef428f34e49ad7b3c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DayDefinitions:
+  Days:
   - {fileID: 11400000, guid: a51c3613560d77a4888136ca0845abcd, type: 2}
+  - {fileID: 11400000, guid: 2c66c16c17407f34ea7c18f32f6b5b98, type: 2}
   SignInteraction: {fileID: 11400000, guid: 55152637b55f0d7449121063ca22da1d, type: 2}
 --- !u!4 &832944027
 Transform:
@@ -10363,7 +10376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.5, y: -2}
+  m_AnchoredPosition: {x: 0.09936707, y: -0.46809548}
   m_SizeDelta: {x: 21, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1146384003
@@ -10451,7 +10464,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -1.4043703, y: -2.0062485, z: 4.372574, w: 0}
+  m_margin: {x: -0.027848244, y: 0.0055828094, z: -0.28640747, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -11226,7 +11239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DayManager: {fileID: 832944026}
   DialogueManager: {fileID: 873678811}
-  NoAnswer: {fileID: 11400000, guid: 4280f86fe57168d458a5d3ebe241e575, type: 2}
+  NoAnswerDialogue: {fileID: 0}
 --- !u!4 &1312020595
 Transform:
   m_ObjectHideFlags: 0
@@ -17107,7 +17120,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1999265719
 MonoBehaviour:
   m_ObjectHideFlags: 0
