@@ -1,10 +1,64 @@
 fileFormatVersion: 2
-guid: 5ecd33234ec27d54c88f8738d87ab7a9
+guid: 1bde9cf8681d6cb488e2fc05ea92d964
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8033975403568566451
-    second: desk_0
+      213: 897333552487982691
+    second: book-large-split_0
+  - first:
+      213: 1348640033100120985
+    second: book-large-split_1
+  - first:
+      213: -8321072453055897525
+    second: book-large-split_2
+  - first:
+      213: -1161817768078649965
+    second: book-large-split_3
+  - first:
+      213: 5576533128481882028
+    second: book-large-split_4
+  - first:
+      213: -5344218942970675848
+    second: book-large-split_5
+  - first:
+      213: 8447354791907622224
+    second: book-large-split_6
+  - first:
+      213: 441958016687846717
+    second: book-large-split_7
+  - first:
+      213: -7989201687341219886
+    second: book-large-split_8
+  - first:
+      213: 2430947880388186086
+    second: book-large-split_9
+  - first:
+      213: -462085254681227597
+    second: book-large-split_10
+  - first:
+      213: -9013740698725644745
+    second: book-large-split_11
+  - first:
+      213: -2615785093980532626
+    second: book-large-split_12
+  - first:
+      213: -6693969597221271790
+    second: book-large-split_13
+  - first:
+      213: 7177315798708618173
+    second: book-large-split_14
+  - first:
+      213: 4009608215978434618
+    second: book-large-split_15
+  - first:
+      213: 7343351222911850665
+    second: book-large-split_16
+  - first:
+      213: -8666408080324596968
+    second: book-large-split_17
+  - first:
+      213: 6388217208561960322
+    second: book-large-split_18
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,287 +167,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: desk_0
+      name: book-large-split_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
         width: 480
         height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b01eef401a6e7f60800000000000000
-      internalID: 8033975403568566451
+      spriteID: 366e5199c18f37c00800000000000000
+      internalID: 897333552487982691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_inventory
+      name: book-large-split_1
       rect:
         serializedVersion: 2
-        x: 488
-        y: 211
-        width: 88
-        height: 61
+        x: 480
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2f9f17017a65835449a35fe8333685f6
-      internalID: 906680522
+      spriteID: 993cdc6f6f457b210800000000000000
+      internalID: 1348640033100120985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_characterr_book
+      name: book-large-split_2
       rect:
         serializedVersion: 2
-        x: 651
-        y: 211
-        width: 13
-        height: 61
+        x: 960
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6506bbff8f3d912498299e0b12cd1df3
-      internalID: -83397862
+      spriteID: b40a05dd0bc958c80800000000000000
+      internalID: -8321072453055897525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_other_book
+      name: book-large-split_3
       rect:
         serializedVersion: 2
-        x: 579
-        y: 250
-        width: 69
-        height: 21
+        x: 1440
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9aed3899629af5741978b089e8aa01bb
-      internalID: 906522688
+      spriteID: 3955fef35e460efe0800000000000000
+      internalID: -1161817768078649965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_post
+      name: book-large-split_4
       rect:
         serializedVersion: 2
-        x: 789
-        y: 242
-        width: 115
-        height: 28
+        x: 1920
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cd0c55517bbb9a94c8b8cc6e7c16072a
-      internalID: 1503646192
+      spriteID: caf3c59a553d36d40800000000000000
+      internalID: 5576533128481882028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: till
+      name: book-large-split_5
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 157
-        width: 105
-        height: 115
+        x: 2400
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 835cdd427f5bed441b0637126ef7e44d
-      internalID: -1611249972
+      spriteID: 87db15eaf2585d5b0800000000000000
+      internalID: -5344218942970675848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_calander
+      name: book-large-split_6
       rect:
         serializedVersion: 2
-        x: 755
-        y: 252
-        width: 32
-        height: 20
+        x: 2880
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5b97a51ed3495c940ab43ce8b5ea9292
-      internalID: -285267241
+      spriteID: 05df85f5d680b3570800000000000000
+      internalID: 8447354791907622224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_stamps
+      name: book-large-split_7
       rect:
         serializedVersion: 2
-        x: 667
-        y: 254
-        width: 61
-        height: 17
+        x: 3360
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 248cd96e1e15ae545b159e6068bcd188
-      internalID: 1243060292
+      spriteID: d35b05e7976222600800000000000000
+      internalID: 441958016687846717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: desk_log
+      name: book-large-split_8
       rect:
         serializedVersion: 2
-        x: 731
-        y: 213
-        width: 22
-        height: 58
+        x: 3840
+        y: 0
+        width: 480
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 018e59b76fe0b194da9aa58a9364290d
-      internalID: -466695458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nail
-      rect:
-        serializedVersion: 2
-        x: 1224
-        y: 265
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d64a2286b941bd643a0ec067370821a4
-      internalID: -424336698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: post-open
-      rect:
-        serializedVersion: 2
-        x: 908
-        y: 232
-        width: 115
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da2246f37328b2948920a4b0de6c939c
-      internalID: -1768915957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paper-stacked
-      rect:
-        serializedVersion: 2
-        x: 1027
-        y: 258
-        width: 70
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45e8364c75f2f5c43aa2dc32884ea819
-      internalID: -242047412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: desk_prices_outline
-      rect:
-        serializedVersion: 2
-        x: 1207
-        y: 212
-        width: 13
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93c4bff9dbdc4ed4790b31a0447c937a
-      internalID: 1166005351
+      spriteID: 2df331bd467a02190800000000000000
+      internalID: -7989201687341219886
       vertices: []
       indices: 
       edges: []
@@ -402,7 +368,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 67bf544c9d365ac4686c33e8261b2551
     internalID: 0
     vertices: []
     indices: 
@@ -412,19 +378,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      desk_0: 8033975403568566451
-      desk_calander: -285267241
-      desk_characterr_book: -83397862
-      desk_inventory: 906680522
-      desk_log: -466695458
-      desk_other_book: 906522688
-      desk_post: 1503646192
-      desk_prices_outline: 1166005351
-      desk_stamps: 1243060292
-      nail: -424336698
-      paper-stacked: -242047412
-      post-open: -1768915957
-      till: -1611249972
+      book-large-split_0: 897333552487982691
+      book-large-split_1: 1348640033100120985
+      book-large-split_2: -8321072453055897525
+      book-large-split_3: -1161817768078649965
+      book-large-split_4: 5576533128481882028
+      book-large-split_5: -5344218942970675848
+      book-large-split_6: 8447354791907622224
+      book-large-split_7: 441958016687846717
+      book-large-split_8: -7989201687341219886
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
