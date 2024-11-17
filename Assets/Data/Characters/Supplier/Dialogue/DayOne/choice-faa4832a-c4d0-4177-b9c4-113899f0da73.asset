@@ -10,11 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-5cebd518-1eac-414c-a4fa-e87d901cf16b
+  m_Name: choice-faa4832a-c4d0-4177-b9c4-113899f0da73
   m_EditorClassIdentifier: 
-  Id: 5cebd518-1eac-414c-a4fa-e87d901cf16b
-  Text: No thank you!
+  Id: faa4832a-c4d0-4177-b9c4-113899f0da73
+  Text: Yes, please!
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: a9de0cf2045ee4a4f90c4363c015e37e, type: 2}
-  Requirements: []
+  NextLine: {fileID: 11400000, guid: 9c43eb195e98c17468fa99325df2dad3, type: 2}
+  Requirements:
+  - Type: 4
+    Name: 
+    Book: {fileID: 0}
+    Negate: 0
+    Amount: 11000

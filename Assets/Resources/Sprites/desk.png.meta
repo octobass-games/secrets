@@ -314,7 +314,7 @@ TextureImporter:
       name: nail
       rect:
         serializedVersion: 2
-        x: 1208
+        x: 1224
         y: 265
         width: 5
         height: 5
@@ -376,6 +376,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: desk_prices
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 212
+        width: 13
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1cff18952fc85488ad87662fa84407
+      internalID: -885953778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -397,6 +419,7 @@ TextureImporter:
       desk_log: -466695458
       desk_other_book: 906522688
       desk_post: 1503646192
+      desk_prices: -885953778
       desk_stamps: 1243060292
       nail: -424336698
       paper-stacked: -242047412

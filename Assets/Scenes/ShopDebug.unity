@@ -8228,6 +8228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   History: {fileID: 322222158}
   Inventory: {fileID: 966849010}
+  Bookkeeper: {fileID: 342034836}
 --- !u!114 &873678811
 MonoBehaviour:
   m_ObjectHideFlags: 0
