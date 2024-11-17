@@ -22,6 +22,8 @@ public class SaveManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(Instance);
         }
+
+        Load();
     }
 
     public void Save()
