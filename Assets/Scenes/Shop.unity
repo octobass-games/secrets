@@ -2340,6 +2340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230952980}
   - component: {fileID: 230952981}
+  - component: {fileID: 230952982}
   m_Layer: 0
   m_Name: Thump
   m_TagString: Untagged
@@ -2417,6 +2418,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &230952982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230952979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -771535938
+      Data2: 1252900843
+      Data3: -1697703514
+      Data4: -1753779593
+    Path: event:/SFX/Thump
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &247975650
 GameObject:
   m_ObjectHideFlags: 0
@@ -3069,6 +3101,7 @@ GameObject:
   - component: {fileID: 335044017}
   - component: {fileID: 335044018}
   - component: {fileID: 335044019}
+  - component: {fileID: 335044020}
   m_Layer: 0
   m_Name: Calander
   m_TagString: Untagged
@@ -3172,6 +3205,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &335044020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335044016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!1 &374049667
 GameObject:
   m_ObjectHideFlags: 0
@@ -8700,6 +8747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 855473049}
   - component: {fileID: 855473050}
+  - component: {fileID: 855473051}
   m_Layer: 0
   m_Name: TurningPaper
   m_TagString: Untagged
@@ -8777,6 +8825,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &855473051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855473048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 515366395
+      Data2: 1193826583
+      Data3: 2045375656
+      Data4: 965988778
+    Path: event:/SFX/Loot
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &869372096
 GameObject:
   m_ObjectHideFlags: 0
@@ -9623,7 +9702,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 1860233
+    rgba: 4263273097
   m_fontColor: {r: 0.5377358, g: 0.3824218, b: 0.109069064, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -12440,6 +12519,7 @@ GameObject:
   - component: {fileID: 1316698016}
   - component: {fileID: 1316698015}
   - component: {fileID: 1316698014}
+  - component: {fileID: 1316698017}
   m_Layer: 0
   m_Name: Interactions
   m_TagString: Untagged
@@ -12577,6 +12657,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1316698017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316698012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 476966511
+      Data2: 1253927541
+      Data3: 1125480604
+      Data4: -1149321580
+    Path: event:/SFX/Door
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1323454504
 GameObject:
   m_ObjectHideFlags: 0
