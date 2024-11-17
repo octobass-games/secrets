@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DayManager : MonoBehaviour, Savable
 {
+    public bool SaveOnDayEnd = false;
+
     [SerializeField]
     private List<DayDefinition> Days;
     private DayDefinition Today;
@@ -34,6 +36,11 @@ public class DayManager : MonoBehaviour, Savable
     private void EndDay()
     {
         Today.IsInThePast = true;
+
+        if (SaveOnDayEnd)
+        {
+            SaveManager.Instance.Save();
+        }
 
         BeginNextDay();
     }
