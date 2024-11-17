@@ -44,6 +44,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         UpdateStock();
     }
 
+    public bool IsAffordablePayment(int paymentAmount)
+    {
+        return BankBalance >= paymentAmount;
+    }
+
     private void OnBookOrder(GameEvent @event)
     {
         foreach (var book in @event.BooksToOrder)

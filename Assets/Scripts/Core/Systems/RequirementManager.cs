@@ -6,6 +6,7 @@ public class RequirementManager : MonoBehaviour
 {
     public History History;
     public Inventory Inventory;
+    public Bookkeeper Bookkeeper;
 
     public bool AllSatisfied(List<Requirement> requirements)
     {
@@ -29,6 +30,9 @@ public class RequirementManager : MonoBehaviour
                 break;
             case RequirementType.INVENTORY_NOT_EMPTY:
                 satisfied = Inventory.IsNotEmpty();
+                break;
+            case RequirementType.BANK_BALANCE_AVAILABLE:
+                satisfied = Bookkeeper.IsAffordablePayment(requirement.Amount);
                 break;
             default:
                 break;

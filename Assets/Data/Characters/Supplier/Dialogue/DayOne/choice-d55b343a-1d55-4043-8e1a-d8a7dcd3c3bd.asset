@@ -10,11 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-e4312ccf-a76b-4c90-b0b0-29b14f206434
+  m_Name: choice-d55b343a-1d55-4043-8e1a-d8a7dcd3c3bd
   m_EditorClassIdentifier: 
-  Id: e4312ccf-a76b-4c90-b0b0-29b14f206434
-  Text: I suppose!
+  Id: d55b343a-1d55-4043-8e1a-d8a7dcd3c3bd
+  Text: Oh, I can't afford that right now!
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: a9de0cf2045ee4a4f90c4363c015e37e, type: 2}
-  Requirements: []
+  NextLine: {fileID: 11400000, guid: 2b378d838669f2d41abc6ab518950079, type: 2}
+  Requirements:
+  - Type: 4
+    Name: 
+    Book: {fileID: 0}
+    Negate: 1
+    Amount: 11000

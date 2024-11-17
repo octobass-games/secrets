@@ -7,4 +7,5 @@ public class Requirement
     public string Name;
     public BookDefinition Book;
     public bool Negate;
+    public int Amount;
 }

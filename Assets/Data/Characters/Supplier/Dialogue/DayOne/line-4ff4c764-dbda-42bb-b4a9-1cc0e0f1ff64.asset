@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-4ff4c764-dbda-42bb-b4a9-1cc0e0f1ff64
   m_EditorClassIdentifier: 
-  Id: 5de2cba7-7d13-4ad0-95ad-df2af0b39acb
+  Id: 4ff4c764-dbda-42bb-b4a9-1cc0e0f1ff64
   Speaker: {fileID: 11400000, guid: 61287b88000fa1b4386797bcb2979580, type: 2}
-  Text: Would you like some amazing books?
+  Text: Excellent! Your order will arrive first thing tomorrow
   NextLine: {fileID: 0}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: f8c73d463728a014d9466cc4757a172c, type: 2}
-  - {fileID: 11400000, guid: a1f33e4ac6999df43b2e36c4bf8b23ed, type: 2}
-  - {fileID: 11400000, guid: d4866517370e07a4ab1d28ba91c598e5, type: 2}
+  Choices: []
