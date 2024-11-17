@@ -11,6 +11,7 @@ public class BookDefinition : ScriptableObject
     public GameObject Item;
     public float LikelihoodToSell;
     public float BaseLikelihoodToSell;
+    public BookCategory Category;
 
     public Sprite Sprite;
     public Color colour;

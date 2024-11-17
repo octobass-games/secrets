@@ -75,6 +75,16 @@ public class Bookkeeper : MonoBehaviour, Savable
         SalesRecords.Add(new SalesRecord(Today.Date, BookSalesToday));
     }
 
+    public void IncrementBookPrice(BookDefinition book)
+    {
+        book.SellPrice++;
+    }
+
+    public void DecrementBookPrice(BookDefinition book)
+    {
+        book.SellPrice--;
+    }
+
     private void UpdateStock()
     {
         foreach (BookDefinition Book in Books)
