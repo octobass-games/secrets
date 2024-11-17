@@ -1142,6 +1142,7 @@ GameObject:
   - component: {fileID: 105028632}
   - component: {fileID: 105028633}
   - component: {fileID: 105028634}
+  - component: {fileID: 105028635}
   m_Layer: 0
   m_Name: Bell
   m_TagString: Untagged
@@ -1271,6 +1272,32 @@ MonoBehaviour:
           m_StringArgument: Ring
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 105028635}
+        m_TargetAssemblyTypeName: AudioTrigger, Assembly-CSharp
+        m_MethodName: FmodOneShot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Ring
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &105028635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105028630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Bell
+  is3D: 0
 --- !u!1 &134841626
 GameObject:
   m_ObjectHideFlags: 0
@@ -17213,6 +17240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1812931138}
   - component: {fileID: 1812931139}
+  - component: {fileID: 1812931140}
   m_Layer: 0
   m_Name: Landlord
   m_TagString: Untagged
@@ -17250,6 +17278,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
   SpeakerAnimator: {fileID: 708120567}
+--- !u!114 &1812931140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812931137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 476966511
+      Data2: 1253927541
+      Data3: 1125480604
+      Data4: -1149321580
+    Path: event:/SFX/Door
+  Event: 
+  EventPlayTrigger: 12
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1821195877
 GameObject:
   m_ObjectHideFlags: 0
@@ -19145,6 +19204,7 @@ GameObject:
   - component: {fileID: 1998001668}
   - component: {fileID: 1998001670}
   - component: {fileID: 1998001669}
+  - component: {fileID: 1998001671}
   m_Layer: 0
   m_Name: papers
   m_TagString: Untagged
@@ -19249,6 +19309,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1998001671}
+        m_TargetAssemblyTypeName: AudioTrigger, Assembly-CSharp
+        m_MethodName: FmodOneShot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!61 &1998001670
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19295,6 +19367,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 68, y: 10}
   m_EdgeRadius: 0
+--- !u!114 &1998001671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998001666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Loot
+  is3D: 0
 --- !u!1 &2002713979
 GameObject:
   m_ObjectHideFlags: 0
