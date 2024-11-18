@@ -136,27 +136,29 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     public void Save(SaveData saveData)
     {
-        saveData.Bookkeeper = new BookkeeperData(BankBalance, SalesRecords);
-        saveData.Books = Books.Select(b => new BookData(b.Name, b.SellPrice, b.Stock)).ToList();
+        var booksData = Books.Select(b => new BookData(b.Name, b.SellPrice, b.Stock)).ToList();
+
+        saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, SalesRecords);
     }
 
     public void Load(SaveData saveData)
     {
         BookkeeperData bookkeeperData = saveData.Bookkeeper;
+        List<BookData> booksData = bookkeeperData.Books;
 
         BankBalance = bookkeeperData.BankBalance; 
         SalesRecords = bookkeeperData.SalesRecords;
+        Books.ForEach(book =>
+        {
+            var bookData = booksData.Find(b => book.Name == b.Name);
+
+            if (bookData != null)
+            {
+                book.SellPrice = bookData.SellPrice;
+            }
+        });
 
         TillView.DisplayImmediately(BankBalance);
 
-        Books.ForEach(b =>
-        {
-            var save = saveData.Books.Find(book => book.Name == b.Name);
-
-            if (save != null)
-            {
-                b.SellPrice = save.SellPrice;
-            }
-        });
     }
 }

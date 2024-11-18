@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Book : MonoBehaviour, Savable
+public class Book : MonoBehaviour
 {
     [SerializeField]
     private BookDefinition BookDefinition;
@@ -56,18 +56,5 @@ public class Book : MonoBehaviour, Savable
     public void DecrementPrice()
     {
         BookDefinition.SellPrice -= 1;
-    }
-
-    public void Save(SaveData saveData)
-    {
-        saveData.Books.Add(new BookData(BookDefinition.Name, BookDefinition.SellPrice, BookDefinition.Stock));
-    }
-
-    public void Load(SaveData saveData)
-    {
-        BookData bookData = saveData.Books.Find(b => b.Name == BookDefinition.Name);
-
-        BookDefinition.SellPrice = bookData.SellPrice;
-        BookDefinition.Stock = bookData.Stock;
     }
 }
