@@ -25357,6 +25357,7 @@ MonoBehaviour:
   PriceView: {fileID: 1334150189}
   PriceEntryParent: {fileID: 1083712173}
   PriceEntryPrefab: {fileID: 2188317406051159963, guid: 3184ef905c2d84141944cd1e66f32cb0, type: 3}
+  SearchField: {fileID: 1845624499}
 --- !u!1 &1921856144
 GameObject:
   m_ObjectHideFlags: 0
