@@ -74,7 +74,7 @@ public class Log : MonoBehaviour
             {
                 new("Test", 100, 1000)
             }),
-            new("01/01", new() {
+            new("02/01", new() {
                 new("Hello", "World Things", 200)
             }, new()
             {
@@ -83,7 +83,7 @@ public class Log : MonoBehaviour
             {
                 new("Test", 100, 1000)
             }),
-            new("01/01", new() {
+            new("03/01", new() {
                 new("Hello", "World Things again", 300)
             }, new()
             {
@@ -123,7 +123,7 @@ public class Log : MonoBehaviour
 
             var texts = bookSaleView.GetComponentsInChildren<TMP_Text>();
 
-            texts[0].text = bookSale.Name;
+            texts[0].text = bookSale.Name + " x" + bookSale.Quantity;
             texts[1].text = bookSale.SellPrice.ToString();
 
             bookSaleView.transform.SetParent(SaleRecordParent.transform);
