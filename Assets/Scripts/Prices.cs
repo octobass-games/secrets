@@ -10,13 +10,20 @@ public class Prices : MonoBehaviour
     public GameObject PriceView;
     public GameObject PriceEntryParent;
     public GameObject PriceEntryPrefab;
+    public TMP_InputField SearchField;
 
     private List<GameObject> PriceEntries = new();
+    private BookCategory SelectedCategory;
+
+    void Awake()
+    {
+        SearchField.onValueChanged.AddListener((string title) => ListBookPrices(SelectedCategory, title));
+    }
 
     public void DisplayPrices()
     {
         PriceView.SetActive(true);
-        ListBookPrices(BookCategory.ALL);
+        ListBookPrices(BookCategory.ALL, null);
     }
 
     public void HidePrices()
@@ -24,18 +31,25 @@ public class Prices : MonoBehaviour
         PriceView.SetActive(false);
     }
 
-    public void ListAllBookPrices() => ListBookPrices(BookCategory.ALL);
-    public void ListRomanceBookPrices() => ListBookPrices(BookCategory.ROMANCE);
+    public void ListAllBookPrices() => ListBookPrices(BookCategory.ALL, null);
+    public void ListRomanceBookPrices() => ListBookPrices(BookCategory.ROMANCE, null);
 
-    private void ListBookPrices(BookCategory category)
+    private void ListBookPrices(BookCategory category, string title)
     {
         ClearPriceEntries();
+
+        SelectedCategory = category;
 
         var books = Bookkeeper.Books;
 
         if (category != BookCategory.ALL)
         {
             books = books.FindAll(b => b.Category == category).ToList();
+        }
+
+        if (title != null && title != "")
+        {
+            books = books.FindAll(b => b.Name.ToLower().Contains(title.ToLower()));
         }
 
         foreach (var book in books)
