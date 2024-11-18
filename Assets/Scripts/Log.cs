@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +15,7 @@ public class Log : MonoBehaviour
     public Button NextPageButton;
     public Button PreviousPageButton;
 
-    private int SalesRecordIndex;
+    private int DailyTransactionsIndex;
     private List<GameObject> SalesRecords = new();
     private List<GameObject> OutgoingCosts = new();
 
@@ -28,23 +27,23 @@ public class Log : MonoBehaviour
 
     public void DisplayLog()
     {
-        SalesRecordIndex = 0;
+        DailyTransactionsIndex = 0;
 
         LogView.SetActive(true);
 
-        ListSalesRecord();
+        ListDailyTransactions();
     }
 
     public void NextLog()
     {
-        SalesRecordIndex++;
-        ListSalesRecord();
+        DailyTransactionsIndex++;
+        ListDailyTransactions();
     }
 
     public void PreviousLog()
     {
-        SalesRecordIndex--;
-        ListSalesRecord();
+        DailyTransactionsIndex--;
+        ListDailyTransactions();
     }
 
     public void HideLog()
@@ -52,30 +51,41 @@ public class Log : MonoBehaviour
         LogView.SetActive(false);
     }
 
-    private void ListSalesRecord()
+    private void ListDailyTransactions()
     {
-        ClearSalesRecords();
-        ClearOutgoingCosts();
+        ClearDailyTransactions();
 
-        List<SalesRecord> salesRecords = Bookkeeper.GetSalesRecords();
+        List<DailyTransactions> dailyTransactions = Bookkeeper.GetDailyTransactions();
         List<BookOrder> bookOrders = new() {
             new("test", 1, 100)
         };
 
-        salesRecords = new()
+        dailyTransactions = new()
         {
             new("01/01", new()
             {
-                new BookSale("Test", 100, 1)
-            }),
-            new("02/01", new()
+                new("Test", 100, 100)
+            }, new()
             {
-                new BookSale("Hello", 100, 1),
-                new BookSale("Hello Again", 100, 1)
+                new("Test", 100, 1000)
+            }),
+            new("01/01", new()
+            {
+                new("Test", 100, 100)
+            }, new()
+            {
+                new("Test", 100, 1000)
+            }),
+            new("01/01", new()
+            {
+                new("Test", 100, 100)
+            }, new()
+            {
+                new("Test", 100, 1000)
             })
         };
 
-        if (SalesRecordIndex == 0)
+        if (DailyTransactionsIndex == 0)
         {
             PreviousPageButton.gameObject.SetActive(false);
         }
@@ -84,7 +94,7 @@ public class Log : MonoBehaviour
             PreviousPageButton.gameObject.SetActive(true);
         }
 
-        if (SalesRecordIndex < salesRecords.Count - 1)
+        if (DailyTransactionsIndex < dailyTransactions.Count - 1)
         {
             NextPageButton.gameObject.SetActive(true);
         }
@@ -93,7 +103,7 @@ public class Log : MonoBehaviour
             NextPageButton.gameObject.SetActive(false);
         }
 
-        SalesRecord record = salesRecords[SalesRecordIndex];
+        DailyTransactions record = dailyTransactions[DailyTransactionsIndex];
 
         DateView.text = record.Date;
 
@@ -128,7 +138,7 @@ public class Log : MonoBehaviour
         }
     }
 
-    private void ClearSalesRecords()
+    private void ClearDailyTransactions()
     {
         for (int i = 0; i < SalesRecords.Count; i++)
         {
@@ -136,10 +146,7 @@ public class Log : MonoBehaviour
         }
 
         SalesRecords.Clear();
-    }
 
-    private void ClearOutgoingCosts()
-    {
         for (int i = 0; i < OutgoingCosts.Count; i++)
         {
             Destroy(OutgoingCosts[i]);

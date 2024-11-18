@@ -6,12 +6,12 @@ public class BookkeeperData
 {
     public int BankBalance;
     public List<BookData> Books;
-    public List<SalesRecord> SalesRecords;
+    public List<DailyTransactions> DailyTransactions;
 
-    public BookkeeperData(int bankBalance, List<BookData> books, List<SalesRecord> salesRecords)
+    public BookkeeperData(int bankBalance, List<BookData> books, List<DailyTransactions> dailyTransactions)
     {
         BankBalance = bankBalance;
         Books = books;
-        SalesRecords = salesRecords;
+        DailyTransactions = dailyTransactions;
     }
 }

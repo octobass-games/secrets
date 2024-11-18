@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.WebSockets;
 using UnityEngine;
 
 public class Bookkeeper : MonoBehaviour, Savable
@@ -8,12 +7,12 @@ public class Bookkeeper : MonoBehaviour, Savable
     public List<BookDefinition> Books;
     public TillView TillView;
 
-    private DayDefinition Today;
-    private List<BookSale> BookSalesToday;
     private int BankBalance = 10000;
-    private List<SalesRecord> SalesRecords;
-    private List<BookOrder> BookOrders;
 
+    private DayDefinition Today;
+    private DailyTransactions TransactionsToday;
+    private List<DailyTransactions> DailyTransactions;
+    
     private System.Random RandomNumberGenerator = new System.Random();
 
     void Awake()
@@ -27,22 +26,15 @@ public class Bookkeeper : MonoBehaviour, Savable
         TillView.DisplayImmediately(BankBalance);
     }
 
-    public List<BookOrder> GetBookOrders()
+    public List<DailyTransactions> GetDailyTransactions()
     {
-        return BookOrders;
-    }
-
-    public List<SalesRecord> GetSalesRecords()
-    {
-        return SalesRecords;
+        return DailyTransactions;
     }
     
     public void OnBeginDay(GameEvent @event)
     {
-        SalesRecords = new();
-        BookSalesToday = new();
-        BookOrders = new();
         Today = @event.Day;
+        TransactionsToday = new DailyTransactions(Today.Date, new(), new());
     }
 
     public void OnBankWithdrawal(GameEvent @event)
@@ -69,7 +61,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             var bookDefinition = Books.Find(b => b.IsEqual(book));
 
-            BookOrders.Add(new BookOrder(book.Name, @event.Amount, @event.Amount * bookDefinition.CostToOrder));
+            TransactionsToday.BookOrders.Add(new BookOrder(book.Name, @event.Amount, @event.Amount * bookDefinition.CostToOrder));
         }
     }
 
@@ -88,7 +80,7 @@ public class Bookkeeper : MonoBehaviour, Savable
             }
         }
 
-        SalesRecords.Add(new SalesRecord(Today.Date, BookSalesToday));
+        DailyTransactions.Add(TransactionsToday);
     }
 
     public void IncrementBookPrice(BookDefinition book)
@@ -105,7 +97,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         foreach (BookDefinition Book in Books)
         {
-            var bookOrder = BookOrders.Find(b => b.Name ==  Book.Name);
+            var bookOrder = TransactionsToday.BookOrders.Find(b => b.Name ==  Book.Name);
 
             if (bookOrder != null)
             {
@@ -122,13 +114,13 @@ public class Bookkeeper : MonoBehaviour, Savable
         BankBalance += book.SellPrice;
         book.Stock--;
 
-        BookSale sale = BookSalesToday.Find(b => b.Name == book.Name);
+        BookSale sale = TransactionsToday.BookSales.Find(b => b.Name == book.Name);
 
         if (sale == null)
         {
             sale = new BookSale(book.Name, book.SellPrice, 1);
 
-            BookSalesToday.Add(sale);
+            TransactionsToday.BookSales.Add(sale);
         }
         else
         {
@@ -151,7 +143,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         var booksData = Books.Select(b => new BookData(b.Name, b.SellPrice, b.Stock)).ToList();
 
-        saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, SalesRecords);
+        saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, DailyTransactions);
     }
 
     public void Load(SaveData saveData)
@@ -160,7 +152,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         List<BookData> booksData = bookkeeperData.Books;
 
         BankBalance = bookkeeperData.BankBalance; 
-        SalesRecords = bookkeeperData.SalesRecords;
+        DailyTransactions = bookkeeperData.DailyTransactions;
         Books.ForEach(book =>
         {
             var bookData = booksData.Find(b => book.Name == b.Name);
