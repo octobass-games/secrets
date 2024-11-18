@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,11 +11,14 @@ public class Log : MonoBehaviour
     public TMP_Text DateView;
     public GameObject SaleRecordParent;
     public GameObject SaleRecordPrefab;
+    public GameObject OutgoingCostsParent;
+    public GameObject BookOrderPrefab;
     public Button NextPageButton;
     public Button PreviousPageButton;
 
     private int SalesRecordIndex;
     private List<GameObject> SalesRecords = new();
+    private List<GameObject> OutgoingCosts = new();
 
     void Awake()
     {
@@ -33,14 +37,12 @@ public class Log : MonoBehaviour
 
     public void NextLog()
     {
-        Debug.Log("Hello");
         SalesRecordIndex++;
         ListSalesRecord();
     }
 
     public void PreviousLog()
     {
-        Debug.Log("World");
         SalesRecordIndex--;
         ListSalesRecord();
     }
@@ -53,8 +55,12 @@ public class Log : MonoBehaviour
     private void ListSalesRecord()
     {
         ClearSalesRecords();
+        ClearOutgoingCosts();
 
         List<SalesRecord> salesRecords = Bookkeeper.GetSalesRecords();
+        List<BookOrder> bookOrders = new() {
+            new("test", 1, 100)
+        };
 
         salesRecords = new()
         {
@@ -105,6 +111,21 @@ public class Log : MonoBehaviour
 
             SalesRecords.Add(bookSaleView);
         }
+
+        foreach (BookOrder bookOrder in bookOrders)
+        {
+            GameObject outgoing = Instantiate(BookOrderPrefab);
+
+            var texts = outgoing.GetComponentsInChildren<TMP_Text>();
+
+            texts[0].text = bookOrder.Name + " x" + bookOrder.Quantity;
+            texts[1].text = bookOrder.TotalCost.ToString();
+
+            outgoing.transform.SetParent(OutgoingCostsParent.transform);
+            outgoing.transform.localScale = Vector3.one;
+
+            OutgoingCosts.Add(outgoing);
+        }
     }
 
     private void ClearSalesRecords()
@@ -115,5 +136,15 @@ public class Log : MonoBehaviour
         }
 
         SalesRecords.Clear();
+    }
+
+    private void ClearOutgoingCosts()
+    {
+        for (int i = 0; i < OutgoingCosts.Count; i++)
+        {
+            Destroy(OutgoingCosts[i]);
+        }
+
+        OutgoingCosts.Clear();
     }
 }

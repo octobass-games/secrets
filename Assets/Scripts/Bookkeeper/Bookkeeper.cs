@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.WebSockets;
 using UnityEngine;
 
 public class Bookkeeper : MonoBehaviour, Savable
@@ -24,6 +25,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
 
         TillView.DisplayImmediately(BankBalance);
+    }
+
+    public List<BookOrder> GetBookOrders()
+    {
+        return BookOrders;
     }
 
     public List<SalesRecord> GetSalesRecords()
@@ -61,7 +67,9 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         foreach (var book in @event.BooksToOrder)
         {
-            BookOrders.Add(new BookOrder(book.Name, @event.Amount));
+            var bookDefinition = Books.Find(b => b.IsEqual(book));
+
+            BookOrders.Add(new BookOrder(book.Name, @event.Amount, @event.Amount * bookDefinition.CostToOrder));
         }
     }
 
