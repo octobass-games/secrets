@@ -72,13 +72,13 @@ public class SaveManager : MonoBehaviour
             }
 
             saveData = JsonUtility.FromJson<SaveData>(json);
-        }
+            
+            List<Savable> savables = FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None).OfType<Savable>().ToList();
 
-        List<Savable> savables = FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None).OfType<Savable>().ToList();
-
-        foreach (Savable savable in savables)
-        {
-            savable.Load(saveData);
+            foreach (Savable savable in savables)
+            {
+                savable.Load(saveData);
+            }
         }
     }
 
