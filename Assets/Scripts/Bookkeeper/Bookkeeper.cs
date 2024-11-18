@@ -145,5 +145,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
         BankBalance = bookkeeperData.BankBalance; 
         SalesRecords = bookkeeperData.SalesRecords;
+
+        TillView.DisplayImmediately(BankBalance);
     }
 }
