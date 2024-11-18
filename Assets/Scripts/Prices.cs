@@ -24,7 +24,10 @@ public class Prices : MonoBehaviour
         PriceView.SetActive(false);
     }
 
-    public void ListBookPrices(BookCategory category)
+    public void ListAllBookPrices() => ListBookPrices(BookCategory.ALL);
+    public void ListRomanceBookPrices() => ListBookPrices(BookCategory.ROMANCE);
+
+    private void ListBookPrices(BookCategory category)
     {
         ClearPriceEntries();
 
