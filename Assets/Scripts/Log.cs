@@ -8,6 +8,8 @@ public class Log : MonoBehaviour
     public Bookkeeper Bookkeeper;
     public GameObject LogView;
     public TMP_Text DateView;
+    public GameObject UniqueSaleParent;
+    public GameObject UniqueSalePrefab;
     public GameObject SaleRecordParent;
     public GameObject SaleRecordPrefab;
     public GameObject OutgoingCostsParent;
@@ -16,6 +18,7 @@ public class Log : MonoBehaviour
     public Button PreviousPageButton;
 
     private int DailyTransactionsIndex;
+    private List<GameObject> UniqueSales = new();
     private List<GameObject> SalesRecords = new();
     private List<GameObject> OutgoingCosts = new();
 
@@ -62,22 +65,29 @@ public class Log : MonoBehaviour
 
         dailyTransactions = new()
         {
-            new("01/01", new()
+            new("01/01", new() {
+                new("Hello", "World", 100)
+            }, new()
             {
                 new("Test", 100, 100)
             }, new()
             {
                 new("Test", 100, 1000)
             }),
-            new("01/01", new()
+            new("01/01", new() {
+                new("Hello", "World Things", 200)
+            }, new()
             {
                 new("Test", 100, 100)
             }, new()
             {
                 new("Test", 100, 1000)
             }),
-            new("01/01", new()
+            new("01/01", new() {
+                new("Hello", "World Things again", 300)
+            }, new()
             {
+                new("Test", 100, 100),
                 new("Test", 100, 100)
             }, new()
             {
@@ -136,6 +146,22 @@ public class Log : MonoBehaviour
 
             OutgoingCosts.Add(outgoing);
         }
+
+        foreach (UniqueBookSale uniqueBookSale in record.UniqueBookSales)
+        {
+            GameObject uniqueSale = Instantiate(UniqueSalePrefab);
+
+            var texts = uniqueSale.GetComponentsInChildren<TMP_Text>();
+
+            texts[0].text = "sold to " + uniqueBookSale.BuyerName;
+            texts[1].text = uniqueBookSale.BookName;
+            texts[2].text = uniqueBookSale.SellPrice.ToString();
+
+            uniqueSale.transform.SetParent(UniqueSaleParent.transform);
+            uniqueSale.transform.localScale = Vector3.one;
+
+            UniqueSales.Add(uniqueSale);
+        }
     }
 
     private void ClearDailyTransactions()
@@ -153,5 +179,12 @@ public class Log : MonoBehaviour
         }
 
         OutgoingCosts.Clear();
+
+        for (int i = 0; i < UniqueSales.Count; i++)
+        {
+            Destroy(UniqueSales[i]);
+        }
+
+        UniqueSales.Clear();
     }
 }

@@ -34,7 +34,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     public void OnBeginDay(GameEvent @event)
     {
         Today = @event.Day;
-        TransactionsToday = new DailyTransactions(Today.Date, new(), new());
+        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new());
     }
 
     public void OnBankWithdrawal(GameEvent @event)
