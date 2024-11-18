@@ -11,7 +11,7 @@ public class TillView : MonoBehaviour
 
     private IEnumerator ChangeVisibleBalanceCoroutine;
     private int TimeForChangeInSeconds = 2;
-    private float TimeBetweenChangesInSeconds = 0.05f;
+    private float TimeBetweenChangesInSeconds = 0.005f;
     private int NumberOfChangesToReachTargetValue;
     private WaitForSecondsRealtime WaitBetweenChanges;
 
