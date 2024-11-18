@@ -1,14 +1,14 @@
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class DayStarter : MonoBehaviour
 {
+    public DayManager DayManager;
     public GameObject CalendarContainer;
     public TMP_Text BeforeDate;
     public TMP_Text AfterDate;
 
-    void Start()
+    void Awake()
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Subscribe(GameEventType.END_DAY, OnEndDay);
@@ -16,7 +16,15 @@ public class DayStarter : MonoBehaviour
 
     private void OnBeginDay(GameEvent @event)
     {
-        AfterDate.text = @event.Day.Date;
+        DayDefinition day = @event.Day;
+        DayDefinition dayBefore = DayManager.TryGetDayBefore(day);
+
+        if (dayBefore != null)
+        {
+            BeforeDate.text = dayBefore.Date;
+        }
+
+        AfterDate.text = day.Date;
 
         CalendarContainer.SetActive(true);
     }

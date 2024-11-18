@@ -97,6 +97,20 @@ public class DayManager : MonoBehaviour, Savable
         return Today.SupplierDialogue;
     }
 
+    public DayDefinition TryGetDayBefore(DayDefinition day)
+    {
+        var dayIndex = Days.FindIndex(d => d.IsEqual(day));
+
+        if (dayIndex <= 0)
+        {
+            return null;
+        }
+        else
+        {
+            return Days[dayIndex - 1];
+        }
+    }
+
     public void Load(SaveData saveData)
     {
         foreach (DayData day in saveData.Days)
