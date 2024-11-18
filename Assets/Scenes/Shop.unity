@@ -19870,7 +19870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d38397495c801ef428f34e49ad7b3c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SaveOnDayEnd: 1
+  SaveOnDayEnd: 0
   Days:
   - {fileID: 11400000, guid: a51c3613560d77a4888136ca0845abcd, type: 2}
   - {fileID: 11400000, guid: 2c66c16c17407f34ea7c18f32f6b5b98, type: 2}
@@ -22717,73 +22717,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650278318}
   m_CullTransparentMesh: 1
---- !u!1 &1651064257
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1651064259}
-  - component: {fileID: 1651064258}
-  m_Layer: 0
-  m_Name: Till
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1651064258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651064257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf81a82ffc4e4064784ddae98119bc03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Inventory: {fileID: 251154496}
-  OnDeposit:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 469674917}
-        m_TargetAssemblyTypeName: TillView, Assembly-CSharp
-        m_MethodName: Display
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnWithdraw:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBankrupt:
-    m_PersistentCalls:
-      m_Calls: []
-  Balance: 0
---- !u!4 &1651064259
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651064257}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 151.21452, y: 22.217299, z: 1.2572134}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1653934367
 GameObject:
   m_ObjectHideFlags: 0
@@ -23413,6 +23346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cac17b0274c1f74d964aa82c43a099e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DayManager: {fileID: 1425153795}
   CalendarContainer: {fileID: 1398109565}
   BeforeDate: {fileID: 898620132}
   AfterDate: {fileID: 927328105}
@@ -31436,15 +31370,14 @@ SceneRoots:
   - {fileID: 1388237869}
   - {fileID: 2125073880}
   - {fileID: 880023708562907208}
-  - {fileID: 447726293}
   - {fileID: 251154497}
-  - {fileID: 1651064259}
   - {fileID: 2113456430}
-  - {fileID: 135454217}
-  - {fileID: 1425153796}
-  - {fileID: 1732842992}
   - {fileID: 319218031}
   - {fileID: 8506420689493463368}
   - {fileID: 509350325}
   - {fileID: 1334150193}
   - {fileID: 109054968}
+  - {fileID: 1732842992}
+  - {fileID: 447726293}
+  - {fileID: 1425153796}
+  - {fileID: 135454217}
