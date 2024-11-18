@@ -10,7 +10,16 @@ public class TillView : MonoBehaviour
     private int Balance;
 
     private IEnumerator ChangeVisibleBalanceCoroutine;
-    private WaitForSecondsRealtime WaitBetweenChanges = new(0.0050f);
+    private int TimeForChangeInSeconds = 2;
+    private float TimeBetweenChangesInSeconds = 0.05f;
+    private int NumberOfChangesToReachTargetValue;
+    private WaitForSecondsRealtime WaitBetweenChanges;
+
+    void Awake()
+    {
+        WaitBetweenChanges = new(TimeBetweenChangesInSeconds);
+        NumberOfChangesToReachTargetValue = Mathf.CeilToInt(TimeForChangeInSeconds / TimeBetweenChangesInSeconds);
+    }
 
     public void DisplayImmediately(int amount)
     {
@@ -32,15 +41,17 @@ public class TillView : MonoBehaviour
 
     private IEnumerator ChangeVisibleBalance(int amount)
     {
+        var differential = Mathf.Abs(Balance - amount) / NumberOfChangesToReachTargetValue;
+
         while (Balance != amount)
         {
             if (Balance < amount)
             {
-                Balance++;
+                Balance = Mathf.Min(Balance + differential, amount);
             }
             else if (Balance > amount)
             {
-                Balance--;
+                Balance = Mathf.Max(Balance - differential, amount);
             }
 
             VisibleBalance.text = Balance.ToString();
