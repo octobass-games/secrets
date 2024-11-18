@@ -25,6 +25,11 @@ public class Bookkeeper : MonoBehaviour, Savable
 
         TillView.DisplayImmediately(BankBalance);
     }
+
+    public List<SalesRecord> GetSalesRecords()
+    {
+        return SalesRecords;
+    }
     
     public void OnBeginDay(GameEvent @event)
     {
