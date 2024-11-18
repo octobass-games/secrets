@@ -42,21 +42,21 @@ public class Prices : MonoBehaviour
             var texts = priceEntry.GetComponentsInChildren<TMP_Text>();
 
             texts[0].text = book.Name;
-            texts[1].text = book.SellPrice.ToString();
+            texts[2].text = book.SellPrice.ToString();
 
             var buttons = priceEntry.GetComponentsInChildren<Button>();
 
             buttons[0].onClick.AddListener(() => {
                 Bookkeeper.DecrementBookPrice(book);
-                texts[1].text = book.SellPrice.ToString();
+                texts[2].text = book.SellPrice.ToString();
             });
             buttons[1].onClick.AddListener(() => {
                 Bookkeeper.IncrementBookPrice(book);
-                Debug.Log("Incrementing book price");
-                texts[1].text = book.SellPrice.ToString();
+                texts[2].text = book.SellPrice.ToString();
             });
 
-            //priceEntry.transform.SetParent(PriceEntryParent.transform);
+            priceEntry.transform.SetParent(PriceEntryParent.transform);
+            priceEntry.transform.localScale = Vector3.one;
 
             PriceEntries.Add(priceEntry);
         }

@@ -137,6 +137,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     public void Save(SaveData saveData)
     {
         saveData.Bookkeeper = new BookkeeperData(BankBalance, SalesRecords);
+        saveData.Books = Books.Select(b => new BookData(b.Name, b.SellPrice, b.Stock)).ToList();
     }
 
     public void Load(SaveData saveData)
@@ -147,5 +148,15 @@ public class Bookkeeper : MonoBehaviour, Savable
         SalesRecords = bookkeeperData.SalesRecords;
 
         TillView.DisplayImmediately(BankBalance);
+
+        Books.ForEach(b =>
+        {
+            var save = saveData.Books.Find(book => book.Name == b.Name);
+
+            if (save != null)
+            {
+                b.SellPrice = save.SellPrice;
+            }
+        });
     }
 }
