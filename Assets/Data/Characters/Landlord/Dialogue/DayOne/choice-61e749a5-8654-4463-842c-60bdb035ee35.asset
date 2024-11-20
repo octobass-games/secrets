@@ -14,7 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 61e749a5-8654-4463-842c-60bdb035ee35
   Text: LAW FROM PAPER
-  Events: []
+  Events:
+  - Type: 14
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    Stamp: {fileID: 11400000, guid: 083e328b397e4bb429f88ab07a310293, type: 2}
+    StampId: 
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 2d89a38823cd6bc4ba6ad93049f0c4eb, type: 2}
   Requirements: []
