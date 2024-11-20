@@ -13,4 +13,6 @@ public class GameEvent
     public CharacterTidbit CharacterTidbit;
     public int Amount;
     public List<BookDefinition> BooksToOrder;
+    public StampDefinition Stamp;
+    public string StampId;
 }
