@@ -4478,6 +4478,9 @@ GameObject:
   m_Component:
   - component: {fileID: 381145069}
   - component: {fileID: 381145070}
+  - component: {fileID: 381145071}
+  - component: {fileID: 381145072}
+  - component: {fileID: 381145073}
   m_Layer: 0
   m_Name: 50 recipes to warm your heart
   m_TagString: Untagged
@@ -4555,6 +4558,92 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &381145071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381145068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde12f56f603fd641b73ffc554236569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1719886218}
+        m_TargetAssemblyTypeName: Bookshelf, Assembly-CSharp
+        m_MethodName: MoveToTill
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 1b2fdc9c678ce2948b1f5abdb8d6145c, type: 2}
+          m_ObjectArgumentAssemblyTypeName: BookDefinition, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &381145072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381145068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb854e96eed7e45449922f3c55f79709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BookDefinition: {fileID: 11400000, guid: 1b2fdc9c678ce2948b1f5abdb8d6145c, type: 2}
+--- !u!61 &381145073
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381145068}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7, y: 39}
+    newSize: {x: 17, y: 34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 7, y: 39}
+  m_EdgeRadius: 0
 --- !u!1 &404866067
 GameObject:
   m_ObjectHideFlags: 0
@@ -16083,6 +16172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1288138104}
   - component: {fileID: 1288138105}
+  - component: {fileID: 1288138106}
   m_Layer: 0
   m_Name: I accidently moved in with the devil?
   m_TagString: Untagged
@@ -16160,6 +16250,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1288138106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288138103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb854e96eed7e45449922f3c55f79709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BookDefinition: {fileID: 11400000, guid: 9c653fe9fe811ba42876522acdd17769, type: 2}
 --- !u!1 &1298859675
 GameObject:
   m_ObjectHideFlags: 0
@@ -21456,10 +21559,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de9f26f2c4eb754d9c0cc5ce7023b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  books: []
-  ShelfOne: {fileID: 803976068}
-  ShelfTwo: {fileID: 1197534000}
-  ShelfThree: {fileID: 134841626}
+  Bookkeeper: {fileID: 509350324}
+  Books:
+  - {fileID: 381145072}
+  - {fileID: 1288138106}
+  TillBook: {fileID: 0}
+  TillBookPosition: {fileID: 5969055360780834868, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
+  RomanceBookPrefab: {fileID: 8892843852603427114, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
 --- !u!1 &1724189657
 GameObject:
   m_ObjectHideFlags: 0

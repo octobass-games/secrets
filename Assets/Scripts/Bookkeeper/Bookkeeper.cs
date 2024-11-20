@@ -93,6 +93,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         book.SellPrice--;
     }
 
+    public bool InStock(BookDefinition book)
+    {
+        return Books.Find(b => b.IsEqual(book)).Stock > 0;
+    }
+
     private void UpdateStock()
     {
         foreach (BookDefinition Book in Books)

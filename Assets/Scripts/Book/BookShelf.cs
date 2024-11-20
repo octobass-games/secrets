@@ -2,38 +2,57 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-class BookShelf : MonoBehaviour
+class Bookshelf : MonoBehaviour
 {
-    public List<Book> books;
+    public Bookkeeper Bookkeeper;
+    public List<Book> Books;
 
-    public GameObject ShelfOne;
-    public GameObject ShelfTwo;
-    public GameObject ShelfThree;
+    public GameObject TillBook;
+    public Transform TillBookPosition;
+    public GameObject RomanceBookPrefab;
 
-    public void RenderShelves()
+    void Start()
     {
-        ClearAllShelves();
-
-
-    }
-
-    private void ClearAllShelves()
-    {
-        foreach (Transform child in ShelfOne.transform)
+        foreach (var book in Books)
         {
-            Destroy(child.gameObject);
-        }
-
-        foreach (Transform child in ShelfTwo.transform)
-        {
-            Destroy(child.gameObject);
-        }
-
-        foreach (Transform child in ShelfThree.transform)
-        {
-            Destroy(child.gameObject);
+            if (Bookkeeper.InStock(book.BookDefinition))
+            {
+                book.gameObject.SetActive(true);
+            }
+            else
+            {
+                book.gameObject.SetActive(false);
+            }
         }
     }
 
+    public void MoveToTill(BookDefinition book)
+    {
+        if (TillBook != null)
+        {
+            Destroy(TillBook);
+        }
 
+        var bookshelfBook = Books.Find(b => b.BookDefinition.IsEqual(book));
+
+        GameObject prefab = GetPrefabToInstantiate(bookshelfBook);
+
+        TillBook = Instantiate(prefab);
+        TillBook.transform.position = TillBookPosition.position;
+        TillBook.GetComponent<Book>().BookDefinition = book;
+        TillBook.gameObject.SetActive(true);
+
+        bookshelfBook.gameObject.SetActive(false);
+    }
+
+    private GameObject GetPrefabToInstantiate(Book book)
+    {
+        switch (book.BookDefinition.Category)
+        {
+            case BookCategory.ROMANCE:
+                return RomanceBookPrefab;
+            default:
+                return null;
+        }
+    }
 }

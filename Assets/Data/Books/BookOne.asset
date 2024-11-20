@@ -20,5 +20,6 @@ MonoBehaviour:
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
+  Category: 1
   Sprite: {fileID: 350321351, guid: 2e601f9d458d9664d90e5371039c13c9, type: 3}
   colour: {r: 1, g: 0.5990566, b: 0.5990566, a: 1}
