@@ -1,5 +1,15 @@
 public enum BookCategory
 {
     ALL,
-    ROMANCE
+    ROMANCE,
+    CRAFTS,
+    ECONOMICS,
+    HEALTH,
+    HISTORY,
+    OCCULT,
+    POTIONS,
+    RECIPES,
+    SPELLS,
+    WEAPONS,
+    WELLBEING
 }
