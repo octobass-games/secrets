@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Looking Sharp! Weapons Maintenance 101
   m_EditorClassIdentifier: 
   Name: Looking Sharp! Weapons Maintenance 101
+  Author: Sally Sharp
+  Description: Quick tips and tricks to keep your weapons as sparkly as when you
+    brought them!
+  Category: 10
+  Sprite: {fileID: 0}
+  colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 0
   SellPrice: 0
   Stock: 0
@@ -20,6 +26,3 @@ MonoBehaviour:
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
-  Category: 10
-  Sprite: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}

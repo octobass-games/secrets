@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: The Devil's Demise
   m_EditorClassIdentifier: 
   Name: The Devil's Demise
+  Author: Abigale Crow
+  Description: Hell threatens to expand into the human kingdom. Can one girl stop
+    the worlds encroaching doom?
+  Category: 1
+  Sprite: {fileID: 0}
+  colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 0
   SellPrice: 0
   Stock: 0
@@ -20,6 +26,3 @@ MonoBehaviour:
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
-  Category: 1
-  Sprite: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}

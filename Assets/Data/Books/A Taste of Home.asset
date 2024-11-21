@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: A Taste of Home
   m_EditorClassIdentifier: 
   Name: A Taste of Home
+  Author: 
+  Description: 50 recipes to warm your heart
+  Category: 8
+  Sprite: {fileID: 0}
+  colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 0
   SellPrice: 0
   Stock: 0
@@ -20,6 +25,3 @@ MonoBehaviour:
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
-  Category: 8
-  Sprite: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}

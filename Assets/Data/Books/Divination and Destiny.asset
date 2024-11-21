@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Divination and Destiny
   m_EditorClassIdentifier: 
   Name: Divination and Destiny
+  Author: 
+  Description: Use divination to discover your destiny in this easy to understand
+    handbook
+  Category: 6
+  Sprite: {fileID: 0}
+  colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 0
   SellPrice: 0
   Stock: 0
@@ -20,6 +26,3 @@ MonoBehaviour:
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
-  Category: 6
-  Sprite: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}

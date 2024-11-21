@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Nessie Academy
   m_EditorClassIdentifier: 
   Name: Nessie Academy
+  Author: "Renn\xE9 Alice"
+  Description: Esme is enrolled at nessie academy, shes a destined to train lochness
+    monsters, but can she survive?
+  Category: 1
+  Sprite: {fileID: 0}
+  colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 0
   SellPrice: 0
   Stock: 0
@@ -20,6 +26,3 @@ MonoBehaviour:
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
-  Category: 1
-  Sprite: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}

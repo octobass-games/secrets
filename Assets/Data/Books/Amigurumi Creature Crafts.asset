@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Amigurumi Creature Crafts
   m_EditorClassIdentifier: 
   Name: Amigurumi Creature Crafts
+  Author: 
+  Description: Create cute and tiny animals with the magic of wool!
+  Category: 2
+  Sprite: {fileID: 0}
+  colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 0
   SellPrice: 0
   Stock: 0
@@ -20,6 +25,3 @@ MonoBehaviour:
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
-  Category: 2
-  Sprite: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}

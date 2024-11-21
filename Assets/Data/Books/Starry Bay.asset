@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Starry Bay
   m_EditorClassIdentifier: 
   Name: Starry Bay
+  Author: "Renn\xE9 Alice"
+  Description: "Renn\xE9 Alice's debut novel. In this gripping romance Mia is torn
+    between two lovers: Bryn and Al"
+  Category: 1
+  Sprite: {fileID: 0}
+  colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 0
   SellPrice: 0
   Stock: 0
@@ -20,6 +26,3 @@ MonoBehaviour:
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
-  Category: 1
-  Sprite: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}
