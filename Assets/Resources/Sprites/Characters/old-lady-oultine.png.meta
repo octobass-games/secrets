@@ -1,10 +1,31 @@
 fileFormatVersion: 2
-guid: cf558ba14f5c7384da51b54823a4a800
+guid: 8975d50f284913a438cff7e4244c7624
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8142547509244237355
-    second: old-lady_0
+      213: 3663372969560916041
+    second: old-lady-oultine_0
+  - first:
+      213: -2216017748527899849
+    second: old-lady-oultine_1
+  - first:
+      213: -4468847736362061708
+    second: old-lady-oultine_2
+  - first:
+      213: 8086989871169679040
+    second: old-lady-oultine_3
+  - first:
+      213: -376150817428179262
+    second: old-lady-oultine_4
+  - first:
+      213: 1319830414910647305
+    second: old-lady-oultine_5
+  - first:
+      213: -7028600039132612835
+    second: old-lady-oultine_6
+  - first:
+      213: -847110957000450676
+    second: old-lady-oultine_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: old-lady_0
+      name: old-lady-oultine_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b269e3f81d3200170800000000000000
-      internalID: 8142547509244237355
+      spriteID: 94042727e4ae6d230800000000000000
+      internalID: 3663372969560916041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: old-lady_1
+      name: old-lady-oultine_1
       rect:
         serializedVersion: 2
         x: 125
@@ -148,16 +169,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 007377aa5b08389438bc80c01e192316
-      internalID: 1404311659
+      spriteID: 73b9803499f1f31e0800000000000000
+      internalID: -2216017748527899849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: old-lady_2
+      name: old-lady-oultine_2
       rect:
         serializedVersion: 2
         x: 250
@@ -170,16 +191,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8f4e0d2bdc67ca6489332da7f12cbc5f
-      internalID: -1525308118
+      spriteID: 470b4d629a67bf1c0800000000000000
+      internalID: -4468847736362061708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: old-lady_3
+      name: old-lady-oultine_3
       rect:
         serializedVersion: 2
         x: 375
@@ -192,16 +213,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eaa51b2b5b48084409e836e07411a059
-      internalID: 1715712236
+      spriteID: 0ce204de072ca3070800000000000000
+      internalID: 8086989871169679040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: old-lady_4
+      name: old-lady-oultine_4
       rect:
         serializedVersion: 2
         x: 500
@@ -214,16 +235,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 322a2261027581b4798630f6916dd088
-      internalID: -167782363
+      spriteID: 2c6783113d4a7caf0800000000000000
+      internalID: -376150817428179262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: old-lady_5
+      name: old-lady-oultine_5
       rect:
         serializedVersion: 2
         x: 625
@@ -236,16 +257,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 29e367d2fea39c8489ec2e71c035a311
-      internalID: -526008951
+      spriteID: 90c618405caf05210800000000000000
+      internalID: 1319830414910647305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: old-lady_6
+      name: old-lady-oultine_6
       rect:
         serializedVersion: 2
         x: 750
@@ -258,16 +279,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6e7fc30db45078048855cdfc759bcf28
-      internalID: 685043522
+      spriteID: d173437e085657e90800000000000000
+      internalID: -7028600039132612835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: old-lady_7
+      name: old-lady-oultine_7
       rect:
         serializedVersion: 2
         x: 875
@@ -280,10 +301,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0a98968a38ab0884abc1f8ad62e1577d
-      internalID: -733503745
+      spriteID: c8d95a2a2157e34f0800000000000000
+      internalID: -847110957000450676
       vertices: []
       indices: 
       edges: []
@@ -292,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: aec22e5fcfd103c49aaae680efb36a10
     internalID: 0
     vertices: []
     indices: 
@@ -302,14 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      old-lady_0: 8142547509244237355
-      old-lady_1: 1404311659
-      old-lady_2: -1525308118
-      old-lady_3: 1715712236
-      old-lady_4: -167782363
-      old-lady_5: -526008951
-      old-lady_6: 685043522
-      old-lady_7: -733503745
+      old-lady-oultine_0: 3663372969560916041
+      old-lady-oultine_1: -2216017748527899849
+      old-lady-oultine_2: -4468847736362061708
+      old-lady-oultine_3: 8086989871169679040
+      old-lady-oultine_4: -376150817428179262
+      old-lady-oultine_5: 1319830414910647305
+      old-lady-oultine_6: -7028600039132612835
+      old-lady-oultine_7: -847110957000450676
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
