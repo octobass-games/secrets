@@ -18,10 +18,16 @@ public class Character : MonoBehaviour, Savable
         Interactions = CharacterDefinition.Interactions;
     }
 
-    void Start()
+    void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.INTERACTION_ADVANCE, OnInteractionAdvance);
         EventManager.Instance.Subscribe(GameEventType.CHARACTER_TIDBIT_UNLOCKED, OnCharacterTidbitUnlocked);
+    }
+
+    void OnDisable()
+    {
+        EventManager.Instance.Unsubscribe(GameEventType.INTERACTION_ADVANCE, OnInteractionAdvance);
+        EventManager.Instance.Unsubscribe(GameEventType.CHARACTER_TIDBIT_UNLOCKED, OnCharacterTidbitUnlocked);
     }
 
     public void BeginInteraction()
@@ -86,6 +92,14 @@ public class Character : MonoBehaviour, Savable
     {
         var tidbit = CharacterDefinition.Tidbits.Find(t => t.IsEqual(@event.CharacterTidbit));
 
-        tidbit.IsUnlocked = true;
+        if (tidbit != null)
+        {
+            tidbit.IsUnlocked = true;
+        }
+        else
+        {
+            Debug.LogError("Attempted to unlock tidbit but could not find it");
+        }
     }
+
 }
