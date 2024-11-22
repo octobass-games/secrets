@@ -2051,7 +2051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   History: {fileID: 2113456429}
   Inventory: {fileID: 251154496}
-  Bookkeeper: {fileID: 0}
+  Bookkeeper: {fileID: 509350324}
 --- !u!114 &135454216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8880,8 +8880,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 0
+    height: 0
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -19651,10 +19651,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d38397495c801ef428f34e49ad7b3c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SaveOnDayEnd: 1
+  SaveOnDayEnd: 0
   Days:
   - {fileID: 11400000, guid: a51c3613560d77a4888136ca0845abcd, type: 2}
   - {fileID: 11400000, guid: 2c66c16c17407f34ea7c18f32f6b5b98, type: 2}
+  - {fileID: 11400000, guid: 035cf63e9c349924ea208750f62f1a96, type: 2}
+  - {fileID: 11400000, guid: e344a57a4c4194b45b8b614c545a9200, type: 2}
+  - {fileID: 11400000, guid: 89a3468e1dfc3ef40a31d76d402f03ca, type: 2}
+  - {fileID: 11400000, guid: 282426805060c3f46a63d3d867ddbb17, type: 2}
+  - {fileID: 11400000, guid: a771d0c61b6e09945852d23c3bfb54b2, type: 2}
   SignInteraction: {fileID: 11400000, guid: 55152637b55f0d7449121063ca22da1d, type: 2}
 --- !u!4 &1425153796
 Transform:
@@ -23404,7 +23409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 0}
-  SpeakerAnimator: {fileID: 0}
+  SpeakerAnimator: {fileID: 1526174204}
 --- !u!1 &1719886216
 GameObject:
   m_ObjectHideFlags: 0
@@ -23631,6 +23636,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Visitors:
   - {fileID: 1812931139}
+  - {fileID: 22259087}
+  - {fileID: 1610332599}
+  - {fileID: 1554619034}
+  - {fileID: 979863138}
+  - {fileID: 545247528}
+  - {fileID: 2027909571}
+  - {fileID: 1659931401}
+  - {fileID: 1854833034}
+  - {fileID: 1946525629}
+  - {fileID: 1718586189}
 --- !u!1 &1738725166
 GameObject:
   m_ObjectHideFlags: 0
