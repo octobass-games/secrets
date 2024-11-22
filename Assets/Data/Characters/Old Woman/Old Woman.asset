@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Old Woman
   m_EditorClassIdentifier: 
   Name: Essie
-  Interactions: []
+  Interactions:
+  - {fileID: 11400000, guid: 425b724c55ab3894db69e939fd90be06, type: 2}
   Relationship: 0
   Profile: {fileID: 8142547509244237355, guid: cf558ba14f5c7384da51b54823a4a800, type: 3}
-  Animator: {fileID: 9100000, guid: b348d7fb0c9ee6343964a5bc6828a9d3, type: 2}
+  Tidbits: []

@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 22259086}
   - component: {fileID: 22259087}
   m_Layer: 0
-  m_Name: OldLady
+  m_Name: Essie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
