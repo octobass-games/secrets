@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-409e5c47-93f7-4707-a788-ade15030bb8c
+  m_EditorClassIdentifier: 
+  Id: 409e5c47-93f7-4707-a788-ade15030bb8c
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "They all have ulterior motives\u2026 ugh\u2026 All they care about is money!"
+  NextLine: {fileID: 11400000, guid: 05bbf5d9940d14c40852120c49be4634, type: 2}
+  Events: []
+  Choices: []

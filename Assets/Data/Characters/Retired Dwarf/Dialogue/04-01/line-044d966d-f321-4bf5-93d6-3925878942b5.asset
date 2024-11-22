@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-044d966d-f321-4bf5-93d6-3925878942b5
+  m_EditorClassIdentifier: 
+  Id: 044d966d-f321-4bf5-93d6-3925878942b5
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "I don\u2019t have time for this, I\u2019ll have to try somewhere else."
+  NextLine: {fileID: 11400000, guid: a73cb48c5aa1565448d51835d6a5d626, type: 2}
+  Events: []
+  Choices: []

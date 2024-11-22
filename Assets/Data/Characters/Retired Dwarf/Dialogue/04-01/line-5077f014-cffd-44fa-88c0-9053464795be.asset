@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-5077f014-cffd-44fa-88c0-9053464795be
+  m_EditorClassIdentifier: 
+  Id: 5077f014-cffd-44fa-88c0-9053464795be
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: I prefer to do things myself! *cough*
+  NextLine: {fileID: 11400000, guid: b4a0f740ac5c34740ac53f367de08b51, type: 2}
+  Events: []
+  Choices: []
