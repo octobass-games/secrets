@@ -1,16 +1,31 @@
 fileFormatVersion: 2
-guid: b0664560693d57a4e9bbd5dbba5a270f
+guid: 863034410739b0b40a0df8b764e4bb6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9039659638412690358
-    second: orc-girl_0
+      213: 8672008724192064129
+    second: orc-girl-outline_0
   - first:
-      213: -7056857411482815716
-    second: orc-girl_1
+      213: -6602751840415564236
+    second: orc-girl-outline_1
   - first:
-      213: 413550266636491801
-    second: orc-girl_2
+      213: 805615352582544016
+    second: orc-girl-outline_2
+  - first:
+      213: -7188112387548074416
+    second: orc-girl-outline_3
+  - first:
+      213: -2216076702878836827
+    second: orc-girl-outline_4
+  - first:
+      213: -7370777994653810407
+    second: orc-girl-outline_5
+  - first:
+      213: -8640171686529574913
+    second: orc-girl-outline_6
+  - first:
+      213: 3776975318111307783
+    second: orc-girl-outline_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: orc-girl_0
+      name: orc-girl-outline_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b346060c82537d70800000000000000
-      internalID: 9039659638412690358
+      spriteID: 1827e860df9295870800000000000000
+      internalID: 8672008724192064129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: orc-girl_1
+      name: orc-girl-outline_1
       rect:
         serializedVersion: 2
         x: 194
@@ -156,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c13fbf5b291011e90800000000000000
-      internalID: -7056857411482815716
+      spriteID: 43e39fb1f205e54a0800000000000000
+      internalID: -6602751840415564236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: orc-girl_2
+      name: orc-girl-outline_2
       rect:
         serializedVersion: 2
         x: 388
@@ -178,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91cd2a3c6c93db500800000000000000
-      internalID: 413550266636491801
+      spriteID: 09a984415ee1e2b00800000000000000
+      internalID: 805615352582544016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: orc-girl_3
+      name: orc-girl-outline_3
       rect:
         serializedVersion: 2
         x: 582
@@ -198,16 +213,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e1e55ab03bdb36d46aad814e70854bea
-      internalID: 853244716
+      spriteID: 05eac962ed1be3c90800000000000000
+      internalID: -7188112387548074416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: orc-girl_4
+      name: orc-girl-outline_4
       rect:
         serializedVersion: 2
         x: 776
@@ -220,16 +235,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7c520e533b246334fa2d2acd7e5b2be6
-      internalID: 777810972
+      spriteID: 5a753e1eaf9ee31e0800000000000000
+      internalID: -2216076702878836827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: orc-girl_5
+      name: orc-girl-outline_5
       rect:
         serializedVersion: 2
         x: 970
@@ -242,16 +257,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 845fd13553f6e404fbfd7af631a1be07
-      internalID: 1915851293
+      spriteID: 911c466477cb5b990800000000000000
+      internalID: -7370777994653810407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: orc-girl_6
+      name: orc-girl-outline_6
       rect:
         serializedVersion: 2
         x: 1164
@@ -264,16 +279,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9eecb4b15cda7e04981ff6b49d270feb
-      internalID: 1104656988
+      spriteID: ff75402f0a1f71880800000000000000
+      internalID: -8640171686529574913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: orc-girl_7
+      name: orc-girl-outline_7
       rect:
         serializedVersion: 2
         x: 1358
@@ -286,10 +301,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3f42b4efd05c12d48af6f23fa4c593e0
-      internalID: -2101349320
+      spriteID: 70841716a038a6430800000000000000
+      internalID: 3776975318111307783
       vertices: []
       indices: 
       edges: []
@@ -298,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 7c93c80e496eb6146b232cdb2abaceaa
     internalID: 0
     vertices: []
     indices: 
@@ -308,14 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      orc-girl_0: 9039659638412690358
-      orc-girl_1: -7056857411482815716
-      orc-girl_2: 413550266636491801
-      orc-girl_3: 853244716
-      orc-girl_4: 777810972
-      orc-girl_5: 1915851293
-      orc-girl_6: 1104656988
-      orc-girl_7: -2101349320
+      orc-girl-outline_0: 8672008724192064129
+      orc-girl-outline_1: -6602751840415564236
+      orc-girl-outline_2: 805615352582544016
+      orc-girl-outline_3: -7188112387548074416
+      orc-girl-outline_4: -2216076702878836827
+      orc-girl-outline_5: -7370777994653810407
+      orc-girl-outline_6: -8640171686529574913
+      orc-girl-outline_7: 3776975318111307783
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
