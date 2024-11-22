@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-817332cd-5aa1-473d-a181-0760efa2638d
+  m_EditorClassIdentifier: 
+  Id: 817332cd-5aa1-473d-a181-0760efa2638d
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "Anyway, my weapons are beginning to blunt and I need some guidance on how
+    to maintain them. Don\u2019t suppose you\u2019ve a book for that?"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: a43b18be122bf384b8addc09ac1e4356, type: 2}
+  - {fileID: 11400000, guid: cccb9cf70920c3e449046686936817e1, type: 2}

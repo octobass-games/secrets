@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-10d362bb-84d8-4581-8092-c33431b9fbfc
+  m_EditorClassIdentifier: 
+  Id: 10d362bb-84d8-4581-8092-c33431b9fbfc
+  Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
+  Text: "I feel like I\u2019m going to throw up, I don\u2019t think I\u2019ve ever
+    ran so fast in my entire life!"
+  NextLine: {fileID: 11400000, guid: 9707c64d83aea35489c9f8b9480974fd, type: 2}
+  Events: []
+  Choices: []

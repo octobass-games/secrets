@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-a0bccfc7-9bdf-4d3a-8710-3f7641ebad7d
+  m_EditorClassIdentifier: 
+  Id: a0bccfc7-9bdf-4d3a-8710-3f7641ebad7d
+  Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
+  Text: "I\u2019m so excited!"
+  NextLine: {fileID: 11400000, guid: c32f391f7d0cccc45afb722ed06a45f4, type: 2}
+  Events: []
+  Choices: []

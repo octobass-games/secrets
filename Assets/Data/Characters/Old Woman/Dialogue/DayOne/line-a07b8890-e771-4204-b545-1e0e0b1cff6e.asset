@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-a07b8890-e771-4204-b545-1e0e0b1cff6e
+  m_EditorClassIdentifier: 
+  Id: a07b8890-e771-4204-b545-1e0e0b1cff6e
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: "That\u2019s fine dearie, no rush. Every minute I spend here is one less
+    in the cold."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices: []

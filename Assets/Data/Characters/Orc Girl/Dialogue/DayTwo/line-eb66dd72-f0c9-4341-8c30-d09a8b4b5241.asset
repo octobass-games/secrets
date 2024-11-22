@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-eb66dd72-f0c9-4341-8c30-d09a8b4b5241
+  m_EditorClassIdentifier: 
+  Id: eb66dd72-f0c9-4341-8c30-d09a8b4b5241
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "Yeah, I\u2019m good. Just back from a month\u2019s long expedition out in
+    the wilds. I\u2019d like to tell you why but that\u2019s a secret I\u2019m afraid."
+  NextLine: {fileID: 11400000, guid: d7701810a1ee76041928aac57854aaf2, type: 2}
+  Events: []
+  Choices: []

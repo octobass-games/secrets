@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-3caa24f9-e4f8-44b6-894c-63fd534576bc
+  m_EditorClassIdentifier: 
+  Id: 3caa24f9-e4f8-44b6-894c-63fd534576bc
+  Text: "I\u2019m her granddaughter. I\u2019ve been running the shop for about a
+    month now"
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: 93aad164a9d436548aa803db080998fc, type: 2}
+  Requirements: []
