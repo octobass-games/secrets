@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-a5cedc18-34a9-49eb-b57d-14c025d73205
+  m_EditorClassIdentifier: 
+  Id: a5cedc18-34a9-49eb-b57d-14c025d73205
+  Text: "Well, the customer\u2019s always right. So I guess it is"
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: bf7e5a7d3af97144daa9f1cf8713a6fe, type: 2}
+  Requirements: []

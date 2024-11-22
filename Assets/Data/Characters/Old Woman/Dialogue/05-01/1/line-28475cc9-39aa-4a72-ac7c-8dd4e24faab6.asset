@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-28475cc9-39aa-4a72-ac7c-8dd4e24faab6
+  m_EditorClassIdentifier: 
+  Id: 28475cc9-39aa-4a72-ac7c-8dd4e24faab6
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: "You know\u2026 there is actually one thing I was wondering if you had. I\u2019ve
+    got a bit of a rat infestation at the moment, and I was wondering if you had
+    any rat poison?"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: bb755354bcadce84788423ba18803d4f, type: 2}
+  - {fileID: 11400000, guid: 34ebfd7ed3bbf7f44a1ff1669eaf98ec, type: 2}

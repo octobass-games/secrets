@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-442112b5-2dfd-4c5d-8f5e-cc14af25b494
+  m_EditorClassIdentifier: 
+  Id: 442112b5-2dfd-4c5d-8f5e-cc14af25b494
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: "Oh, wonderful! I don\u2019t suppose I\u2019d be able to take it off your
+    hands?"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 26c37698425a6b141baad6504ad12b4e, type: 2}
+  - {fileID: 11400000, guid: fd54fdf8007eddd47805d6b31dfdb1a3, type: 2}
+  - {fileID: 11400000, guid: 7cc9db966a0788d4baf223cd6d999df8, type: 2}

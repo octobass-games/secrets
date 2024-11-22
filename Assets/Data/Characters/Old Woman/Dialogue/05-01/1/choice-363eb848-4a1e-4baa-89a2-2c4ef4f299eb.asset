@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-363eb848-4a1e-4baa-89a2-2c4ef4f299eb
+  m_EditorClassIdentifier: 
+  Id: 363eb848-4a1e-4baa-89a2-2c4ef4f299eb
+  Text: Of course it is! How have you been?
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: bf7e5a7d3af97144daa9f1cf8713a6fe, type: 2}
+  Requirements: []

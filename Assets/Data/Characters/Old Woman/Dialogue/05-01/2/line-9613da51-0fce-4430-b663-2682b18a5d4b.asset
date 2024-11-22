@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-9613da51-0fce-4430-b663-2682b18a5d4b
+  m_EditorClassIdentifier: 
+  Id: 9613da51-0fce-4430-b663-2682b18a5d4b
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: "Your grandmother let me in on a little secret once that that bookcase actually
+    has a hidden compartment. If you can get it open, you might find what  you\u2019re
+    looking for inside\u2026"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 6911e4bab52c178418b57f03a828b0f7, type: 2}
+  - {fileID: 11400000, guid: 6579cebead4d9104fae71f1ba9ac34f9, type: 2}
