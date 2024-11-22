@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-b93bb3d2-2f2a-4f71-8984-23820403874b
+  m_EditorClassIdentifier: 
+  Id: b93bb3d2-2f2a-4f71-8984-23820403874b
+  Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+  Text: "Come on now bro, we both know I\u2019ve got this."
+  NextLine: {fileID: 11400000, guid: d90c3964bf16fc9468e6c24c56b0f8f7, type: 2}
+  Events: []
+  Choices: []

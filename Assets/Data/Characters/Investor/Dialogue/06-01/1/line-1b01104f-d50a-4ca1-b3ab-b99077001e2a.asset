@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-1b01104f-d50a-4ca1-b3ab-b99077001e2a
+  m_EditorClassIdentifier: 
+  Id: 1b01104f-d50a-4ca1-b3ab-b99077001e2a
+  Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+  Text: "Pfft, it\u2019s your loss bro. Look, as a show of good faith I\u2019m going
+    to pop back in every now and then, and maybe you\u2019ll have learned about the
+    power of investment."
+  NextLine: {fileID: 11400000, guid: d90c3964bf16fc9468e6c24c56b0f8f7, type: 2}
+  Events: []
+  Choices: []

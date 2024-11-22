@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-4721298e-0825-44dd-9b84-7121dd7c6726
+  m_EditorClassIdentifier: 
+  Id: 4721298e-0825-44dd-9b84-7121dd7c6726
+  Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+  Text: "Too good to be true?! Bro, everyone is investing these days. As far as I\u2019m
+    concerned, there are only two types of people in the world. Investors, and everyone
+    else."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 3d397f5ea82463940b9241c1ea234b4d, type: 2}

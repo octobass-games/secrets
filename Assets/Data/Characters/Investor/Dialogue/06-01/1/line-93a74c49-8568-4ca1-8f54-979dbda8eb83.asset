@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-93a74c49-8568-4ca1-8f54-979dbda8eb83
+  m_EditorClassIdentifier: 
+  Id: 93a74c49-8568-4ca1-8f54-979dbda8eb83
+  Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+  Text: "Yeah, it's cool bro. Anyway, I'm a local up-and-coming broker. How\u2019d
+    you like to have a go at investing? I can triple your investment, no sweat."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: aa52433f76e8e754e89a5fe82f057a10, type: 2}
+  - {fileID: 11400000, guid: 6d6f2ba7fa505af4899ac42d35228b20, type: 2}
