@@ -9,7 +9,7 @@ public class Cursor : MonoBehaviour
     public Texture2D NeutralCursor;
     public Texture2D ClickableCursor;
     
-    private Vector2 CursorHotspot = Vector2.zero;
+    private Vector2 CursorHotspot = new Vector2(4,1);
     private List<RaycastResult> UiObjectsUnderCursor = new();
 
     void Awake()
