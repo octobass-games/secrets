@@ -21,4 +21,12 @@ public class Bookshelf : MonoBehaviour
             }
         }
     }
+
+    public void MoveToTill(BookDefinition book)
+    {
+        var bookshelfBook = Books.Find(b => b.BookDefinition.IsEqual(book));
+
+        bookshelfBook.GetComponent<Clickable>().enabled = false;
+        bookshelfBook.GetComponent<EventOnHover>().enabled = false;
+    }
 }

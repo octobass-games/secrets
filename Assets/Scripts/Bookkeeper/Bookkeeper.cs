@@ -196,6 +196,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         var booksToDisplay = Books.FindAll(b => InStock(b) && !b.IsEqual(book));
 
+        Bookshelf.MoveToTill(book);
         Bookshelf.PlaceBooks(booksToDisplay);
         
         if (TillBook != null)
