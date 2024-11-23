@@ -10,9 +10,14 @@ public class PaperStacker : MonoBehaviour, Savable
 
     private int PaperCount = 0;
 
-    void Awake()
+    void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.PAPER_ARRIVED, OnPaperArrived);
+    }
+
+    void OnDisable()
+    {
+        EventManager.Instance.Unsubscribe(GameEventType.PAPER_ARRIVED, OnPaperArrived);
     }
 
     public void OnPaperArrived(GameEvent @event)

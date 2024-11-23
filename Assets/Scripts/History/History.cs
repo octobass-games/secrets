@@ -5,9 +5,14 @@ public class History : MonoBehaviour, Savable
 {
     private List<string> Events = new();
 
-    void Start()
+    void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.HISTORY, OnHistoricalEvent);
+    }
+
+    void OnDisable()
+    {
+        EventManager.Instance.Unsubscribe(GameEventType.HISTORY, OnHistoricalEvent);
     }
 
     public void Record(string eventName)

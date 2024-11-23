@@ -8,9 +8,14 @@ public class Supplier : MonoBehaviour
 
     private bool HasSpokenToSupplier;
 
-    void Start()
+    void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
+    }
+
+    void OnDisable()
+    {
+        EventManager.Instance.Unsubscribe(GameEventType.BEGIN_DAY, OnBeginDay);
     }
 
     private void OnBeginDay(GameEvent _)

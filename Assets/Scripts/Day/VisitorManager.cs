@@ -5,10 +5,16 @@ public class VisitorManager : MonoBehaviour
 {
     public List<Character> Visitors;
 
-    void Awake()
+    void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.VISITOR_ARRIVAL, OnVisitorArrival);
         EventManager.Instance.Subscribe(GameEventType.VISITOR_DEPARTURE, OnVisitorDeparture);
+    }
+
+    void OnDisable()
+    {
+        EventManager.Instance.Unsubscribe(GameEventType.VISITOR_ARRIVAL, OnVisitorArrival);
+        EventManager.Instance.Unsubscribe(GameEventType.VISITOR_DEPARTURE, OnVisitorDeparture);
     }
 
     void Start()

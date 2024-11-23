@@ -6,13 +6,21 @@ public class StampCollector : MonoBehaviour, Savable
 {
     public List<StampDefinition> Stamps;
     public GameObject StampBook;
-    public List<Stamp> BookStamps; 
+    public List<Stamp> BookStamps;
 
     void Awake()
     {
         Stamps = Stamps.Select(stamp => Instantiate(stamp)).ToList();
+    }
 
+    void OnEnable()
+    {
         EventManager.Instance.Subscribe(GameEventType.STAMP_COLLECTED, OnStampCollected);
+    }
+
+    void OnDisable()
+    {
+        EventManager.Instance.Unsubscribe(GameEventType.STAMP_COLLECTED, OnStampCollected);
     }
 
     public void ShowStamps()

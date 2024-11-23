@@ -15,8 +15,16 @@ public class DayManager : MonoBehaviour, Savable
     void Awake()
     {
         Days = Days.Select(d => Instantiate(d)).ToList();
+    }
 
+    void OnEnable()
+    {
         EventManager.Instance.Subscribe(GameEventType.NEXT_DAILY_EVENT, OnNextDailyEvent);
+    }
+
+    void OnDisable()
+    {
+        EventManager.Instance.Unsubscribe(GameEventType.NEXT_DAILY_EVENT, OnNextDailyEvent);
     }
 
     void Start()

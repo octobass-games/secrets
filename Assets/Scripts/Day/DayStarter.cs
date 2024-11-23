@@ -8,10 +8,16 @@ public class DayStarter : MonoBehaviour
     public TMP_Text BeforeDate;
     public TMP_Text AfterDate;
 
-    void Awake()
+    void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Subscribe(GameEventType.END_DAY, OnEndDay);
+    }
+
+    void OnDisable()
+    {
+        EventManager.Instance.Unsubscribe(GameEventType.BEGIN_DAY, OnBeginDay);
+        EventManager.Instance.Unsubscribe(GameEventType.END_DAY, OnEndDay);
     }
 
     private void OnBeginDay(GameEvent @event)

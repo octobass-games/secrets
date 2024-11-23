@@ -19,11 +19,21 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         Books = Books.Select(b => Instantiate(b)).ToList();
 
+        TillView.DisplayImmediately(BankBalance);
+    }
+
+    void OnEnable()
+    {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Subscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
+    }
 
-        TillView.DisplayImmediately(BankBalance);
+    void OnDisable()
+    {
+        EventManager.Instance.Unsubscribe(GameEventType.BEGIN_DAY, OnBeginDay);
+        EventManager.Instance.Unsubscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
+        EventManager.Instance.Unsubscribe(GameEventType.BOOK_ORDER, OnBookOrder);
     }
 
     public List<DailyTransactions> GetDailyTransactions()
