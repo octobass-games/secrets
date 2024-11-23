@@ -31,6 +31,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Subscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
+        EventManager.Instance.Subscribe(GameEventType.INVENTORY_SELL, OnBookSell);
     }
 
     void OnDisable()
@@ -38,6 +39,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Unsubscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Unsubscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
         EventManager.Instance.Unsubscribe(GameEventType.BOOK_ORDER, OnBookOrder);
+        EventManager.Instance.Unsubscribe(GameEventType.INVENTORY_SELL, OnBookSell);
     }
 
     public List<DailyTransactions> GetDailyTransactions()
@@ -221,5 +223,21 @@ public class Bookkeeper : MonoBehaviour, Savable
     public bool IsBookAtTill(BookDefinition book)
     {
         return TillBook != null && TillBook.GetComponent<Book>().BookDefinition.IsEqual(book);
+    }
+
+    private void OnBookSell(GameEvent _)
+    {
+        Debug.Log("Hello");
+        if (TillBook != null)
+        {
+            var book = TillBook.GetComponent<Book>().BookDefinition;
+
+            var b = Books.Find(b => b.IsEqual(book));
+
+            Debug.Log("Hello" + b.Name);
+
+            RegisterBookSale(b);
+            TillView.Display(BankBalance);
+        }
     }
 }

@@ -16,11 +16,11 @@ MonoBehaviour:
   Author: 
   Description: 50 recipes to warm your heart
   Category: 8
-  Sprite: {fileID: 0}
+  Cover: {fileID: 0}
   colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 0
-  SellPrice: 0
-  Stock: 0
+  SellPrice: 100
+  Stock: 1
   CostToOrder: 0
   Item: {fileID: 0}
   LikelihoodToSell: 0
