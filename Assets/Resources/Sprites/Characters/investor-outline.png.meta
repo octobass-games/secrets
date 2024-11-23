@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 7db16ecf6239c754f9c8195ff0eee315
+guid: e10a4d4150e2a4342a1118f25e433bf7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1687541144368063501
-    second: paper-girl_0
+      213: -1278526315176250084
+    second: investor-outline_0
+  - first:
+      213: 5002658748653128587
+    second: investor-outline_1
+  - first:
+      213: -7475560499103472112
+    second: investor-outline_2
+  - first:
+      213: 1246025276797544956
+    second: investor-outline_3
+  - first:
+      213: 1814521662833092289
+    second: investor-outline_4
+  - first:
+      213: -5077762987532003213
+    second: investor-outline_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,12 +128,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: paper-girl_0
+      name: investor-outline_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fbd51a2546a498e0800000000000000
-      internalID: -1687541144368063501
+      spriteID: c153eeb1713c14ee0800000000000000
+      internalID: -1278526315176250084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_1
+      name: investor-outline_1
       rect:
         serializedVersion: 2
-        x: 124
+        x: 159
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -148,21 +163,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8d33314913632c448b19f8dc98f295b1
-      internalID: -906549088
+      spriteID: b8b48fd60a30d6540800000000000000
+      internalID: 5002658748653128587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_2
+      name: investor-outline_2
       rect:
         serializedVersion: 2
-        x: 248
+        x: 318
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -170,21 +185,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3bf6df6b46b280b4a9ee3551c5312d0c
-      internalID: 1703876405
+      spriteID: 016eef15559714890800000000000000
+      internalID: -7475560499103472112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_3
+      name: investor-outline_3
       rect:
         serializedVersion: 2
-        x: 372
+        x: 477
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,21 +207,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 12323ff876c8cb345a12908c47f8cdc5
-      internalID: -1396231217
+      spriteID: cf9eca43365ca4110800000000000000
+      internalID: 1246025276797544956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_4
+      name: investor-outline_4
       rect:
         serializedVersion: 2
-        x: 496
+        x: 636
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -214,21 +229,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 66c814ce5e685524188fd22f1f79399d
-      internalID: 1775012103
+      spriteID: 1c6ea6ea6d97e2910800000000000000
+      internalID: 1814521662833092289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_5
+      name: investor-outline_5
       rect:
         serializedVersion: 2
-        x: 620
+        x: 795
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,76 +251,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4081543822503394babc8b2ed7b736a1
-      internalID: -1584791092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paper-girl_6
-      rect:
-        serializedVersion: 2
-        x: 744
-        y: 0
-        width: 124
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dda2485eebad0046a4e5fa3dceadb4b
-      internalID: 675410325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paper-girl_7
-      rect:
-        serializedVersion: 2
-        x: 868
-        y: 0
-        width: 124
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3434854fea4a79e4aa73bf689552589c
-      internalID: 1279274954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paper-girl_8
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 0
-        width: 124
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2724f6a9232bb1042af3187d263e48df
-      internalID: -1289980016
+      spriteID: 378578a47792889b0800000000000000
+      internalID: -5077762987532003213
       vertices: []
       indices: 
       edges: []
@@ -314,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: fff06c79bf3a6b445843c30d245b35b1
     internalID: 0
     vertices: []
     indices: 
@@ -324,15 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      paper-girl_0: -1687541144368063501
-      paper-girl_1: -906549088
-      paper-girl_2: 1703876405
-      paper-girl_3: -1396231217
-      paper-girl_4: 1775012103
-      paper-girl_5: -1584791092
-      paper-girl_6: 675410325
-      paper-girl_7: 1279274954
-      paper-girl_8: -1289980016
+      investor-outline_0: -1278526315176250084
+      investor-outline_1: 5002658748653128587
+      investor-outline_2: -7475560499103472112
+      investor-outline_3: 1246025276797544956
+      investor-outline_4: 1814521662833092289
+      investor-outline_5: -5077762987532003213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

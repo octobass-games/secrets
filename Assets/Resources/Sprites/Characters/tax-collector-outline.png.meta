@@ -1,10 +1,31 @@
 fileFormatVersion: 2
-guid: 7db16ecf6239c754f9c8195ff0eee315
+guid: 3031f7a9c6ec0284f910c299e086e51e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1687541144368063501
-    second: paper-girl_0
+      213: -7911354026482548796
+    second: tax-collector-outline_0
+  - first:
+      213: 4253545713096661312
+    second: tax-collector-outline_1
+  - first:
+      213: 8409637613614858907
+    second: tax-collector-outline_2
+  - first:
+      213: -7012696851779641159
+    second: tax-collector-outline_3
+  - first:
+      213: -9183489531204501655
+    second: tax-collector-outline_4
+  - first:
+      213: -5492329660454629293
+    second: tax-collector-outline_5
+  - first:
+      213: 8997904096899793553
+    second: tax-collector-outline_6
+  - first:
+      213: 7649835649378670931
+    second: tax-collector-outline_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,12 +134,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: paper-girl_0
+      name: tax-collector-outline_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,19 +149,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fbd51a2546a498e0800000000000000
-      internalID: -1687541144368063501
+      spriteID: 4cfb627dd69353290800000000000000
+      internalID: -7911354026482548796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_1
+      name: tax-collector-outline_1
       rect:
         serializedVersion: 2
-        x: 124
+        x: 159
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -148,21 +169,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8d33314913632c448b19f8dc98f295b1
-      internalID: -906549088
+      spriteID: 04913013a41a70b30800000000000000
+      internalID: 4253545713096661312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_2
+      name: tax-collector-outline_2
       rect:
         serializedVersion: 2
-        x: 248
+        x: 318
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -170,21 +191,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3bf6df6b46b280b4a9ee3551c5312d0c
-      internalID: 1703876405
+      spriteID: b9207497ad805b470800000000000000
+      internalID: 8409637613614858907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_3
+      name: tax-collector-outline_3
       rect:
         serializedVersion: 2
-        x: 372
+        x: 477
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,21 +213,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 12323ff876c8cb345a12908c47f8cdc5
-      internalID: -1396231217
+      spriteID: 9b0ac204e55edae90800000000000000
+      internalID: -7012696851779641159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_4
+      name: tax-collector-outline_4
       rect:
         serializedVersion: 2
-        x: 496
+        x: 636
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -214,21 +235,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 66c814ce5e685524188fd22f1f79399d
-      internalID: 1775012103
+      spriteID: 96f79067de0bd8080800000000000000
+      internalID: -9183489531204501655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_5
+      name: tax-collector-outline_5
       rect:
         serializedVersion: 2
-        x: 620
+        x: 795
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,21 +257,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4081543822503394babc8b2ed7b736a1
-      internalID: -1584791092
+      spriteID: 350924ff54357c3b0800000000000000
+      internalID: -5492329660454629293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_6
+      name: tax-collector-outline_6
       rect:
         serializedVersion: 2
-        x: 744
+        x: 954
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -258,21 +279,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8dda2485eebad0046a4e5fa3dceadb4b
-      internalID: 675410325
+      spriteID: 1928eba6a1afedc70800000000000000
+      internalID: 8997904096899793553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_7
+      name: tax-collector-outline_7
       rect:
         serializedVersion: 2
-        x: 868
+        x: 1113
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -280,32 +301,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3434854fea4a79e4aa73bf689552589c
-      internalID: 1279274954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paper-girl_8
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 0
-        width: 124
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2724f6a9232bb1042af3187d263e48df
-      internalID: -1289980016
+      spriteID: 359d5571efca92a60800000000000000
+      internalID: 7649835649378670931
       vertices: []
       indices: 
       edges: []
@@ -314,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 2584e3b5743349f44a7c227a71a5a9c3
     internalID: 0
     vertices: []
     indices: 
@@ -324,15 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      paper-girl_0: -1687541144368063501
-      paper-girl_1: -906549088
-      paper-girl_2: 1703876405
-      paper-girl_3: -1396231217
-      paper-girl_4: 1775012103
-      paper-girl_5: -1584791092
-      paper-girl_6: 675410325
-      paper-girl_7: 1279274954
-      paper-girl_8: -1289980016
+      tax-collector-outline_0: -7911354026482548796
+      tax-collector-outline_1: 4253545713096661312
+      tax-collector-outline_2: 8409637613614858907
+      tax-collector-outline_3: -7012696851779641159
+      tax-collector-outline_4: -9183489531204501655
+      tax-collector-outline_5: -5492329660454629293
+      tax-collector-outline_6: 8997904096899793553
+      tax-collector-outline_7: 7649835649378670931
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,34 @@
 fileFormatVersion: 2
-guid: 7db16ecf6239c754f9c8195ff0eee315
+guid: bd83277a5e6bed84dae3aff28792b2e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1687541144368063501
-    second: paper-girl_0
+      213: 5940285826522974164
+    second: paper-girl-outline_0
+  - first:
+      213: -8100007479825136857
+    second: paper-girl-outline_1
+  - first:
+      213: -7264328146059472249
+    second: paper-girl-outline_2
+  - first:
+      213: 3869822057796098080
+    second: paper-girl-outline_3
+  - first:
+      213: 3885632889764938574
+    second: paper-girl-outline_4
+  - first:
+      213: -6988027356349024809
+    second: paper-girl-outline_5
+  - first:
+      213: 3614820677507878776
+    second: paper-girl-outline_6
+  - first:
+      213: 1126605239619063699
+    second: paper-girl-outline_7
+  - first:
+      213: 3111094598610523928
+    second: paper-girl-outline_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: paper-girl_0
+      name: paper-girl-outline_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fbd51a2546a498e0800000000000000
-      internalID: -1687541144368063501
+      spriteID: 4d7803a7c72207250800000000000000
+      internalID: 5940285826522974164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_1
+      name: paper-girl-outline_1
       rect:
         serializedVersion: 2
         x: 124
@@ -148,16 +172,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8d33314913632c448b19f8dc98f295b1
-      internalID: -906549088
+      spriteID: 723040fdc1ef69f80800000000000000
+      internalID: -8100007479825136857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_2
+      name: paper-girl-outline_2
       rect:
         serializedVersion: 2
         x: 248
@@ -170,16 +194,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3bf6df6b46b280b4a9ee3551c5312d0c
-      internalID: 1703876405
+      spriteID: 782d04a0a0cef2b90800000000000000
+      internalID: -7264328146059472249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_3
+      name: paper-girl-outline_3
       rect:
         serializedVersion: 2
         x: 372
@@ -192,16 +216,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 12323ff876c8cb345a12908c47f8cdc5
-      internalID: -1396231217
+      spriteID: 02858ea88ae54b530800000000000000
+      internalID: 3869822057796098080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_4
+      name: paper-girl-outline_4
       rect:
         serializedVersion: 2
         x: 496
@@ -214,16 +238,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 66c814ce5e685524188fd22f1f79399d
-      internalID: 1775012103
+      spriteID: e43830ab68a8ce530800000000000000
+      internalID: 3885632889764938574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_5
+      name: paper-girl-outline_5
       rect:
         serializedVersion: 2
         x: 620
@@ -236,16 +260,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4081543822503394babc8b2ed7b736a1
-      internalID: -1584791092
+      spriteID: 7d5ba10c42a850f90800000000000000
+      internalID: -6988027356349024809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_6
+      name: paper-girl-outline_6
       rect:
         serializedVersion: 2
         x: 744
@@ -258,16 +282,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8dda2485eebad0046a4e5fa3dceadb4b
-      internalID: 675410325
+      spriteID: 87f0899014c6a2230800000000000000
+      internalID: 3614820677507878776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_7
+      name: paper-girl-outline_7
       rect:
         serializedVersion: 2
         x: 868
@@ -280,16 +304,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3434854fea4a79e4aa73bf689552589c
-      internalID: 1279274954
+      spriteID: 39f86951f7182af00800000000000000
+      internalID: 1126605239619063699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_8
+      name: paper-girl-outline_8
       rect:
         serializedVersion: 2
         x: 992
@@ -302,10 +326,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2724f6a9232bb1042af3187d263e48df
-      internalID: -1289980016
+      spriteID: 81711dcdd04dc2b20800000000000000
+      internalID: 3111094598610523928
       vertices: []
       indices: 
       edges: []
@@ -314,7 +338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 485848bec5a6b0c45a036cda1409853c
     internalID: 0
     vertices: []
     indices: 
@@ -324,15 +348,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      paper-girl_0: -1687541144368063501
-      paper-girl_1: -906549088
-      paper-girl_2: 1703876405
-      paper-girl_3: -1396231217
-      paper-girl_4: 1775012103
-      paper-girl_5: -1584791092
-      paper-girl_6: 675410325
-      paper-girl_7: 1279274954
-      paper-girl_8: -1289980016
+      paper-girl-outline_0: 5940285826522974164
+      paper-girl-outline_1: -8100007479825136857
+      paper-girl-outline_2: -7264328146059472249
+      paper-girl-outline_3: 3869822057796098080
+      paper-girl-outline_4: 3885632889764938574
+      paper-girl-outline_5: -6988027356349024809
+      paper-girl-outline_6: 3614820677507878776
+      paper-girl-outline_7: 1126605239619063699
+      paper-girl-outline_8: 3111094598610523928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,31 @@
 fileFormatVersion: 2
-guid: 7db16ecf6239c754f9c8195ff0eee315
+guid: e586c4612031dde4487befc4f31dc132
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1687541144368063501
-    second: paper-girl_0
+      213: -4782208621226976854
+    second: trader-outline_0
+  - first:
+      213: 6669875256474480292
+    second: trader-outline_1
+  - first:
+      213: 2292216631999145418
+    second: trader-outline_2
+  - first:
+      213: 7475603152578241114
+    second: trader-outline_3
+  - first:
+      213: -3813277410601626009
+    second: trader-outline_4
+  - first:
+      213: 512366894161051995
+    second: trader-outline_5
+  - first:
+      213: -3378907177360645872
+    second: trader-outline_6
+  - first:
+      213: -3414823560944892296
+    second: trader-outline_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,12 +134,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: paper-girl_0
+      name: trader-outline_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 124
+        width: 125
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,19 +149,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fbd51a2546a498e0800000000000000
-      internalID: -1687541144368063501
+      spriteID: aa994f1a89e22adb0800000000000000
+      internalID: -4782208621226976854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_1
+      name: trader-outline_1
       rect:
         serializedVersion: 2
-        x: 124
+        x: 125
         y: 0
-        width: 124
+        width: 125
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -148,21 +169,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8d33314913632c448b19f8dc98f295b1
-      internalID: -906549088
+      spriteID: 4ae245e0538209c50800000000000000
+      internalID: 6669875256474480292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_2
+      name: trader-outline_2
       rect:
         serializedVersion: 2
-        x: 248
+        x: 250
         y: 0
-        width: 124
+        width: 125
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -170,21 +191,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3bf6df6b46b280b4a9ee3551c5312d0c
-      internalID: 1703876405
+      spriteID: ac52d82d1e69fcf10800000000000000
+      internalID: 2292216631999145418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_3
+      name: trader-outline_3
       rect:
         serializedVersion: 2
-        x: 372
+        x: 375
         y: 0
-        width: 124
+        width: 125
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,21 +213,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 12323ff876c8cb345a12908c47f8cdc5
-      internalID: -1396231217
+      spriteID: a526737b57daeb760800000000000000
+      internalID: 7475603152578241114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_4
+      name: trader-outline_4
       rect:
         serializedVersion: 2
-        x: 496
+        x: 500
         y: 0
-        width: 124
+        width: 125
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -214,21 +235,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 66c814ce5e685524188fd22f1f79399d
-      internalID: 1775012103
+      spriteID: 766911f0664841bc0800000000000000
+      internalID: -3813277410601626009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_5
+      name: trader-outline_5
       rect:
         serializedVersion: 2
-        x: 620
+        x: 625
         y: 0
-        width: 124
+        width: 125
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,21 +257,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4081543822503394babc8b2ed7b736a1
-      internalID: -1584791092
+      spriteID: b51c321c9fa4c1700800000000000000
+      internalID: 512366894161051995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_6
+      name: trader-outline_6
       rect:
         serializedVersion: 2
-        x: 744
+        x: 750
         y: 0
-        width: 124
+        width: 125
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -258,21 +279,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8dda2485eebad0046a4e5fa3dceadb4b
-      internalID: 675410325
+      spriteID: 011a66c03d5bb11d0800000000000000
+      internalID: -3378907177360645872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_7
+      name: trader-outline_7
       rect:
         serializedVersion: 2
-        x: 868
+        x: 875
         y: 0
-        width: 124
+        width: 125
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -280,32 +301,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3434854fea4a79e4aa73bf689552589c
-      internalID: 1279274954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paper-girl_8
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 0
-        width: 124
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2724f6a9232bb1042af3187d263e48df
-      internalID: -1289980016
+      spriteID: 876ce37501c1c90d0800000000000000
+      internalID: -3414823560944892296
       vertices: []
       indices: 
       edges: []
@@ -314,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e3cdc6eda18c4364eb0028cf61fd4a60
     internalID: 0
     vertices: []
     indices: 
@@ -324,15 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      paper-girl_0: -1687541144368063501
-      paper-girl_1: -906549088
-      paper-girl_2: 1703876405
-      paper-girl_3: -1396231217
-      paper-girl_4: 1775012103
-      paper-girl_5: -1584791092
-      paper-girl_6: 675410325
-      paper-girl_7: 1279274954
-      paper-girl_8: -1289980016
+      trader-outline_0: -4782208621226976854
+      trader-outline_1: 6669875256474480292
+      trader-outline_2: 2292216631999145418
+      trader-outline_3: 7475603152578241114
+      trader-outline_4: -3813277410601626009
+      trader-outline_5: 512366894161051995
+      trader-outline_6: -3378907177360645872
+      trader-outline_7: -3414823560944892296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
