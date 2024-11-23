@@ -31,6 +31,11 @@ public class VisitorManager : MonoBehaviour
     public void OnVisitorDeparture(GameEvent @event)
     {
         SetCharacterState(@event.Character, false);
+
+        if (@event.TriggerNextDailyEvent)
+        {
+            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.NEXT_DAILY_EVENT });
+        }
     }
 
     private void SetCharacterState(CharacterDefinition character, bool isActive)

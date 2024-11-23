@@ -28,4 +28,15 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+  - Type: 3
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
   Choices: []

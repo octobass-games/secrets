@@ -15,4 +15,5 @@ public class GameEvent
     public List<BookDefinition> BooksToOrder;
     public StampDefinition Stamp;
     public string StampId;
+    public bool TriggerNextDailyEvent;
 }
