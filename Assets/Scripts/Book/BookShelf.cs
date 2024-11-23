@@ -21,7 +21,8 @@ class Bookshelf : MonoBehaviour
             }
             else
             {
-                book.gameObject.SetActive(false);
+                // TODO: flip this back to false
+                book.gameObject.SetActive(true);
             }
         }
     }

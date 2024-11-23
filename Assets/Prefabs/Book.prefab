@@ -132,6 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BookDefinition: {fileID: 11400000, guid: 1b2fdc9c678ce2948b1f5abdb8d6145c, type: 2}
+  HoverCover: {fileID: 541047828494257659}
+  HoverDescription: {fileID: 2300520496753811600}
 --- !u!61 &4143811326115332983
 BoxCollider2D:
   m_ObjectHideFlags: 0

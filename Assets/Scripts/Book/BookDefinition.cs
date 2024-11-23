@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu]
 public class BookDefinition : ScriptableObject
@@ -7,7 +8,8 @@ public class BookDefinition : ScriptableObject
     public string Author;
     public string Description;
     public BookCategory Category;
-    public Sprite Sprite;
+    [FormerlySerializedAs("Sprite")]
+    public Sprite Cover;
     public Color colour;
     public int RecommendedSellPrice;
     public int SellPrice;
