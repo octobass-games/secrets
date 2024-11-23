@@ -243,7 +243,7 @@ TextureImporter:
         width: 9
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -265,7 +265,7 @@ TextureImporter:
         width: 13
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -282,12 +282,12 @@ TextureImporter:
       name: Book5
       rect:
         serializedVersion: 2
-        x: 167
-        y: 209
-        width: 7
-        height: 39
+        x: 53
+        y: 82
+        width: 8
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,7 +309,7 @@ TextureImporter:
         width: 6
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,7 +331,7 @@ TextureImporter:
         width: 7
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -353,7 +353,7 @@ TextureImporter:
         width: 21
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -362,6 +362,28 @@ TextureImporter:
       bones: []
       spriteID: 977c3bfeddccbec41ad7687068947183
       internalID: 1013289571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book5-outline
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 83
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4f22bf816304140be4fbcd7f890613
+      internalID: -358855500
       vertices: []
       indices: 
       edges: []
@@ -391,6 +413,7 @@ TextureImporter:
       Books and Accessorise_2: -7180940444164404743
       Books and Accessorise_3: 473687850240212779
       Books and Accessorise_4: 2638544285556958997
+      book5-outline: -358855500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

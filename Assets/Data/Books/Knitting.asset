@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: Knitting
   m_EditorClassIdentifier: 
   Name: Knitting
+  Author: 
+  Description: 
+  Category: 2
+  Sprite: {fileID: -6722977174423530570, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  colour: {r: 1, g: 1, b: 1, a: 1}
   RecommendedSellPrice: 0
   SellPrice: 0
-  Stock: 0
+  Stock: 1
   CostToOrder: 0
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
-  Category: 2
-  Sprite: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}
