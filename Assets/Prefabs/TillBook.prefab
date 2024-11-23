@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5969055360780834868}
   - component: {fileID: 1294360341800525330}
-  - component: {fileID: 6928798680835758009}
+  - component: {fileID: -2819635950601001794}
   m_Layer: 0
-  m_Name: RomanceTillBook
+  m_Name: TillBook
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3616512531535755360, guid: 17ac4f03b5ab7584db44c90a0b456bda, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -85,10 +85,10 @@ SpriteRenderer:
   m_Size: {x: 14, y: 14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6928798680835758009
+--- !u!114 &-2819635950601001794
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,7 +97,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8892843852603427114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb854e96eed7e45449922f3c55f79709, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e4e9800293e71745b7a888867ff0a3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BookDefinition: {fileID: 0}
+  SpriteRenderer: {fileID: 1294360341800525330}

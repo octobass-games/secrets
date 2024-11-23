@@ -1,15 +1,14 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 class Bookshelf : MonoBehaviour
 {
     public Bookkeeper Bookkeeper;
-    public List<Book> Books;
+    public List<BookshelfBook> Books;
 
     public GameObject TillBook;
     public Transform TillBookPosition;
-    public GameObject RomanceBookPrefab;
+    public GameObject TillBookPrefab;
 
     void Start()
     {
@@ -36,24 +35,12 @@ class Bookshelf : MonoBehaviour
 
         var bookshelfBook = Books.Find(b => b.BookDefinition.IsEqual(book));
 
-        GameObject prefab = GetPrefabToInstantiate(bookshelfBook);
-
-        TillBook = Instantiate(prefab);
+        TillBook = Instantiate(TillBookPrefab);
         TillBook.transform.position = TillBookPosition.position;
         TillBook.GetComponent<Book>().BookDefinition = book;
+        TillBook.GetComponent<Book>().Setup();
         TillBook.gameObject.SetActive(true);
 
         bookshelfBook.gameObject.SetActive(false);
-    }
-
-    private GameObject GetPrefabToInstantiate(Book book)
-    {
-        switch (book.BookDefinition.Category)
-        {
-            case BookCategory.ROMANCE:
-                return RomanceBookPrefab;
-            default:
-                return null;
-        }
     }
 }

@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    private Book Book;
+    private BookshelfBook Book;
 
-    public Book GetBook()
+    public BookshelfBook GetBook()
     {
         return Book;
     }
     
-    public void Pickup(Book book)
+    public void Pickup(BookshelfBook book)
     {
         Book = book;
     }
