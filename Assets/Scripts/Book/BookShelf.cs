@@ -41,6 +41,7 @@ class Bookshelf : MonoBehaviour
         TillBook.GetComponent<Book>().Setup();
         TillBook.gameObject.SetActive(true);
 
-        bookshelfBook.gameObject.SetActive(false);
+        bookshelfBook.GetComponent<Clickable>().enabled = false;
+        bookshelfBook.GetComponent<EventOnHover>().enabled = false;
     }
 }

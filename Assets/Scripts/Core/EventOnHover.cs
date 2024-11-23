@@ -9,7 +9,7 @@ public class EventOnHover : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if (!EventSystem.current.IsPointerOverGameObject())
+        if (!EventSystem.current.IsPointerOverGameObject() && enabled)
         {
             OnHoverIn?.Invoke();
         }
@@ -17,6 +17,15 @@ public class EventOnHover : MonoBehaviour
 
 
     void OnMouseExit()
+    {
+        if (enabled)
+        {
+            OnHoverOut?.Invoke();
+        }
+
+    }
+
+    void OnDisable()
     {
         OnHoverOut?.Invoke();
     }
