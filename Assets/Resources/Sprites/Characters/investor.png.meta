@@ -200,6 +200,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: investor_4
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 159
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b21bec8fa2d23c4f9e1077e3d66f349
+      internalID: 2079539893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: investor_5
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 0
+        width: 159
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3e80b22dc41704e8c8bd1c4c458461
+      internalID: -1520651371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -218,6 +262,8 @@ TextureImporter:
       investor_1: -1367583029
       investor_2: -2096654603
       investor_3: 296742669
+      investor_4: 2079539893
+      investor_5: -1520651371
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

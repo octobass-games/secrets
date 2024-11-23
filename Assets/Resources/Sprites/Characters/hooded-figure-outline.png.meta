@@ -1,10 +1,31 @@
 fileFormatVersion: 2
-guid: 7db16ecf6239c754f9c8195ff0eee315
+guid: 43c14f38c8393654787716a30d56e03f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1687541144368063501
-    second: paper-girl_0
+      213: -8145749893687649692
+    second: hooded-figure-outline_0
+  - first:
+      213: -205111230096257374
+    second: hooded-figure-outline_1
+  - first:
+      213: 5201323810742662399
+    second: hooded-figure-outline_2
+  - first:
+      213: -7937799910464895495
+    second: hooded-figure-outline_3
+  - first:
+      213: -2427503796125980872
+    second: hooded-figure-outline_4
+  - first:
+      213: -1163447073507482370
+    second: hooded-figure-outline_5
+  - first:
+      213: -5230208346401956992
+    second: hooded-figure-outline_6
+  - first:
+      213: 3628173131516567997
+    second: hooded-figure-outline_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,12 +134,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: paper-girl_0
+      name: hooded-figure-outline_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,19 +149,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fbd51a2546a498e0800000000000000
-      internalID: -1687541144368063501
+      spriteID: 46a529531ab74fe80800000000000000
+      internalID: -8145749893687649692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_1
+      name: hooded-figure-outline_1
       rect:
         serializedVersion: 2
-        x: 124
+        x: 159
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -148,21 +169,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8d33314913632c448b19f8dc98f295b1
-      internalID: -906549088
+      spriteID: 2ae4ba64c6c472df0800000000000000
+      internalID: -205111230096257374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_2
+      name: hooded-figure-outline_2
       rect:
         serializedVersion: 2
-        x: 248
+        x: 318
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -170,21 +191,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3bf6df6b46b280b4a9ee3551c5312d0c
-      internalID: 1703876405
+      spriteID: ff4f815b270de2840800000000000000
+      internalID: 5201323810742662399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_3
+      name: hooded-figure-outline_3
       rect:
         serializedVersion: 2
-        x: 372
+        x: 477
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,21 +213,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 12323ff876c8cb345a12908c47f8cdc5
-      internalID: -1396231217
+      spriteID: 9f5cc96a90547d190800000000000000
+      internalID: -7937799910464895495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_4
+      name: hooded-figure-outline_4
       rect:
         serializedVersion: 2
-        x: 496
+        x: 636
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -214,21 +235,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 66c814ce5e685524188fd22f1f79399d
-      internalID: 1775012103
+      spriteID: 837affca826cf4ed0800000000000000
+      internalID: -2427503796125980872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_5
+      name: hooded-figure-outline_5
       rect:
         serializedVersion: 2
-        x: 620
+        x: 795
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,21 +257,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4081543822503394babc8b2ed7b736a1
-      internalID: -1584791092
+      spriteID: ef46e940d0b9adfe0800000000000000
+      internalID: -1163447073507482370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_6
+      name: hooded-figure-outline_6
       rect:
         serializedVersion: 2
-        x: 744
+        x: 954
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -258,21 +279,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8dda2485eebad0046a4e5fa3dceadb4b
-      internalID: 675410325
+      spriteID: 08b9d6348319a67b0800000000000000
+      internalID: -5230208346401956992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paper-girl_7
+      name: hooded-figure-outline_7
       rect:
         serializedVersion: 2
-        x: 868
+        x: 1113
         y: 0
-        width: 124
+        width: 159
         height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -280,32 +301,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3434854fea4a79e4aa73bf689552589c
-      internalID: 1279274954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paper-girl_8
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 0
-        width: 124
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2724f6a9232bb1042af3187d263e48df
-      internalID: -1289980016
+      spriteID: db169af7d3cd95230800000000000000
+      internalID: 3628173131516567997
       vertices: []
       indices: 
       edges: []
@@ -314,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: d06110e238e7b40479ed4835d2d3168a
     internalID: 0
     vertices: []
     indices: 
@@ -324,15 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      paper-girl_0: -1687541144368063501
-      paper-girl_1: -906549088
-      paper-girl_2: 1703876405
-      paper-girl_3: -1396231217
-      paper-girl_4: 1775012103
-      paper-girl_5: -1584791092
-      paper-girl_6: 675410325
-      paper-girl_7: 1279274954
-      paper-girl_8: -1289980016
+      hooded-figure-outline_0: -8145749893687649692
+      hooded-figure-outline_1: -205111230096257374
+      hooded-figure-outline_2: 5201323810742662399
+      hooded-figure-outline_3: -7937799910464895495
+      hooded-figure-outline_4: -2427503796125980872
+      hooded-figure-outline_5: -1163447073507482370
+      hooded-figure-outline_6: -5230208346401956992
+      hooded-figure-outline_7: 3628173131516567997
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
