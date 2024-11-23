@@ -6,6 +6,10 @@ public class Bookkeeper : MonoBehaviour, Savable
 {
     public List<BookDefinition> Books;
     public TillView TillView;
+    public Bookshelf Bookshelf;
+    public GameObject TillBook;
+    public Transform TillBookPosition;
+    public GameObject TillBookPrefab;
 
     private int BankBalance = 10000;
 
@@ -44,7 +48,12 @@ public class Bookkeeper : MonoBehaviour, Savable
     public void OnBeginDay(GameEvent @event)
     {
         Today = @event.Day;
+
         TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new());
+
+        var booksInStock = Books.FindAll(InStock).ToList();
+
+        Bookshelf.PlaceBooks(booksInStock);
     }
 
     public void OnBankWithdrawal(GameEvent @event)
@@ -179,5 +188,38 @@ public class Bookkeeper : MonoBehaviour, Savable
         });
 
         TillView.DisplayImmediately(BankBalance);
+    }
+
+    public void MoveToTill(BookDefinition book)
+    {
+        var booksToDisplay = Books.FindAll(b => InStock(b) && !b.IsEqual(book));
+
+        Bookshelf.PlaceBooks(booksToDisplay);
+        
+        if (TillBook != null)
+        {
+            var bookDefinition = TillBook.GetComponent<Book>().BookDefinition;
+
+            //var tillBookBooshelfBook = Books.Find(b => b.BookDefinition.IsEqual(bookDefinition));
+            //tillBookBooshelfBook.gameObject.SetActive(true);
+
+            Destroy(TillBook);
+        }
+
+        TillBook = Instantiate(TillBookPrefab);
+        TillBook.transform.position = TillBookPosition.position;
+        TillBook.GetComponent<Book>().BookDefinition = book;
+        TillBook.GetComponent<Book>().Setup();
+        TillBook.gameObject.SetActive(true);
+    }
+
+    public bool NoBookAtTill()
+    {
+        return TillBook == null;
+    }
+
+    public bool IsBookAtTill(BookDefinition book)
+    {
+        return TillBook != null && TillBook.GetComponent<Book>().BookDefinition.IsEqual(book);
     }
 }

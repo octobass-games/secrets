@@ -15,3 +15,4 @@ MonoBehaviour:
   RelationshipRequirement: 0
   RootLines:
   - {fileID: 11400000, guid: 24efdad94fd12564dbe09036415f18fe, type: 2}
+  - {fileID: 11400000, guid: 2d89d9f9ffa7b594a87eefbdfb8be256, type: 2}

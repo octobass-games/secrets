@@ -5,7 +5,6 @@ using UnityEngine;
 public class RequirementManager : MonoBehaviour
 {
     public History History;
-    public Inventory Inventory;
     public Bookkeeper Bookkeeper;
 
     public bool AllSatisfied(List<Requirement> requirements)
@@ -23,13 +22,13 @@ public class RequirementManager : MonoBehaviour
                 satisfied = History.Contains(requirement.Name);
                 break;
             case RequirementType.INVENTORY_EMPTY:
-                satisfied = Inventory.IsEmpty();
+                satisfied = Bookkeeper.NoBookAtTill();
                 break;
             case RequirementType.INVENTORY_CONTAINS:
-                satisfied = Inventory.Contains(requirement.Book.Name);
+                satisfied = Bookkeeper.IsBookAtTill(requirement.Book);
                 break;
             case RequirementType.INVENTORY_NOT_EMPTY:
-                satisfied = Inventory.IsNotEmpty();
+                satisfied = !Bookkeeper.NoBookAtTill();
                 break;
             case RequirementType.BANK_BALANCE_AVAILABLE:
                 satisfied = Bookkeeper.IsAffordablePayment(requirement.Amount);

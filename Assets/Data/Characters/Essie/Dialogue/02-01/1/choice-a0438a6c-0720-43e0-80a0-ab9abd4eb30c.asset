@@ -14,7 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: a0438a6c-0720-43e0-80a0-ab9abd4eb30c
   Text: "Of course. I\u2019ll just be a moment."
-  Events: []
+  Events:
+  - Type: 1
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
   RelationshipPoints: 0
   NextLine: {fileID: 0}
   Requirements: []

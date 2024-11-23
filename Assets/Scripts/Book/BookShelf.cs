@@ -1,46 +1,24 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-class Bookshelf : MonoBehaviour
+public class Bookshelf : MonoBehaviour
 {
-    public Bookkeeper Bookkeeper;
     public List<BookshelfBook> Books;
 
-    public GameObject TillBook;
-    public Transform TillBookPosition;
-    public GameObject TillBookPrefab;
-
-    void Start()
+    public void PlaceBooks(List<BookDefinition> books)
     {
         foreach (var book in Books)
         {
-            if (Bookkeeper.InStock(book.BookDefinition))
+            var bookDefinition = books.Find(a => a.IsEqual(book.BookDefinition));
+
+            if (bookDefinition != null)
             {
                 book.gameObject.SetActive(true);
             }
             else
             {
-                // TODO: flip this back to false
-                book.gameObject.SetActive(true);
+                book.gameObject.SetActive(false);
             }
         }
-    }
-
-    public void MoveToTill(BookDefinition book)
-    {
-        if (TillBook != null)
-        {
-            Destroy(TillBook);
-        }
-
-        var bookshelfBook = Books.Find(b => b.BookDefinition.IsEqual(book));
-
-        TillBook = Instantiate(TillBookPrefab);
-        TillBook.transform.position = TillBookPosition.position;
-        TillBook.GetComponent<Book>().BookDefinition = book;
-        TillBook.GetComponent<Book>().Setup();
-        TillBook.gameObject.SetActive(true);
-
-        bookshelfBook.gameObject.SetActive(false);
     }
 }
