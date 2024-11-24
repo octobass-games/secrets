@@ -84,7 +84,7 @@ public class Character : MonoBehaviour, Savable
         }
         else
         {
-            // Todo:Handle moving to next interaction
+            CharacterDefinition.Relationship++;
         }
     }
 

@@ -28,6 +28,7 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
   - Type: 3
     Memory: 
     Paper: {fileID: 0}
@@ -39,4 +40,5 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
   Choices: []
