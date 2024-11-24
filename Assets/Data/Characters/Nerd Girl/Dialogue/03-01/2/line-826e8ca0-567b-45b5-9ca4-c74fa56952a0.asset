@@ -16,5 +16,17 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
   Text: Bye!
   NextLine: {fileID: 0}
-  Events: []
+  Events:
+  - Type: 3
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   Choices: []
