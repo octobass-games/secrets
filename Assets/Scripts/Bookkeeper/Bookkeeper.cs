@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bookkeeper : MonoBehaviour, Savable
@@ -15,7 +16,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     private DayDefinition Today;
     private DailyTransactions TransactionsToday;
-    private List<DailyTransactions> DailyTransactions;
+    private List<DailyTransactions> DailyTransactions = new();
     
     private System.Random RandomNumberGenerator = new System.Random();
 
@@ -29,6 +30,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
+        EventManager.Instance.Subscribe(GameEventType.END_DAY, OnEndDay);
         EventManager.Instance.Subscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Subscribe(GameEventType.INVENTORY_SELL, OnBookSell);
@@ -37,6 +39,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     void OnDisable()
     {
         EventManager.Instance.Unsubscribe(GameEventType.BEGIN_DAY, OnBeginDay);
+        EventManager.Instance.Unsubscribe(GameEventType.END_DAY, OnEndDay);
         EventManager.Instance.Unsubscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
         EventManager.Instance.Unsubscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Unsubscribe(GameEventType.INVENTORY_SELL, OnBookSell);
@@ -52,10 +55,16 @@ public class Bookkeeper : MonoBehaviour, Savable
         Today = @event.Day;
 
         TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new());
+        DailyTransactions.Add(TransactionsToday);
 
         var booksInStock = Books.FindAll(InStock).ToList();
 
         Bookshelf.PlaceBooks(booksInStock);
+    }
+
+    public void OnEndDay(GameEvent @event)
+    {
+        UpdateBooks();
     }
 
     public void OnBankWithdrawal(GameEvent @event)

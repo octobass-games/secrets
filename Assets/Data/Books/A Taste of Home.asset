@@ -18,10 +18,10 @@ MonoBehaviour:
   Category: 8
   Cover: {fileID: 0}
   colour: {r: 0, g: 0, b: 0, a: 0}
-  RecommendedSellPrice: 0
+  RecommendedSellPrice: 100
   SellPrice: 100
   Stock: 1
   CostToOrder: 0
   Item: {fileID: 0}
   LikelihoodToSell: 0
-  BaseLikelihoodToSell: 0
+  BaseLikelihoodToSell: 50

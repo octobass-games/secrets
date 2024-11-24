@@ -59,41 +59,6 @@ public class Log : MonoBehaviour
         ClearDailyTransactions();
 
         List<DailyTransactions> dailyTransactions = Bookkeeper.GetDailyTransactions();
-        List<BookOrder> bookOrders = new() {
-            new("test", 1, 100)
-        };
-
-        dailyTransactions = new()
-        {
-            new("01/01", new() {
-                new("Hello", "World", 100)
-            }, new()
-            {
-                new("Test", 100, 100)
-            }, new()
-            {
-                new("Test", 100, 1000)
-            }),
-            new("02/01", new() {
-                new("Hello", "World Things", 200)
-            }, new()
-            {
-                new("Test", 100, 100)
-            }, new()
-            {
-                new("Test", 100, 1000)
-            }),
-            new("03/01", new() {
-                new("Hello", "World Things again", 300)
-            }, new()
-            {
-                new("Test", 100, 100),
-                new("Test", 100, 100)
-            }, new()
-            {
-                new("Test", 100, 1000)
-            })
-        };
 
         if (DailyTransactionsIndex == 0)
         {
@@ -132,7 +97,7 @@ public class Log : MonoBehaviour
             SalesRecords.Add(bookSaleView);
         }
 
-        foreach (BookOrder bookOrder in bookOrders)
+        foreach (BookOrder bookOrder in record.BookOrders)
         {
             GameObject outgoing = Instantiate(BookOrderPrefab);
 
