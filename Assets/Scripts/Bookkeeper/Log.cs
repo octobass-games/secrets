@@ -14,6 +14,8 @@ public class Log : MonoBehaviour
     public GameObject SaleRecordPrefab;
     public GameObject OutgoingCostsParent;
     public GameObject BookOrderPrefab;
+    public GameObject StampPrefab;
+    public Transform StampParent;
     public Button NextPageButton;
     public Button PreviousPageButton;
 
@@ -21,6 +23,7 @@ public class Log : MonoBehaviour
     private List<GameObject> UniqueSales = new();
     private List<GameObject> SalesRecords = new();
     private List<GameObject> OutgoingCosts = new();
+    private GameObject DailyTransactionsStamp;
 
     void Awake()
     {
@@ -72,6 +75,7 @@ public class Log : MonoBehaviour
         if (DailyTransactionsIndex < dailyTransactions.Count - 1)
         {
             NextPageButton.gameObject.SetActive(true);
+            DailyTransactionsStamp = Instantiate(StampPrefab, StampParent);
         }
         else
         {
@@ -151,5 +155,7 @@ public class Log : MonoBehaviour
         }
 
         UniqueSales.Clear();
+
+        Destroy(DailyTransactionsStamp);
     }
 }
