@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: Wellbeing 3
   m_EditorClassIdentifier: 
   Name: Wellbeing 3
-  RecommendedSellPrice: 0
+  Author: 
+  Description: 
+  Category: 11
+  Cover: {fileID: 0}
+  colour: {r: 0, g: 0, b: 0, a: 0}
+  RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 0
   CostToOrder: 0
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
-  Category: 11
-  Sprite: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}

@@ -16,9 +16,9 @@ MonoBehaviour:
   Author: 
   Description: 60 health based recipes to boost your HP
   Category: 8
-  Sprite: {fileID: 0}
+  Cover: {fileID: 0}
   colour: {r: 0, g: 0, b: 0, a: 0}
-  RecommendedSellPrice: 0
+  RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 0
   CostToOrder: 0

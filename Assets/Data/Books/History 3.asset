@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: History 3
   m_EditorClassIdentifier: 
   Name: History 3
-  RecommendedSellPrice: 0
+  Author: 
+  Description: 
+  Category: 5
+  Cover: {fileID: 0}
+  colour: {r: 0, g: 0, b: 0, a: 0}
+  RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 0
   CostToOrder: 0
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
-  Category: 5
-  Sprite: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}

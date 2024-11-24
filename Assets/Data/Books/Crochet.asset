@@ -16,9 +16,9 @@ MonoBehaviour:
   Author: 
   Description: 
   Category: 2
-  Sprite: {fileID: 0}
+  Cover: {fileID: 0}
   colour: {r: 0, g: 0, b: 0, a: 0}
-  RecommendedSellPrice: 0
+  RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1
   CostToOrder: 0
