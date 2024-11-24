@@ -1,40 +1,46 @@
 fileFormatVersion: 2
-guid: cbd0a29003638d245be0ead003875b29
+guid: 24968d7ced383fe48819b4085b58d75c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5923874019814326411
-    second: alphabett_0
+      213: -8402834000389212150
+    second: stamp-pop_0
   - first:
-      213: -7499779229978165056
-    second: alphabett_1
+      213: 5860898673789786323
+    second: stamp-pop_1
   - first:
-      213: -524649789574889836
-    second: alphabett_2
+      213: -1817830198630759585
+    second: stamp-pop_2
   - first:
-      213: -1709963306821950050
-    second: alphabett_3
+      213: -295629715689677349
+    second: stamp-pop_3
   - first:
-      213: 616899833303326135
-    second: alphabett_4
+      213: 8206018976524710085
+    second: stamp-pop_4
   - first:
-      213: -6432233321772273993
-    second: alphabett_5
+      213: 3210439679719536694
+    second: stamp-pop_5
   - first:
-      213: -3727194175107887881
-    second: alphabett_6
+      213: -5376227945354275020
+    second: stamp-pop_6
   - first:
-      213: 7919517678704994258
-    second: alphabett_7
+      213: 1594853752827487632
+    second: stamp-pop_7
   - first:
-      213: 3395161467875609927
-    second: alphabett_8
+      213: -5081000025791793922
+    second: stamp-pop_8
   - first:
-      213: 1172633807315262361
-    second: alphabett_9
+      213: 9201602226373858475
+    second: stamp-pop_9
   - first:
-      213: 3573010311772145455
-    second: alphabett_10
+      213: 8808536189644143109
+    second: stamp-pop_10
+  - first:
+      213: -8522913080459561216
+    second: stamp-pop_11
+  - first:
+      213: 4290771505258229345
+    second: stamp-pop_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,155 +149,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: how to play
+      name: stamp-pop_0
       rect:
         serializedVersion: 2
-        x: 285
-        y: 222
-        width: 94
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b80c235f804d53250800000000000000
-      internalID: 5923874019814326411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stamps
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 270
-        width: 101
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1539ffa8612a864684ccb3667d92522
-      internalID: 503895827
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stamp
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 71
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eef6ab145f5fdf24d92036a249251429
-      internalID: 1028301638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ding
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 90
-        width: 81
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22ef53406532547408b0aa05df71d21a
-      internalID: -1689300303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dingsmall
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 68
-        width: 41
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5ffc75bc8cd0cc439dcbb031e31e1f9
-      internalID: 349057371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: thump-small
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 215
-        width: 65
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2af87d3db872d5b44b215d0f4412e1d9
-      internalID: 1090066929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stamp-found
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 262
-        width: 90
-        height: 36
+        x: 0
+        y: 0
+        width: 70
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 751232d72e79ed74999dedb33609aea3
-      internalID: -943526113
+      spriteID: a08f93c2ff2236b80800000000000000
+      internalID: -8402834000389212150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stamp-pop_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d85ccb9a48165150800000000000000
+      internalID: 5860898673789786323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stamp-pop_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53c2acc015c5c6e0800000000000000
+      internalID: -1817830198630759585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stamp-pop_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd54430756b5ebf0800000000000000
+      internalID: -295629715689677349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stamp-pop_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0bed328c2a1e170800000000000000
+      internalID: 8206018976524710085
       vertices: []
       indices: 
       edges: []
@@ -300,7 +262,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 6a885ded77085a74e96dd0e3e6e503a8
     internalID: 0
     vertices: []
     indices: 
@@ -310,23 +272,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ding: -1689300303
-      Dingsmall: 349057371
-      alphabett_1: -7499779229978165056
-      alphabett_10: 3573010311772145455
-      alphabett_2: -524649789574889836
-      alphabett_3: -1709963306821950050
-      alphabett_4: 616899833303326135
-      alphabett_5: -6432233321772273993
-      alphabett_6: -3727194175107887881
-      alphabett_7: 7919517678704994258
-      alphabett_8: 3395161467875609927
-      alphabett_9: 1172633807315262361
-      how to play: 5923874019814326411
-      stamp: 1028301638
-      stamp-found: -943526113
-      stamps: 503895827
-      thump-small: 1090066929
+      stamp-pop_0: -8402834000389212150
+      stamp-pop_1: 5860898673789786323
+      stamp-pop_2: -1817830198630759585
+      stamp-pop_3: -295629715689677349
+      stamp-pop_4: 8206018976524710085
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
