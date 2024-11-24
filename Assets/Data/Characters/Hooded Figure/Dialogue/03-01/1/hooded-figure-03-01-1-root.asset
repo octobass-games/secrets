@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: hooded-figure-03-01-1-root
   m_EditorClassIdentifier: 
   Id: 454d1887-614a-4321-b1dc-8d068486217c
   Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}

@@ -61,7 +61,7 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
-    TriggerNextDailyEvent: 0
+    TriggerNextDailyEvent: 1
   - Type: 8
     Memory: 
     Paper: {fileID: 0}

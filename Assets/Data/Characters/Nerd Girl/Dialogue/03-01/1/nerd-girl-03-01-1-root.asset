@@ -10,15 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: nerd-girl-03-01-1-root
   m_EditorClassIdentifier: 
-  Id: e73a4a0e-9414-4616-8e9a-34597faad176
+  Id: bec7201b-d41c-4e82-b4df-05bc7e116afa
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: "Please tell me you found it\u2026"
-  NextLine: {fileID: 0}
+  Text: '*Huff huff*'
+  NextLine: {fileID: 11400000, guid: c8f98e7a43428b84a97617af99397fe1, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: 56547dd4c483a3b4aacbb03cbc07b988, type: 2}
-  - {fileID: 11400000, guid: 73e872f3350175344bd3af506e0604e2, type: 2}
-  - {fileID: 11400000, guid: cc9c16ae0d5062340b3180a1f57d3d88, type: 2}
-  - {fileID: 11400000, guid: 98efe180a120bf04085a64f98ebca121, type: 2}
+  Choices: []
