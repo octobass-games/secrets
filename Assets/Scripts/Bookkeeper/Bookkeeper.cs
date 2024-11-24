@@ -23,8 +23,6 @@ public class Bookkeeper : MonoBehaviour, Savable
     void Awake()
     {
         Books = Books.Select(b => Instantiate(b)).ToList();
-
-        TillView.DisplayImmediately(BankBalance);
     }
 
     void OnEnable()
@@ -54,12 +52,13 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         Today = @event.Day;
 
-        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new());
+        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new(), 0, 0);
         DailyTransactions.Add(TransactionsToday);
 
         var booksInStock = Books.FindAll(InStock).ToList();
 
         Bookshelf.PlaceBooks(booksInStock);
+        TillView.DisplayImmediately(BankBalance);
     }
 
     public void OnEndDay(GameEvent @event)

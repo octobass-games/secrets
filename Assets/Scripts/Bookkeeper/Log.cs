@@ -103,17 +103,17 @@ public class Log : MonoBehaviour
 
         foreach (BookOrder bookOrder in record.BookOrders)
         {
-            GameObject outgoing = Instantiate(BookOrderPrefab);
+            CreateOutgoingCost(bookOrder.Name + " x" + bookOrder.Quantity, bookOrder.TotalCost.ToString());
+        }
 
-            var texts = outgoing.GetComponentsInChildren<TMP_Text>();
+        if (record.Tax != 0)
+        {
+            CreateOutgoingCost("Tax", record.Tax.ToString());
+        }
 
-            texts[0].text = bookOrder.Name + " x" + bookOrder.Quantity;
-            texts[1].text = bookOrder.TotalCost.ToString();
-
-            outgoing.transform.SetParent(OutgoingCostsParent.transform);
-            outgoing.transform.localScale = Vector3.one;
-
-            OutgoingCosts.Add(outgoing);
+        if (record.Rent != 0)
+        {
+            CreateOutgoingCost("Rent", record.Rent.ToString());
         }
 
         foreach (UniqueBookSale uniqueBookSale in record.UniqueBookSales)
@@ -157,5 +157,19 @@ public class Log : MonoBehaviour
         UniqueSales.Clear();
 
         Destroy(DailyTransactionsStamp);
+    }
+
+    private void CreateOutgoingCost(string name, string cost)
+    {
+        GameObject outgoing = Instantiate(BookOrderPrefab, OutgoingCostsParent.transform);
+
+        var texts = outgoing.GetComponentsInChildren<TMP_Text>();
+
+        texts[0].text = name;
+        texts[1].text = cost;
+
+        outgoing.transform.localScale = Vector3.one;
+
+        OutgoingCosts.Add(outgoing);
     }
 }
