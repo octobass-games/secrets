@@ -23,15 +23,13 @@ public class Bookkeeper : MonoBehaviour, Savable
     void Awake()
     {
         Books = Books.Select(b => Instantiate(b)).ToList();
-
-        TillView.DisplayImmediately(BankBalance);
     }
 
     void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Subscribe(GameEventType.END_DAY, OnEndDay);
-        EventManager.Instance.Subscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
+        EventManager.Instance.Subscribe(GameEventType.RENT_PAYMENT, OnRentPayment);
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Subscribe(GameEventType.INVENTORY_SELL, OnBookSell);
     }
@@ -40,7 +38,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         EventManager.Instance.Unsubscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Unsubscribe(GameEventType.END_DAY, OnEndDay);
-        EventManager.Instance.Unsubscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
+        EventManager.Instance.Unsubscribe(GameEventType.RENT_PAYMENT, OnRentPayment);
         EventManager.Instance.Unsubscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Unsubscribe(GameEventType.INVENTORY_SELL, OnBookSell);
     }
@@ -49,17 +47,27 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         return DailyTransactions;
     }
+
+    private void OnRentPayment(GameEvent @event)
+    {
+        int rent = @event.Amount;
+
+        TransactionsToday.Rent = rent;
+
+        Withdraw(rent);
+    }
     
     public void OnBeginDay(GameEvent @event)
     {
         Today = @event.Day;
 
-        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new());
+        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new(), 0, 0);
         DailyTransactions.Add(TransactionsToday);
 
         var booksInStock = Books.FindAll(InStock).ToList();
 
         Bookshelf.PlaceBooks(booksInStock);
+        TillView.DisplayImmediately(BankBalance);
     }
 
     public void OnEndDay(GameEvent @event)
@@ -67,9 +75,9 @@ public class Bookkeeper : MonoBehaviour, Savable
         UpdateBooks();
     }
 
-    public void OnBankWithdrawal(GameEvent @event)
+    private void Withdraw(int amount)
     {
-        BankBalance -= @event.Amount;
+        BankBalance -= amount;
 
         TillView.Display(BankBalance);
     }
