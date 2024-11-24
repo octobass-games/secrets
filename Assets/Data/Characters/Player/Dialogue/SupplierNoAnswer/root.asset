@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: a6ef5497-ed86-4f4e-9c65-4bd0fded7f03
   Speaker: {fileID: 11400000, guid: 814c93d76037f7b49862a6ff6b95fd74, type: 2}
-  Text: Hmm... there doesn't appear to be any answer
+  Text: Hmm... there doesn't appear to be any answer.
   NextLine: {fileID: 0}
   Events: []
   Choices: []

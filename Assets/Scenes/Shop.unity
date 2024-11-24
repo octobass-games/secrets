@@ -19612,7 +19612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d38397495c801ef428f34e49ad7b3c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SaveOnDayEnd: 0
+  SaveOnDayEnd: 1
   Days:
   - {fileID: 11400000, guid: a51c3613560d77a4888136ca0845abcd, type: 2}
   - {fileID: 11400000, guid: 2c66c16c17407f34ea7c18f32f6b5b98, type: 2}
@@ -25788,6 +25788,7 @@ GameObject:
   - component: {fileID: 1910434337}
   - component: {fileID: 1910434336}
   - component: {fileID: 1910434335}
+  - component: {fileID: 1910434338}
   m_Layer: 0
   m_Name: Phone closed
   m_TagString: Untagged
@@ -25954,6 +25955,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1910434338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910434333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde12f56f603fd641b73ffc554236569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1977301572}
+        m_TargetAssemblyTypeName: Supplier, Assembly-CSharp
+        m_MethodName: Call
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1917396438
 GameObject:
   m_ObjectHideFlags: 0
@@ -26947,6 +26975,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb854e96eed7e45449922f3c55f79709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1977301571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1977301573}
+  - component: {fileID: 1977301572}
+  m_Layer: 0
+  m_Name: Supplier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1977301572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977301571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4d00149a607af42ae83b231377aece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DayManager: {fileID: 1425153795}
+  DialogueManager: {fileID: 135454216}
+  NoAnswerDialogue: {fileID: 11400000, guid: 14ad814de4d0f314ebb7e2808c9f7ee9, type: 2}
+--- !u!4 &1977301573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977301571}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 163.88243, y: 61.125874, z: -1.6405395}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1980068332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30247,3 +30322,4 @@ SceneRoots:
   - {fileID: 550685587}
   - {fileID: 1882574367}
   - {fileID: 1173111544}
+  - {fileID: 1977301573}
