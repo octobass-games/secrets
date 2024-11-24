@@ -29,7 +29,7 @@ public static class EnumerableExtension
 
     public static int PrevIndex<T>(this List<T> source, int currentIndex)
     {
-        if (currentIndex < 0) return source.Count;
+        if (currentIndex <= 0) return source.Count -1;
 
         return currentIndex - 1;
     }
