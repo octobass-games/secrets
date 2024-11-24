@@ -14,7 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 043a88cb-777f-43b5-af30-e9d17179f05e
   Text: "It should be, I\u2019ll just be a moment."
-  Events: []
+  Events:
+  - Type: 1
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   RelationshipPoints: 0
   NextLine: {fileID: 0}
   Requirements: []

@@ -50,19 +50,19 @@ MonoBehaviour:
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
-  - Type: 8
+  - Type: 9
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 0}
+    Character: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
-  - Type: 8
+  - Type: 7
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}

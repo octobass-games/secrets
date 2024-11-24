@@ -25,7 +25,14 @@ public class RequirementManager : MonoBehaviour
                 satisfied = Bookkeeper.NoBookAtTill();
                 break;
             case RequirementType.INVENTORY_CONTAINS:
-                satisfied = Bookkeeper.IsBookAtTill(requirement.Book);
+                if (requirement.Book != null)
+                {
+                    satisfied = Bookkeeper.IsBookAtTill(requirement.Book);
+                }
+                else
+                {
+                    satisfied = requirement.Books.Find(b => Bookkeeper.IsBookAtTill(b)) != null;
+                }
                 break;
             case RequirementType.INVENTORY_NOT_EMPTY:
                 satisfied = !Bookkeeper.NoBookAtTill();
