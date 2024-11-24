@@ -14,6 +14,8 @@ public class Log : MonoBehaviour
     public GameObject SaleRecordPrefab;
     public GameObject OutgoingCostsParent;
     public GameObject BookOrderPrefab;
+    public GameObject StampPrefab;
+    public Transform StampParent;
     public Button NextPageButton;
     public Button PreviousPageButton;
 
@@ -21,6 +23,7 @@ public class Log : MonoBehaviour
     private List<GameObject> UniqueSales = new();
     private List<GameObject> SalesRecords = new();
     private List<GameObject> OutgoingCosts = new();
+    private GameObject DailyTransactionsStamp;
 
     void Awake()
     {
@@ -59,41 +62,6 @@ public class Log : MonoBehaviour
         ClearDailyTransactions();
 
         List<DailyTransactions> dailyTransactions = Bookkeeper.GetDailyTransactions();
-        List<BookOrder> bookOrders = new() {
-            new("test", 1, 100)
-        };
-
-        dailyTransactions = new()
-        {
-            new("01/01", new() {
-                new("Hello", "World", 100)
-            }, new()
-            {
-                new("Test", 100, 100)
-            }, new()
-            {
-                new("Test", 100, 1000)
-            }),
-            new("02/01", new() {
-                new("Hello", "World Things", 200)
-            }, new()
-            {
-                new("Test", 100, 100)
-            }, new()
-            {
-                new("Test", 100, 1000)
-            }),
-            new("03/01", new() {
-                new("Hello", "World Things again", 300)
-            }, new()
-            {
-                new("Test", 100, 100),
-                new("Test", 100, 100)
-            }, new()
-            {
-                new("Test", 100, 1000)
-            })
-        };
 
         if (DailyTransactionsIndex == 0)
         {
@@ -107,6 +75,7 @@ public class Log : MonoBehaviour
         if (DailyTransactionsIndex < dailyTransactions.Count - 1)
         {
             NextPageButton.gameObject.SetActive(true);
+            DailyTransactionsStamp = Instantiate(StampPrefab, StampParent);
         }
         else
         {
@@ -124,7 +93,7 @@ public class Log : MonoBehaviour
             var texts = bookSaleView.GetComponentsInChildren<TMP_Text>();
 
             texts[0].text = bookSale.Name + " x" + bookSale.Quantity;
-            texts[1].text = bookSale.SellPrice.ToString();
+            texts[1].text = (bookSale.SellPrice * bookSale.Quantity).ToString();
 
             bookSaleView.transform.SetParent(SaleRecordParent.transform);
             bookSaleView.transform.localScale = Vector3.one;
@@ -132,7 +101,7 @@ public class Log : MonoBehaviour
             SalesRecords.Add(bookSaleView);
         }
 
-        foreach (BookOrder bookOrder in bookOrders)
+        foreach (BookOrder bookOrder in record.BookOrders)
         {
             GameObject outgoing = Instantiate(BookOrderPrefab);
 
@@ -186,5 +155,7 @@ public class Log : MonoBehaviour
         }
 
         UniqueSales.Clear();
+
+        Destroy(DailyTransactionsStamp);
     }
 }
