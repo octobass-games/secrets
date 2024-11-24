@@ -17,5 +17,17 @@ MonoBehaviour:
   Text: "Look, I can tell you\u2019re still pretty new at this. Once I\u2019ve left
     you\u2019re going to want to ring your supplier and order more books in."
   NextLine: {fileID: 11400000, guid: 182ad4f71646a1e4a83a1424565b0650, type: 2}
-  Events: []
+  Events:
+  - Type: 0
+    Memory: supplier.available
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   Choices: []

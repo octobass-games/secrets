@@ -25689,6 +25689,7 @@ GameObject:
   - component: {fileID: 1910434336}
   - component: {fileID: 1910434335}
   - component: {fileID: 1910434338}
+  - component: {fileID: 1910434339}
   m_Layer: 0
   m_Name: Phone closed
   m_TagString: Untagged
@@ -25882,6 +25883,23 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1910434339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910434333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c85452627c6ea546944d3fbfd8fca30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  History: {fileID: 2113456429}
+  Event: supplier.available
+  Behaviours:
+  - {fileID: 1910434338}
+  - {fileID: 1910434335}
 --- !u!1 &1917396438
 GameObject:
   m_ObjectHideFlags: 0

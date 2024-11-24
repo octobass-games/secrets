@@ -25,10 +25,11 @@ public class Supplier : MonoBehaviour
 
     public void Call()
     {
-        if (!HasSpokenToSupplier)
+        Line dialogue = DayManager.GetSupplierDialogue();
+        
+        if (!HasSpokenToSupplier && dialogue != null)
         {
-            HasSpokenToSupplier = true;
-            DialogueManager.Begin(DayManager.GetSupplierDialogue(), null);
+            DialogueManager.Begin(dialogue, null);
         }
         else
         {
