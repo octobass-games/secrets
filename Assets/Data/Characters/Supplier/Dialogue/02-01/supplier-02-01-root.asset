@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-ad0adc59-53dc-4200-9d06-c16b94c03bf5
+  m_Name: supplier-02-01-root
   m_EditorClassIdentifier: 
-  Id: ad0adc59-53dc-4200-9d06-c16b94c03bf5
+  Id: 5de2cba7-7d13-4ad0-95ad-df2af0b39acb
   Speaker: {fileID: 11400000, guid: 61287b88000fa1b4386797bcb2979580, type: 2}
-  Text: That's no problem! Call again tomorrow to see what else we have!
+  Text: Would you like some amazing books?
   NextLine: {fileID: 0}
   Events: []
-  Choices: []
+  Choices:
+  - {fileID: 11400000, guid: f8c73d463728a014d9466cc4757a172c, type: 2}
