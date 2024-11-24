@@ -93,7 +93,7 @@ public class Log : MonoBehaviour
             var texts = bookSaleView.GetComponentsInChildren<TMP_Text>();
 
             texts[0].text = bookSale.Name + " x" + bookSale.Quantity;
-            texts[1].text = bookSale.SellPrice.ToString();
+            texts[1].text = (bookSale.SellPrice * bookSale.Quantity).ToString();
 
             bookSaleView.transform.SetParent(SaleRecordParent.transform);
             bookSaleView.transform.localScale = Vector3.one;
