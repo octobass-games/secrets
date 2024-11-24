@@ -110,5 +110,5 @@ MonoBehaviour:
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
-  IsInThePast: 1
+  IsInThePast: 0
   SupplierDialogue: {fileID: 0}
