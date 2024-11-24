@@ -194,14 +194,13 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     public void MoveToTill(BookDefinition book)
     {
-        var booksToDisplay = Books.FindAll(b => InStock(b) && !b.IsEqual(book));
+        Bookshelf.MoveToTill(book);   
 
-        Bookshelf.MoveToTill(book);
-        Bookshelf.PlaceBooks(booksToDisplay);
-        
         if (TillBook != null)
         {
             var bookDefinition = TillBook.GetComponent<Book>().BookDefinition;
+
+            Bookshelf.PutBookBack(bookDefinition);
 
             //var tillBookBooshelfBook = Books.Find(b => b.BookDefinition.IsEqual(bookDefinition));
             //tillBookBooshelfBook.gameObject.SetActive(true);
@@ -228,14 +227,11 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     private void OnBookSell(GameEvent _)
     {
-        Debug.Log("Hello");
         if (TillBook != null)
         {
             var book = TillBook.GetComponent<Book>().BookDefinition;
 
             var b = Books.Find(b => b.IsEqual(book));
-
-            Debug.Log("Hello" + b.Name);
 
             RegisterBookSale(b);
             TillView.Display(BankBalance);

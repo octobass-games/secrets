@@ -29,4 +29,19 @@ public class Bookshelf : MonoBehaviour
         bookshelfBook.GetComponent<Clickable>().enabled = false;
         bookshelfBook.GetComponent<EventOnHover>().enabled = false;
     }
+
+    public void PutBookBack(BookDefinition book)
+    {
+        var bookshelfBook = Books.Find(b => b.BookDefinition.IsEqual(book));
+
+        var bookshelfBookAnimator = bookshelfBook.GetComponentInChildren<Animator>();
+
+        if (bookshelfBookAnimator != null)
+        {
+            bookshelfBookAnimator.SetTrigger("place");
+        }
+
+        bookshelfBook.GetComponent<Clickable>().enabled = true;
+        bookshelfBook.GetComponent<EventOnHover>().enabled = true;
+    }
 }
