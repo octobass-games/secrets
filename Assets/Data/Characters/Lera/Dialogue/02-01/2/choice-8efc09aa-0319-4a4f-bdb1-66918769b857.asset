@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: choice-8efc09aa-0319-4a4f-bdb1-66918769b857
   m_EditorClassIdentifier: 
   Id: 8efc09aa-0319-4a4f-bdb1-66918769b857
-  Text: Here you go
+  Text: Here you go!
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 1eb32c46ad5739b4fa4ee25a11c76cb9, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 3
+    Name: 
+    Book: {fileID: 0}
+    Negate: 0
+    Amount: 0
