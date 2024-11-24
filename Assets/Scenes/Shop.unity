@@ -3311,6 +3311,7 @@ GameObject:
   - component: {fileID: 224822609}
   - component: {fileID: 224822608}
   - component: {fileID: 224822607}
+  - component: {fileID: 224822612}
   m_Layer: 0
   m_Name: Interactions
   m_TagString: Untagged
@@ -3498,6 +3499,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &224822612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224822605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 1948967781}
+    Params:
+    - Name: Character
+      Value: 0
+  TriggerEvent: 12
 --- !u!1 &230952979
 GameObject:
   m_ObjectHideFlags: 0
@@ -18050,6 +18070,7 @@ GameObject:
   - component: {fileID: 1316698014}
   - component: {fileID: 1316698017}
   - component: {fileID: 1316698018}
+  - component: {fileID: 1316698019}
   m_Layer: 0
   m_Name: Interactions
   m_TagString: Untagged
@@ -18237,6 +18258,25 @@ MonoBehaviour:
     - Name: Character
       Value: 1
   TriggerEvent: 11
+--- !u!114 &1316698019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316698012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 1948967781}
+    Params:
+    - Name: Character
+      Value: 0
+  TriggerEvent: 12
 --- !u!1 &1318041569
 GameObject:
   m_ObjectHideFlags: 0
@@ -29691,6 +29731,7 @@ GameObject:
   - component: {fileID: 2123600069}
   - component: {fileID: 2123600068}
   - component: {fileID: 2123600067}
+  - component: {fileID: 2123600072}
   m_Layer: 0
   m_Name: Interactions
   m_TagString: Untagged
@@ -29878,6 +29919,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2123600072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123600065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 1948967781}
+    Params:
+    - Name: Character
+      Value: 0
+  TriggerEvent: 12
 --- !u!1 &2124816368
 GameObject:
   m_ObjectHideFlags: 0
