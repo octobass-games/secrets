@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b91ac017059d3747959639b22d970a3, type: 3}
   m_Name: Ace Attorney
   m_EditorClassIdentifier: 
-  Id: Ace Attorney
+  Name: Ace Attorney
   IsUnlocked: 0
+  Description: Save on rent by citing the law

@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8343678108995768089
 RectTransform:
   m_ObjectHideFlags: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Stamps:
   - {fileID: 11400000, guid: 083e328b397e4bb429f88ab07a310293, type: 2}
-  StampBook: {fileID: 304405232853713702}
+  StampBook: {fileID: 5494387766470336571}
   BookStamps:
   - {fileID: 3945016676009767601}
 --- !u!1 &888322494386161622
@@ -246,10 +246,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 304405232853713702}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 8338549904212890477}
+        m_TargetAssemblyTypeName: StampCollector, Assembly-CSharp
+        m_MethodName: HideStamps
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -498,7 +498,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4139958164391414637
 RectTransform:
   m_ObjectHideFlags: 0
@@ -746,9 +746,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1920740488873124723, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920740488873124723, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920740488873124723, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 68.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920740488873124723, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -20.372501
+      objectReference: {fileID: 0}
     - target: {fileID: 4175195635574040935, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
       propertyPath: m_Name
       value: Stamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647339619981056428, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 74.995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713332309536088450, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713332309536088450, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713332309536088450, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 57.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 6713332309536088450, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -47.870003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

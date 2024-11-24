@@ -29,7 +29,7 @@ public class StampCollector : MonoBehaviour, Savable
 
         foreach (var stamp in Stamps)
         {
-            var bookStamp = BookStamps.Find(s => stamp.Id == s.StampDefinition.Id);
+            var bookStamp = BookStamps.Find(s => stamp.Name == s.StampDefinition.Name);
             
             if (stamp.IsUnlocked)
             {
@@ -57,7 +57,7 @@ public class StampCollector : MonoBehaviour, Savable
         }
         else
         {
-            stamp = Stamps.Find(s => s.Id == @event.StampId);
+            stamp = Stamps.Find(s => s.Name == @event.StampId);
         }
 
         stamp.IsUnlocked = true;
@@ -67,7 +67,7 @@ public class StampCollector : MonoBehaviour, Savable
     {
         foreach (var stamp in saveData.Stamps)
         {
-            var stampDefinition = Stamps.Find(s => s.Id == stamp.Id);
+            var stampDefinition = Stamps.Find(s => s.Name == stamp.Id);
 
             if (stampDefinition != null)
             {
@@ -78,6 +78,6 @@ public class StampCollector : MonoBehaviour, Savable
 
     public void Save(SaveData saveData)
     {
-        saveData.Stamps = Stamps.Select(s => new StampData(s.Id, s.IsUnlocked)).ToList();
+        saveData.Stamps = Stamps.Select(s => new StampData(s.Name, s.IsUnlocked)).ToList();
     }
 }

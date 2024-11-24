@@ -3,11 +3,12 @@ using UnityEngine;
 [CreateAssetMenu]
 public class StampDefinition : ScriptableObject
 {
-    public string Id;
+    public string Name;
     public bool IsUnlocked;
+    public string Description;
 
     public bool IsEqual(StampDefinition other)
     {
-        return Id == other.Id;
+        return Name == other.Name;
     }
 }
