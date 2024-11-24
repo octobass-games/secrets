@@ -990,7 +990,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -1064,7 +1072,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -2051,7 +2067,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   History: {fileID: 2113456429}
-  Inventory: {fileID: 251154496}
   Bookkeeper: {fileID: 509350324}
 --- !u!114 &135454216
 MonoBehaviour:
@@ -3801,7 +3816,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -3875,7 +3898,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -4063,7 +4094,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -4521,7 +4560,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -4862,7 +4909,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -5181,7 +5236,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -5419,7 +5482,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -6480,7 +6551,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -6554,7 +6633,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -6786,6 +6873,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c972f99a904752848955a6fc4a705ba1, type: 2}
   - {fileID: 11400000, guid: 1fecaab016fdaf04da7ae4e7176fde5c, type: 2}
   TillView: {fileID: 469674917}
+  Bookshelf: {fileID: 1719886218}
+  TillBook: {fileID: 0}
+  TillBookPosition: {fileID: 5969055360780834868, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
+  TillBookPrefab: {fileID: 8892843852603427114, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
 --- !u!4 &509350325
 Transform:
   m_ObjectHideFlags: 0
@@ -7314,21 +7405,41 @@ PrefabInstance:
       value: Knitting
       objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: MoveToTill
       objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 11400000, guid: ab8cf8464b872304d9cdfc751fac4c67, type: 2}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: BookDefinition, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8435960144496631234, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5
@@ -9088,7 +9199,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -9162,7 +9281,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -10166,7 +10293,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -12763,7 +12898,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -12837,7 +12980,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -14719,7 +14870,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -15274,7 +15433,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -15759,7 +15926,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -16887,7 +17062,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -20473,7 +20656,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -20656,7 +20847,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -21210,7 +21409,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -21478,7 +21685,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -21563,7 +21778,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -23403,7 +23626,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de9f26f2c4eb754d9c0cc5ce7023b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bookkeeper: {fileID: 509350324}
   Books:
   - {fileID: 1645344533}
   - {fileID: 552861048}
@@ -23438,9 +23660,6 @@ MonoBehaviour:
   - {fileID: 1050524928}
   - {fileID: 1535461160}
   - {fileID: 1475826562}
-  TillBook: {fileID: 0}
-  TillBookPosition: {fileID: 5969055360780834868, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
-  TillBookPrefab: {fileID: 8892843852603427114, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
 --- !u!1 &1724189657
 GameObject:
   m_ObjectHideFlags: 0
@@ -24181,7 +24400,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -26372,7 +26599,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -27013,7 +27248,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -27098,7 +27341,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -28176,7 +28427,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -28853,7 +29112,15 @@ PrefabInstance:
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1719886218}
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoveToTill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookkeeper, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4940422010303029242, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
