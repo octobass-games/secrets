@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: choice-9136b834-ede0-497b-984b-ae01bf670e2a
   m_EditorClassIdentifier: 
   Id: 9136b834-ede0-497b-984b-ae01bf670e2a
-  Text: "I\u2019m sorry, but we don\u2019t appear to have anything like that."
+  Text: Not yet sorry, I'm still looking.
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 1eb32c46ad5739b4fa4ee25a11c76cb9, type: 2}
-  Requirements: []
+  NextLine: {fileID: 11400000, guid: a85bd48faaff244408736fbd1d9b4e74, type: 2}
+  Requirements:
+  - Type: 2
+    Name: 
+    Book: {fileID: 0}
+    Negate: 0
+    Amount: 0

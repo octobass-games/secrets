@@ -219,9 +219,6 @@ public class Bookkeeper : MonoBehaviour, Savable
 
             Bookshelf.PutBookBack(bookDefinition);
 
-            //var tillBookBooshelfBook = Books.Find(b => b.BookDefinition.IsEqual(bookDefinition));
-            //tillBookBooshelfBook.gameObject.SetActive(true);
-
             Destroy(TillBook);
         }
 
@@ -251,6 +248,10 @@ public class Bookkeeper : MonoBehaviour, Savable
             var b = Books.Find(b => b.IsEqual(book));
 
             RegisterBookSale(b);
+            Destroy(TillBook);
+            var booksInStock = Books.FindAll(InStock).ToList();
+
+            Bookshelf.PlaceBooks(booksInStock);
             TillView.Display(BankBalance);
         }
     }
