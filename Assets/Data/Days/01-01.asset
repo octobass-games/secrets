@@ -25,6 +25,7 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
   - Type: 10
     Memory: 
     Paper: {fileID: 11400000, guid: 764f1087aa3294d49b717764a4d39074, type: 2}
@@ -36,6 +37,7 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
   - Type: 8
     Memory: 
     Paper: {fileID: 0}
@@ -47,6 +49,7 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
   - Type: 9
     Memory: 
     Paper: {fileID: 0}
@@ -58,6 +61,7 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
   - Type: 7
     Memory: 
     Paper: {fileID: 0}
@@ -69,6 +73,7 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
   - Type: 5
     Memory: 
     Paper: {fileID: 0}
@@ -80,5 +85,6 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 0}
     StampId: 
-  IsInThePast: 0
+    TriggerNextDailyEvent: 0
+  IsInThePast: 1
   SupplierDialogue: {fileID: 11400000, guid: 800d468e40c073742970e8f990c19ccb, type: 2}
