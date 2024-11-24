@@ -18,4 +18,19 @@ public static class EnumerableExtension
     {
         return source.OrderBy(x => Guid.NewGuid());
     }
+
+    public static int NextIndex<T>(this List<T> source, int currentIndex)
+    {
+        if (currentIndex < 0) return 0;
+
+        return (currentIndex + 1) % (source.Count);
+    }
+
+
+    public static int PrevIndex<T>(this List<T> source, int currentIndex)
+    {
+        if (currentIndex <= 0) return source.Count -1;
+
+        return currentIndex - 1;
+    }
 }
