@@ -33,11 +33,11 @@ public class StampCollector : MonoBehaviour, Savable
             
             if (stamp.IsUnlocked)
             {
-                bookStamp.gameObject.SetActive(true);
+                bookStamp.ShowUnlocked();
             }
             else
             {
-                bookStamp.gameObject.SetActive(false);
+                bookStamp.ShowLocked();
             }
         }
     }
