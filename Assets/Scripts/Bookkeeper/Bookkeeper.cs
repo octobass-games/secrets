@@ -13,12 +13,15 @@ public class Bookkeeper : MonoBehaviour, Savable
     public GameObject TillBook;
     public Transform TillBookPosition;
     public GameObject TillBookPrefab;
+    public DialogueManager DialogueManager;
+    public Line TooManyHollowBooks;
 
     private int BankBalance = 10000;
 
     private DayDefinition Today;
     private DailyTransactions TransactionsToday;
     private List<DailyTransactions> DailyTransactions = new();
+    private List<BookDefinition> HollowBooks = new();
     
     private System.Random RandomNumberGenerator = new System.Random();
 
@@ -57,17 +60,6 @@ public class Bookkeeper : MonoBehaviour, Savable
         TransactionsToday.Rent = rent;
 
         Withdraw(rent);
-    }
-
-    public void InsertItemIntoBook(BookDefinition book, ItemDefinition item)
-    {
-        var b = Books.Find(bo => bo.IsEqual(book));
-
-        b.Stock--;
-
-        var itemisedBook = Instantiate(b);
-
-        b.Item = item;
     }
     
     public void OnBeginDay(GameEvent @event)
@@ -149,6 +141,30 @@ public class Bookkeeper : MonoBehaviour, Savable
         return Books.Find(b => b.IsEqual(book)).Stock > 0;
     }
 
+    public BookDefinition HollowBook(BookDefinition book)
+    {
+        if (HollowBooks.Count >= 3)
+        {
+            DialogueManager.Begin(TooManyHollowBooks, null);
+
+            return null;
+        }
+        else
+        {
+            var b = Books.Find(b => b.IsEqual(book));
+            b.Stock--;
+
+            var hollow = Instantiate(book);
+
+            HollowBooks.Add(hollow);
+
+            var booksInStock = Books.FindAll(InStock).ToList();
+            Bookshelf.PlaceBooks(booksInStock);
+
+            return hollow;
+        }
+    }
+
     private void UpdateStock()
     {
         foreach (BookDefinition Book in Books)
@@ -198,14 +214,16 @@ public class Bookkeeper : MonoBehaviour, Savable
     public void Save(SaveData saveData)
     {
         var booksData = Books.Select(b => new BookData(b.Name, b.SellPrice, b.Stock)).ToList();
+        var hollowBooksData = HollowBooks.Select(b => new BookData(b.Name, b.SellPrice, b.Stock)).ToList();
 
-        saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, DailyTransactions);
+        saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, hollowBooksData, DailyTransactions);
     }
 
     public void Load(SaveData saveData)
     {
         BookkeeperData bookkeeperData = saveData.Bookkeeper;
         List<BookData> booksData = bookkeeperData.Books;
+        List<BookData> hollowBooksData = bookkeeperData.HollowBooks;
 
         BankBalance = bookkeeperData.BankBalance; 
         DailyTransactions = bookkeeperData.DailyTransactions;
@@ -218,6 +236,14 @@ public class Bookkeeper : MonoBehaviour, Savable
                 book.SellPrice = bookData.SellPrice;
             }
         });
+        HollowBooks = hollowBooksData.Select(hollowBookData =>
+        {
+            var bookDefinition = Books.Find(book => book.Name == hollowBookData.Name);
+
+            var hollowBook = Instantiate(bookDefinition);
+
+            return hollowBook;
+        }).ToList();
 
         TillView.DisplayImmediately(BankBalance);
     }
