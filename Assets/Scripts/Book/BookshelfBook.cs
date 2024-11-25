@@ -18,14 +18,4 @@ public class BookshelfBook : MonoBehaviour
     {
         return BookDefinition.Name == name;
     }
-
-    public void InsertIntoBook(GameObject item)
-    {
-        BookDefinition.Item = item;
-    }
-
-    public void RemoveItemFromBook()
-    {
-        BookDefinition.Item = null;
-    }
 }

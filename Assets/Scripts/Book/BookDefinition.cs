@@ -15,7 +15,7 @@ public class BookDefinition : ScriptableObject
     public int SellPrice;
     public int Stock;
     public int CostToOrder;
-    public GameObject Item;
+    public ItemDefinition Item;
     public float LikelihoodToSell;
     public float BaseLikelihoodToSell;
 

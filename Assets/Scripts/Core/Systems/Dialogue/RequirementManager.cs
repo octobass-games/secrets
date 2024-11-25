@@ -29,7 +29,7 @@ public class RequirementManager : MonoBehaviour
                 {
                     satisfied = Bookkeeper.IsBookAtTill(requirement.Book);
                 }
-                else
+                else if (requirement.Books != null && requirement.Books.Count > 0)
                 {
                     satisfied = requirement.Books.Find(b => Bookkeeper.IsBookAtTill(b)) != null;
                 }
@@ -39,6 +39,12 @@ public class RequirementManager : MonoBehaviour
                 break;
             case RequirementType.BANK_BALANCE_AVAILABLE:
                 satisfied = Bookkeeper.IsAffordablePayment(requirement.Amount);
+                break;
+            case RequirementType.BOOK_WITH_ITEM:
+                satisfied = Bookkeeper.IsBookAtTillWithItem(requirement.Item);
+                break;
+            case RequirementType.BOOK_WITH_SOME_ITEM:
+                satisfied = Bookkeeper.IsBookAtTillWithSomeItem();
                 break;
             default:
                 break;

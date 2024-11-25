@@ -2,10 +2,12 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class Bookkeeper : MonoBehaviour, Savable
 {
     public List<BookDefinition> Books;
+    public List<BookDefinition> ItemisedBooks;
     public TillView TillView;
     public Bookshelf Bookshelf;
     public GameObject TillBook;
@@ -55,6 +57,17 @@ public class Bookkeeper : MonoBehaviour, Savable
         TransactionsToday.Rent = rent;
 
         Withdraw(rent);
+    }
+
+    public void InsertItemIntoBook(BookDefinition book, ItemDefinition item)
+    {
+        var b = Books.Find(bo => bo.IsEqual(book));
+
+        b.Stock--;
+
+        var itemisedBook = Instantiate(b);
+
+        b.Item = item;
     }
     
     public void OnBeginDay(GameEvent @event)
@@ -237,6 +250,16 @@ public class Bookkeeper : MonoBehaviour, Savable
     public bool IsBookAtTill(BookDefinition book)
     {
         return TillBook != null && TillBook.GetComponent<Book>().BookDefinition.IsEqual(book);
+    }
+
+    public bool IsBookAtTillWithItem(ItemDefinition item)
+    {
+        return TillBook != null && TillBook.GetComponent<Book>().BookDefinition.Item.IsEqual(item);
+    }
+
+    public bool IsBookAtTillWithSomeItem()
+    {
+        return TillBook != null && TillBook.GetComponent<Book>().BookDefinition.Item != null;
     }
 
     private void OnBookSell(GameEvent _)

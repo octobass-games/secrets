@@ -10,4 +10,5 @@ public class Requirement
     public List<BookDefinition> Books;
     public bool Negate;
     public int Amount;
+    public ItemDefinition Item;
 }
