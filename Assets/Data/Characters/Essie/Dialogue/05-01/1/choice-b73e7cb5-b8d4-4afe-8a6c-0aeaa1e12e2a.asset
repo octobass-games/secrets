@@ -14,7 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: b73e7cb5-b8d4-4afe-8a6c-0aeaa1e12e2a
   Text: I see. Well I can have a look
-  Events: []
+  Events:
+  - Type: 1
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   RelationshipPoints: 0
   NextLine: {fileID: 0}
   Requirements: []

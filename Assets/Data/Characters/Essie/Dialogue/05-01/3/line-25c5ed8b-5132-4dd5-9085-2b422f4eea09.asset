@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: essie-05-01-3-root
+  m_Name: line-25c5ed8b-5132-4dd5-9085-2b422f4eea09
   m_EditorClassIdentifier: 
-  Id: b963acd1-499a-4500-9a17-4d5fb9fc6862
+  Id: 25c5ed8b-5132-4dd5-9085-2b422f4eea09
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
-  Text: Any luck?
+  Text: Well just keep looking dearier, I'm sure you'll find it.
   NextLine: {fileID: 0}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: c92e70a756f7ac2479cbed495b60701a, type: 2}
-  - {fileID: 11400000, guid: d67f7384e916b2640aaf96d2525ae6bf, type: 2}
+  Choices: []

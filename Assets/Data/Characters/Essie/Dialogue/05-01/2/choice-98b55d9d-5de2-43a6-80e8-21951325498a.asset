@@ -14,7 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 98b55d9d-5de2-43a6-80e8-21951325498a
   Text: "Hmm\u2026 this is getting suspicious but I guess I\u2019ll check it out."
-  Events: []
+  Events:
+  - Type: 1
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   RelationshipPoints: 0
   NextLine: {fileID: 0}
   Requirements: []
