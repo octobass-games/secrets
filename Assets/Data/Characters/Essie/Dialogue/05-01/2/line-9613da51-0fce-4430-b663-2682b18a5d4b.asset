@@ -18,7 +18,19 @@ MonoBehaviour:
     has a hidden compartment. If you can get it open, you might find what  you\u2019re
     looking for inside\u2026"
   NextLine: {fileID: 0}
-  Events: []
+  Events:
+  - Type: 0
+    Memory: secret.compartment.known
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   Choices:
   - {fileID: 11400000, guid: 6911e4bab52c178418b57f03a828b0f7, type: 2}
   - {fileID: 11400000, guid: 6579cebead4d9104fae71f1ba9ac34f9, type: 2}
