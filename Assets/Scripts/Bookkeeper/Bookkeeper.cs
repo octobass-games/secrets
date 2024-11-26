@@ -33,7 +33,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
-        EventManager.Instance.Subscribe(GameEventType.END_DAY, OnEndDay);
+        EventManager.Instance.Subscribe(GameEventType.CLOSE_SHOP, OnCloseShop);
         EventManager.Instance.Subscribe(GameEventType.RENT_PAYMENT, OnRentPayment);
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Subscribe(GameEventType.INVENTORY_SELL, OnBookSell);
@@ -42,7 +42,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     void OnDisable()
     {
         EventManager.Instance.Unsubscribe(GameEventType.BEGIN_DAY, OnBeginDay);
-        EventManager.Instance.Unsubscribe(GameEventType.END_DAY, OnEndDay);
+        EventManager.Instance.Unsubscribe(GameEventType.CLOSE_SHOP, OnCloseShop);
         EventManager.Instance.Unsubscribe(GameEventType.RENT_PAYMENT, OnRentPayment);
         EventManager.Instance.Unsubscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Unsubscribe(GameEventType.INVENTORY_SELL, OnBookSell);
@@ -51,6 +51,11 @@ public class Bookkeeper : MonoBehaviour, Savable
     public List<DailyTransactions> GetDailyTransactions()
     {
         return DailyTransactions;
+    }
+
+    public DailyTransactions GetEndOfDayTransactions()
+    {
+        return TransactionsToday;
     }
 
     private void OnRentPayment(GameEvent @event)
@@ -81,7 +86,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         return Items.FindAll(i => i.Stock > 0).ToList();
     }
 
-    public void OnEndDay(GameEvent @event)
+    public void OnCloseShop(GameEvent @event)
     {
         UpdateBooks();
     }
