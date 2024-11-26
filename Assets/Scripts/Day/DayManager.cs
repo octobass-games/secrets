@@ -148,6 +148,6 @@ public class DayManager : MonoBehaviour, Savable
 
     public bool IsNextEventType(GameEventType eventType)
     {
-      return Today.DailyEvents[TodayEventIndex + 1].Type == eventType;
+      return Today.DailyEvents.Count < TodayEventIndex + 1 && Today.DailyEvents[TodayEventIndex + 1].Type == eventType;
     }
 }
