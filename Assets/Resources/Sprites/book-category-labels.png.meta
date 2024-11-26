@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: babdccb9ac41d65438ec342417279072
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5302656430248676051
+    second: book-category-labels_0
+  - first:
+      213: -6381560431944158531
+    second: book-category-labels_1
+  - first:
+      213: -8849312482353501185
+    second: book-category-labels_2
+  - first:
+      213: -12543393572502793
+    second: book-category-labels_3
+  - first:
+      213: 721295472303496239
+    second: book-category-labels_4
+  - first:
+      213: -245626616557659564
+    second: book-category-labels_5
+  - first:
+      213: -6541904291574338997
+    second: book-category-labels_6
+  - first:
+      213: 3535884496664707114
+    second: book-category-labels_7
+  - first:
+      213: 1783021836321613482
+    second: book-category-labels_8
+  - first:
+      213: 4788578373934414909
+    second: book-category-labels_9
+  - first:
+      213: 2971871529720500388
+    second: book-category-labels_10
+  - first:
+      213: 8866155633302268101
+    second: book-category-labels_11
+  - first:
+      213: 8070075945606725968
+    second: book-category-labels_12
+  - first:
+      213: 907571106044903443
+    second: book-category-labels_13
+  - first:
+      213: -6722766384799369967
+    second: book-category-labels_14
+  - first:
+      213: -8218102554742369321
+    second: book-category-labels_15
+  - first:
+      213: -1879195301326151943
+    second: book-category-labels_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: book-category-labels_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 138
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dac9eabde1d69940800000000000000
+      internalID: 5302656430248676051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 138
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2b74d19942077a0800000000000000
+      internalID: -6381560431944158531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 138
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffba3e6de2de03580800000000000000
+      internalID: -8849312482353501185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 138
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f245d999df63dff0800000000000000
+      internalID: -12543393572502793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 138
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c5fb4196e820a00800000000000000
+      internalID: 721295472303496239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 138
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a13b4c4eb579cf0800000000000000
+      internalID: -245626616557659564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 92
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4aab1215bc7635a0800000000000000
+      internalID: -6541904291574338997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 92
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20c28e373cf11130800000000000000
+      internalID: 3535884496664707114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 92
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6e6bcc9e09eb810800000000000000
+      internalID: 1783021836321613482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 92
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c7a7df8a2747240800000000000000
+      internalID: 4788578373934414909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 92
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0561f19653e3920800000000000000
+      internalID: 2971871529720500388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 92
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c86f46d299ea0b70800000000000000
+      internalID: 8866155633302268101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 43
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0514050c05baeff60800000000000000
+      internalID: 8070075945606725968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 43
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3100738cc17589c00800000000000000
+      internalID: 907571106044903443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 43
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115b81e779fe3b2a0800000000000000
+      internalID: -6722766384799369967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_15
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 43
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3d9d0944f63fd80800000000000000
+      internalID: -8218102554742369321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book-category-labels_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 43
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe1fd074d1cbe5e0800000000000000
+      internalID: -1879195301326151943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      book-category-labels_0: 5302656430248676051
+      book-category-labels_1: -6381560431944158531
+      book-category-labels_10: 2971871529720500388
+      book-category-labels_11: 8866155633302268101
+      book-category-labels_12: 8070075945606725968
+      book-category-labels_13: 907571106044903443
+      book-category-labels_14: -6722766384799369967
+      book-category-labels_15: -8218102554742369321
+      book-category-labels_16: -1879195301326151943
+      book-category-labels_2: -8849312482353501185
+      book-category-labels_3: -12543393572502793
+      book-category-labels_4: 721295472303496239
+      book-category-labels_5: -245626616557659564
+      book-category-labels_6: -6541904291574338997
+      book-category-labels_7: 3535884496664707114
+      book-category-labels_8: 1783021836321613482
+      book-category-labels_9: 4788578373934414909
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
