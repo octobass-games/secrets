@@ -20,7 +20,7 @@ public class HollowBookshelf : MonoBehaviour
             var hollowBook = Instantiate(HollowBookPrefab, StartingPosition);
 
             hollowBook.transform.position = new Vector3(hollowBook.transform.position.x + i * 7, hollowBook.transform.position.y, hollowBook.transform.position.z);
-            hollowBook.GetComponent<Clickable>().OnClick.AddListener(() => Bookkeeper.MoveToTill(books[index]));
+            hollowBook.GetComponent<HollowBookshelfBook>().Setup(books[index], Bookkeeper);
 
             HollowBooks.Add(hollowBook);
         }

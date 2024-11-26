@@ -20730,7 +20730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bookkeeper: {fileID: 509350324}
-  HollowBookPrefab: {fileID: 1167625805286789364, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+  HollowBookPrefab: {fileID: 1167625805286789364, guid: 485dfbc176675854098852dc8092c7d0, type: 3}
   StartingPosition: {fileID: 622499450}
 --- !u!1 &1388237865
 GameObject:
