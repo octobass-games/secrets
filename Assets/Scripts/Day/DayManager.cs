@@ -32,6 +32,11 @@ public class DayManager : MonoBehaviour, Savable
         BeginNextDay();
     }
 
+    public void SkipToDay(int day)
+    {
+
+    }
+
     private void BeginNextDay()
     {
         TodayEventIndex = -1;
