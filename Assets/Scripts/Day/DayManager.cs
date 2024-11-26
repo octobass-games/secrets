@@ -145,4 +145,9 @@ public class DayManager : MonoBehaviour, Savable
 
         saveData.Days = days;
     }
+
+    public bool IsNextEventType(GameEventType eventType)
+    {
+      return Today.DailyEvents[TodayEventIndex + 1].Type == eventType;
+    }
 }
