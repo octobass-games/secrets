@@ -76,6 +76,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         TillView.DisplayImmediately(BankBalance);
     }
 
+    public List<ItemDefinition> GetAvailableItems()
+    {
+        return Items.FindAll(i => i.Stock > 0).ToList();
+    }
+
     public void OnEndDay(GameEvent @event)
     {
         UpdateBooks();
@@ -162,6 +167,8 @@ public class Bookkeeper : MonoBehaviour, Savable
             var booksInStock = Books.FindAll(InStock).ToList();
             hollow.IsHollow = true;
             Bookshelf.PlaceBooks(booksInStock);
+
+            Debug.Log(HollowBooks.Count);
             HollowBookshelf.PlaceBooks(HollowBooks);
 
             return hollow;

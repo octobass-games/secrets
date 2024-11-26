@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -10,9 +11,14 @@ public class BookInspector : MonoBehaviour
     public GameObject Knife;
     public History History;
 
-    private BookDefinition Book;
+    public GameObject ItemPrefab;
+    public GameObject ItemsView;
+    public Transform ItemContainer;
 
-    public void ShowInspector(BookDefinition definition)
+    private BookDefinition Book;
+    private List<GameObject> Items = new();
+
+    public void ShowBookInspector(BookDefinition definition)
     {
         Book = definition;
 
@@ -30,12 +36,35 @@ public class BookInspector : MonoBehaviour
         }
     }
 
-    public void HideInspector()
+    public void HideBookInspector()
     {
         InspectorView.SetActive(false);
         BookHollow.SetActive(false);
         Knife.SetActive(false);
         Book = null;
+    }
+
+    public void ShowItemSelector()
+    {
+        ClearItems();
+
+        ItemsView.SetActive(true);
+
+        var itemsInStock = Bookkeeper.GetAvailableItems();
+
+        foreach (var item in itemsInStock)
+        {
+            GameObject itemView = Instantiate(ItemPrefab, ItemContainer);
+
+            itemView.GetComponent<Item>().Setup(item, InsertItem);
+
+            Items.Add(itemView);
+        }
+    }
+
+    public void HideItemSelector()
+    {
+        ItemsView.SetActive(false);
     }
 
     public void HollowBook()
@@ -48,13 +77,19 @@ public class BookInspector : MonoBehaviour
         }
     }
 
-    public void DisplayItems()
-    {
-        Debug.Log("Items to display");
-    }
-
     public void InsertItem(ItemDefinition item)
     {
         Bookkeeper.InsertIntoHollowBook(Book, item);
+        HideItemSelector();
+    }
+
+    private void ClearItems()
+    {
+        for (int i = 0; i < Items.Count; i++)
+        {
+            Destroy(Items[i]);
+        }
+
+        Items.Clear();
     }
 }

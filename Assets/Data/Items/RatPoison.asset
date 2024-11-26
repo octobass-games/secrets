@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: RatPoison
   m_EditorClassIdentifier: 
   Name: Rat poison
+  Stock: 1
+  Sprite: {fileID: 0}
