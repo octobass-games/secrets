@@ -47,8 +47,6 @@ public class TillView : MonoBehaviour
 
         while (Balance != amount)
         {
-            Debug.Log("Balance: " + Balance + ", differential: " + differential);
-
             if (Balance < amount)
             {
                 Balance = Mathf.Min(Balance + differential, amount);
