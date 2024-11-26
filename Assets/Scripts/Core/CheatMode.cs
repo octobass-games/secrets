@@ -17,9 +17,9 @@ public class CheatMode : MonoBehaviour
     public void SubmitCheat()
     {
         Debug.Log("Submit Cheat: " + CheatInput.text);
-        if (CheatInput.text.StartsWith("/skip-to-day "))
+        if (CheatInput.text.StartsWith("/skip-to-day ") || CheatInput.text.StartsWith("day "))
         {
-            var dayString = CheatInput.text.Replace("/skip-to-day ", "");
+            var dayString = CheatInput.text.Replace("/skip-to-day ", "").Replace("day ", "");
             try
             {
                 var day = int.Parse(dayString);

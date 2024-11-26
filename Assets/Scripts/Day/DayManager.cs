@@ -34,7 +34,12 @@ public class DayManager : MonoBehaviour, Savable
 
     public void SkipToDay(int day)
     {
-
+       for (int i = 0; i < Days.Count; i++)
+        {
+            var dayToUpdate = Days[i];
+            dayToUpdate.IsInThePast = i < (day - 1);
+        }
+        BeginNextDay();
     }
 
     private void BeginNextDay()
