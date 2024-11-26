@@ -14,19 +14,20 @@ public class Bookkeeper : MonoBehaviour, Savable
     public GameObject TillBookPrefab;
     public DialogueManager DialogueManager;
     public Line TooManyHollowBooks;
+    public List<BookDefinition> HollowBooks = new();
 
     private int BankBalance = 10000;
 
     private DayDefinition Today;
     private DailyTransactions TransactionsToday;
     private List<DailyTransactions> DailyTransactions = new();
-    private List<BookDefinition> HollowBooks = new();
     
     private System.Random RandomNumberGenerator = new System.Random();
 
     void Awake()
     {
         Books = Books.Select(b => Instantiate(b)).ToList();
+        HollowBooks = HollowBooks.Select(b => Instantiate(b)).ToList();
     }
 
     void OnEnable()
@@ -71,6 +72,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         var booksInStock = Books.FindAll(InStock).ToList();
 
         Bookshelf.PlaceBooks(booksInStock);
+        HollowBookshelf.PlaceBooks(HollowBooks);
         TillView.DisplayImmediately(BankBalance);
     }
 
@@ -207,6 +209,17 @@ public class Bookkeeper : MonoBehaviour, Savable
         }
     }
 
+    private void RegisterHollowBookSale(BookDefinition book)
+    {
+        BankBalance += 100;
+
+        TransactionsToday.BookSales.Add(new BookSale(book.Name, 100, 1));
+
+        var b = HollowBooks.Find(b => b.Item.Name == book.Item.Name);
+
+        HollowBooks.Remove(b);
+    }
+
     private float CalculateLikelihoodOfSale(BookDefinition book)
     {
         var sellPrice = book.SellPrice;
@@ -322,13 +335,24 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             var book = TillBook.GetComponent<Book>().BookDefinition;
 
-            var b = Books.Find(b => b.IsEqual(book));
+            if (book.IsHollow)
+            {
+                var b = HollowBooks.Find(bo => bo.Item.Name == book.Item.Name);
+                RegisterHollowBookSale(b);
 
-            RegisterBookSale(b);
+                HollowBookshelf.PlaceBooks(HollowBooks);
+            }
+            else
+            {
+                var b = Books.Find(b => b.IsEqual(book));
+                RegisterBookSale(b);
+                
+                var booksInStock = Books.FindAll(InStock).ToList();
+                Bookshelf.PlaceBooks(booksInStock);
+            }
+
             Destroy(TillBook);
-            var booksInStock = Books.FindAll(InStock).ToList();
 
-            Bookshelf.PlaceBooks(booksInStock);
             TillView.Display(BankBalance);
         }
     }

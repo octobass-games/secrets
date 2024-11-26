@@ -76,6 +76,9 @@ MonoBehaviour:
           m_StringArgument: pickup
           m_BoolArgument: 0
         m_CallState: 2
+  OnRightClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &341672063691957072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,7 +257,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -908756540, guid: 2e601f9d458d9664d90e5371039c13c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.24705882}
   m_FlipX: 0
@@ -958,7 +961,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -908756540, guid: 2e601f9d458d9664d90e5371039c13c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
