@@ -30307,40 +30307,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de9f26f2c4eb754d9c0cc5ce7023b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Books:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   BookContainer: {fileID: 803976069}
   BookPrefab: {fileID: 1167625805286789364, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
   BookInspector: {fileID: 1099467804}
@@ -34256,11 +34222,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5c05f44d40a7941a308a02a76734dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bookkeeper: {fileID: 0}
-  PriceView: {fileID: 0}
-  PriceEntryParent: {fileID: 0}
-  PriceEntryPrefab: {fileID: 0}
-  SearchField: {fileID: 0}
+  Bookkeeper: {fileID: 509350324}
+  PriceView: {fileID: 1334150189}
+  PriceEntryParent: {fileID: 1083712173}
+  PriceEntryPrefab: {fileID: 2188317406051159963, guid: 3184ef905c2d84141944cd1e66f32cb0, type: 3}
+  SearchField: {fileID: 1845624499}
 --- !u!1 &1921856144
 GameObject:
   m_ObjectHideFlags: 0
@@ -37014,19 +36980,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd31ad4d31340a4f9e3571f06cb62b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bookkeeper: {fileID: 0}
-  LogView: {fileID: 0}
-  DateView: {fileID: 0}
-  UniqueSaleParent: {fileID: 0}
-  UniqueSalePrefab: {fileID: 0}
-  SaleRecordParent: {fileID: 0}
-  SaleRecordPrefab: {fileID: 0}
-  OutgoingCostsParent: {fileID: 0}
-  BookOrderPrefab: {fileID: 0}
-  StampPrefab: {fileID: 0}
+  Bookkeeper: {fileID: 509350324}
+  LogView: {fileID: 97836791}
+  DateView: {fileID: 534241387}
+  UniqueSaleParent: {fileID: 1011543287}
+  UniqueSalePrefab: {fileID: 7461511731230029210, guid: f46215dbf3f2506449a11aac0914096c, type: 3}
+  SaleRecordParent: {fileID: 2126546902}
+  SaleRecordPrefab: {fileID: 3419999866813948318, guid: 32e178a21e59ce547bd418619549d6df, type: 3}
+  OutgoingCostsParent: {fileID: 874633413}
+  BookOrderPrefab: {fileID: 7622402553243062626, guid: ebae43d63bbf35247bff21e42941a04e, type: 3}
+  StampPrefab: {fileID: 691584058164228914, guid: c55e1aea7d3e6f041bf88af142e06c5f, type: 3}
   StampParent: {fileID: 0}
-  NextPageButton: {fileID: 0}
-  PreviousPageButton: {fileID: 0}
+  NextPageButton: {fileID: 1933648343}
+  PreviousPageButton: {fileID: 1518237975}
 --- !u!1 &2074705857
 GameObject:
   m_ObjectHideFlags: 0
