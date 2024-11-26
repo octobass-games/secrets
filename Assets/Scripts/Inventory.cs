@@ -15,7 +15,7 @@ public class Inventory : MonoBehaviour
     }
     public bool Contains(string bookName)
     {
-        return Book != null && Book.IsCalled(bookName);
+        return Book != null && Book;
     }
 
     public bool IsEmpty()

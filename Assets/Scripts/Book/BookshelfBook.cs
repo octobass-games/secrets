@@ -1,21 +1,23 @@
+using System;
 using TMPro;
 using UnityEngine;
 
 public class BookshelfBook : MonoBehaviour
 {
     public BookDefinition BookDefinition;
+    public Clickable Clickable;
+    public SpriteRenderer Book;
     public SpriteRenderer HoverCover;
     public TMP_Text HoverDescription;
 
-    void Awake()
+    public void Setup(BookDefinition book, Action<BookDefinition> onPickup, Action<BookDefinition> onInspect)
     {
-        BookDefinition = Instantiate(BookDefinition);
-        HoverDescription.text = BookDefinition.Name;
-        HoverCover.sprite = BookDefinition.Cover;
-    }
+        BookDefinition = book;
 
-    public bool IsCalled(string name)
-    {
-        return BookDefinition.Name == name;
+        HoverDescription.text = book.Name;
+        HoverCover.sprite = book.Cover;
+        
+        Clickable.OnClick.AddListener(() => onPickup(book));
+        Clickable.OnRightClick.AddListener(() => onInspect(book));
     }
 }
