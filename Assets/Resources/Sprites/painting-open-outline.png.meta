@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4aa5df36b3bace04396307257bf307d0
+guid: f7f5a807d9e4ee84ba8b0f4a3fefd781
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1295955565587498720
-    second: painting_0
+      213: 1057603190748023172
+    second: painting-open-outline_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: painting_0
+      name: painting-open-outline_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 106
-        height: 101
+        width: 22
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e6888b78b82cf110800000000000000
-      internalID: 1295955565587498720
+      spriteID: 4890bd1af7c5dae00800000000000000
+      internalID: 1057603190748023172
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      painting_0: 1295955565587498720
+      painting-open-outline_0: 1057603190748023172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
