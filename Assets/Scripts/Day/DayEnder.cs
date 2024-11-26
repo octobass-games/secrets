@@ -5,8 +5,10 @@ public class DayEnder : MonoBehaviour
 {
     public Camera ShopCamera;
     public Camera InventoryCamera;
-    public GameObject DayEndOverlay;
+    public Camera DayEndCamera;
+    public GameObject DayEnd;
     public Animator Fade;
+    public GameObject Logbook;
 
     void OnEnable()
     {
@@ -22,15 +24,29 @@ public class DayEnder : MonoBehaviour
     {
         Fade.SetTrigger("out");
         StartCoroutine(WaitForNSecondsThenSendFadeIn());
+        StartCoroutine(WaitForNSecondsThenSendLoadLog(5));
     }
 
     IEnumerator WaitForNSecondsThenSendFadeIn()
     {
         yield return new WaitForSeconds(2);
-        DayEndOverlay.SetActive(true);
+        DayEnd.SetActive(true);
         ShopCamera.gameObject.SetActive(false);
-        InventoryCamera.gameObject.SetActive(true);
+        InventoryCamera.gameObject.SetActive(false);
+        DayEndCamera.gameObject.SetActive(true);
 
         Fade.SetTrigger("in");
+    }
+
+    IEnumerator WaitForNSecondsThenSendLoadLog(int time)
+    {
+        yield return new WaitForSeconds(time);
+        Fade.SetTrigger("out");
+        DayEnd.SetActive(false);
+        ShopCamera.gameObject.SetActive(true);
+        InventoryCamera.gameObject.SetActive(false);
+        DayEndCamera.gameObject.SetActive(false);
+        Fade.SetTrigger("in");
+        Logbook.SetActive(true);
     }
 }
