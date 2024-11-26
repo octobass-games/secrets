@@ -297,10 +297,10 @@ TextureImporter:
       name: profiles-small_7
       rect:
         serializedVersion: 2
-        x: 142
-        y: 7
-        width: 68
-        height: 66
+        x: 103
+        y: 134
+        width: 44
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: profiles-small_8
       rect:
         serializedVersion: 2
-        x: 201
-        y: 73
-        width: 68
-        height: 66
+        x: 30
+        y: 136
+        width: 43
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,10 +341,10 @@ TextureImporter:
       name: profiles-small_9
       rect:
         serializedVersion: 2
-        x: 284
-        y: 13
-        width: 68
-        height: 66
+        x: 407
+        y: 142
+        width: 47
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,6 +355,50 @@ TextureImporter:
       bones: []
       spriteID: 9ae778ac9e6af9de0800000000000000
       internalID: -1324156242368168279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: profiles-small_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 134
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bfd0b0e00b2ba45b9214683fb7c95c
+      internalID: 1068702407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: profiles-small_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 132
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c35be0e6a1b1b43b7b3d2a596bfeef
+      internalID: -959222438
       vertices: []
       indices: 
       edges: []
@@ -375,6 +419,8 @@ TextureImporter:
     nameFileIdTable:
       profiles-small_0: -4581034053668550269
       profiles-small_1: -5671834560119782561
+      profiles-small_10: 1068702407
+      profiles-small_11: -959222438
       profiles-small_2: 4309846976282273089
       profiles-small_3: -5583148411688169557
       profiles-small_4: -7974056604311233474

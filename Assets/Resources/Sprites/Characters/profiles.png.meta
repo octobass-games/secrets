@@ -278,7 +278,7 @@ TextureImporter:
         x: 147
         y: 86
         width: 68
-        height: 66
+        height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,6 +359,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: profiles_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b7238cc4802e24fa4297a7ebc0bcf0
+      internalID: -190340855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -375,6 +397,7 @@ TextureImporter:
     nameFileIdTable:
       profiles_0: -903730026294837061
       profiles_1: 4956942758328581113
+      profiles_10: -190340855
       profiles_2: 5063466513527928634
       profiles_3: -5904420342645070368
       profiles_4: 2494351913818726731
