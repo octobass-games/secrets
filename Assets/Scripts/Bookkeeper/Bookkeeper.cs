@@ -1,13 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class Bookkeeper : MonoBehaviour, Savable
 {
     public List<BookDefinition> Books;
-    public List<BookDefinition> ItemisedBooks;
+    public List<ItemDefinition> Items;
     public TillView TillView;
     public Bookshelf Bookshelf;
     public GameObject TillBook;
@@ -213,8 +211,8 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     public void Save(SaveData saveData)
     {
-        var booksData = Books.Select(b => new BookData(b.Name, b.SellPrice, b.Stock)).ToList();
-        var hollowBooksData = HollowBooks.Select(b => new BookData(b.Name, b.SellPrice, b.Stock)).ToList();
+        var booksData = Books.Select(b => new BookData(b.Name, b.SellPrice, b.Stock, null)).ToList();
+        var hollowBooksData = HollowBooks.Select(b => new BookData(b.Name, b.SellPrice, b.Stock, b.Item != null ? b.Item.Name : null)).ToList();
 
         saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, hollowBooksData, DailyTransactions);
     }
@@ -241,6 +239,13 @@ public class Bookkeeper : MonoBehaviour, Savable
             var bookDefinition = Books.Find(book => book.Name == hollowBookData.Name);
 
             var hollowBook = Instantiate(bookDefinition);
+
+            if (hollowBookData.Item != null)
+            {
+                var item = Items.Find(item => item.Name == hollowBookData.Item);
+
+                hollowBook.Item = item;
+            }
 
             return hollowBook;
         }).ToList();
