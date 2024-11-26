@@ -17,6 +17,20 @@ MonoBehaviour:
   Text: Excellent! Your order will arrive first thing tomorrow.
   NextLine: {fileID: 0}
   Events:
+  - Type: 13
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 10
+    BooksToOrder:
+    - {fileID: 11400000, guid: 32ea0a36e3c765d4595628a6526cffe4, type: 2}
+    - {fileID: 11400000, guid: ad08555d4b62edd41a1095051b217665, type: 2}
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   - Type: 3
     Memory: 
     Paper: {fileID: 0}
