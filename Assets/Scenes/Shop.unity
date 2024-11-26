@@ -4198,7 +4198,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 2
   TriggerEvent: 11
 --- !u!114 &224822608
 MonoBehaviour:
@@ -11553,7 +11553,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 7
   TriggerEvent: 11
 --- !u!114 &631647244
 MonoBehaviour:
@@ -12142,10 +12142,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.22916667
     y: 0
-    width: 1
-    height: 1
+    width: 0.30555558
+    height: 0.30555555
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -29264,7 +29264,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 3
   TriggerEvent: 11
 --- !u!114 &1529941122
 MonoBehaviour:
@@ -30442,7 +30442,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 5
   TriggerEvent: 11
 --- !u!114 &1600397208
 MonoBehaviour:
@@ -40638,7 +40638,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 4
   TriggerEvent: 11
 --- !u!114 &2123600068
 MonoBehaviour:
