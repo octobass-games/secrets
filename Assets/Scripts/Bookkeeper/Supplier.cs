@@ -30,6 +30,7 @@ public class Supplier : MonoBehaviour
         if (!HasSpokenToSupplier && dialogue != null)
         {
             DialogueManager.Begin(dialogue, null);
+            HasSpokenToSupplier = true;
         }
         else
         {
