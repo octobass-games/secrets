@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: dd1216137757ef64fa23a22d411ee8ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1288680417787627932
+    second: painting-safe_0
+  - first:
+      213: -7809075951630883264
+    second: painting-safe_1
+  - first:
+      213: -2861670800683221993
+    second: painting-safe_2
+  - first:
+      213: -5248373943182054168
+    second: painting-safe_3
+  - first:
+      213: -8996788335981718832
+    second: painting-safe_4
+  - first:
+      213: 4570888702008633248
+    second: painting-safe_5
+  - first:
+      213: -250044395769495098
+    second: painting-safe_6
+  - first:
+      213: -4256504746720732103
+    second: painting-safe_7
+  - first:
+      213: 7798444044594715884
+    second: painting-safe_8
+  - first:
+      213: -2224111248310858124
+    second: painting-safe_9
+  - first:
+      213: -5262933565980564339
+    second: painting-safe_10
+  - first:
+      213: 7324303674320123955
+    second: painting-safe_11
+  - first:
+      213: -974993283355858528
+    second: painting-safe_12
+  - first:
+      213: -4451570578374095845
+    second: painting-safe_13
+  - first:
+      213: 4966078558834236922
+    second: painting-safe_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: painting-safe_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 106
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99cb33230052e110800000000000000
+      internalID: 1288680417787627932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 406
+        width: 104
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046eef6dbc690a390800000000000000
+      internalID: -7809075951630883264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 305
+        width: 104
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c3b2d819d4948d0800000000000000
+      internalID: -2861670800683221993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 202
+        width: 22
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eca73ca4b70a27b0800000000000000
+      internalID: -5248373943182054168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 147
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d29e6aecacf42380800000000000000
+      internalID: -8996788335981718832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 59
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7221f8e0f0f6f30800000000000000
+      internalID: 4570888702008633248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 63
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1051462f9a78cf0800000000000000
+      internalID: -250044395769495098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 51
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c52fa1c7bdde4c0800000000000000
+      internalID: -4256504746720732103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 59
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec14d66a83a93c60800000000000000
+      internalID: 7798444044594715884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 47
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e0b7f7a9e5221e0800000000000000
+      internalID: -2224111248310858124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 35
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84af335ecd46f6b0800000000000000
+      internalID: -5262933565980564339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 39
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33870fec26725a560800000000000000
+      internalID: 7324303674320123955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 47
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9ae2746c02872f0800000000000000
+      internalID: -974993283355858528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 35
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c8e67f428d832c0800000000000000
+      internalID: -4451570578374095845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: painting-safe_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 27
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd9ff9432e0be440800000000000000
+      internalID: 4966078558834236922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 33d6fe793dab965439974d42a42b0e03
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      painting-safe_0: 1288680417787627932
+      painting-safe_1: -7809075951630883264
+      painting-safe_10: -5262933565980564339
+      painting-safe_11: 7324303674320123955
+      painting-safe_12: -974993283355858528
+      painting-safe_13: -4451570578374095845
+      painting-safe_14: 4966078558834236922
+      painting-safe_2: -2861670800683221993
+      painting-safe_3: -5248373943182054168
+      painting-safe_4: -8996788335981718832
+      painting-safe_5: 4570888702008633248
+      painting-safe_6: -250044395769495098
+      painting-safe_7: -4256504746720732103
+      painting-safe_8: 7798444044594715884
+      painting-safe_9: -2224111248310858124
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
