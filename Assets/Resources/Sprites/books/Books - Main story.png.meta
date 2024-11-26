@@ -188,101 +188,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: book-knit
+      name: Sewing Book
       rect:
         serializedVersion: 2
-        x: 15
-        y: 218
-        width: 58
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b31d6531ef23b2a0800000000000000
-      internalID: -6722977174423530570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: book-crochet
-      rect:
-        serializedVersion: 2
-        x: 84
+        x: 309
         y: 219
-        width: 58
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3999ff2caf23cf9c0800000000000000
-      internalID: -3892179925360207469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: book-sew
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 218
-        width: 58
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94d213235452b6450800000000000000
-      internalID: 6082996700819041609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: book-craft
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 219
-        width: 58
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d90cf4e58d2fcb7f0800000000000000
-      internalID: -595334039610605411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Books - Main story_4
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 220
-        width: 54
-        height: 36
+        width: 56
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,13 +210,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_5
+      name: Arts and Crafts Book
       rect:
         serializedVersion: 2
-        x: 346
-        y: 221
-        width: 54
-        height: 36
+        x: 370
+        y: 220
+        width: 56
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,13 +232,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_6
+      name: Looking Sharp! Weapons Maintenance 101 Book
       rect:
         serializedVersion: 2
-        x: 412
-        y: 222
-        width: 54
-        height: 36
+        x: 443
+        y: 221
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,13 +254,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_7
+      name: Which Way to Hold Your Bow and Other Projectile Safety Instructions Book
       rect:
         serializedVersion: 2
-        x: 18
-        y: 158
-        width: 41
-        height: 44
+        x: 507
+        y: 222
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,10 +279,10 @@ TextureImporter:
       name: Books - Main story_8
       rect:
         serializedVersion: 2
-        x: 67
-        y: 158
-        width: 41
-        height: 44
+        x: 649
+        y: 212
+        width: 42
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,13 +298,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_9
+      name: Poetry Book 2
       rect:
         serializedVersion: 2
-        x: 118
-        y: 158
-        width: 41
-        height: 44
+        x: 11
+        y: 177
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,13 +320,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_10
+      name: Wellbeing Book 2
       rect:
         serializedVersion: 2
-        x: 171
-        y: 158
-        width: 41
-        height: 44
+        x: 104
+        y: 169
+        width: 56
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,13 +342,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_11
+      name: Economics 101 Book
       rect:
         serializedVersion: 2
-        x: 222
-        y: 158
-        width: 41
-        height: 44
+        x: 179
+        y: 157
+        width: 39
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,10 +367,10 @@ TextureImporter:
       name: Books - Main story_12
       rect:
         serializedVersion: 2
-        x: 16
-        y: 105
-        width: 41
-        height: 44
+        x: 228
+        y: 159
+        width: 39
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +389,10 @@ TextureImporter:
       name: Books - Main story_13
       rect:
         serializedVersion: 2
-        x: 63
-        y: 105
-        width: 41
-        height: 44
+        x: 279
+        y: 159
+        width: 39
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,10 +411,10 @@ TextureImporter:
       name: Books - Main story_14
       rect:
         serializedVersion: 2
-        x: 109
-        y: 107
-        width: 54
-        height: 36
+        x: 332
+        y: 157
+        width: 39
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,13 +430,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_15
+      name: 10 Steps to Summon a Demon Book
       rect:
         serializedVersion: 2
-        x: 166
-        y: 107
-        width: 54
-        height: 36
+        x: 383
+        y: 159
+        width: 39
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,9 +455,9 @@ TextureImporter:
       name: Books - Main story_16
       rect:
         serializedVersion: 2
-        x: 221
-        y: 105
-        width: 51
+        x: 440
+        y: 159
+        width: 39
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -565,10 +477,10 @@ TextureImporter:
       name: Books - Main story_17
       rect:
         serializedVersion: 2
-        x: 277
-        y: 105
-        width: 51
-        height: 42
+        x: 492
+        y: 164
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,10 +499,10 @@ TextureImporter:
       name: Books - Main story_18
       rect:
         serializedVersion: 2
-        x: 329
-        y: 104
-        width: 51
-        height: 42
+        x: 545
+        y: 161
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,10 +521,10 @@ TextureImporter:
       name: Books - Main story_19
       rect:
         serializedVersion: 2
-        x: 7
-        y: 48
-        width: 58
-        height: 45
+        x: 607
+        y: 159
+        width: 42
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -631,10 +543,10 @@ TextureImporter:
       name: Books - Main story_20
       rect:
         serializedVersion: 2
-        x: 63
-        y: 47
-        width: 58
-        height: 45
+        x: 653
+        y: 158
+        width: 42
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -650,13 +562,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_21
+      name: Poetry Book 3
       rect:
         serializedVersion: 2
-        x: 133
-        y: 45
-        width: 58
-        height: 45
+        x: 5
+        y: 132
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -672,13 +584,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_22
+      name: Wellbeing Book 3
       rect:
         serializedVersion: 2
-        x: 193
-        y: 45
-        width: 58
-        height: 45
+        x: 106
+        y: 107
+        width: 56
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,12 +606,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_23
+      name: Divination and Destiny Book
       rect:
         serializedVersion: 2
-        x: 266
-        y: 47
-        width: 51
+        x: 177
+        y: 106
+        width: 39
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -716,12 +628,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_24
+      name: Astrology and You, a Guide Book
       rect:
         serializedVersion: 2
-        x: 321
-        y: 49
-        width: 51
+        x: 224
+        y: 106
+        width: 39
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -738,13 +650,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Books - Main story_25
+      name: Potions Book
       rect:
         serializedVersion: 2
-        x: 379
-        y: 48
-        width: 51
-        height: 42
+        x: 270
+        y: 108
+        width: 52
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -755,6 +667,732 @@ TextureImporter:
       bones: []
       spriteID: 18f28e29c59a17d80800000000000000
       internalID: -8254630426926633087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poetry Book 1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 223
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b95ef35cb8f5b0418b83bab7727ed75
+      internalID: -1050289921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wellbeing Book 1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 221
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cdcb4d9abcdbd4b8de6182ceea55e1
+      internalID: -93163123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knitting Book
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 218
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7885b92ded9a9e74e9881be5e1988060
+      internalID: -1401794867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crochet Book
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 220
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594c11454574f5f4c8ef3b359c7949e3
+      internalID: 1954379872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poisons Book
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 108
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce9ab0fd63a4c840b9d5aab0fbbf32d
+      internalID: 1421452120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A Taste of Home Book
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 106
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2463f07b179295d4db0452d259cb275b
+      internalID: 1742173823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mighty Mushroom Meals Book
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 106
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff6ae855618a32449473336e631a6ee
+      internalID: 733217821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Happy Health and Hearts Book
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 105
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54462a820a7c883489afe05589d8c543
+      internalID: 189926569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Books - Main story_30
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 107
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e019c375009af4849905e88b8c30426b
+      internalID: -479800269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recipes Around the World Book
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 106
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec493b52a3af1449869dbdcf6ccacd0
+      internalID: -82133934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cakes, Cakes, and More Cakes Book
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 106
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae556f4d209d294a9689b02dcd69217
+      internalID: -2047364048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A Condensed History of Art Book
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 77
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e9bafee78aa2f4fa2f27c13c280e8f
+      internalID: -1372392516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A Guide to History Renowned Artists Book
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 62
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e470695c608a09418eea440af53d218
+      internalID: 1812923954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biography 1 Book
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 49
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2f6ffab4a182e42aac3c6bdd878072
+      internalID: -884762974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Books - Main story_36
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc68959bfe9b52944bb1efcb26b07bbc
+      internalID: 2031768778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Books - Main story_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f95033beff71943b32458b9ad3c95d
+      internalID: 1791201501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Books - Main story_38
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 46
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c45f1cef199f334e84a8b761127a593
+      internalID: -1859077232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Books - Main story_39
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 46
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b145a5d720dc4249809c86b3d565f77
+      internalID: -1737450908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Advanced Spells Book
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 47
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fc92f52e97d2b47b34090587b61f6e
+      internalID: -1225844390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell 2 Book
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 49
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e059be5be3be43e4d85102edb4539007
+      internalID: -1051768854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spells 3 Book
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 49
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88aeb14a54114814f8ae39887f81ba2a
+      internalID: -611969287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spells 4 Book
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 47
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828a8f887b46dd74b9bf6fc536a773ae
+      internalID: 2006332395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 100 Tips for Art Basics Book
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 18
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bf3be1204db8c4e8ccf771f82c70f0
+      internalID: 1647590273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biography 2 Book
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b2df5a4ad5eff4785ca7c200117964
+      internalID: -1179985979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biography 3 Book
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41404754785f3942abc1f72c459dafd
+      internalID: -103272594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Children's Book 1 Book
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627401384ddded540a1dd4f52da83499
+      internalID: -2029632008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Children's Book 2 Book
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac3e02170cbe3d49a743ade72fabc15
+      internalID: -1515703465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Children's Book 3 Book
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334fa53c392b90e48ac3d777374827a6
+      internalID: -1221572577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Children's Book 4 Book
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9743c513a7dc75e42af6cf90d897cb91
+      internalID: 621548208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horror Book 1 Book
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38090136adc9220428fd52645e06ea91
+      internalID: -242401414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horror Book 2 Book
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 3
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450b889fc6fd20a47a6ce7cde190c2c4
+      internalID: 1656411517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horror Book 3 Book
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 3
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bfcd7157260214aa695e1acec679f1
+      internalID: 524611506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horror Book 4 Book
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 3
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e901973428b06246b72c77b025fec3c
+      internalID: 1820658862
       vertices: []
       indices: 
       edges: []
@@ -773,32 +1411,61 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Books - Main story_10: -6736481670909618181
-      Books - Main story_11: -7510473899115531923
+      10 Steps to Summon a Demon Book: -1213657295233197196
+      100 Tips for Art Basics Book: 1647590273
+      A Condensed History of Art Book: -1372392516
+      A Guide to History Renowned Artists Book: 1812923954
+      A Taste of Home Book: 1742173823
+      Advanced Spells Book: -1225844390
+      Arts and Crafts Book: -6021915194359845441
+      Astrology and You, a Guide Book: -3014875416704299278
+      Biography 1 Book: -884762974
+      Biography 2 Book: -1179985979
+      Biography 3 Book: -103272594
       Books - Main story_12: -1568686313877099658
       Books - Main story_13: -4223073193200393471
       Books - Main story_14: 8268670836053331151
-      Books - Main story_15: -1213657295233197196
       Books - Main story_16: -6972597250083420214
       Books - Main story_17: 391082279040388981
       Books - Main story_18: 6290824880724906006
       Books - Main story_19: -8539988671873530264
       Books - Main story_20: 9162872752333370492
-      Books - Main story_21: -2310646805615957877
-      Books - Main story_22: -2774007961960274977
-      Books - Main story_23: 2406348057447159708
-      Books - Main story_24: -3014875416704299278
-      Books - Main story_25: -8254630426926633087
-      Books - Main story_4: -3658163053954102554
-      Books - Main story_5: -6021915194359845441
-      Books - Main story_6: 4074907491291902883
-      Books - Main story_7: 2626397587094690290
+      Books - Main story_30: -479800269
+      Books - Main story_36: 2031768778
+      Books - Main story_37: 1791201501
+      Books - Main story_38: -1859077232
+      Books - Main story_39: -1737450908
       Books - Main story_8: -8307299742793823378
-      Books - Main story_9: -418160618032577613
-      book-craft: -595334039610605411
-      book-crochet: -3892179925360207469
-      book-knit: -6722977174423530570
-      book-sew: 6082996700819041609
+      Cakes, Cakes, and More Cakes Book: -2047364048
+      Children's Book 1 Book: -2029632008
+      Children's Book 2 Book: -1515703465
+      Children's Book 3 Book: -1221572577
+      Children's Book 4 Book: 621548208
+      Crochet Book: 1954379872
+      Divination and Destiny Book: 2406348057447159708
+      Economics 101 Book: -7510473899115531923
+      Happy Health and Hearts Book: 189926569
+      Horror Book 1 Book: -242401414
+      Horror Book 2 Book: 1656411517
+      Horror Book 3 Book: 524611506
+      Horror Book 4 Book: 1820658862
+      Knitting Book: -1401794867
+      Looking Sharp! Weapons Maintenance 101 Book: 4074907491291902883
+      Mighty Mushroom Meals Book: 733217821
+      Poetry Book 1: -1050289921
+      Poetry Book 2: -418160618032577613
+      Poetry Book 3: -2310646805615957877
+      Poisons Book: 1421452120
+      Potions Book: -8254630426926633087
+      Recipes Around the World Book: -82133934
+      Sewing Book: -3658163053954102554
+      Spell 2 Book: -1051768854
+      Spells 3 Book: -611969287
+      Spells 4 Book: 2006332395
+      Wellbeing Book 1: -93163123
+      Wellbeing Book 2: -6736481670909618181
+      Wellbeing Book 3: -2774007961960274977
+      Which Way to Hold Your Bow and Other Projectile Safety Instructions Book: 2626397587094690290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
