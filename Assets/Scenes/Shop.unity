@@ -4198,7 +4198,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 2
   TriggerEvent: 11
 --- !u!114 &224822608
 MonoBehaviour:
@@ -11553,7 +11553,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 7
   TriggerEvent: 11
 --- !u!114 &631647244
 MonoBehaviour:
@@ -12895,6 +12895,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &709198283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3302937014814320955, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+  m_PrefabInstance: {fileID: 1052563003}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &709198287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709198283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Step
+  is3D: 0
 --- !u!1 &727064379
 GameObject:
   m_ObjectHideFlags: 0
@@ -15299,6 +15318,7 @@ GameObject:
   - component: {fileID: 839077699}
   - component: {fileID: 839077700}
   - component: {fileID: 839077701}
+  - component: {fileID: 839077702}
   m_Layer: 0
   m_Name: OpenCloseSprite
   m_TagString: Untagged
@@ -15417,6 +15437,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1425153795}
         m_TargetAssemblyTypeName: DayManager, Assembly-CSharp
         m_MethodName: TryFlipSign
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 839077702}
+        m_TargetAssemblyTypeName: AudioTrigger, Assembly-CSharp
+        m_MethodName: FmodOneShot
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15600,6 +15632,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &839077702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839077692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Click
+  is3D: 0
 --- !u!1 &842694981
 GameObject:
   m_ObjectHideFlags: 0
@@ -20491,13 +20537,50 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6201385617955047321, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1052563007}
+    - targetCorrespondingSourceObject: {fileID: 3302937014814320955, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 709198287}
   m_SourcePrefab: {fileID: 100100000, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
 --- !u!1 &1052563004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6201385617955047321, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
   m_PrefabInstance: {fileID: 1052563003}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1052563007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052563004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 515366395
+      Data2: 1193826583
+      Data3: 2045375656
+      Data4: 965988778
+    Path: event:/SFX/Loot
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1062918081
 GameObject:
   m_ObjectHideFlags: 0
@@ -29264,7 +29347,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 3
   TriggerEvent: 11
 --- !u!114 &1529941122
 MonoBehaviour:
@@ -30442,7 +30525,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 5
   TriggerEvent: 11
 --- !u!114 &1600397208
 MonoBehaviour:
@@ -36759,11 +36842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5c05f44d40a7941a308a02a76734dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bookkeeper: {fileID: 509350324}
-  PriceView: {fileID: 1334150189}
-  PriceEntryParent: {fileID: 1083712173}
-  PriceEntryPrefab: {fileID: 2188317406051159963, guid: 3184ef905c2d84141944cd1e66f32cb0, type: 3}
-  SearchField: {fileID: 1845624499}
 --- !u!1001 &1920944408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39889,19 +39967,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd31ad4d31340a4f9e3571f06cb62b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bookkeeper: {fileID: 509350324}
-  LogView: {fileID: 97836791}
-  DateView: {fileID: 534241387}
-  UniqueSaleParent: {fileID: 1011543287}
-  UniqueSalePrefab: {fileID: 7461511731230029210, guid: f46215dbf3f2506449a11aac0914096c, type: 3}
-  SaleRecordParent: {fileID: 2126546902}
-  SaleRecordPrefab: {fileID: 3419999866813948318, guid: 32e178a21e59ce547bd418619549d6df, type: 3}
-  OutgoingCostsParent: {fileID: 874633413}
-  BookOrderPrefab: {fileID: 7622402553243062626, guid: ebae43d63bbf35247bff21e42941a04e, type: 3}
-  StampPrefab: {fileID: 691584058164228914, guid: c55e1aea7d3e6f041bf88af142e06c5f, type: 3}
-  StampParent: {fileID: 0}
-  NextPageButton: {fileID: 1933648343}
-  PreviousPageButton: {fileID: 1518237975}
 --- !u!1001 &2074001665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40638,7 +40703,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 4
   TriggerEvent: 11
 --- !u!114 &2123600068
 MonoBehaviour:
