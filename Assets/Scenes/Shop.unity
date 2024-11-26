@@ -6700,12 +6700,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 447812950eaae574cbbaedabd44be0d1, type: 2}
   - {fileID: 11400000, guid: c972f99a904752848955a6fc4a705ba1, type: 2}
   - {fileID: 11400000, guid: 1fecaab016fdaf04da7ae4e7176fde5c, type: 2}
-  ItemisedBooks: []
+  Items: []
   TillView: {fileID: 469674917}
   Bookshelf: {fileID: 1719886218}
   TillBook: {fileID: 0}
   TillBookPosition: {fileID: 5969055360780834868, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
   TillBookPrefab: {fileID: 8892843852603427114, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
+  DialogueManager: {fileID: 0}
+  TooManyHollowBooks: {fileID: 0}
 --- !u!4 &509350325
 Transform:
   m_ObjectHideFlags: 0
@@ -18845,8 +18847,8 @@ Transform:
   m_GameObject: {fileID: 1351191882}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 459.25415, y: -76.42309, z: -2.208701}
-  m_LocalScale: {x: 3.5861037, y: 2, z: 1}
+  m_LocalPosition: {x: 503.25415, y: -71.42309, z: -2.208701}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -18894,13 +18896,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -595334039610605411, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 3e7760d65e4a5e54d91e81687e4fc657, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 58, y: 45}
+  m_Size: {x: 92, y: 80}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -18971,8 +18973,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 58, y: 45}
-    newSize: {x: 58, y: 45}
+    oldSize: {x: 92, y: 80}
+    newSize: {x: 92, y: 80}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
