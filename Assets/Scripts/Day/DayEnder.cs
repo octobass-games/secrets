@@ -6,7 +6,7 @@ public class DayEnder : MonoBehaviour
     public Camera ShopCamera;
     public Camera InventoryCamera;
     public Camera DayEndCamera;
-    public GameObject DayEnd;
+    public DayEnderAnimation DayEnd;
     public Animator Fade;
     public GameObject Logbook;
 
@@ -30,7 +30,7 @@ public class DayEnder : MonoBehaviour
     IEnumerator WaitForNSecondsThenSendFadeIn()
     {
         yield return new WaitForSeconds(2);
-        DayEnd.SetActive(true);
+        DayEnd.Play();
         ShopCamera.gameObject.SetActive(false);
         InventoryCamera.gameObject.SetActive(false);
         DayEndCamera.gameObject.SetActive(true);
@@ -42,7 +42,7 @@ public class DayEnder : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         Fade.SetTrigger("out");
-        DayEnd.SetActive(false);
+        DayEnd.Stop();
         ShopCamera.gameObject.SetActive(true);
         InventoryCamera.gameObject.SetActive(false);
         DayEndCamera.gameObject.SetActive(false);

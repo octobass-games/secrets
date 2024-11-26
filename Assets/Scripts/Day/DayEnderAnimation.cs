@@ -7,12 +7,13 @@ using UnityEngine;
 public class DayEnderAnimation : MonoBehaviour
 {
     public Bookkeeper Bookkeeper;
-    public List<BookDefinition> books;
     public GameObject NotificationPrefab;
     public Transform NotificationParent;
+    public GameObject Person;
 
+    private IEnumerator SaleAnimation;
 
-    void Start()
+    public void Play()
     {
         var books = Bookkeeper
             .GetEndOfDayTransactions()
@@ -29,20 +30,31 @@ public class DayEnderAnimation : MonoBehaviour
             })
             .ToList();
 
-        for (int i = 0; i < books.Count; i++)
-        {
-            StartCoroutine(WaitForNSecondsThenSendFadeIn(i, books[i]));
-        }
+        Person.SetActive(true);
+
+        SaleAnimation = WaitForNSecondsThenSendFadeIn(books);
+
+        StartCoroutine(SaleAnimation);
     }
 
-
-    IEnumerator WaitForNSecondsThenSendFadeIn(float n, BookSale book)
+    public void Stop()
     {
-        yield return new WaitForSeconds(n);
-        
-        var item = Instantiate(NotificationPrefab, NotificationParent);
+        Person.SetActive(false);
+        StopCoroutine(SaleAnimation);
+    }
 
-        item.GetComponentInChildren<TextMeshPro>().text = book.Name + "\n" + book.SellPrice + " coins";
-        item.transform.localPosition = new Vector2(Random.Range(-200, 200) , 10);
+    IEnumerator WaitForNSecondsThenSendFadeIn(List<BookSale> bookSales)
+    {
+        for (int i = 0; i < bookSales.Count; i++)
+        {
+            yield return new WaitForSeconds(0.75f);
+
+            var book = bookSales[i];
+
+            var item = Instantiate(NotificationPrefab, NotificationParent);
+
+            item.GetComponentInChildren<TextMeshPro>().text = "Sold " + book.Name + "\n" + book.SellPrice + " coins";
+            item.transform.localPosition = new Vector2(Random.Range(-200, 200), 10);
+        }
     }
 }

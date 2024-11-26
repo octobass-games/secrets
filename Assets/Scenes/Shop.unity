@@ -9979,6 +9979,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!4 &585501831 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8753914944388623358, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+  m_PrefabInstance: {fileID: 1052563003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &592724197
 GameObject:
   m_ObjectHideFlags: 0
@@ -19638,13 +19643,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3302937014814320955, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790011613626537215, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+      propertyPath: Bookkeeper
+      value: 
+      objectReference: {fileID: 509350324}
+    - target: {fileID: 5790011613626537215, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+      propertyPath: books.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5790011613626537215, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+      propertyPath: NotificationParent
+      value: 
+      objectReference: {fileID: 585501831}
+    - target: {fileID: 5790011613626537215, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+      propertyPath: 'books.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8bfca554b68f0ae4f9f1e7e46bfc82d8, type: 2}
+    - target: {fileID: 5790011613626537215, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+      propertyPath: 'books.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8bfca554b68f0ae4f9f1e7e46bfc82d8, type: 2}
+    - target: {fileID: 5790011613626537215, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+      propertyPath: 'books.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8bfca554b68f0ae4f9f1e7e46bfc82d8, type: 2}
     - target: {fileID: 6201385617955047321, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
       propertyPath: m_Name
       value: EndOfDay
       objectReference: {fileID: 0}
     - target: {fileID: 6201385617955047321, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7598042397762975105, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19733,6 +19766,17 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!114 &1052563008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5790011613626537215, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+  m_PrefabInstance: {fileID: 1052563003}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052563004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590dda2e370efa742b6c75975aff22d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1062918081
 GameObject:
   m_ObjectHideFlags: 0
@@ -26291,7 +26335,7 @@ MonoBehaviour:
   ShopCamera: {fileID: 665243234}
   InventoryCamera: {fileID: 814502189}
   DayEndCamera: {fileID: 77261431}
-  DayEnd: {fileID: 1052563004}
+  DayEnd: {fileID: 1052563008}
   Fade: {fileID: 1383656551}
   Logbook: {fileID: 2125073876}
 --- !u!1 &1394253331
