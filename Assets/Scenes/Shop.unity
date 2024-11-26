@@ -3433,6 +3433,7 @@ Transform:
   m_Children:
   - {fileID: 1617401058}
   - {fileID: 1351191884}
+  - {fileID: 622499450}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &181328299
@@ -7408,12 +7409,12 @@ MonoBehaviour:
   Items: []
   TillView: {fileID: 469674917}
   Bookshelf: {fileID: 1719886218}
-  HollowBookshelf: {fileID: 0}
+  HollowBookshelf: {fileID: 1383857671}
   TillBook: {fileID: 0}
   TillBookPosition: {fileID: 5969055360780834868, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
   TillBookPrefab: {fileID: 8892843852603427114, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
-  DialogueManager: {fileID: 0}
-  TooManyHollowBooks: {fileID: 0}
+  DialogueManager: {fileID: 135454216}
+  TooManyHollowBooks: {fileID: 11400000, guid: 3d46862bd8f9c7a4baf14ba34d71d44d, type: 2}
 --- !u!4 &509350325
 Transform:
   m_ObjectHideFlags: 0
@@ -9068,6 +9069,37 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!1 &622499449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622499450}
+  m_Layer: 0
+  m_Name: HollowBookPlacementStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &622499450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622499449}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.25415, y: -6.576912, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 181328297}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &624764598
 GameObject:
   m_ObjectHideFlags: 0
@@ -20652,6 +20684,53 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1383857669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1383857670}
+  - component: {fileID: 1383857671}
+  m_Layer: 0
+  m_Name: HollowShelf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1383857670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383857669}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1719886217}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1383857671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383857669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5463c08b393e8fa4eb81a07b11816865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bookkeeper: {fileID: 509350324}
+  HollowBookPrefab: {fileID: 1167625805286789364, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+  StartingPosition: {fileID: 622499450}
 --- !u!1 &1388237865
 GameObject:
   m_ObjectHideFlags: 0
@@ -24106,7 +24185,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1617401057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25543,6 +25622,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 803976069}
+  - {fileID: 1383857670}
   m_Father: {fileID: 1323454506}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1719886218
@@ -32571,11 +32651,11 @@ PrefabInstance:
       objectReference: {fileID: 1719886218}
     - target: {fileID: 8435960144496631234, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 70
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 8435960144496631234, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -114
+      value: -47.5
       objectReference: {fileID: 0}
     - target: {fileID: 8435960144496631234, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
       propertyPath: m_LocalPosition.z

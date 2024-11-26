@@ -160,6 +160,7 @@ public class Bookkeeper : MonoBehaviour, Savable
             var booksInStock = Books.FindAll(InStock).ToList();
             hollow.IsHollow = true;
             Bookshelf.PlaceBooks(booksInStock);
+            HollowBookshelf.PlaceBooks(HollowBooks);
 
             return hollow;
         }

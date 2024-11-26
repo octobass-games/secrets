@@ -15,10 +15,12 @@ public class HollowBookshelf : MonoBehaviour
 
         for (int i = 0; i < books.Count; i++)
         {
+            int index = i;
+
             var hollowBook = Instantiate(HollowBookPrefab, StartingPosition);
 
             hollowBook.transform.position = new Vector3(hollowBook.transform.position.x + i * 7, hollowBook.transform.position.y, hollowBook.transform.position.z);
-            hollowBook.GetComponent<Clickable>().OnClick.AddListener(() => Bookkeeper.MoveToTill(books[i]));
+            hollowBook.GetComponent<Clickable>().OnClick.AddListener(() => Bookkeeper.MoveToTill(books[index]));
 
             HollowBooks.Add(hollowBook);
         }
