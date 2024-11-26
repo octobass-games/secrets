@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class Bookshelf : MonoBehaviour
 {
-    public List<BookshelfBook> Books;
     public Transform BookContainer;
     public GameObject BookPrefab;
     public BookInspector BookInspector;
@@ -21,23 +20,10 @@ public class Bookshelf : MonoBehaviour
             var b = Instantiate(BookPrefab, BookContainer);
 
             b.GetComponent<BookshelfBook>().Setup(book, Bookkeeper.MoveToTill, BookInspector.ShowBookInspector);
-            b.transform.position = b.transform.position + new Vector3(b.transform.position.x + i * 7, 0, 0);
+            b.transform.position = b.transform.position + new Vector3(i * 7, 0, 0);
 
             BooksA.Add(b);
         }
-        //foreach (var book in Books)
-        //{
-        //   var bookDefinition = books.Find(a => a.IsEqual(book.BookDefinition));
-
-        //    if (bookDefinition != null)
-        //    {
-        //        book.gameObject.SetActive(true);
-        //    }
-        //    else
-        //    {
-        //        book.gameObject.SetActive(false);
-        //    }
-        //}
     }
 
     public void MoveToTill(BookDefinition book)
