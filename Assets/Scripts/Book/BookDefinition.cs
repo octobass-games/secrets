@@ -18,6 +18,7 @@ public class BookDefinition : ScriptableObject
     public ItemDefinition Item;
     public float LikelihoodToSell;
     public float BaseLikelihoodToSell;
+    public bool IsHollow;
 
     public bool IsEqual(BookDefinition other)
     {
