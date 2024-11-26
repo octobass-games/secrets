@@ -8,6 +8,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     public List<ItemDefinition> Items;
     public TillView TillView;
     public Bookshelf Bookshelf;
+    public HollowBookshelf HollowBookshelf;
     public GameObject TillBook;
     public Transform TillBookPosition;
     public GameObject TillBookPrefab;
@@ -163,6 +164,12 @@ public class Bookkeeper : MonoBehaviour, Savable
         }
     }
 
+    public void InsertIntoHollowBook(BookDefinition hollowBook, ItemDefinition item)
+    {
+        hollowBook.Item = item;
+        HollowBookshelf.PlaceBooks(HollowBooks);
+    }
+
     private void UpdateStock()
     {
         foreach (BookDefinition Book in Books)
@@ -255,13 +262,27 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     public void MoveToTill(BookDefinition book)
     {
-        Bookshelf.MoveToTill(book);   
+        if (book.Item != null)
+        {
+            // hollow shelf move
+        }
+        else
+        {
+            Bookshelf.MoveToTill(book);   
+        }
 
         if (TillBook != null)
         {
             var bookDefinition = TillBook.GetComponent<Book>().BookDefinition;
 
-            Bookshelf.PutBookBack(bookDefinition);
+            if (bookDefinition.Item != null)
+            {
+                // hollow shelf put back
+            }
+            else
+            {
+                Bookshelf.PutBookBack(bookDefinition);
+            }
 
             Destroy(TillBook);
         }
@@ -285,7 +306,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     public bool IsBookAtTillWithItem(ItemDefinition item)
     {
-        return TillBook != null && TillBook.GetComponent<Book>().BookDefinition.Item.IsEqual(item);
+        return TillBook != null && TillBook.GetComponent<Book>().BookDefinition.Item.Name == item.Name;
     }
 
     public bool IsBookAtTillWithSomeItem()
