@@ -225,12 +225,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         }
     }
 
-    private void RegisterHollowBookSale(BookDefinition book)
+    private void RegisterHollowBookSale(BookDefinition book, CharacterDefinition character)
     {
-        // TODO: proper balance update
-        BankBalance += 100;
+        BankBalance += book.Item.SellPrice;
 
-        TransactionsToday.BookSales.Add(new BookSale(book.Name, 100, 1));
+        TransactionsToday.UniqueBookSales.Add(new UniqueBookSale(character.Name, book.Name, book.Item.SellPrice));
 
         var b = HollowBooks.Find(b => b.Item.Name == book.Item.Name);
 
@@ -355,7 +354,7 @@ public class Bookkeeper : MonoBehaviour, Savable
             if (book.IsHollow)
             {
                 var b = HollowBooks.Find(bo => bo.Item.Name == book.Item.Name);
-                RegisterHollowBookSale(b);
+                RegisterHollowBookSale(b, @event.Character);
 
                 HollowBookshelf.PlaceBooks(HollowBooks);
             }
