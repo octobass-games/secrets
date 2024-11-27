@@ -28,6 +28,7 @@ public class DayEnderAnimation : MonoBehaviour
 
                 return bookSales;
             })
+            .Shuffle()
             .ToList();
 
         Person.SetActive(true);
