@@ -133,8 +133,6 @@ public class Bookkeeper : MonoBehaviour, Savable
                 }
             }
         }
-
-        DailyTransactions.Add(TransactionsToday);
     }
 
     public void IncrementBookPrice(BookDefinition book)

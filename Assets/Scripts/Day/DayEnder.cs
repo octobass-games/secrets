@@ -8,7 +8,7 @@ public class DayEnder : MonoBehaviour
     public Camera DayEndCamera;
     public DayEnderAnimation DayEnd;
     public Animator Fade;
-    public GameObject Logbook;
+    public Log Log;
 
     void OnEnable()
     {
@@ -47,6 +47,6 @@ public class DayEnder : MonoBehaviour
         InventoryCamera.gameObject.SetActive(false);
         DayEndCamera.gameObject.SetActive(false);
         Fade.SetTrigger("in");
-        Logbook.SetActive(true);
+        Log.DisplayEndOfDayLog();
     }
 }

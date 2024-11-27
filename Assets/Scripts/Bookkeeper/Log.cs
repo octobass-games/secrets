@@ -15,6 +15,7 @@ public class Log : MonoBehaviour
     public GameObject OutgoingCostsParent;
     public GameObject BookOrderPrefab;
     public GameObject Stamp;
+    public GameObject EndOfDayStamp;
     public Button NextPageButton;
     public Button PreviousPageButton;
 
@@ -24,14 +25,10 @@ public class Log : MonoBehaviour
     private List<GameObject> OutgoingCosts = new();
     private GameObject DailyTransactionsStamp;
 
-    void Awake()
-    {
-        NextPageButton.onClick.AddListener(NextLog);
-        PreviousPageButton.onClick.AddListener(PreviousLog);
-    }
-
     public void DisplayLog()
     {
+        EndOfDayStamp.SetActive(false);
+
         List<DailyTransactions> dailyTransactions = Bookkeeper.GetDailyTransactions();
 
         DailyTransactionsIndex = dailyTransactions.Count - 1;
@@ -39,6 +36,16 @@ public class Log : MonoBehaviour
         LogView.SetActive(true);
 
         ListDailyTransactions();
+    }
+
+    public void DisplayEndOfDayLog()
+    {
+        DisplayLog();
+
+        EndOfDayStamp.SetActive(true);
+        Stamp.SetActive(false);
+        PreviousPageButton.gameObject.SetActive(false);
+        NextPageButton.gameObject.SetActive(false);
     }
 
     public void NextLog()
