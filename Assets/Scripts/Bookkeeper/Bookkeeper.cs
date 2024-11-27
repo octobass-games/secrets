@@ -159,7 +159,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             float likelihoodOfBookSale = CalculateLikelihoodOfSale(book);
 
-            for (int i = 0; i < book.Stock; i++)
+            for (int i = 1; i < book.Stock; i++)
             {
                 if (RandomNumberGenerator.Next(0, 100) < likelihoodOfBookSale)
                 {
