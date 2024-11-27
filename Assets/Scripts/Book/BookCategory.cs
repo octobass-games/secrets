@@ -11,5 +11,11 @@ public enum BookCategory
     RECIPES,
     SPELLS,
     WEAPONS,
-    WELLBEING
+    WELLBEING,
+    ART,
+    BIOGRAPHY,
+    CHILDRENS,
+    HORROR,
+    POETRY,
+    THRILLER
 }
