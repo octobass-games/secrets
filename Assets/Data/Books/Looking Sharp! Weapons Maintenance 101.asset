@@ -18,7 +18,7 @@ MonoBehaviour:
     brought them!
   Category: 10
   Cover: {fileID: 4074907491291902883, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0, g: 0, b: 0, a: 0}
+  colour: {r: 0.40000004, g: 0.22352943, b: 0.19215688, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1

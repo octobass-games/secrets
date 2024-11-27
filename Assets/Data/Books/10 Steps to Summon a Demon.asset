@@ -17,7 +17,7 @@ MonoBehaviour:
   Description: A no-nonsense, 10 step guide to summoning a demon
   Category: 6
   Cover: {fileID: -1213657295233197196, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0, g: 0, b: 0, a: 0}
+  colour: {r: 0.29803923, g: 0.16862746, b: 0.34509805, a: 1}
   RecommendedSellPrice: 125
   SellPrice: 125
   Stock: 14

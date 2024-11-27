@@ -18,10 +18,10 @@ MonoBehaviour:
     handbook
   Category: 6
   Cover: {fileID: 2406348057447159708, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0, g: 0, b: 0, a: 0}
+  colour: {r: 0.29803923, g: 0.16862746, b: 0.34509805, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
-  Stock: 0
+  Stock: 1
   CostToOrder: 0
   Item: {fileID: 0}
   LikelihoodToSell: 0

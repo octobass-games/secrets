@@ -17,7 +17,7 @@ MonoBehaviour:
   Description: 50 recipes to warm your heart
   Category: 8
   Cover: {fileID: 1742173823, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0, g: 0, b: 0, a: 0}
+  colour: {r: 0.8745099, g: 0.4431373, b: 0.14901961, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 100
   Stock: 1

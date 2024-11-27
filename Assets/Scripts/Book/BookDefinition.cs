@@ -10,7 +10,8 @@ public class BookDefinition : ScriptableObject
     public BookCategory Category;
     [FormerlySerializedAs("Sprite")]
     public Sprite Cover;
-    public Color colour;
+    [FormerlySerializedAs("colour")]
+    public Color Colour;
     public int RecommendedSellPrice;
     public int SellPrice;
     public int Stock;

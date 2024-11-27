@@ -17,10 +17,10 @@ MonoBehaviour:
   Description: 
   Category: 9
   Cover: {fileID: -1051768854, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0, g: 0, b: 0, a: 0}
+  colour: {r: 0.24313727, g: 0.24313727, b: 0.24313727, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
-  Stock: 0
+  Stock: 1
   CostToOrder: 0
   Item: {fileID: 0}
   LikelihoodToSell: 0

@@ -84,6 +84,7 @@ MonoBehaviour:
   Book: {fileID: 5572043786270679385}
   HoverCover: {fileID: 541047828494257659}
   HoverDescription: {fileID: 2300520496753811600}
+  BookGhost: {fileID: 8064949997185114189}
 --- !u!61 &4143811326115332983
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -247,9 +248,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -908756540, guid: 2e601f9d458d9664d90e5371039c13c9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.24705882}
+  m_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 0.3529412}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
