@@ -850,6 +850,7 @@ GameObject:
   - component: {fileID: 77261430}
   - component: {fileID: 77261429}
   - component: {fileID: 77261428}
+  - component: {fileID: 77261433}
   m_Layer: 0
   m_Name: EndOfDayCamers
   m_TagString: MainCamera
@@ -999,6 +1000,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &77261433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77261427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 1948967781}
+    Params:
+    - Name: Character
+      Value: 12
+  TriggerEvent: 11
 --- !u!1 &84528636
 GameObject:
   m_ObjectHideFlags: 0
@@ -6001,25 +6021,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fmodEvent: event:/SFX/Step
   is3D: 0
---- !u!114 &709198292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709198283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Emitters:
-  - Target: {fileID: 1948967781}
-    Params:
-    - Name: Character
-      Value: 12
-  TriggerEvent: 11
 --- !u!114 &732000454 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1701889468559033117, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
@@ -10410,9 +10411,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3302937014814320955, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
       insertIndex: -1
       addedObject: {fileID: 709198287}
-    - targetCorrespondingSourceObject: {fileID: 3302937014814320955, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 709198292}
   m_SourcePrefab: {fileID: 100100000, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
 --- !u!1 &1052563004 stripped
 GameObject:
