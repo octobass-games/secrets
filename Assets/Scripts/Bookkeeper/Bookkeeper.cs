@@ -174,7 +174,9 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     public void DecrementBookPrice(BookDefinition book)
     {
-        book.SellPrice--;
+        if (book.SellPrice > 0) {
+            book.SellPrice--;
+        }
     }
 
     public bool InStock(BookDefinition book)
