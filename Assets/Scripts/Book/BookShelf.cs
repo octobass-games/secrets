@@ -52,17 +52,6 @@ public class Bookshelf : MonoBehaviour
                 i++;
             }
         }
-
-        //for (int i = 0; i < books.Count; i++)
-        //{
-        //    var book = books[i];
-        //    var b = Instantiate(BookPrefab, BookContainer);
-
-        //    b.GetComponent<BookshelfBook>().Setup(book, Bookkeeper.MoveToTill, BookInspector.ShowBookInspector);
-        //    b.transform.position = b.transform.position + new Vector3(i * 7, 0, 0);
-
-        //    Books.Add(b);
-        //}
     }
 
     public void MoveToTill(BookDefinition book)
