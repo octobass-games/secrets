@@ -353,7 +353,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
             if (book.IsHollow)
             {
-                var b = HollowBooks.Find(bo => bo.Item.Name == book.Item.Name);
+                var b = HollowBooks.Find(bo => bo.Item.Name == book.Item.Name && bo.Name == book.Name);
                 RegisterHollowBookSale(b, @event.Character);
 
                 HollowBookshelf.PlaceBooks(HollowBooks);
