@@ -16,5 +16,6 @@ public enum GameEventType
     BOOK_ORDER,
     STAMP_COLLECTED,
     RENT_PAYMENT,
-    RING_SUPPLIER
+    RING_SUPPLIER,
+    TAX_PAYMENT
 }

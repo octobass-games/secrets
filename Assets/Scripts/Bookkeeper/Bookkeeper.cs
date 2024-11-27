@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -30,11 +31,32 @@ public class Bookkeeper : MonoBehaviour, Savable
         HollowBooks = HollowBooks.Select(b => Instantiate(b)).ToList();
     }
 
+    public int CalculateTax()
+    {
+        int upperBound = DailyTransactions.Count - 2;
+        int lowerBound = Mathf.Max(0, upperBound - 7);
+
+        int totalEarnings = 0;
+
+        for (int i = lowerBound; i <= upperBound; i++)
+        {
+            var dailyTransactions = DailyTransactions[i];
+
+            var bookSalesEarnings = dailyTransactions.BookSales.Select(b => b.SellPrice * b.Quantity).Sum();
+            var uniqueBookSalesEarnings = dailyTransactions.UniqueBookSales.Select(b => b.SellPrice).Sum();
+
+            totalEarnings += bookSalesEarnings + uniqueBookSalesEarnings;
+        }
+
+        return Mathf.CeilToInt(totalEarnings * 0.125f);
+    }
+
     void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Subscribe(GameEventType.CLOSE_SHOP, OnCloseShop);
         EventManager.Instance.Subscribe(GameEventType.RENT_PAYMENT, OnRentPayment);
+        EventManager.Instance.Subscribe(GameEventType.TAX_PAYMENT, OnTaxPayment);
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Subscribe(GameEventType.INVENTORY_SELL, OnBookSell);
     }
@@ -44,6 +66,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Unsubscribe(GameEventType.BEGIN_DAY, OnBeginDay);
         EventManager.Instance.Unsubscribe(GameEventType.CLOSE_SHOP, OnCloseShop);
         EventManager.Instance.Unsubscribe(GameEventType.RENT_PAYMENT, OnRentPayment);
+        EventManager.Instance.Unsubscribe(GameEventType.TAX_PAYMENT, OnTaxPayment);
         EventManager.Instance.Unsubscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Unsubscribe(GameEventType.INVENTORY_SELL, OnBookSell);
     }
@@ -66,7 +89,16 @@ public class Bookkeeper : MonoBehaviour, Savable
 
         Withdraw(rent);
     }
-    
+
+    private void OnTaxPayment(GameEvent _)
+    {
+        int tax = CalculateTax();
+
+        TransactionsToday.Tax = tax;
+
+        Withdraw(tax);
+    }
+
     public void OnBeginDay(GameEvent @event)
     {
         Today = @event.Day;
