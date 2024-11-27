@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BookInspector : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class BookInspector : MonoBehaviour
     public GameObject BookHollow;
     public GameObject Knife;
     public History History;
+    public Image BookCover;
 
     public GameObject ItemPrefab;
     public GameObject ItemsView;
@@ -24,6 +26,7 @@ public class BookInspector : MonoBehaviour
 
         InspectorView.SetActive(true);
         BookTitleView.text = definition.Name;
+        BookCover.color = definition.Colour;
 
         if  (definition.IsHollow)
         {

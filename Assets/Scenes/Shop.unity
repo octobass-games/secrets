@@ -21648,6 +21648,7 @@ MonoBehaviour:
   BookHollow: {fileID: 2119590266}
   Knife: {fileID: 353221690}
   History: {fileID: 2113456429}
+  BookCover: {fileID: 1544361534}
   ItemPrefab: {fileID: 1245915539356007062, guid: 7e01b5014028b24449974f2bb6d3645d, type: 3}
   ItemsView: {fileID: 1573571567}
   ItemContainer: {fileID: 170541054}
