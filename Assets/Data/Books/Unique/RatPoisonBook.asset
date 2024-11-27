@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Mighty Mushroom Meals
   Author: 
-  Description: 
+  Description: '30 Handpicked mushroom recipes '
   Category: 0
-  Cover: {fileID: 0}
+  Cover: {fileID: 733217821, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 0
   SellPrice: 0

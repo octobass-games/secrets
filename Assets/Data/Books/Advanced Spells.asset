@@ -16,7 +16,7 @@ MonoBehaviour:
   Author: 
   Description: 
   Category: 9
-  Cover: {fileID: 0}
+  Cover: {fileID: -1225844390, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 56
   SellPrice: 56
@@ -25,3 +25,4 @@ MonoBehaviour:
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 40
+  IsHollow: 0

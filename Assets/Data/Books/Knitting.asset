@@ -16,7 +16,7 @@ MonoBehaviour:
   Author: 
   Description: 
   Category: 2
-  Cover: {fileID: -6722977174423530570, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Cover: {fileID: -1401794867, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   colour: {r: 1, g: 1, b: 1, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
