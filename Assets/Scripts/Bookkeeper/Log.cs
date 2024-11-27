@@ -120,7 +120,7 @@ public class Log : MonoBehaviour
 
         if (record.Tax != 0)
         {
-            CreateOutgoingCost("Tax", record.Tax.ToString());
+            CreateOutgoingCost("Tax (12.5%)", record.Tax.ToString());
         }
 
         if (record.Rent != 0)

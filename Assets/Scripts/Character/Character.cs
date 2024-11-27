@@ -102,4 +102,8 @@ public class Character : MonoBehaviour, Savable
         }
     }
 
+    public List<CharacterTidbit> GetUnlockedTidbits()
+    {
+        return CharacterDefinition.Tidbits.FindAll(tidbit => tidbit.IsUnlocked);
+    }
 }
