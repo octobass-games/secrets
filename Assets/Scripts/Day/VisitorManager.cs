@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class VisitorManager : MonoBehaviour
 {
@@ -24,13 +25,12 @@ public class VisitorManager : MonoBehaviour
 
     public void OnVisitorArrival(GameEvent @event)
     {
-        SetCharacterState(@event.Character, true);
-
+        SetCharacterOn(@event.Character);
     }
 
     public void OnVisitorDeparture(GameEvent @event)
     {
-        SetCharacterState(@event.Character, false);
+        SetCharacterOff(@event.Character);
 
         if (@event.TriggerNextDailyEvent)
         {
@@ -38,10 +38,25 @@ public class VisitorManager : MonoBehaviour
         }
     }
 
-    private void SetCharacterState(CharacterDefinition character, bool isActive)
+  
+    private void SetCharacterOff(CharacterDefinition character)
     {
         Character visitor = Visitors.Find(v => v.CharacterDefinition.Name == character.Name);
 
-        visitor.gameObject.SetActive(isActive);
+        var animator = visitor.gameObject.GetComponentInChildren<Animator>();
+        if (animator != null)
+        {
+            animator.SetTrigger("Leave");
+        }
+        else
+        {
+            visitor.gameObject.SetActive(false);
+        }
+    }
+
+    private void SetCharacterOn(CharacterDefinition character)
+    {
+        Character visitor = Visitors.Find(v => v.CharacterDefinition.Name == character.Name);
+        visitor.gameObject.SetActive(true);
     }
 }
