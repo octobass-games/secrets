@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class StampCollector : MonoBehaviour, Savable
@@ -20,12 +18,18 @@ public class StampCollector : MonoBehaviour, Savable
 
     void OnEnable()
     {
-        EventManager.Instance.Subscribe(GameEventType.STAMP_COLLECTED, OnStampCollected);
+        if (EventManager.Instance != null)
+        {
+            EventManager.Instance.Subscribe(GameEventType.STAMP_COLLECTED, OnStampCollected);
+        }
     }
 
     void OnDisable()
     {
-        EventManager.Instance.Unsubscribe(GameEventType.STAMP_COLLECTED, OnStampCollected);
+        if (EventManager.Instance != null)
+        {
+            EventManager.Instance.Unsubscribe(GameEventType.STAMP_COLLECTED, OnStampCollected);
+        }
     }
 
     public void ShowStamps()
