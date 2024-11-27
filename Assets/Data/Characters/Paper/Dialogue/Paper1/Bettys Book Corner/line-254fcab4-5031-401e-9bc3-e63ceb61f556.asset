@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-254fcab4-5031-401e-9bc3-e63ceb61f556
+  m_EditorClassIdentifier: 
+  Id: 254fcab4-5031-401e-9bc3-e63ceb61f556
+  Speaker: {fileID: 11400000, guid: 371e351cd644cc44685c7d628c94c521, type: 2}
+  Text: Well known for writing the turbulent love triangle of Starry Bay between
+    Mia, and love interests Bryn and Al, Renne introduces a whole new world of adventure
+    and romance in this exhilarating novel!
+  NextLine: {fileID: 11400000, guid: e3e17b4ec0fa11b4e99d7bc820ae5fc5, type: 2}
+  Events: []
+  Choices: []

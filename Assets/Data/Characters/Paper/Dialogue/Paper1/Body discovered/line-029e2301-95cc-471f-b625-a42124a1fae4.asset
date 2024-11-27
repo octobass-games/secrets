@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-029e2301-95cc-471f-b625-a42124a1fae4
+  m_EditorClassIdentifier: 
+  Id: 029e2301-95cc-471f-b625-a42124a1fae4
+  Speaker: {fileID: 11400000, guid: 371e351cd644cc44685c7d628c94c521, type: 2}
+  Text: The person is an unidentified female elf, around 60 years old, pink hair,
+    and grey eyes.
+  NextLine: {fileID: 11400000, guid: 2d09288a090ba40468ea9f266442f49d, type: 2}
+  Events: []
+  Choices: []

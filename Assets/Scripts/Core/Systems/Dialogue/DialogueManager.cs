@@ -19,6 +19,11 @@ public class DialogueManager : MonoBehaviour
         SpeakLine();
     }
 
+    public void Begin(Line root)
+    {
+        Begin(root, null);
+    }
+
     public void End()
     {
         ConversationView.Close();

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-6fbcecfa-81bd-43e4-b50c-80b00546419b
+  m_EditorClassIdentifier: 
+  Id: 6fbcecfa-81bd-43e4-b50c-80b00546419b
+  Speaker: {fileID: 11400000, guid: 371e351cd644cc44685c7d628c94c521, type: 2}
+  Text: Beloved Author Renne Alice releases new book Nessie Academy.
+  NextLine: {fileID: 11400000, guid: 8f3f28e6deca01b4bade6c8eeefe8508, type: 2}
+  Events: []
+  Choices: []

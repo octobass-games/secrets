@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-174c595e-262b-44f1-a71e-80a9b54a7fa4
+  m_EditorClassIdentifier: 
+  Id: 174c595e-262b-44f1-a71e-80a9b54a7fa4
+  Speaker: {fileID: 11400000, guid: 371e351cd644cc44685c7d628c94c521, type: 2}
+  Text: Much loved by the community for her no nonsense attitude and love of books,
+    Runa Marchand will be greatly missed.
+  NextLine: {fileID: 11400000, guid: 3e41178fd7db417479d7799d9bf9d438, type: 2}
+  Events: []
+  Choices: []

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: root
+  m_EditorClassIdentifier: 
+  Id: 429740d0-0d97-4364-a58e-7d3c2bf5ae0c
+  Speaker: {fileID: 11400000, guid: 371e351cd644cc44685c7d628c94c521, type: 2}
+  Text: Sadly, passed away at her bookshop on the 20th of the Month before last.
+  NextLine: {fileID: 11400000, guid: 96aebe0f49b64f140a606c11d4365349, type: 2}
+  Events: []
+  Choices: []
