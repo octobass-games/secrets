@@ -42214,6 +42214,7 @@ MonoBehaviour:
   EndOfDayStamp: {fileID: 905731706}
   NextPageButton: {fileID: 1933648343}
   PreviousPageButton: {fileID: 1518237975}
+  CloseButton: {fileID: 630296824}
 --- !u!1 &2074705857
 GameObject:
   m_ObjectHideFlags: 0

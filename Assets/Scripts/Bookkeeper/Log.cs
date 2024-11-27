@@ -18,6 +18,7 @@ public class Log : MonoBehaviour
     public GameObject EndOfDayStamp;
     public Button NextPageButton;
     public Button PreviousPageButton;
+    public GameObject CloseButton;
 
     private int DailyTransactionsIndex;
     private List<GameObject> UniqueSales = new();
@@ -28,6 +29,7 @@ public class Log : MonoBehaviour
     public void DisplayLog()
     {
         EndOfDayStamp.SetActive(false);
+        CloseButton.SetActive(true);
 
         List<DailyTransactions> dailyTransactions = Bookkeeper.GetDailyTransactions();
 
@@ -42,6 +44,7 @@ public class Log : MonoBehaviour
     {
         DisplayLog();
 
+        CloseButton.SetActive(false);
         EndOfDayStamp.SetActive(true);
         Stamp.SetActive(false);
         PreviousPageButton.gameObject.SetActive(false);
