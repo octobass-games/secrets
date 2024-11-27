@@ -113,6 +113,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         Bookshelf.PlaceBooks(booksInStock);
         HollowBookshelf.PlaceBooks(HollowBooks);
         TillView.DisplayImmediately(BankBalance);
+
+        if (TillBook != null)
+        {
+            Destroy(TillBook);
+        }
     }
 
     public List<ItemDefinition> GetAvailableItems()
