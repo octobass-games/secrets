@@ -20,7 +20,7 @@ MonoBehaviour:
   colour: {r: 0, g: 0, b: 0, a: 0}
   RecommendedSellPrice: 100
   SellPrice: 0
-  Stock: 0
+  Stock: 1
   CostToOrder: 0
   Item: {fileID: 0}
   LikelihoodToSell: 0
