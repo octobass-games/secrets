@@ -87,6 +87,8 @@ public class Bookkeeper : MonoBehaviour, Savable
 
         TransactionsToday.Rent = rent;
 
+        Debug.Log(rent);
+
         Withdraw(rent);
     }
 

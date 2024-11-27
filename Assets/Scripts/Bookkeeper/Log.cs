@@ -101,14 +101,20 @@ public class Log : MonoBehaviour
 
         DateView.text = record.Date;
 
+        int bookSalesTotal = 0;
+
         foreach (BookSale bookSale in record.BookSales)
         {
+            int totalEarningsForBook = bookSale.SellPrice * bookSale.Quantity;
+
+            bookSalesTotal += totalEarningsForBook;
+
             GameObject bookSaleView = Instantiate(SaleRecordPrefab);
 
             var texts = bookSaleView.GetComponentsInChildren<TMP_Text>();
 
             texts[0].text = bookSale.Name + " x" + bookSale.Quantity;
-            texts[1].text = (bookSale.SellPrice * bookSale.Quantity).ToString();
+            texts[1].text = totalEarningsForBook.ToString();
 
             bookSaleView.transform.SetParent(SaleRecordParent.transform);
             bookSaleView.transform.localScale = Vector3.one;
@@ -116,23 +122,32 @@ public class Log : MonoBehaviour
             SalesRecords.Add(bookSaleView);
         }
 
+        int outgoingsTotal = 0;
+
         foreach (BookOrder bookOrder in record.BookOrders)
         {
+            outgoingsTotal += bookOrder.TotalCost;
             CreateOutgoingCost(bookOrder.Name + " x" + bookOrder.Quantity, bookOrder.TotalCost.ToString());
         }
 
         if (record.Tax != 0)
         {
+            outgoingsTotal += record.Tax;
             CreateOutgoingCost("Tax (12.5%)", record.Tax.ToString());
         }
 
         if (record.Rent != 0)
         {
+            outgoingsTotal += record.Rent;
             CreateOutgoingCost("Rent", record.Rent.ToString());
         }
 
+        int uniqueSalesTotal = 0;
+
         foreach (UniqueBookSale uniqueBookSale in record.UniqueBookSales)
         {
+            uniqueSalesTotal += uniqueBookSale.SellPrice;
+
             GameObject uniqueSale = Instantiate(UniqueSalePrefab);
 
             var texts = uniqueSale.GetComponentsInChildren<TMP_Text>();
@@ -146,6 +161,10 @@ public class Log : MonoBehaviour
 
             UniqueSales.Add(uniqueSale);
         }
+
+        UniqueSalesTotal.text = uniqueSalesTotal.ToString() + " coins";
+        SalesRecordsTotal.text = bookSalesTotal.ToString() + " coins";
+        OutgoingCostsTotal.text = outgoingsTotal.ToString() + " coins";
     }
 
     private void ClearDailyTransactions()
