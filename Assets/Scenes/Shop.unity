@@ -20345,6 +20345,9 @@ MonoBehaviour:
   NextPageButton: {fileID: 1933648343}
   PreviousPageButton: {fileID: 1518237975}
   CloseButton: {fileID: 630296824}
+  UniqueSalesTotal: {fileID: 0}
+  SalesRecordsTotal: {fileID: 0}
+  OutgoingCostsTotal: {fileID: 0}
 --- !u!1 &2074705857
 GameObject:
   m_ObjectHideFlags: 0
@@ -21577,6 +21580,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3152232024550036395, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4760518425192811523, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4760518425192811523, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081564770753115995, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081564770753115995, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081564770753115995, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081564770753115995, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081564770753115995, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8552404880453031817, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}

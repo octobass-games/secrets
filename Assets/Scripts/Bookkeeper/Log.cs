@@ -19,6 +19,9 @@ public class Log : MonoBehaviour
     public Button NextPageButton;
     public Button PreviousPageButton;
     public GameObject CloseButton;
+    public TMP_Text UniqueSalesTotal;
+    public TMP_Text SalesRecordsTotal;
+    public TMP_Text OutgoingCostsTotal;
 
     private int DailyTransactionsIndex;
     private List<GameObject> UniqueSales = new();
