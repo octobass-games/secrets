@@ -5562,9 +5562,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.055555556
-    width: 0.33333334
-    height: 0.3333333
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -6001,6 +6001,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fmodEvent: event:/SFX/Step
   is3D: 0
+--- !u!114 &709198292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709198283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 1948967781}
+    Params:
+    - Name: Character
+      Value: 12
+  TriggerEvent: 11
 --- !u!114 &732000454 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1701889468559033117, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
@@ -10391,6 +10410,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3302937014814320955, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
       insertIndex: -1
       addedObject: {fileID: 709198287}
+    - targetCorrespondingSourceObject: {fileID: 3302937014814320955, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 709198292}
   m_SourcePrefab: {fileID: 100100000, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
 --- !u!1 &1052563004 stripped
 GameObject:
