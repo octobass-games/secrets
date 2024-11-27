@@ -129,7 +129,7 @@ public class Bookkeeper : MonoBehaviour, Savable
             {
                 if (RandomNumberGenerator.Next(0, 100) < likelihoodOfBookSale)
                 {
-                    RegisterBookSale(book);
+                    RegisterBookSale(book, null);
                 }
             }
         }
@@ -199,27 +199,35 @@ public class Bookkeeper : MonoBehaviour, Savable
         }
     }
 
-    private void RegisterBookSale(BookDefinition book)
+    private void RegisterBookSale(BookDefinition book, CharacterDefinition character)
     {
         BankBalance += book.SellPrice;
         book.Stock--;
 
-        BookSale sale = TransactionsToday.BookSales.Find(b => b.Name == book.Name);
-
-        if (sale == null)
+        if (character == null)
         {
-            sale = new BookSale(book.Name, book.SellPrice, 1);
+            BookSale sale = TransactionsToday.BookSales.Find(b => b.Name == book.Name);
 
-            TransactionsToday.BookSales.Add(sale);
+            if (sale == null)
+            {
+                sale = new BookSale(book.Name, book.SellPrice, 1);
+
+                TransactionsToday.BookSales.Add(sale);
+            }
+            else
+            {
+                sale.Quantity++;
+            }
         }
         else
         {
-            sale.Quantity++;
+            TransactionsToday.UniqueBookSales.Add(new UniqueBookSale(character.Name, book.Name, book.SellPrice));
         }
     }
 
     private void RegisterHollowBookSale(BookDefinition book)
     {
+        // TODO: proper balance update
         BankBalance += 100;
 
         TransactionsToday.BookSales.Add(new BookSale(book.Name, 100, 1));
@@ -338,7 +346,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         return TillBook != null && TillBook.GetComponent<Book>().BookDefinition.Item != null;
     }
 
-    private void OnBookSell(GameEvent _)
+    private void OnBookSell(GameEvent @event)
     {
         if (TillBook != null)
         {
@@ -354,7 +362,7 @@ public class Bookkeeper : MonoBehaviour, Savable
             else
             {
                 var b = Books.Find(b => b.IsEqual(book));
-                RegisterBookSale(b);
+                RegisterBookSale(b, @event.Character);
                 
                 var booksInStock = Books.FindAll(InStock).ToList();
                 Bookshelf.PlaceBooks(booksInStock);
