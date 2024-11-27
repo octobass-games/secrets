@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-61e749a5-8654-4463-842c-60bdb035ee35
   m_EditorClassIdentifier: 
   Id: 61e749a5-8654-4463-842c-60bdb035ee35
-  Text: LAW FROM PAPER
+  Text: The Landlord and Tenant Act.
   Events:
   - Type: 14
     Memory: 
@@ -26,6 +26,7 @@ MonoBehaviour:
     BooksToOrder: []
     Stamp: {fileID: 11400000, guid: 083e328b397e4bb429f88ab07a310293, type: 2}
     StampId: 
+    TriggerNextDailyEvent: 0
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 2d89a38823cd6bc4ba6ad93049f0c4eb, type: 2}
   Requirements: []

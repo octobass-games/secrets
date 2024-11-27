@@ -10,12 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-7ad4c722-cc83-49f8-a801-c5d08ae0a4e3
+  m_Name: landlord-1
   m_EditorClassIdentifier: 
-  Id: 7ad4c722-cc83-49f8-a801-c5d08ae0a4e3
+  Id: 1c055f41-f6a3-4d0d-ba75-3679f6f43f35
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: "I\u2019m sure you\u2019ve read in the papers that times are tough, so I\u2019ll
-    be immediately increasing your monthly rent by 200 coins."
-  NextLine: {fileID: 11400000, guid: b601ccbc5d3433a419dfcd0b090d354a, type: 2}
-  Events: []
+  Text: Good evening
+  NextLine: {fileID: 11400000, guid: 3810da58391571f44a67cfa8c97e022d, type: 2}
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 450eea2c09a08f24199f4912ac9ecf8b, type: 2}
+    Amount: 0
   Choices: []

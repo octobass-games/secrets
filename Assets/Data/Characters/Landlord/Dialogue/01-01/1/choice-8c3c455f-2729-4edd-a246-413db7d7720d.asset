@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-8c3c455f-2729-4edd-a246-413db7d7720d
   m_EditorClassIdentifier: 
   Id: 8c3c455f-2729-4edd-a246-413db7d7720d
-  Text: CHARACTER MAKING UP LAW
+  Text: "The Tenants Right to Rent Act.\r"
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 2e2d06eacca62d54b8142cbd07073b54, type: 2}

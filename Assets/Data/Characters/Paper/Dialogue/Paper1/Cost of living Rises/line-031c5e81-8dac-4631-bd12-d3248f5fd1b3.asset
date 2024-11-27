@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 031c5e81-8dac-4631-bd12-d3248f5fd1b3
   Speaker: {fileID: 11400000, guid: 371e351cd644cc44685c7d628c94c521, type: 2}
-  Text: "We\u2019ve interviewed everyday people to find out how it's affecting their
-    day to day lives."
+  Text: Tenants are reporting abuses of the Landlord and Tenant Act. Landlords are
+    suddenly increasing their rent without giving the proper notice period of at
+    least 1 month.
   NextLine: {fileID: 0}
   Events: []
   Choices: []
