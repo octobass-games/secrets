@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
+  m_Name: Horror 4
+  m_EditorClassIdentifier: 
+  Name: Horror 4
+  Author: 
+  Description: 
+  Category: 15
+  Cover: {fileID: 1820658862, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Colour: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
+  RecommendedSellPrice: 0
+  SellPrice: 0
+  Stock: 1
+  CostToOrder: 0
+  Item: {fileID: 0}
+  LikelihoodToSell: 0
+  BaseLikelihoodToSell: 0
+  IsHollow: 0
