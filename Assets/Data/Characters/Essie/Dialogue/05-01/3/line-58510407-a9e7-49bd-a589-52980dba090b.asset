@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: essie-05-01-3-root
+  m_Name: line-58510407-a9e7-49bd-a589-52980dba090b
   m_EditorClassIdentifier: 
-  Id: b963acd1-499a-4500-9a17-4d5fb9fc6862
+  Id: 58510407-a9e7-49bd-a589-52980dba090b
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
-  Text: Any luck finding that rat poison, dearier?
+  Text: Oh dearie! This is just a book, haha! I'm sure there'll be some back there...
   NextLine: {fileID: 0}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: c92e70a756f7ac2479cbed495b60701a, type: 2}
-  - {fileID: 11400000, guid: d67f7384e916b2640aaf96d2525ae6bf, type: 2}
-  - {fileID: 11400000, guid: 8babf3c035bb3a7448a3983a4b5fb8e3, type: 2}
+  Choices: []

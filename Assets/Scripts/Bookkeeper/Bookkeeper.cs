@@ -427,7 +427,14 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     public bool IsBookAtTillWithItem(ItemDefinition item)
     {
-        return TillBook != null && TillBook.GetComponent<Book>().BookDefinition.Item.Name == item.Name;
+        if (TillBook != null)
+        {
+            var itemInBook = TillBook.GetComponent<Book>().BookDefinition.Item;
+
+            return itemInBook != null && itemInBook.Name == item.Name;
+        }
+
+        return false;
     }
 
     public bool IsBookAtTillWithSomeItem()

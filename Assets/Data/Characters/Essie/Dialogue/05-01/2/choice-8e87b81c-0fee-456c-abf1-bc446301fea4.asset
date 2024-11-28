@@ -10,11 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-d934ba15-6ea8-44ce-875f-2a502e1c1dc2
+  m_Name: choice-8e87b81c-0fee-456c-abf1-bc446301fea4
   m_EditorClassIdentifier: 
-  Id: d934ba15-6ea8-44ce-875f-2a502e1c1dc2
-  Text: Of course, 500 coins and it's yours.
+  Id: 8e87b81c-0fee-456c-abf1-bc446301fea4
+  Text: Umm... what about this?
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: aaec8e714dfe9524c9fe84c30e00c8d2, type: 2}
-  Requirements: []
+  NextLine: {fileID: 11400000, guid: 8885c4a94f9da5142b6e14e6c9077087, type: 2}
+  Requirements:
+  - Type: 3
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

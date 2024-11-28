@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 25c5ed8b-5132-4dd5-9085-2b422f4eea09
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
-  Text: Well just keep looking dearier, I'm sure you'll find it.
+  Text: Well just keep looking dearie, I'm sure you'll find it.
   NextLine: {fileID: 0}
   Events: []
   Choices: []
