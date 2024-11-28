@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: 7800-per-month
   m_EditorClassIdentifier: 
   Id: 1afff0d6-4fce-40c9-804e-9e3e58b93f44
   Speaker: {fileID: 11400000, guid: 814c93d76037f7b49862a6ff6b95fd74, type: 2}
   Text: 'Upcoming Payments
 
-    Tax: 12.5% of all outgoings, to be paid every 7
-    days
+    Tax: 12.5% of all outgoings, to be paid every 7 days
 
-    Rent: 8000 every 1st of the month
+    Rent:
+    7800 every 1st of the month
 
 '
   NextLine: {fileID: 0}

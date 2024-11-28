@@ -15,6 +15,19 @@ MonoBehaviour:
   Id: a5e45b62-d5aa-444c-af62-c25c4283e31c
   Text: Well, it is what it is. Here you go...
   Events:
+  - Type: 19
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 8000
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   - Type: 15
     Memory: 
     Paper: {fileID: 0}

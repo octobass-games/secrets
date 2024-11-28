@@ -17545,6 +17545,7 @@ GameObject:
   - component: {fileID: 1820940948}
   - component: {fileID: 1820940950}
   - component: {fileID: 1820940951}
+  - component: {fileID: 1820940952}
   m_Layer: 0
   m_Name: upcomingPayments
   m_TagString: Untagged
@@ -17680,13 +17681,13 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 135454216}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: Begin
-        m_Mode: 2
+      - m_Target: {fileID: 1820940952}
+        m_TargetAssemblyTypeName: UpcomingPayments, Assembly-CSharp
+        m_MethodName: ReadUpcomingPayment
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 6e9dd57ad58fce44994cfd92a73f4087, type: 2}
-          m_ObjectArgumentAssemblyTypeName: Line, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17741,6 +17742,24 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 40, y: 28}
   m_EdgeRadius: 0
+--- !u!114 &1820940952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820940946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfdf5cd89836c114aa0e9d8c9c3582c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bookkeeper: {fileID: 509350324}
+  DialogueManager: {fileID: 135454216}
+  MonthlyRent8000: {fileID: 11400000, guid: 6e9dd57ad58fce44994cfd92a73f4087, type: 2}
+  MonthlyRent7900: {fileID: 11400000, guid: bc313cec56c65a348a048b6c400d005f, type: 2}
+  MonthlyRent7850: {fileID: 11400000, guid: 3d7bc6929007d5a42a6feb141766b100, type: 2}
+  MonthlyRentOriginal: {fileID: 11400000, guid: fb8a59bd03927c24da2379a7125ccb93, type: 2}
 --- !u!1 &1821195877
 GameObject:
   m_ObjectHideFlags: 0

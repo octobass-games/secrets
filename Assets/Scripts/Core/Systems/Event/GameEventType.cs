@@ -18,5 +18,6 @@ public enum GameEventType
     RENT_PAYMENT,
     RING_SUPPLIER,
     TAX_PAYMENT,
-    ITEM_ORDER
+    ITEM_ORDER,
+    MONTHLY_RENT_AGREED
 }

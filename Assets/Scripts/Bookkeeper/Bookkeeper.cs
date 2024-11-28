@@ -22,6 +22,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     private DayDefinition Today;
     private DailyTransactions TransactionsToday;
     private List<DailyTransactions> DailyTransactions = new();
+    private int MonthlyRent;
     
     private System.Random RandomNumberGenerator = new System.Random();
 
@@ -51,6 +52,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         return Mathf.CeilToInt(totalEarnings * 0.125f);
     }
 
+    public int GetMonthlyRent()
+    {
+        return MonthlyRent; 
+    }
+
     void OnEnable()
     {
         EventManager.Instance.Subscribe(GameEventType.BEGIN_DAY, OnBeginDay);
@@ -60,6 +66,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Subscribe(GameEventType.ITEM_ORDER, OnItemOrder);
         EventManager.Instance.Subscribe(GameEventType.INVENTORY_SELL, OnBookSell);
+        EventManager.Instance.Subscribe(GameEventType.MONTHLY_RENT_AGREED, OnMonthlyRentAgreed);
     }
 
     void OnDisable()
@@ -71,6 +78,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Unsubscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Unsubscribe(GameEventType.ITEM_ORDER, OnItemOrder);
         EventManager.Instance.Unsubscribe(GameEventType.INVENTORY_SELL, OnBookSell);
+        EventManager.Instance.Unsubscribe(GameEventType.MONTHLY_RENT_AGREED, OnMonthlyRentAgreed);
     }
 
     public List<DailyTransactions> GetDailyTransactions()
@@ -88,8 +96,6 @@ public class Bookkeeper : MonoBehaviour, Savable
         int rent = @event.Amount;
 
         TransactionsToday.Rent = rent;
-
-        Debug.Log(rent);
 
         Withdraw(rent);
     }
@@ -120,16 +126,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             Destroy(TillBook);
         }
+    }
 
-        foreach (var book in booksInStock)
-        {
-            Debug.Log("book: " + book.Name + " stock: " + book.Stock);
-        }
-
-        foreach (var item in Items)
-        {
-            Debug.Log("item: " + item.Name + " stock: " + item.Stock);
-        }
+    private void OnMonthlyRentAgreed(GameEvent @event)
+    {
+        MonthlyRent = @event.Amount;
     }
 
     public List<ItemDefinition> GetAvailableItems()
@@ -338,7 +339,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         var booksData = Books.Select(b => new BookData(b.Name, b.SellPrice, b.Stock, null)).ToList();
         var hollowBooksData = HollowBooks.Select(b => new BookData(b.Name, b.SellPrice, b.Stock, b.Item != null ? b.Item.Name : null)).ToList();
 
-        saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, hollowBooksData, DailyTransactions);
+        saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, hollowBooksData, DailyTransactions, MonthlyRent);
     }
 
     public void Load(SaveData saveData)
@@ -349,6 +350,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
         BankBalance = bookkeeperData.BankBalance; 
         DailyTransactions = bookkeeperData.DailyTransactions;
+        MonthlyRent = bookkeeperData.MonthlyRent;
         Books.ForEach(book =>
         {
             var bookData = booksData.Find(b => book.Name == b.Name);

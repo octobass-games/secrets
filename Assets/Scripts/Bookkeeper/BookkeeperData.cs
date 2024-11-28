@@ -8,12 +8,14 @@ public class BookkeeperData
     public List<BookData> Books;
     public List<BookData> HollowBooks;
     public List<DailyTransactions> DailyTransactions;
+    public int MonthlyRent;
 
-    public BookkeeperData(int bankBalance, List<BookData> books, List<BookData> hollowBooks, List<DailyTransactions> dailyTransactions)
+    public BookkeeperData(int bankBalance, List<BookData> books, List<BookData> hollowBooks, List<DailyTransactions> dailyTransactions, int monthlyRent)
     {
         BankBalance = bankBalance;
         Books = books;
         HollowBooks = hollowBooks;
         DailyTransactions = dailyTransactions;
+        MonthlyRent = monthlyRent;
     }
 }
