@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: choice-3caa24f9-e4f8-44b6-894c-63fd534576bc
   m_EditorClassIdentifier: 
   Id: 3caa24f9-e4f8-44b6-894c-63fd534576bc
-  Text: "I\u2019m her granddaughter. I\u2019ve been running the shop for about a
-    month now."
+  Text: "I\u2019m her granddaughter. I\u2019ve been running the shop for the past
+    month."
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 93aad164a9d436548aa803db080998fc, type: 2}
