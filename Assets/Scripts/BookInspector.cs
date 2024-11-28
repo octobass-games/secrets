@@ -8,6 +8,10 @@ public class BookInspector : MonoBehaviour
     public GameObject InspectorView;
     public Bookkeeper Bookkeeper;
     public TMP_Text BookTitleView;
+    public TMP_Text RRPView;
+    public TMP_Text StockView;
+    public TMP_Text PriceView;
+    public TMP_Text BookDesciptionView;
     public GameObject BookHollow;
     public GameObject Knife;
     public History History;
@@ -27,7 +31,11 @@ public class BookInspector : MonoBehaviour
 
         InspectorView.SetActive(true);
         BookTitleView.text = definition.Name;
+        BookDesciptionView.text = definition.Description;
         BookCover.color = definition.Colour;
+        RRPView.text = "RRP: " +definition.RecommendedSellPrice + " coins";
+        PriceView.text = "Price: " + definition.SellPrice + " coins";
+        StockView.text = "Stock: " + definition.Stock ;
 
         if  (definition.IsHollow)
         {
