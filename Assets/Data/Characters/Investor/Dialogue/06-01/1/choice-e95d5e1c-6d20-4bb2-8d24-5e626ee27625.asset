@@ -14,7 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: e95d5e1c-6d20-4bb2-8d24-5e626ee27625
   Text: "Okay, I\u2019ll invest 3000 coins. Don\u2019t make me regret this\u2026"
-  Events: []
+  Events:
+  - Type: 11
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 3000
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+  - Type: 0
+    Memory: invested.3000.coins
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 3000
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: dde8f037994d28b4da4029646c848b76, type: 2}
   Requirements: []
