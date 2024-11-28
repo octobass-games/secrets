@@ -17,6 +17,19 @@ MonoBehaviour:
   Text: "OH NO! Okay, I\u2019ve got to go then! It must be available somewhere!"
   NextLine: {fileID: 0}
   Events:
+  - Type: 0
+    Memory: ivy.no.nessie.academy
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   - Type: 3
     Memory: 
     Paper: {fileID: 0}
@@ -26,6 +39,7 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0

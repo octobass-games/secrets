@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-704b4650-ce31-4347-999f-b0207548c35d
   m_EditorClassIdentifier: 
   Id: 704b4650-ce31-4347-999f-b0207548c35d
-  Text: And here it is.
+  Text: Here you are! One copy of Nessie Academy!
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 5cf6817bac3a99d4a9c9b5bf3ad99768, type: 2}
@@ -21,10 +21,14 @@ MonoBehaviour:
   - Type: 1
     Name: 
     Book: {fileID: 11400000, guid: 8416b7a9733b8d642927f91aec7364a9, type: 2}
+    Books: []
     Negate: 1
     Amount: 0
+    Item: {fileID: 0}
   - Type: 3
     Name: 
     Book: {fileID: 0}
+    Books: []
     Negate: 0
     Amount: 0
+    Item: {fileID: 0}

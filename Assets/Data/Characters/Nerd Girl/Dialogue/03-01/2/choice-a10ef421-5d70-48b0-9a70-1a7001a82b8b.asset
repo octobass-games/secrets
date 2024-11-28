@@ -13,8 +13,16 @@ MonoBehaviour:
   m_Name: choice-a10ef421-5d70-48b0-9a70-1a7001a82b8b
   m_EditorClassIdentifier: 
   Id: a10ef421-5d70-48b0-9a70-1a7001a82b8b
-  Text: "We don\u2019t appear to have it in stock, I\u2019m afraid."
+  Text: I looked REALLY hard! But we don't appear to have it... what a shame.
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 7e03b5a2a1018b6439b843482b776788, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 1
+    Name: 
+    Book: {fileID: 0}
+    Books:
+    - {fileID: 11400000, guid: 8416b7a9733b8d642927f91aec7364a9, type: 2}
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}

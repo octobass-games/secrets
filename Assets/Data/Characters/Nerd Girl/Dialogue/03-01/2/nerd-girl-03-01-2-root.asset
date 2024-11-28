@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: e73a4a0e-9414-4616-8e9a-34597faad176
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: "Please tell me you found it\u2026"
+  Text: Please tell me you found it! I need Nessie Academy!
   NextLine: {fileID: 0}
   Events: []
   Choices:

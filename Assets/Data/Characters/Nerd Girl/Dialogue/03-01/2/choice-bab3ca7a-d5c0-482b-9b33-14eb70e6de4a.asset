@@ -21,5 +21,7 @@ MonoBehaviour:
   - Type: 1
     Name: 
     Book: {fileID: 11400000, guid: 8416b7a9733b8d642927f91aec7364a9, type: 2}
+    Books: []
     Negate: 0
     Amount: 0
+    Item: {fileID: 0}

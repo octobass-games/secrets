@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-97b05241-96b1-41be-9b6c-ca8f206ca8ef
   m_EditorClassIdentifier: 
   Id: 97b05241-96b1-41be-9b6c-ca8f206ca8ef
-  Text: "Sorry, I\u2019m still looking"
+  Text: Sorry, I'm still looking...
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 0d5d7f91eafb20746a2b0b92bb734988, type: 2}
@@ -21,5 +21,7 @@ MonoBehaviour:
   - Type: 2
     Name: 
     Book: {fileID: 0}
+    Books: []
     Negate: 0
     Amount: 0
+    Item: {fileID: 0}
