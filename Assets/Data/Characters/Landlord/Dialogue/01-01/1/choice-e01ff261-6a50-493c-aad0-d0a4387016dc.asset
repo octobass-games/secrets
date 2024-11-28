@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-e01ff261-6a50-493c-aad0-d0a4387016dc
+  m_EditorClassIdentifier: 
+  Id: e01ff261-6a50-493c-aad0-d0a4387016dc
+  Text: Shall we see what the courts have to say about it?
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: 47003adbb248c0d43886b9c66d8b85be, type: 2}
+  Requirements: []

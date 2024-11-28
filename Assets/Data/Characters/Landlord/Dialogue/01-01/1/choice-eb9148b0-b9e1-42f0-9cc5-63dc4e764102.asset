@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-61e749a5-8654-4463-842c-60bdb035ee35
+  m_Name: choice-eb9148b0-b9e1-42f0-9cc5-63dc4e764102
   m_EditorClassIdentifier: 
-  Id: 61e749a5-8654-4463-842c-60bdb035ee35
-  Text: The Landlord and Tenant Act.
+  Id: eb9148b0-b9e1-42f0-9cc5-63dc4e764102
+  Text: I suppose I can agree to that. Here you go...
   Events:
-  - Type: 14
+  - Type: 15
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
-    Amount: 0
+    Amount: 7850
     BooksToOrder: []
     ItemsToOrder: []
-    Stamp: {fileID: 11400000, guid: 083e328b397e4bb429f88ab07a310293, type: 2}
+    Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 2d89a38823cd6bc4ba6ad93049f0c4eb, type: 2}
+  NextLine: {fileID: 11400000, guid: bdd74993ae3defa409f7212fc3015d63, type: 2}
   Requirements: []

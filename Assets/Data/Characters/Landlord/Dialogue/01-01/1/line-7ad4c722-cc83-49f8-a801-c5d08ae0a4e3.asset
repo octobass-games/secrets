@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 7ad4c722-cc83-49f8-a801-c5d08ae0a4e3
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: "I\u2019m sure you\u2019ve read in the papers that times are tough, so I\u2019ll
-    be immediately increasing your monthly rent by 200 coins."
+  Text: And on that note, I'm going to be increasing your rent by 200 coins. I'm
+    sorry, but as I'm sure you've read in the papers times are tough.
   NextLine: {fileID: 11400000, guid: b601ccbc5d3433a419dfcd0b090d354a, type: 2}
   Events: []
   Choices: []

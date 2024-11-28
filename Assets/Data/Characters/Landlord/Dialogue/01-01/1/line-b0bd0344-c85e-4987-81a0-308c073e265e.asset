@@ -14,7 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: b0bd0344-c85e-4987-81a0-308c073e265e
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: Thank you very much.
+  Text: Thank you. I'll be back for your next payment in a month.
   NextLine: {fileID: 11400000, guid: 746864e016fc6c54c8df4f2e6ec6ce5f, type: 2}
-  Events: []
+  Events:
+  - Type: 3
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   Choices: []

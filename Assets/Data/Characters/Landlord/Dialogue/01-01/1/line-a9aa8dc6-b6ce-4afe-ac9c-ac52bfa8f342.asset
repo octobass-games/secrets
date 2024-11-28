@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-7ad4c722-cc83-49f8-a801-c5d08ae0a4e3 1
+  m_Name: line-a9aa8dc6-b6ce-4afe-ac9c-ac52bfa8f342
   m_EditorClassIdentifier: 
-  Id: 7ad4c722-cc83-49f8-a801-c5d08ae0a4e3
+  Id: a9aa8dc6-b6ce-4afe-ac9c-ac52bfa8f342
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: That brings your monthly payments to 8000 coins.
+  Text: As a final offer I'll settle for 7850 coins. If that's not agreeable then
+    I'm afraid you'll have to vacate the premises.
   NextLine: {fileID: 0}
   Events: []
   Choices:
-  - {fileID: 11400000, guid: ba99984193a6e9349b55dd517709176a, type: 2}
-  - {fileID: 11400000, guid: 8d327e20cbcc0f84c8cc24b3adf1deea, type: 2}
+  - {fileID: 11400000, guid: 1d2f677f32fd17a49b7a74cf57105dbb, type: 2}

@@ -20,3 +20,4 @@ MonoBehaviour:
   Events: []
   Choices:
   - {fileID: 11400000, guid: 60989677c0b350d4ca16f67c805be2b0, type: 2}
+  - {fileID: 11400000, guid: 80a4e7e86f4ec8b49aa781d6c2fcb88b, type: 2}
