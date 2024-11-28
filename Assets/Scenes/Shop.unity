@@ -22049,10 +22049,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7081564770753115995, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -85.375
       objectReference: {fileID: 0}
     - target: {fileID: 7081564770753115995, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
       propertyPath: m_LocalPosition.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7601439332388403924, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7990142283617363417, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
@@ -22337,6 +22341,102 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1173111544}
     m_Modifications:
+    - target: {fileID: 63154336407115497, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 63154336407115497, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListPotionsBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 266909943781974255, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 266909943781974255, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListHorrorBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 597657051101688867, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 597657051101688867, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000030994415
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115043382186243941, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115043382186243941, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115043382186243941, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115043382186243941, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115043382186243941, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686500307639598441, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 1686500307639598441, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListWeaponsBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770527629164879247, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 1770527629164879247, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListEconomicsBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653972019875994649, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 2653972019875994649, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListThrillerBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615471524511422954, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 3615471524511422954, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListBiographyBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124570563993626352, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 4124570563993626352, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListCraftsBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171976299903454185, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171976299903454185, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171976299903454185, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5252085525634440184, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -22417,18 +22517,102 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5817392832332912443, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 5817392832332912443, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListWellbeingBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048515109457562302, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 6048515109457562302, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListOccultBookPrices
+      objectReference: {fileID: 0}
     - target: {fileID: 6165480456667423356, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
       propertyPath: m_Name
       value: Prices
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165480456667423356, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582241799959200500, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 6582241799959200500, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListSpellsBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373799136657426134, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 7373799136657426134, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListChildrensBookPrices
       objectReference: {fileID: 0}
     - target: {fileID: 7485749303629188384, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1917396445}
+    - target: {fileID: 7749936991935719189, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 7749936991935719189, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListRomanceBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757179035990395480, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 7757179035990395480, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListHealthBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184711445042407370, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 8184711445042407370, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListPoetryBookPrices
+      objectReference: {fileID: 0}
     - target: {fileID: 8491254737414826515, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1917396445}
+    - target: {fileID: 8666523589121659701, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 8666523589121659701, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListRecipesBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 8914898990696019776, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 8914898990696019776, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListHistoryBookPrices
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029485549354988425, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917396445}
+    - target: {fileID: 9029485549354988425, guid: 3321b03f2e2a93d4ab92ee86e7327261, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ListArtBookPrices
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
