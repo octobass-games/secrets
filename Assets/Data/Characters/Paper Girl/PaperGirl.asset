@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: PaperGirl
   m_EditorClassIdentifier: 
   Name: Maple
-  Interactions: []
+  Interactions:
+  - {fileID: 11400000, guid: e4a5a103be617c945b889e2017a6575b, type: 2}
   Relationship: 0
   Profile: {fileID: -1687541144368063501, guid: 7db16ecf6239c754f9c8195ff0eee315, type: 3}
-  Animator: {fileID: 9100000, guid: db0b9dfe1bda51149a8bb45b4126f0ba, type: 2}
+  Tidbits: []

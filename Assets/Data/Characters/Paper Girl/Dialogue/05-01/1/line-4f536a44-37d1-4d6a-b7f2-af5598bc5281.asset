@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-4f536a44-37d1-4d6a-b7f2-af5598bc5281
+  m_EditorClassIdentifier: 
+  Id: 4f536a44-37d1-4d6a-b7f2-af5598bc5281
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: "Well deaths, unconfirmed murders, but you know\u2026 people don\u2019t normally
+    have missing body parts when dying of natural causes."
+  NextLine: {fileID: 11400000, guid: a95c6cdf93658cf4ea1db3690dc7b422, type: 2}
+  Events: []
+  Choices: []

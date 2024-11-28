@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-b844ee91-6a6e-436b-bc37-f8f957cfe873
+  m_EditorClassIdentifier: 
+  Id: b844ee91-6a6e-436b-bc37-f8f957cfe873
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: She was found in the woods so I guess some animal could have come and picked
+    up her eye.
+  NextLine: {fileID: 11400000, guid: 4ae1e5d18c9e09240a62fb40371ae8f4, type: 2}
+  Events: []
+  Choices: []
