@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using UnityEngine;
 
@@ -11,22 +12,31 @@ public class DialogueManager : MonoBehaviour
     private Line LineToSpeak;
     private Animator SpeakerAnimator;
 
-    public void Begin(Line root, Animator speakerAnimator)
+    private Action OnEnd;
+
+    public void Begin(Line root, Animator speakerAnimator, Action onEnd)
     {
         SpeakerAnimator = speakerAnimator;
         ConversationView.Open();
         LineToSpeak = root;
+        OnEnd = onEnd;
         SpeakLine();
     }
 
     public void Begin(Line root)
     {
-        Begin(root, null);
+        Begin(root, null, null);
     }
 
     public void End()
     {
         ConversationView.Close();
+
+        if (OnEnd != null)
+        {
+            OnEnd();
+            OnEnd = null;
+        }
     }
 
     private void SpeakLine()

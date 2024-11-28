@@ -233,7 +233,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         if (HollowBooks.Count >= 3)
         {
-            DialogueManager.Begin(TooManyHollowBooks, null);
+            DialogueManager.Begin(TooManyHollowBooks, null, null);
 
             return null;
         }

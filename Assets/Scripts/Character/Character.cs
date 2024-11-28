@@ -38,7 +38,7 @@ public class Character : MonoBehaviour, Savable
 
         if (dialogueManager != null)
         {
-            dialogueManager.Begin(CurrentInteraction.RootLines[CurrentInteractionDialogueIndex], SpeakerAnimator);
+            dialogueManager.Begin(CurrentInteraction.RootLines[CurrentInteractionDialogueIndex], SpeakerAnimator, null);
         }
     }
 

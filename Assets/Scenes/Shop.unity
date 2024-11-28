@@ -5678,8 +5678,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0
-    height: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -8579,6 +8579,11 @@ MonoBehaviour:
   DayManager: {fileID: 1425153795}
   DialogueManager: {fileID: 135454216}
   NoAnswerDialogue: {fileID: 11400000, guid: 14ad814de4d0f314ebb7e2808c9f7ee9, type: 2}
+  Phone: {fileID: 1910434337}
+  PhoneUpOutline: {fileID: 1770538701}
+  PhoneDownOutline: {fileID: 1072494409}
+  PhoneUp: {fileID: 6778424840077107658, guid: a1456f7a8b5d2af43b7b0ebd4fdce44f, type: 3}
+  PhoneDown: {fileID: -7070431899882351391, guid: a1456f7a8b5d2af43b7b0ebd4fdce44f, type: 3}
 --- !u!4 &919822540
 Transform:
   m_ObjectHideFlags: 0
@@ -13034,6 +13039,7 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0

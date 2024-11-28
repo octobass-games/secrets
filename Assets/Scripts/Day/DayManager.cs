@@ -100,7 +100,7 @@ public class DayManager : MonoBehaviour, Savable
 
                 if (dialogueManager != null)
                 {
-                    dialogueManager.Begin(SignInteraction.RootLines[0], null);
+                    dialogueManager.Begin(SignInteraction.RootLines[0], null, null);
                 }
             }
         }
