@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: essie-02-01-2-root
+  m_Name: line-fbd4192e-e870-41b2-9908-e24c882b1f1c
   m_EditorClassIdentifier: 
-  Id: 6cc93b62-9be0-4777-9b48-202ed5e9a37f
+  Id: fbd4192e-e870-41b2-9908-e24c882b1f1c
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
-  Text: Did you manage to find a recipe book back there, dearie?
-  NextLine: {fileID: 0}
+  Text: This looks like a very nice book, but it's not exactly what I had in mind.
+  NextLine: {fileID: 11400000, guid: 5c642c801d0d935499b908f61c8f9a51, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: be060af30f7fb4a469862a1faea29d53, type: 2}
-  - {fileID: 11400000, guid: d2b82bb77018932498063c3a7600c479, type: 2}
-  - {fileID: 11400000, guid: 5fd1284832a6fdc4b97369002c71427f, type: 2}
+  Choices: []

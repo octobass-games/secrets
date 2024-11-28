@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-a0438a6c-0720-43e0-80a0-ab9abd4eb30c
   m_EditorClassIdentifier: 
   Id: a0438a6c-0720-43e0-80a0-ab9abd4eb30c
-  Text: "Of course. I\u2019ll just be a moment."
+  Text: Of course. Just give me a second and I'll go check my inventory.
   Events:
   - Type: 1
     Memory: 
@@ -24,8 +24,10 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
   RelationshipPoints: 0
   NextLine: {fileID: 0}
   Requirements: []

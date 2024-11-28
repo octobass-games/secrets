@@ -15,7 +15,7 @@ MonoBehaviour:
   Id: 5efba387-0b58-427e-8c9a-1c602e0e2125
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
   Text: "He\u2019s managed to catch a cold given the recent weather, so I figured
-    I\u2019d make him something to warm his body."
+    I\u2019d make him something to perk him up."
   NextLine: {fileID: 11400000, guid: b06147657c8ec6449a7fee8f3a3e4ad7, type: 2}
   Events: []
   Choices: []

@@ -16,7 +16,7 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
   Text: "Given the recent weather, my troublesome \u201Cmusically gifted\u201D neighbour
     has gone and caught a cold! So I figured I\u2019d cook him something to help
-    warm his body."
+    perk him up."
   NextLine: {fileID: 11400000, guid: c6ea46a83d2eab64fab9341f3cf46a7b, type: 2}
   Events: []
   Choices: []

@@ -10,14 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-f8ccd229-0cf4-44f3-8a0b-e0bff59afbb5
+  m_Name: choice-cef7ace0-ee22-4747-bfb2-142c755ac54d
   m_EditorClassIdentifier: 
-  Id: f8ccd229-0cf4-44f3-8a0b-e0bff59afbb5
+  Id: cef7ace0-ee22-4747-bfb2-142c755ac54d
   Text: I certainly did. Hopefully this one will suffice...
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 281273e075297634f9d98285263e6e66, type: 2}
+  NextLine: {fileID: 11400000, guid: 0c99ceec042ee1e42a2c812e082d489c, type: 2}
   Requirements:
+  - Type: 3
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}
   - Type: 1
     Name: 
     Book: {fileID: 0}
@@ -25,6 +32,6 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 37a2959700d057e4bb3de9c85c9b7518, type: 2}
     - {fileID: 11400000, guid: efe5076a918d6e54f9bbd6ebf2b56be7, type: 2}
     - {fileID: 11400000, guid: f43a2f5a8d526f244b350207c429ad5f, type: 2}
-    Negate: 0
+    Negate: 1
     Amount: 0
     Item: {fileID: 0}
