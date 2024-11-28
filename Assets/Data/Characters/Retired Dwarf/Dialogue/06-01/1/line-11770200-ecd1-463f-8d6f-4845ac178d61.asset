@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-11770200-ecd1-463f-8d6f-4845ac178d61
+  m_EditorClassIdentifier: 
+  Id: 11770200-ecd1-463f-8d6f-4845ac178d61
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "That stomach ache had me feeling like it was my last day on Earth\u2026"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: a5c121e9a10869b4fa8f0534a3434a5d, type: 2}
+  - {fileID: 11400000, guid: 78fdac564b3a3c5479c1962304b1c2eb, type: 2}

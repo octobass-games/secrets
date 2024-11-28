@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-1926b55e-c49b-4021-a007-3f75a2524043
+  m_EditorClassIdentifier: 
+  Id: 1926b55e-c49b-4021-a007-3f75a2524043
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "Well, as I just mentioned I\u2019m something of a knit-enthusiast. That
+    being said, I feel like having a go at something new, so I was hoping you\u2019d
+    have a different kind of craft book I could indulge myself in\u2026"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: b050ab7bb1f8f9a44b4c31ceb40b5bc9, type: 2}
