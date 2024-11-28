@@ -314,11 +314,13 @@ public class Bookkeeper : MonoBehaviour, Savable
         }
     }
 
-    private void RegisterHollowBookSale(BookDefinition book, CharacterDefinition character)
+    private void RegisterHollowBookSale(BookDefinition book, CharacterDefinition character, int customAmount, bool sellForFree)
     {
-        BankBalance += book.Item.SellPrice;
+        var price = customAmount != 0 ? customAmount : sellForFree ? 0 : book.Item.SellPrice;
+        
+        BankBalance += price;
 
-        TransactionsToday.UniqueBookSales.Add(new UniqueBookSale(character.Name, book.Name, book.Item.SellPrice));
+        TransactionsToday.UniqueBookSales.Add(new UniqueBookSale(character.Name, book.Name, price));
 
         var b = HollowBooks.Find(b => b.Item.Name == book.Item.Name);
 
@@ -367,6 +369,8 @@ public class Bookkeeper : MonoBehaviour, Savable
             var bookDefinition = Books.Find(book => book.Name == hollowBookData.Name);
 
             var hollowBook = Instantiate(bookDefinition);
+            
+            hollowBook.IsHollow = true;
 
             if (hollowBookData.Item != null)
             {
@@ -431,6 +435,8 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             var itemInBook = TillBook.GetComponent<Book>().BookDefinition.Item;
 
+            Debug.Log(TillBook.GetComponent<Book>().BookDefinition.IsHollow);
+
             return itemInBook != null && itemInBook.Name == item.Name;
         }
 
@@ -450,13 +456,16 @@ public class Bookkeeper : MonoBehaviour, Savable
 
             if (book.IsHollow)
             {
+                Debug.Log("Hollow sale");
                 var b = HollowBooks.Find(bo => bo.Item.Name == book.Item.Name && bo.Name == book.Name);
-                RegisterHollowBookSale(b, @event.Character);
+                RegisterHollowBookSale(b, @event.Character, @event.Amount, @event.SellForFree);
 
                 HollowBookshelf.PlaceBooks(HollowBooks);
             }
             else
             {
+                Debug.Log("Normal sale");
+
                 var b = Books.Find(b => b.IsEqual(book));
                 RegisterBookSale(b, @event.Character);
                 
