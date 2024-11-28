@@ -9,6 +9,7 @@ public class BookshelfBook : MonoBehaviour
     public SpriteRenderer Book;
     public SpriteRenderer HoverCover;
     public TMP_Text HoverDescription;
+    public TMP_Text HoverStock;
     public SpriteRenderer BookGhost;
 
     public void Setup(BookDefinition book, Action<BookDefinition> onPickup, Action<BookDefinition> onInspect)
@@ -16,6 +17,7 @@ public class BookshelfBook : MonoBehaviour
         BookDefinition = book;
 
         HoverDescription.text = book.Name;
+        HoverStock.text = "Stock: " +book.Stock.ToString();
         HoverCover.sprite = book.Cover;
         Book.color = book.Colour;
         BookGhost.color = new Color(book.Colour.r, book.Colour.g, book.Colour.b, BookGhost.color.a);
