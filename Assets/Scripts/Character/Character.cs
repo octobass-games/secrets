@@ -16,6 +16,8 @@ public class Character : MonoBehaviour, Savable
         CharacterDefinition = Instantiate(CharacterDefinition);
 
         Interactions = CharacterDefinition.Interactions;
+
+        gameObject.SetActive(false);
     }
 
     void OnEnable()
