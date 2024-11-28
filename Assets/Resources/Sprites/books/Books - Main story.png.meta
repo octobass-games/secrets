@@ -1397,6 +1397,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: my-secret-gnome-boyfriend
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 2
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd3df67a94d17546bbc981e23af20f8
+      internalID: 1607840409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1466,6 +1488,7 @@ TextureImporter:
       Wellbeing Book 2: -6736481670909618181
       Wellbeing Book 3: -2774007961960274977
       Which Way to Hold Your Bow and Other Projectile Safety Instructions Book: 2626397587094690290
+      my-secret-gnome-boyfriend: 1607840409
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
