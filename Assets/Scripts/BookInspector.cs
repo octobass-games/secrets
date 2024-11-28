@@ -92,12 +92,17 @@ public class BookInspector : MonoBehaviour
             Book = Bookkeeper.HollowBook(Book);
             BookHollow.SetActive(true);
             Knife.SetActive(false);
+            Item.gameObject.SetActive(false);
         }
     }
 
     public void InsertItem(ItemDefinition item)
     {
         Bookkeeper.InsertIntoHollowBook(Book, item);
+        
+        Item.gameObject.SetActive(true);
+        Item.sprite = item.Sprite;
+        
         HideItemSelector();
     }
 
