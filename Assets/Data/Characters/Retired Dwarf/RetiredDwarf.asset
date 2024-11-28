@@ -15,6 +15,7 @@ MonoBehaviour:
   Name: Cuthbert
   Interactions:
   - {fileID: 11400000, guid: 04925bf1da52ec44194780873ee6eb77, type: 2}
+  - {fileID: 11400000, guid: f20578457d3deb148ad542df9cbea824, type: 2}
   Relationship: 0
   Profile: {fileID: 0}
   Tidbits: []

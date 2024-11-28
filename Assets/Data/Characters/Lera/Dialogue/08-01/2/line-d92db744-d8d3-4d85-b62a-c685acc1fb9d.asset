@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-d92db744-d8d3-4d85-b62a-c685acc1fb9d
+  m_EditorClassIdentifier: 
+  Id: d92db744-d8d3-4d85-b62a-c685acc1fb9d
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "Well I do, but you can never have enough. Don\u2019t suppose you have one
+    lying around?"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 6afc754dc688c824e87856b1a98f5d0f, type: 2}
+  - {fileID: 11400000, guid: 041a347826468e743b200a0e2a424784, type: 2}

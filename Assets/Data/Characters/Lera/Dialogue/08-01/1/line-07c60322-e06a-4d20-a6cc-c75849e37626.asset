@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-07c60322-e06a-4d20-a6cc-c75849e37626
+  m_EditorClassIdentifier: 
+  Id: 07c60322-e06a-4d20-a6cc-c75849e37626
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "Anyway, I\u2019m not here to bully you\u2026 or at least not just to bully
+    you."
+  NextLine: {fileID: 11400000, guid: b9e445516dcd46f4d91daf5bb4ee1de5, type: 2}
+  Events: []
+  Choices: []

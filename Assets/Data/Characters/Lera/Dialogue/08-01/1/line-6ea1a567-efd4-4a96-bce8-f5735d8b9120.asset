@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-6ea1a567-efd4-4a96-bce8-f5735d8b9120
+  m_EditorClassIdentifier: 
+  Id: 6ea1a567-efd4-4a96-bce8-f5735d8b9120
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "I\u2019ve got a new job, and before I start it I\u2019m going to need that
+    weapons sharpening book that I came in last time for\u2026"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 9f2926732c9e2e14cb7c304d8bf99175, type: 2}
+  - {fileID: 11400000, guid: 0d21896805b536c4f9ef4c410dd5b982, type: 2}
