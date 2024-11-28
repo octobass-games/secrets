@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: TaxCollector
   m_EditorClassIdentifier: 
   Name: "\xD8yvind"
-  Interactions: []
+  Interactions:
+  - {fileID: 11400000, guid: b1f5aa63ac5e18541be9aaeaff855f9e, type: 2}
   Relationship: 0
   Profile: {fileID: 21300000, guid: a76a88f03e46de44c9492f6a157a5ebb, type: 3}
-  Animator: {fileID: 0}
+  Tidbits: []
