@@ -288,11 +288,11 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     private void RegisterBookSale(BookDefinition book, CharacterDefinition character)
     {
-        BankBalance += book.SellPrice;
         book.Stock--;
 
         if (character == null)
         {
+            BankBalance += book.SellPrice;
             BookSale sale = TransactionsToday.BookSales.Find(b => b.Name == book.Name);
 
             if (sale == null)
@@ -308,7 +308,9 @@ public class Bookkeeper : MonoBehaviour, Savable
         }
         else
         {
-            TransactionsToday.UniqueBookSales.Add(new UniqueBookSale(character.Name, book.Name, book.SellPrice));
+            BankBalance += book.RecommendedSellPrice;
+
+            TransactionsToday.UniqueBookSales.Add(new UniqueBookSale(character.Name, book.Name, book.RecommendedSellPrice));
         }
     }
 
