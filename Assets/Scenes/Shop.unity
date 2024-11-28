@@ -13088,6 +13088,7 @@ MonoBehaviour:
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
+    SellForFree: 0
 --- !u!114 &1351191893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19316,6 +19317,37 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 812786807417991029, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
   m_PrefabInstance: {fileID: 2154512900278508532}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1978982095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978982091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1508635851
+      Data2: 1321482110
+      Data3: -263251797
+      Data4: -1119268669
+    Path: event:/SFX/Stamp
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1989872576 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4349433476333755659, guid: 92d03b07b04eaf44d9d47dd50ade603a, type: 3}
@@ -22175,6 +22207,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 812786807417991029, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1978982095}
     - targetCorrespondingSourceObject: {fileID: 5182157340603479796, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
       insertIndex: -1
       addedObject: {fileID: 905731714}
