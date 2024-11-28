@@ -26,3 +26,4 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 0642325a8e6eea143acba87236d4987a, type: 2}
     Negate: 0
     Amount: 0
+    Item: {fileID: 0}

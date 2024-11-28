@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-fe1114a7-a5ba-41d9-8633-05dbeb447f62
   m_EditorClassIdentifier: 
   Id: fe1114a7-a5ba-41d9-8633-05dbeb447f62
-  Text: "I\u2019m sorry, I don\u2019t sell anything but books here"
+  Text: "I\u2019m sorry, I don\u2019t sell anything but books here..."
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 58a4008fa06a3a049bdbf2a45f344485, type: 2}

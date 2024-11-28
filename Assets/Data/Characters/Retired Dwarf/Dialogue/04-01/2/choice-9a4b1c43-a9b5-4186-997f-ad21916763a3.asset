@@ -13,14 +13,8 @@ MonoBehaviour:
   m_Name: choice-9a4b1c43-a9b5-4186-997f-ad21916763a3
   m_EditorClassIdentifier: 
   Id: 9a4b1c43-a9b5-4186-997f-ad21916763a3
-  Text: "Not quite yet, I\u2019m still looking sorry"
+  Text: I'm still looking, sorry!
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 0}
-  Requirements:
-  - Type: 2
-    Name: 
-    Book: {fileID: 0}
-    Books: []
-    Negate: 0
-    Amount: 0
+  NextLine: {fileID: 11400000, guid: 77d56c1b990638c46abbb1be2349d8b5, type: 2}
+  Requirements: []

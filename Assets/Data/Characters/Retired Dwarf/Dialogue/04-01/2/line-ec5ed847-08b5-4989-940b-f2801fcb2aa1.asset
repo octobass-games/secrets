@@ -14,9 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: ec5ed847-08b5-4989-940b-f2801fcb2aa1
   Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
-  Text: Goodbye
+  Text: Goodbye.
   NextLine: {fileID: 0}
   Events:
+  - Type: 1
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   - Type: 3
     Memory: 
     Paper: {fileID: 0}
@@ -26,6 +39,7 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0

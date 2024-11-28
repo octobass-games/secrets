@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: c4ad9e7a-0a57-48a6-8457-c7ee14589ca0
   Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
-  Text: "Here\u2019s your money."
+  Text: "Thank you, here\u2019s your money."
   NextLine: {fileID: 11400000, guid: 78ee9a3693722b3419a80a4c26e26160, type: 2}
   Events: []
   Choices: []

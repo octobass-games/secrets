@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd38e5fec1b86ff4d9fe400986412c7e, type: 3}
   m_Name: RetiredDwarf
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Cuthbert
   Interactions:
   - {fileID: 11400000, guid: 04925bf1da52ec44194780873ee6eb77, type: 2}
   Relationship: 0

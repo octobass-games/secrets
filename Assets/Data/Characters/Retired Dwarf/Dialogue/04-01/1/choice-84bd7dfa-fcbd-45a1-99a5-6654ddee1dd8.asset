@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-84bd7dfa-fcbd-45a1-99a5-6654ddee1dd8
   m_EditorClassIdentifier: 
   Id: 84bd7dfa-fcbd-45a1-99a5-6654ddee1dd8
-  Text: And you decided to come to a book shop?
+  Text: Sir, this is a bookshop not a hospital.
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 58a4008fa06a3a049bdbf2a45f344485, type: 2}

@@ -14104,7 +14104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d38397495c801ef428f34e49ad7b3c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SaveOnDayEnd: 0
+  SaveOnDayEnd: 1
   Days:
   - {fileID: 11400000, guid: a51c3613560d77a4888136ca0845abcd, type: 2}
   - {fileID: 11400000, guid: 2c66c16c17407f34ea7c18f32f6b5b98, type: 2}
