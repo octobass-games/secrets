@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd38e5fec1b86ff4d9fe400986412c7e, type: 3}
   m_Name: Hooded Figure
   m_EditorClassIdentifier: 
-  Name: Hooded Figure (Unknown)
+  Name: Hooded Figure
   Interactions:
   - {fileID: 11400000, guid: b4e58a6bf4a3cfc42997d8f42131a7ea, type: 2}
   Relationship: 0

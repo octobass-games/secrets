@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 454d1887-614a-4321-b1dc-8d068486217c
   Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
-  Text: "\u2026"
+  Text: ... ... ...
   NextLine: {fileID: 11400000, guid: 45e3669359568894191fbe1f952ac2f9, type: 2}
   Events: []
   Choices: []
