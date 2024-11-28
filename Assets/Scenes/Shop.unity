@@ -4435,7 +4435,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3322d1e1900eace4c99fa3acc6fd1185, type: 2}
   TillView: {fileID: 469674917}
   Bookshelf: {fileID: 1719886218}
-  HollowBookshelf: {fileID: 1383857671}
   TillBook: {fileID: 0}
   TillBookPosition: {fileID: 5969055360780834868, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
   TillBookPrefab: {fileID: 8892843852603427114, guid: b3c98c2874b7ba94b84346a19f9580c4, type: 3}
@@ -13653,54 +13652,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &1383857669
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1383857670}
-  - component: {fileID: 1383857671}
-  m_Layer: 0
-  m_Name: HollowShelf
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1383857670
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383857669}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1719886217}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1383857671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383857669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5463c08b393e8fa4eb81a07b11816865, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bookkeeper: {fileID: 509350324}
-  HollowBookPrefab: {fileID: 1167625805286789364, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
-  StartingPosition: {fileID: 622499450}
-  BookInspector: {fileID: 1099467804}
 --- !u!224 &1388237869 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3152232024550036395, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
@@ -16565,7 +16516,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 803976069}
-  - {fileID: 1383857670}
   m_Father: {fileID: 1323454506}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1719886218
@@ -16582,6 +16532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BookContainer: {fileID: 803976069}
   BookPrefab: {fileID: 1167625805286789364, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
+  HollowBookPrefab: {fileID: 1167625805286789364, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
   BookInspector: {fileID: 1099467804}
   Bookkeeper: {fileID: 509350324}
   ArtPosition: {fileID: 1664591748}
@@ -16601,6 +16552,7 @@ MonoBehaviour:
   ThrillerPosition: {fileID: 530315052}
   WeaponsPosition: {fileID: 780165075}
   WellbeingPosition: {fileID: 2048753615}
+  HollowBooksPosition: {fileID: 622499450}
 --- !u!1 &1724189657
 GameObject:
   m_ObjectHideFlags: 0

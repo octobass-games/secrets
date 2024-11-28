@@ -6,6 +6,7 @@ public class Bookshelf : MonoBehaviour
 {
     public Transform BookContainer;
     public GameObject BookPrefab;
+    public GameObject HollowBookPrefab;
     public BookInspector BookInspector;
     public Bookkeeper Bookkeeper;
 
@@ -26,12 +27,21 @@ public class Bookshelf : MonoBehaviour
     public Transform ThrillerPosition;
     public Transform WeaponsPosition;
     public Transform WellbeingPosition;
+    public Transform HollowBooksPosition;
 
     private List<GameObject> Books = new();
+    private List<GameObject> HollowBooks = new();
 
-    public void PlaceBooks(List<BookDefinition> books)
+    public void PlaceBooks(List<BookDefinition> books, List<BookDefinition> hollowBooks, GameObject tillBook)
     {
-        ClearBooks();
+        BookDefinition tillBookDefinition = null;
+
+        if (tillBook != null)
+        {
+            tillBookDefinition = tillBook.GetComponent<Book>().BookDefinition;
+        }
+
+        ClearBooks(tillBookDefinition);
 
         var booksByCategory = books.GroupBy(book => book.Category).ToList();
 
@@ -42,21 +52,41 @@ public class Bookshelf : MonoBehaviour
 
             foreach (var book in group)
             {
-                var b = Instantiate(BookPrefab, startingPosition);
+                if (book != tillBookDefinition)
+                {
+                    var b = Instantiate(BookPrefab, startingPosition);
 
-                b.GetComponent<BookshelfBook>().Setup(book, Bookkeeper.MoveToTill, BookInspector.ShowBookInspector);
-                b.transform.localPosition = b.transform.localPosition + new Vector3(i * 7, 0, 0);
+                    b.GetComponent<BookshelfBook>().Setup(book, Bookkeeper.MoveToTill, BookInspector.ShowBookInspector);
+                    b.transform.localPosition = b.transform.localPosition + new Vector3(i * 7, 0, 0);
 
-                Books.Add(b);
+                    Books.Add(b);
+                }
 
                 i++;
+            }
+        }
+
+        for (int i = 0; i < hollowBooks.Count; i++)
+        {
+            int index = i;
+
+            var hollowBook = hollowBooks[index];
+
+            if (hollowBook != tillBookDefinition)
+            {
+                var hollowBookGo = Instantiate(HollowBookPrefab, HollowBooksPosition);
+
+                hollowBookGo.transform.position = new Vector3(hollowBookGo.transform.position.x + i * 7, hollowBookGo.transform.position.y, hollowBookGo.transform.position.z);
+                hollowBookGo.GetComponent<BookshelfBook>().Setup(hollowBook, Bookkeeper.MoveToTill, BookInspector.ShowBookInspector);
+                
+                HollowBooks.Add(hollowBookGo);
             }
         }
     }
 
     public void MoveToTill(BookDefinition book)
     {
-        var bookshelfBook = Books.Find(b => b.GetComponent<BookshelfBook>().BookDefinition.IsEqual(book));
+        var bookshelfBook = FindBook(book);
 
         bookshelfBook.GetComponent<Clickable>().enabled = false;
         bookshelfBook.GetComponent<EventOnHover>().enabled = false;
@@ -64,7 +94,7 @@ public class Bookshelf : MonoBehaviour
 
     public void PutBookBack(BookDefinition book)
     {
-        var bookshelfBook = Books.Find(b => b.GetComponent<BookshelfBook>().BookDefinition.IsEqual(book));
+        var bookshelfBook = FindBook(book);
 
         var bookshelfBookAnimator = bookshelfBook.GetComponentInChildren<Animator>();
 
@@ -77,14 +107,81 @@ public class Bookshelf : MonoBehaviour
         bookshelfBook.GetComponent<EventOnHover>().enabled = true;
     }
 
-    private void ClearBooks()
+    private GameObject FindBook(BookDefinition book)
     {
+        if (book.IsHollow)
+        {
+            return HollowBooks.Find(b => {
+                var bookDefinition = b.GetComponent<BookshelfBook>().BookDefinition;
+
+                return bookDefinition.Name == book.Name && (bookDefinition.Item == null && book.Item == null || bookDefinition.Item.Name == book.Item.Name);
+            });
+        }
+        else
+        {
+            return Books.Find(b => b.GetComponent<BookshelfBook>().BookDefinition.IsEqual(book));
+        }
+    }
+
+    private void ClearBooks(BookDefinition tillBook)
+    {
+        var tillBookIndex = -1;
+
         for (int i = 0; i < Books.Count; i++)
         {
-            Destroy(Books[i]);
+            var book = Books[i].GetComponent<BookshelfBook>().BookDefinition;
+
+            if (book != tillBook)
+            {
+                Destroy(Books[i]);
+            }
+            else
+            {
+                tillBookIndex = i;
+            }
+        }
+
+        GameObject go = null;
+
+        if (tillBookIndex != -1)
+        {
+            go = Books[tillBookIndex];
         }
 
         Books.Clear();
+
+        if (go != null) {
+            Books.Add(go);
+        }
+
+        tillBookIndex = -1;
+        go = null;
+
+        for (int i = 0; i < HollowBooks.Count; i++)
+        {
+            var book = HollowBooks[i].GetComponent<BookshelfBook>().BookDefinition;
+
+            if (book != tillBook)
+            {
+                Destroy(HollowBooks[i]);
+            }
+            else
+            {
+                tillBookIndex = i;
+            }
+        }
+
+        if (tillBookIndex != -1)
+        {
+            go = HollowBooks[tillBookIndex];
+        }
+
+        HollowBooks.Clear();
+        
+        if (go != null)
+        {
+            HollowBooks.Add(go);
+        }
     }
 
     private Transform GetParentTransform(BookCategory category)

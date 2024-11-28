@@ -9,7 +9,6 @@ public class Bookkeeper : MonoBehaviour, Savable
     public List<ItemDefinition> Items;
     public TillView TillView;
     public Bookshelf Bookshelf;
-    public HollowBookshelf HollowBookshelf;
     public GameObject TillBook;
     public Transform TillBookPosition;
     public GameObject TillBookPrefab;
@@ -118,14 +117,13 @@ public class Bookkeeper : MonoBehaviour, Savable
 
         var booksInStock = Books.FindAll(InStock).ToList();
 
-        Bookshelf.PlaceBooks(booksInStock);
-        HollowBookshelf.PlaceBooks(HollowBooks);
-        TillView.DisplayImmediately(BankBalance);
-
         if (TillBook != null)
         {
             Destroy(TillBook);
         }
+
+        Bookshelf.PlaceBooks(booksInStock, HollowBooks, null);
+        TillView.DisplayImmediately(BankBalance);
     }
 
     private void OnMonthlyRentAgreed(GameEvent @event)
@@ -249,9 +247,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
             var booksInStock = Books.FindAll(InStock).ToList();
             hollow.IsHollow = true;
-            Bookshelf.PlaceBooks(booksInStock);
-
-            HollowBookshelf.PlaceBooks(HollowBooks);
+            Bookshelf.PlaceBooks(booksInStock, HollowBooks, TillBook);
 
             return hollow;
         }
@@ -260,7 +256,9 @@ public class Bookkeeper : MonoBehaviour, Savable
     public void InsertIntoHollowBook(BookDefinition hollowBook, ItemDefinition item)
     {
         hollowBook.Item = item;
-        HollowBookshelf.PlaceBooks(HollowBooks);
+        var booksInStock = Books.FindAll(InStock).ToList();
+
+        Bookshelf.PlaceBooks(booksInStock, HollowBooks, TillBook);
     }
 
     private void UpdateStock()
@@ -387,27 +385,13 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     public void MoveToTill(BookDefinition book)
     {
-        if (book.Item != null)
-        {
-            HollowBookshelf.MoveToTill(book);
-        }
-        else
-        {
-            Bookshelf.MoveToTill(book);   
-        }
+        Bookshelf.MoveToTill(book);   
 
         if (TillBook != null)
         {
             var bookDefinition = TillBook.GetComponent<Book>().BookDefinition;
 
-            if (bookDefinition.Item != null)
-            {
-                HollowBookshelf.PutBookBack(bookDefinition);
-            }
-            else
-            {
-                Bookshelf.PutBookBack(bookDefinition);
-            }
+            Bookshelf.PutBookBack(bookDefinition);
 
             Destroy(TillBook);
         }
@@ -457,8 +441,9 @@ public class Bookkeeper : MonoBehaviour, Savable
                 var b = HollowBooks.Find(bo => bo.Item.Name == book.Item.Name && bo.Name == book.Name);
 
                 RegisterHollowBookSale(b, @event.Character, @event.Amount, @event.SellForFree);
+                var booksInStock = Books.FindAll(InStock).ToList();
 
-                HollowBookshelf.PlaceBooks(HollowBooks);
+                Bookshelf.PlaceBooks(booksInStock, HollowBooks, null);
             }
             else
             {
@@ -466,7 +451,7 @@ public class Bookkeeper : MonoBehaviour, Savable
                 RegisterBookSale(b, @event.Character);
                 
                 var booksInStock = Books.FindAll(InStock).ToList();
-                Bookshelf.PlaceBooks(booksInStock);
+                Bookshelf.PlaceBooks(booksInStock, HollowBooks, null);
             }
 
             Destroy(TillBook);
