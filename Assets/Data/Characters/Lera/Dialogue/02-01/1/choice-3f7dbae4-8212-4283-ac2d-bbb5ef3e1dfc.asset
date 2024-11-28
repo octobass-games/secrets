@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-3f7dbae4-8212-4283-ac2d-bbb5ef3e1dfc
   m_EditorClassIdentifier: 
   Id: 3f7dbae4-8212-4283-ac2d-bbb5ef3e1dfc
-  Text: "Of course, I\u2019m sure we\u2019ll have something."
+  Text: Give me a second and I'll go have a look.
   Events:
   - Type: 1
     Memory: 
@@ -24,6 +24,7 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0

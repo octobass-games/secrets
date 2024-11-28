@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: aa3db741-d9c4-48fd-906e-f847ed5dc7d2
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: Well, did you find anything?
+  Text: Well, anything around sharpening back there?
   NextLine: {fileID: 0}
   Events: []
   Choices:
   - {fileID: 11400000, guid: 5a8a6f6373a86e64c8ca4a3e85e9cd3e, type: 2}
   - {fileID: 11400000, guid: 9a727f6e1d5d3d34a8e62e9733501ef9, type: 2}
+  - {fileID: 11400000, guid: 6800b25fb7b38dc49aaaec2767956264, type: 2}

@@ -10,24 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-31bfe598-3aed-403f-b690-4cbedcad0878
+  m_Name: line-89622dc9-0a27-4d7f-800e-9a1b9967e6c8
   m_EditorClassIdentifier: 
-  Id: 31bfe598-3aed-403f-b690-4cbedcad0878
+  Id: 89622dc9-0a27-4d7f-800e-9a1b9967e6c8
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: Anyway, see you later.
+  Text: Come on now, you must have at least one weapons book back there...
   NextLine: {fileID: 0}
-  Events:
-  - Type: 3
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
+  Events: []
   Choices: []

@@ -27,6 +27,7 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0

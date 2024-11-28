@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-ee604a94-c429-4637-8df6-c5c780628f73
   m_EditorClassIdentifier: 
   Id: ee604a94-c429-4637-8df6-c5c780628f73
-  Text: "Oh\u2026 shes\u2019 passed away"
+  Text: "Oh\u2026 shes\u2019 passed away..."
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 958946e527ad9ee4083c1761797936af, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: e7552375-731f-4f43-9e4b-cd710fe674c0
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: No worries, I can wait.
+  Text: No worries, I can wait. But don't be too long, haha.
   NextLine: {fileID: 0}
   Events: []
   Choices: []

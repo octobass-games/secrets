@@ -17,5 +17,18 @@ MonoBehaviour:
   Text: "Yeah, I\u2019m good. Just back from a month\u2019s long expedition out in
     the wilds. I\u2019d like to tell you why but that\u2019s a secret I\u2019m afraid."
   NextLine: {fileID: 11400000, guid: d7701810a1ee76041928aac57854aaf2, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 025bbba338aa5b242bb937d09b6225be, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   Choices: []

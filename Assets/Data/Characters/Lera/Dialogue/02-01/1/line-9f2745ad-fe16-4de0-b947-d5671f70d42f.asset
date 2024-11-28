@@ -17,6 +17,19 @@ MonoBehaviour:
   Text: "Look honey, when you\u2019ve been out in the wilds for a month like I have
     you\u2019re not going to come back smelling of roses."
   NextLine: {fileID: 0}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 025bbba338aa5b242bb937d09b6225be, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
   Choices:
   - {fileID: 11400000, guid: b218360bcbfba64449175af8789c3ca0, type: 2}
