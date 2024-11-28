@@ -58,6 +58,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Subscribe(GameEventType.RENT_PAYMENT, OnRentPayment);
         EventManager.Instance.Subscribe(GameEventType.TAX_PAYMENT, OnTaxPayment);
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
+        EventManager.Instance.Subscribe(GameEventType.ITEM_ORDER, OnItemOrder);
         EventManager.Instance.Subscribe(GameEventType.INVENTORY_SELL, OnBookSell);
     }
 
@@ -68,6 +69,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Unsubscribe(GameEventType.RENT_PAYMENT, OnRentPayment);
         EventManager.Instance.Unsubscribe(GameEventType.TAX_PAYMENT, OnTaxPayment);
         EventManager.Instance.Unsubscribe(GameEventType.BOOK_ORDER, OnBookOrder);
+        EventManager.Instance.Unsubscribe(GameEventType.ITEM_ORDER, OnItemOrder);
         EventManager.Instance.Unsubscribe(GameEventType.INVENTORY_SELL, OnBookSell);
     }
 
@@ -105,7 +107,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         Today = @event.Day;
 
-        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new(), 0, 0);
+        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new(), new(), 0, 0);
         DailyTransactions.Add(TransactionsToday);
 
         var booksInStock = Books.FindAll(InStock).ToList();
@@ -117,6 +119,16 @@ public class Bookkeeper : MonoBehaviour, Savable
         if (TillBook != null)
         {
             Destroy(TillBook);
+        }
+
+        foreach (var book in booksInStock)
+        {
+            Debug.Log("book: " + book.Name + " stock: " + book.Stock);
+        }
+
+        foreach (var item in Items)
+        {
+            Debug.Log("item: " + item.Name + " stock: " + item.Stock);
         }
     }
 
@@ -150,12 +162,38 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     private void OnBookOrder(GameEvent @event)
     {
+        int totalOrderCost = 0;
+
         foreach (var book in @event.BooksToOrder)
         {
             var bookDefinition = Books.Find(b => b.IsEqual(book));
 
-            TransactionsToday.BookOrders.Add(new BookOrder(book.Name, @event.Amount, @event.Amount * bookDefinition.CostToOrder));
+            var bookOrderCost = @event.Amount * bookDefinition.CostToOrder;
+
+            TransactionsToday.BookOrders.Add(new Order(book.Name, @event.Amount, bookOrderCost));
+
+            totalOrderCost += bookOrderCost;
         }
+
+        Withdraw(totalOrderCost);
+    }
+
+    private void OnItemOrder(GameEvent @event)
+    {
+        int totalOrderCost = 0;
+
+        foreach (var item in @event.ItemsToOrder)
+        {
+            var itemDefinition = Items.Find(i => i.IsEqual(item));
+
+            var itemOrderCost = itemDefinition.SellPrice * @event.Amount;
+
+            TransactionsToday.ItemOrders.Add(new Order(itemDefinition.Name, @event.Amount, itemOrderCost));
+
+            totalOrderCost += itemOrderCost;
+        }
+
+        Withdraw(totalOrderCost);
     }
 
     private void UpdateSalesRecords()
@@ -226,16 +264,23 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     private void UpdateStock()
     {
-        foreach (BookDefinition Book in Books)
+        foreach (BookDefinition book in Books)
         {
-            var bookOrder = TransactionsToday.BookOrders.Find(b => b.Name ==  Book.Name);
+            var bookOrder = TransactionsToday.BookOrders.Find(b => b.Name ==  book.Name);
 
             if (bookOrder != null)
             {
-                var costToOrder = bookOrder.Quantity * Book.CostToOrder;
+                book.Stock += bookOrder.Quantity;
+            }
+        }
 
-                BankBalance -= costToOrder;
-                Book.Stock += bookOrder.Quantity;
+        foreach (ItemDefinition item in Items)
+        {
+            var itemOrder = TransactionsToday.ItemOrders.Find(i => i.Name == item.Name);
+
+            if (itemOrder != null)
+            {
+                item.Stock += itemOrder.Quantity;
             }
         }
     }

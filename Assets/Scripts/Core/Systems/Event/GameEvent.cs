@@ -13,6 +13,7 @@ public class GameEvent
     public CharacterTidbit CharacterTidbit;
     public int Amount;
     public List<BookDefinition> BooksToOrder;
+    public List<ItemDefinition> ItemsToOrder;
     public StampDefinition Stamp;
     public string StampId;
     public bool TriggerNextDailyEvent;

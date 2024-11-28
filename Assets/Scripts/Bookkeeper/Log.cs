@@ -124,7 +124,7 @@ public class Log : MonoBehaviour
 
         int outgoingsTotal = 0;
 
-        foreach (BookOrder bookOrder in record.BookOrders)
+        foreach (Order bookOrder in record.BookOrders)
         {
             outgoingsTotal += bookOrder.TotalCost;
             CreateOutgoingCost(bookOrder.Name + " x" + bookOrder.Quantity, bookOrder.TotalCost.ToString());

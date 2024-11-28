@@ -7,16 +7,18 @@ public class DailyTransactions
     public string Date;
     public List<UniqueBookSale> UniqueBookSales;
     public List<BookSale> BookSales;
-    public List<BookOrder> BookOrders;
+    public List<Order> BookOrders;
+    public List<Order> ItemOrders;
     public int Tax;
     public int Rent;
 
-    public DailyTransactions(string date, List<UniqueBookSale> uniqueBookSales, List<BookSale> bookSales, List<BookOrder> bookOrders, int tax, int rent)
+    public DailyTransactions(string date, List<UniqueBookSale> uniqueBookSales, List<BookSale> bookSales, List<Order> bookOrders, List<Order> itemOrders, int tax, int rent)
     {
         Date = date;
         UniqueBookSales = uniqueBookSales;
         BookSales = bookSales;
         BookOrders = bookOrders;
+        ItemOrders = itemOrders;
         Tax = tax;
         Rent = rent;
     }
