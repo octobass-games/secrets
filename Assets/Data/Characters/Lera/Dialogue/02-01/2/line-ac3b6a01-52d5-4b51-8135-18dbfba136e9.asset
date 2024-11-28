@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: ac3b6a01-52d5-4b51-8135-18dbfba136e9
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: "If you don\u2019t already know this your stock must be all over at the moment,
-    so just accept whatever they offer."
+  Text: They'll offer you new stock, which'll hopefully include my sharpening book.
   NextLine: {fileID: 11400000, guid: b42dfd15109802548bcb36131422a0ed, type: 2}
   Events: []
   Choices: []

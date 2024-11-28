@@ -14,9 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 690f9600-b02a-487d-947c-1708dcb5449c
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: "Sounds like a plan. I\u2019ll be back in a few days. Oh and if you hear
-    of any jobs let me know."
+  Text: "I\u2019ll be back in a few days. See you later."
   NextLine: {fileID: 0}
-  Events: []
-  Choices:
-  - {fileID: 11400000, guid: e31453a42734f8c4c88896b283b75f66, type: 2}
+  Events:
+  - Type: 3
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+  Choices: []

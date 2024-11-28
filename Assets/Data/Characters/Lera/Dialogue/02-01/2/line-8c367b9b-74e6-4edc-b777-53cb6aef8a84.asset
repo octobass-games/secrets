@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 8c367b9b-74e6-4edc-b777-53cb6aef8a84
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: "I\u2019ll be back in a few days, and who knows, maybe what I\u2019m looking
-    for will be here."
+  Text: Next you'll be telling me you don't even know how to manage your prices,
+    haha!
   NextLine: {fileID: 0}
   Events: []
   Choices:
-  - {fileID: 11400000, guid: 3c2c3f801dcbb0d419447bbacb73ce68, type: 2}
-  - {fileID: 11400000, guid: f14e7dacf73f40645be3550a0cbb7e5d, type: 2}
+  - {fileID: 11400000, guid: 19e51ded9f5fa0c4eaeaf84b065d0392, type: 2}

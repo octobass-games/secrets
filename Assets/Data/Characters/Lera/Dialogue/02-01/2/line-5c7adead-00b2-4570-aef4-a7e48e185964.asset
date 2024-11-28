@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 5c7adead-00b2-4570-aef4-a7e48e185964
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: "No, no. This won\u2019t do I\u2019m afraid."
+  Text: "No, no. This won\u2019t do I\u2019m afraid. No offence, but I can tell you're
+    new at this."
   NextLine: {fileID: 11400000, guid: cd6016b32c43044448debceed4385849, type: 2}
   Events: []
   Choices: []

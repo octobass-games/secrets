@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-bf657e3e-f723-4ced-8f18-b2b6b476dac9
+  m_Name: line-8a25ec3e-8d87-4db9-a730-9f51f76e7456
   m_EditorClassIdentifier: 
-  Id: bf657e3e-f723-4ced-8f18-b2b6b476dac9
+  Id: 8a25ec3e-8d87-4db9-a730-9f51f76e7456
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: "Oh sorry. I guess I can tell you this much. I\u2019m a mercenary. Any muscle
-    for hire jobs are good for me."
-  NextLine: {fileID: 11400000, guid: 823b493a81c833140846065d55b5dc72, type: 2}
+  Text: You need to be careful with it though, as if you set prices too high you're
+    not going to have any customers...
+  NextLine: {fileID: 0}
   Events: []
-  Choices: []
+  Choices:
+  - {fileID: 11400000, guid: 3c2c3f801dcbb0d419447bbacb73ce68, type: 2}

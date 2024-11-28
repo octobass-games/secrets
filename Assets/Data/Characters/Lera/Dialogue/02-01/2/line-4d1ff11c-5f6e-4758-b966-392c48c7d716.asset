@@ -10,24 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-31bfe598-3aed-403f-b690-4cbedcad0878
+  m_Name: line-4d1ff11c-5f6e-4758-b966-392c48c7d716
   m_EditorClassIdentifier: 
-  Id: 31bfe598-3aed-403f-b690-4cbedcad0878
+  Id: 4d1ff11c-5f6e-4758-b966-392c48c7d716
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: Anyway, see you later.
-  NextLine: {fileID: 0}
-  Events:
-  - Type: 3
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
+  Text: Jeez Louise. The old lady used to keep a book back there called 'Prices'
+    that you could use to set the prices of your stock.
+  NextLine: {fileID: 11400000, guid: ad54b04fff778454fbe53de02390005c, type: 2}
+  Events: []
   Choices: []

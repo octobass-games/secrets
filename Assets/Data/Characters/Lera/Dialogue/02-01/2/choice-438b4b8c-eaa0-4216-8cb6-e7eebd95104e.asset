@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-438b4b8c-eaa0-4216-8cb6-e7eebd95104e
   m_EditorClassIdentifier: 
   Id: 438b4b8c-eaa0-4216-8cb6-e7eebd95104e
-  Text: "Oh\u2026 okay. I\u2019ll do that."
+  Text: I suppose that makes sense.
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: e76d94f6b702aa74abd5cb65600be5e2, type: 2}

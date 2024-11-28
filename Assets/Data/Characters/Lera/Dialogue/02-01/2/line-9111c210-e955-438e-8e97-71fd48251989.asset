@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 9111c210-e955-438e-8e97-71fd48251989
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: "Look, I can tell you\u2019re still pretty new at this. Once I\u2019ve left
-    you\u2019re going to want to ring your supplier and order more books in."
+  Text: I'm going to head off, but once I'm gone you're going to want to ring your
+    supplier.
   NextLine: {fileID: 11400000, guid: 182ad4f71646a1e4a83a1424565b0650, type: 2}
   Events:
   - Type: 0
