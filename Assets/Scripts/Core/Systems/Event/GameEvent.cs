@@ -17,4 +17,5 @@ public class GameEvent
     public StampDefinition Stamp;
     public string StampId;
     public bool TriggerNextDailyEvent;
+    public bool SellForFree;
 }
