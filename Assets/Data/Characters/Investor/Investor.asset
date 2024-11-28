@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Investor
   m_EditorClassIdentifier: 
   Name: Audagar
-  Interactions: []
+  Interactions:
+  - {fileID: 11400000, guid: d835c5e5b5404c247a46f644ff7294ba, type: 2}
   Relationship: 0
   Profile: {fileID: -4599462480625933863, guid: b9042c90e745d7a4cbe8ae955f003462, type: 3}
-  Animator: {fileID: 9100000, guid: 9a5905928f6734c449eaaa246a7db4b0, type: 2}
+  Tidbits: []

@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-831dfcb6-a072-4d40-a19f-e8e7453b0b6a
+  m_Name: choice-e5eb9ca8-4e8b-40e0-befe-4d9ff4f2f0f0
   m_EditorClassIdentifier: 
-  Id: 831dfcb6-a072-4d40-a19f-e8e7453b0b6a
-  Text: Sorry bro, not interested.
+  Id: e5eb9ca8-4e8b-40e0-befe-4d9ff4f2f0f0
+  Text: How did you know my grandma?
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 8e91f4e417cd9964f946dcfa4a609893, type: 2}
+  NextLine: {fileID: 11400000, guid: 5284f600dbb7d424d94ee9b203d7c18b, type: 2}
   Requirements: []

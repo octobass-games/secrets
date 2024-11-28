@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-b844ee91-6a6e-436b-bc37-f8f957cfe873
   m_EditorClassIdentifier: 
-  Id: c8fd7268-ec18-43f1-9917-eca9785a7e06
-  Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
-  Text: "Woah! Bro you\u2019re not the old lady\u2026"
-  NextLine: {fileID: 0}
+  Id: b844ee91-6a6e-436b-bc37-f8f957cfe873
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: She was found in the woods so I guess some animal could have come and picked
+    up her eye.
+  NextLine: {fileID: 11400000, guid: 4ae1e5d18c9e09240a62fb40371ae8f4, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: a527a04abfc40b4408e4b7f8d573df48, type: 2}
-  - {fileID: 11400000, guid: e99f8e868c5f59c4c978721e0f1a77ae, type: 2}
+  Choices: []

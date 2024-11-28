@@ -9,40 +9,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-e95d5e1c-6d20-4bb2-8d24-5e626ee27625
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-7b7c94ae-3ce4-4c0d-b46c-042f5948b063
   m_EditorClassIdentifier: 
-  Id: e95d5e1c-6d20-4bb2-8d24-5e626ee27625
-  Text: "Okay, I\u2019ll invest 3000 coins. Don\u2019t make me regret this\u2026"
+  Id: 7b7c94ae-3ce4-4c0d-b46c-042f5948b063
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: "Well I\u2019ll see you around!"
+  NextLine: {fileID: 0}
   Events:
-  - Type: 11
+  - Type: 1
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
-    Amount: 3000
+    Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
     SellForFree: 0
-  - Type: 0
-    Memory: invested.3000.coins
+  - Type: 3
+    Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
-    Amount: 3000
+    Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
     SellForFree: 0
-  RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: dde8f037994d28b4da4029646c848b76, type: 2}
-  Requirements: []
+  Choices: []

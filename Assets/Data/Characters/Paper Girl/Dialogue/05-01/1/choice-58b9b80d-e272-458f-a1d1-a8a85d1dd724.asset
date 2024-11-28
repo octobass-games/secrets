@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-831dfcb6-a072-4d40-a19f-e8e7453b0b6a
+  m_Name: choice-58b9b80d-e272-458f-a1d1-a8a85d1dd724
   m_EditorClassIdentifier: 
-  Id: 831dfcb6-a072-4d40-a19f-e8e7453b0b6a
-  Text: Sorry bro, not interested.
+  Id: 58b9b80d-e272-458f-a1d1-a8a85d1dd724
+  Text: As a long time resident of the town, how do you find it?
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 8e91f4e417cd9964f946dcfa4a609893, type: 2}
+  NextLine: {fileID: 11400000, guid: 1bfbe63ffe11a294da331630b062ef0e, type: 2}
   Requirements: []
