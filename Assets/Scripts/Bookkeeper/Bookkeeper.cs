@@ -389,7 +389,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         if (book.Item != null)
         {
-            // hollow shelf move
+            HollowBookshelf.MoveToTill(book);
         }
         else
         {
@@ -402,7 +402,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
             if (bookDefinition.Item != null)
             {
-                // hollow shelf put back
+                HollowBookshelf.PutBookBack(bookDefinition);
             }
             else
             {
@@ -435,8 +435,6 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             var itemInBook = TillBook.GetComponent<Book>().BookDefinition.Item;
 
-            Debug.Log(TillBook.GetComponent<Book>().BookDefinition.IsHollow);
-
             return itemInBook != null && itemInBook.Name == item.Name;
         }
 
@@ -456,10 +454,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
             if (book.IsHollow)
             {
-                Debug.Log("Hollow sale");
                 var b = HollowBooks.Find(bo => bo.Item.Name == book.Item.Name && bo.Name == book.Name);
-
-                Debug.Log(b);
 
                 RegisterHollowBookSale(b, @event.Character, @event.Amount, @event.SellForFree);
 
@@ -467,8 +462,6 @@ public class Bookkeeper : MonoBehaviour, Savable
             }
             else
             {
-                Debug.Log("Normal sale");
-
                 var b = Books.Find(b => b.IsEqual(book));
                 RegisterBookSale(b, @event.Character);
                 
