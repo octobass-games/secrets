@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-54fa3966-72dd-4b3e-8ca5-e8abf3044c2e
+  m_Name: line-f4fad0a0-d806-45dc-a69a-d0214a25f3de
   m_EditorClassIdentifier: 
-  Id: 54fa3966-72dd-4b3e-8ca5-e8abf3044c2e
+  Id: f4fad0a0-d806-45dc-a69a-d0214a25f3de
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: But guess what?! She only mentioned this to me today! She should have told
-    me IMMEDIATELY!
-  NextLine: {fileID: 11400000, guid: b696f4e18c329ba438c1c87e15970688, type: 2}
+  Text: YES! NOW WHERE IS IT!?
+  NextLine: {fileID: 0}
   Events: []
-  Choices: []
+  Choices:
+  - {fileID: 11400000, guid: 9994b04b668d37d43aa9b3817e711219, type: 2}

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 5815040f-9ae7-4c36-8201-51e640d68a70
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: "What do you mean, \u2018What?\u2019? The newly released Nessie Academy of
-    course, anyone who\u2019s anyone knows about it!"
+  Text: "What do you mean, \u2018What?\u2019!? The newly released Nessie Academy
+    of course, anyone who\u2019s anyone knows about it!"
   NextLine: {fileID: 0}
   Events: []
   Choices:

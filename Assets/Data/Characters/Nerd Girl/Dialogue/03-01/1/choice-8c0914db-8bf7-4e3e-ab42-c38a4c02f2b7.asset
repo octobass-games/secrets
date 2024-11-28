@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-192f564e-010e-41a8-91bd-ffb3ebfd8f8c
+  m_Name: choice-8c0914db-8bf7-4e3e-ab42-c38a4c02f2b7
   m_EditorClassIdentifier: 
-  Id: 192f564e-010e-41a8-91bd-ffb3ebfd8f8c
-  Text: Wow, there's no need to be so rude about it...
+  Id: 8c0914db-8bf7-4e3e-ab42-c38a4c02f2b7
+  Text: Are you sure you're okay?
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 20ea815fdb7ff4a4d89dfc0c46671144, type: 2}
+  NextLine: {fileID: 11400000, guid: a32861502e3902d40aba46aeed2ee3cb, type: 2}
   Requirements: []

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: a169a1a8-f6f8-42c5-9a8c-85418c31352c
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: "But I had to\u2026 as soon as I heard I knew what I had to do."
+  Text: "But I had to\u2026 as soon as I heard the news I knew what I had to do."
   NextLine: {fileID: 11400000, guid: 4cd23c8311e232940b7fb4196f6e729d, type: 2}
   Events: []
   Choices: []
