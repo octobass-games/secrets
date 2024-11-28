@@ -458,6 +458,9 @@ public class Bookkeeper : MonoBehaviour, Savable
             {
                 Debug.Log("Hollow sale");
                 var b = HollowBooks.Find(bo => bo.Item.Name == book.Item.Name && bo.Name == book.Name);
+
+                Debug.Log(b);
+
                 RegisterHollowBookSale(b, @event.Character, @event.Amount, @event.SellForFree);
 
                 HollowBookshelf.PlaceBooks(HollowBooks);

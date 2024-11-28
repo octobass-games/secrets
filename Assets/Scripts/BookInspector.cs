@@ -12,6 +12,7 @@ public class BookInspector : MonoBehaviour
     public GameObject Knife;
     public History History;
     public Image BookCover;
+    public Image Item;
 
     public GameObject ItemPrefab;
     public GameObject ItemsView;
@@ -31,6 +32,20 @@ public class BookInspector : MonoBehaviour
         if  (definition.IsHollow)
         {
             BookHollow.SetActive(true);
+
+            if (definition.Item != null)
+            {
+                Item.gameObject.SetActive(true);
+                Item.sprite = definition.Item.Sprite;
+            }
+            else
+            {
+                Item.gameObject.SetActive(false);
+            }
+        }
+        else
+        {
+            BookHollow.SetActive(false);
         }
 
         if (History.Contains("knife.unlocked"))

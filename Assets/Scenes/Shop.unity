@@ -5693,9 +5693,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.055555556
-    width: 0.33333334
-    height: 0.3333333
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -10746,6 +10746,7 @@ MonoBehaviour:
   Knife: {fileID: 353221690}
   History: {fileID: 2113456429}
   BookCover: {fileID: 1544361534}
+  Item: {fileID: 1735260204323192544}
   ItemPrefab: {fileID: 1245915539356007062, guid: 7e01b5014028b24449974f2bb6d3645d, type: 3}
   ItemsView: {fileID: 1573571567}
   ItemContainer: {fileID: 170541054}
@@ -13697,8 +13698,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bookkeeper: {fileID: 509350324}
-  HollowBookPrefab: {fileID: 1167625805286789364, guid: 485dfbc176675854098852dc8092c7d0, type: 3}
+  HollowBookPrefab: {fileID: 1167625805286789364, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
   StartingPosition: {fileID: 622499450}
+  BookInspector: {fileID: 1099467804}
 --- !u!224 &1388237869 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3152232024550036395, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
@@ -22009,6 +22011,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adc10dea52eae354fb750de329995ae5, type: 3}
+--- !u!114 &1735260204323192544 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2847526577312654498, guid: adc10dea52eae354fb750de329995ae5, type: 3}
+  m_PrefabInstance: {fileID: 1735260204323192543}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2154512900278508532
 PrefabInstance:
   m_ObjectHideFlags: 0

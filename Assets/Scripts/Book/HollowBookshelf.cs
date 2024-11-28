@@ -6,6 +6,7 @@ public class HollowBookshelf : MonoBehaviour
     public Bookkeeper Bookkeeper;
     public GameObject HollowBookPrefab;
     public Transform StartingPosition;
+    public BookInspector BookInspector;
 
     private List<GameObject> HollowBooks = new();
 
@@ -20,7 +21,7 @@ public class HollowBookshelf : MonoBehaviour
             var hollowBook = Instantiate(HollowBookPrefab, StartingPosition);
 
             hollowBook.transform.position = new Vector3(hollowBook.transform.position.x + i * 7, hollowBook.transform.position.y, hollowBook.transform.position.z);
-            hollowBook.GetComponent<HollowBookshelfBook>().Setup(books[index], Bookkeeper);
+            hollowBook.GetComponent<BookshelfBook>().Setup(books[index], Bookkeeper.MoveToTill, BookInspector.ShowBookInspector);
 
             HollowBooks.Add(hollowBook);
         }
