@@ -44,6 +44,7 @@ public class Character : MonoBehaviour, Savable
 
     public void EndInteraction()
     {
+        CharacterDefinition.Relationship++;
         CurrentInteraction = null;
         CurrentInteractionDialogueIndex = 0;
     }
@@ -84,7 +85,7 @@ public class Character : MonoBehaviour, Savable
         }
         else
         {
-            CharacterDefinition.Relationship++;
+            EndInteraction();
         }
     }
 

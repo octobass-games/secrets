@@ -16515,7 +16515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9481d2a7a9c88ed4d83876bacc884f9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CharacterDefinition: {fileID: 0}
+  CharacterDefinition: {fileID: 11400000, guid: 61287b88000fa1b4386797bcb2979580, type: 2}
   SpeakerAnimator: {fileID: 1526174204}
 --- !u!1 &1719886216
 GameObject:
