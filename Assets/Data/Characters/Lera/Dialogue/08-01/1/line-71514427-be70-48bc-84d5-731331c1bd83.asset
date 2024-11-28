@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-71514427-be70-48bc-84d5-731331c1bd83
+  m_EditorClassIdentifier: 
+  Id: 71514427-be70-48bc-84d5-731331c1bd83
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "How do I put this? I\u2019m somewhat of a mercenary. Dashing and daring,
+    and currently in charge of protecting a local celebrity."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 55e88ec8414bfaf40a2dad54d85fea09, type: 2}
+  - {fileID: 11400000, guid: e2f6143543ef5ef448eca5cac7733041, type: 2}
