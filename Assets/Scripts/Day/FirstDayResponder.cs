@@ -23,15 +23,6 @@ public class FirstDayResponder : MonoBehaviour
         {
             // Start shop open on day one
             Sign.SetTrigger("OpenNoAnimation");
-            StartCoroutine(WaitForNSecondsThenSendPost());
         }
-    }
-
-    IEnumerator WaitForNSecondsThenSendPost()
-    {
-        yield return new WaitForSeconds(4);
-
-        // Deliver post
-        EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.NEXT_DAILY_EVENT });
     }
 }
