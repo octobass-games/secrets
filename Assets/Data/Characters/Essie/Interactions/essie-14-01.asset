@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: essie-14-01
   m_EditorClassIdentifier: 
   RelationshipRequirement: 3
-  RootLines: []
+  RootLines:
+  - {fileID: 11400000, guid: b610609405f6763438903f577048f15d, type: 2}

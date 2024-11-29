@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-fb44ab00-6af0-4783-9a0c-026d544e28b2
+  m_EditorClassIdentifier: 
+  Id: fb44ab00-6af0-4783-9a0c-026d544e28b2
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: "I\u2019ve been having recurring nightmares about a community who refer to
+    themselves as \u2018Tubinians\u2019 stalking me in my dreams, while playing that
+    awful music non-stop."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 8821539bcf87875469e20138cbf08116, type: 2}

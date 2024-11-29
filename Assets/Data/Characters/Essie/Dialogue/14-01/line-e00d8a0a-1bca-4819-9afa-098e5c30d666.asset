@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-e00d8a0a-1bca-4819-9afa-098e5c30d666
+  m_EditorClassIdentifier: 
+  Id: e00d8a0a-1bca-4819-9afa-098e5c30d666
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: "I\u2019m sorry dearie, but that won\u2019t be enough this time\u2026"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 50df373d2350a4749a660befc0a6183e, type: 2}
