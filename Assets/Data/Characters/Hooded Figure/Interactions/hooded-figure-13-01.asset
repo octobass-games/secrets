@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: hooded-figure-13-01
   m_EditorClassIdentifier: 
   RelationshipRequirement: 1
-  RootLines: []
+  RootLines:
+  - {fileID: 11400000, guid: 92a697548fec0564ea9e5ddfcf0e44b0, type: 2}
