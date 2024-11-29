@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
   m_Name: Arts and Crafts
   m_EditorClassIdentifier: 
-  Name: Arts and Crafts
-  Author: 
-  Description: 
+  Name: 100 Arts and Crafts Activities
+  Author: Amy Angst
+  Description: 100 arts and craft activities, fun for the whole family!
+  ISBN: 0014
   Category: 2
-  Cover: {fileID: -6021915194359845441, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0.9333334, g: 0.76470596, b: 0.6039216, a: 1}
+  Cover: {fileID: -427105637, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Colour: {r: 0.9333334, g: 0.76470596, b: 0.6039216, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1
