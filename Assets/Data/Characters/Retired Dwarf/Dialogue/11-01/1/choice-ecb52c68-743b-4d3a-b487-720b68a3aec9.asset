@@ -14,7 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: ecb52c68-743b-4d3a-b487-720b68a3aec9
   Text: "Weirdly, I\u2019ve ended up expanding my wares. I\u2019ll be back in a minute\u2026"
-  Events: []
+  Events:
+  - Type: 1
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
   RelationshipPoints: 0
   NextLine: {fileID: 0}
   Requirements:
