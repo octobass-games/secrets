@@ -14087,6 +14087,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 282426805060c3f46a63d3d867ddbb17, type: 2}
   - {fileID: 11400000, guid: a771d0c61b6e09945852d23c3bfb54b2, type: 2}
   SignInteraction: {fileID: 11400000, guid: 55152637b55f0d7449121063ca22da1d, type: 2}
+  RequirementManager: {fileID: 135454215}
 --- !u!4 &1425153796
 Transform:
   m_ObjectHideFlags: 0
