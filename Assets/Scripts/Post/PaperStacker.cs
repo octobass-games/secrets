@@ -30,7 +30,7 @@ public class PaperStacker : MonoBehaviour, Savable
     public void OnBeginDay(GameEvent @event)
     {
         var day = @event.Day;
-        bool isPaperDay = PaperDefinitions.Any(p => p.DayDefinition.Date == day.Date);
+        bool isPaperDay = PaperDefinitions.Any(p => p.DayDefinition != null && p.DayDefinition.Date == day.Date);
         if (isPaperDay)
         {
             StartCoroutine(WaitForNSecondsThenSendPost());
