@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
-  m_Name: History 1
+  m_Name: History P Edition Pyramids
   m_EditorClassIdentifier: 
-  Name: History 1
-  Author: 
-  Description: 
+  Name: 'History P Edition: Pyramids'
+  Author: 'Chance Victoria '
+  Description: Part of the A-Z guide to history, this edition focuses on all things
+    P!
+  ISBN: 0020
   Category: 5
-  Cover: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}
+  Cover: {fileID: 8268670836053331151, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Colour: {r: 0.5176471, g: 0.11764707, b: 0.11764707, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1
