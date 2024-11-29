@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
   m_Name: Potions
   m_EditorClassIdentifier: 
-  Name: Potions
-  Author: 
-  Description: 
+  Name: 100 quick and easy potion recipes
+  Author: Ellie Daisy
+  Description: 100 easy recipes to make helpful potions for the everyday person
+  ISBN: 0031
   Category: 7
-  Cover: {fileID: -8254630426926633087, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0.29411766, g: 0.41176474, b: 0.18431373, a: 1}
+  Cover: {fileID: 6290824880724906006, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Colour: {r: 0.29411766, g: 0.41176474, b: 0.18431373, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1

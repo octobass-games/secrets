@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
   m_Name: Spells 2
   m_EditorClassIdentifier: 
-  Name: Spells 2
-  Author: 
-  Description: 
+  Name: The Encyclopedia of Spells
+  Author: 'Z. B. Emerald '
+  Description: An in depth encyclopedia of spells, from A to Z.
+  ISBN: 0047
   Category: 9
   Cover: {fileID: -1051768854, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0.24313727, g: 0.24313727, b: 0.24313727, a: 1}
+  Colour: {r: 0.24313727, g: 0.24313727, b: 0.24313727, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1

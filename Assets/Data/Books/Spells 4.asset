@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
-  m_Name: Horror 3
+  m_Name: Spells 4
   m_EditorClassIdentifier: 
-  Name: Horror 3
-  Author: 
-  Description: 
-  Category: 15
-  Cover: {fileID: 524611506, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  Colour: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
-  RecommendedSellPrice: 0
+  Name: Advanced Spells 2
+  Author: 'Z. B. Emerald '
+  Description: Another advanced grimoire for another advanced wizard.
+  ISBN: 0049
+  Category: 9
+  Cover: {fileID: 2006332395, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Colour: {r: 0.24313727, g: 0.24313727, b: 0.24313727, a: 1}
+  RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1
   CostToOrder: 0

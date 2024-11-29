@@ -13,11 +13,14 @@ MonoBehaviour:
   m_Name: Mighty Mushroom Meals
   m_EditorClassIdentifier: 
   Name: Mighty Mushroom Meals
-  Author: 
-  Description: '30 Handpicked mushroom recipes '
+  Author: Peter Pie
+  Description: 'Peter Pie brings you an assortment of delicious mushroom based recipes
+
+'
+  ISBN: 0037
   Category: 8
   Cover: {fileID: 733217821, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0.8745099, g: 0.4431373, b: 0.14901961, a: 1}
+  Colour: {r: 0.8745099, g: 0.4431373, b: 0.14901961, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1

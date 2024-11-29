@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
   m_Name: Weapons 3
   m_EditorClassIdentifier: 
-  Name: Weapons 3
-  Author: 
-  Description: 
+  Name: The history of weapons and how to hold them
+  Author: Betty Sharp
+  Description: A condensed history of weapons, from all around the world
+  ISBN: 0055
   Category: 10
-  Cover: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}
+  Cover: {fileID: -419859014, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Colour: {r: 0.40000004, g: 0.22352943, b: 0.19215688, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1

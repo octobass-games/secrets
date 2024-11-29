@@ -15,9 +15,10 @@ MonoBehaviour:
   Name: Which Way to Hold Your Bow and Other Projectile Safety Instructions
   Author: Blair Sharp
   Description: Safety instructions for bows, guns and cannons
+  ISBN: 0054
   Category: 10
   Cover: {fileID: 2626397587094690290, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0.40000004, g: 0.22352943, b: 0.19215688, a: 1}
+  Colour: {r: 0.40000004, g: 0.22352943, b: 0.19215688, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1

@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
   m_Name: Wellbeing 3
   m_EditorClassIdentifier: 
-  Name: Wellbeing 3
-  Author: 
-  Description: 
+  Name: Yoga and You
+  Author: Cat Bee
+  Description: An everyday companion, which helps you learn yoga.
+  ISBN: 0058
   Category: 11
-  Cover: {fileID: 0}
-  colour: {r: 0, g: 0, b: 0, a: 0}
+  Cover: {fileID: -2774007961960274977, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Colour: {r: 0.27450982, g: 0.18431373, b: 0.2509804, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 0
@@ -25,3 +26,4 @@ MonoBehaviour:
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 0
+  IsHollow: 0

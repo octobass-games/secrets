@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
   m_Name: Poetry 2
   m_EditorClassIdentifier: 
-  Name: Poetry 2
-  Author: 
-  Description: 
+  Name: 100 Poems, a collection
+  Author: Brent Summerweather
+  Description: 100 of Brents greatest poems, you'll be swept through a catalogue
+    of emotions as you read these.
+  ISBN: 0029
   Category: 16
   Cover: {fileID: -418160618032577613, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.67058825, g: 0.46274513, b: 0.24705884, a: 1}

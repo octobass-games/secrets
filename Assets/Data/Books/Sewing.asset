@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
   m_Name: Sewing
   m_EditorClassIdentifier: 
-  Name: Sewing
-  Author: 
-  Description: 
-  ISBN: 
+  Name: Everyday Sewing Tips
+  Author: Sierra Smash
+  Description: How to sew on a button, hem a skirt and make bandages! Everything
+    you need to know for everyday emergencies!
+  ISBN: 0013
   Category: 2
   Cover: {fileID: -3658163053954102554, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.6901961, g: 0.52156866, b: 0.13333334, a: 1}

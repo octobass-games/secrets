@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
-  m_Name: Happy Health and Hearts
+  m_Name: By the fire
   m_EditorClassIdentifier: 
-  Name: Happy Health and Hearts
-  Author: Peter Pie
-  Description: 60 health based recipes to boost your HP
-  ISBN: 0038
-  Category: 8
-  Cover: {fileID: 189926569, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  Colour: {r: 0.8745099, g: 0.4431373, b: 0.14901961, a: 1}
-  RecommendedSellPrice: 100
+  Name: By the fire
+  Author: 'Carme Saraid '
+  Description: Minnie has never seen her grandad stray from the warm fire in their
+    home, she never thought much of it, until that night.
+  ISBN: 0023
+  Category: 15
+  Cover: {fileID: 1656411517, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Colour: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
+  RecommendedSellPrice: 0
   SellPrice: 0
   Stock: 1
   CostToOrder: 0
