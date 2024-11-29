@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: 100 Tips for Art Basics
   m_EditorClassIdentifier: 
   Name: 100 Tips for Art Basics
-  Author: 
-  Description: 
+  Author: Anna Enora
+  Description: 100 amazing tips for beginner artists
+  ISBN: 0003
   Category: 12
   Cover: {fileID: 1647590273, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.24313727, g: 0.32941177, b: 0.15686275, a: 1}

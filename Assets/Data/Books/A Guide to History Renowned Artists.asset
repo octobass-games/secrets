@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: A Guide to History Renowned Artists
   m_EditorClassIdentifier: 
   Name: A Guide to History Renowned Artists
-  Author: 
-  Description: 
+  Author: Elias Edgardo
+  Description: An in depth guide to 10 of history's most influential artists
+  ISBN: 0002
   Category: 12
   Cover: {fileID: 1812923954, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.24313727, g: 0.32941177, b: 0.15686275, a: 1}

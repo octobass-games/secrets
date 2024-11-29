@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: A Condensed History of Art
   m_EditorClassIdentifier: 
   Name: A Condensed History of Art
-  Author: 
-  Description: 
+  Author: Elias Edgardo
+  Description: A whistle stop tour over the development of art, from the ancient
+    to the modern times.
+  ISBN: 0001
   Category: 12
   Cover: {fileID: -1372392516, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.24313727, g: 0.32941177, b: 0.15686275, a: 1}
