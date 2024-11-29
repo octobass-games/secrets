@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: 10 Steps to Summon a Demon
   m_EditorClassIdentifier: 
   Name: 10 Steps to Summon a Demon
-  Author: 
-  Description: A no-nonsense, 10 step guide to summoning a demon
+  Author: Professor Anyxa
+  Description: A no-nonsense, 10 step guide to summoning a demon, make sure you have
+    your Convocatio brand candles ready.
+  ISBN: 0025
   Category: 6
   Cover: {fileID: -1213657295233197196, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.29803923, g: 0.16862746, b: 0.34509805, a: 1}

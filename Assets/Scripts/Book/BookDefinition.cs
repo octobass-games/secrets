@@ -6,6 +6,7 @@ public class BookDefinition : ScriptableObject
 {
     public string Name;
     public string Author;
+    [TextArea]
     public string Description;
     public string ISBN;
     public BookCategory Category;
