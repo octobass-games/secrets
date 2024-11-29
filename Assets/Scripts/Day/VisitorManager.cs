@@ -73,5 +73,6 @@ public class VisitorManager : MonoBehaviour
     {
         Character visitor = Visitors.Find(v => v.CharacterDefinition.Name == character.Name);
         visitor.gameObject.SetActive(true);
+        EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.VISITOR_ARRIVED });
     }
 }

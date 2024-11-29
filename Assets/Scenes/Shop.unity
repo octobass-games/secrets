@@ -1565,7 +1565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd0fd417cdbd174588c3a6c2364b545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EventType: 8
+  EventType: 22
   UnityEvent:
     m_PersistentCalls:
       m_Calls:
