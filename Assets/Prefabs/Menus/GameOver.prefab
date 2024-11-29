@@ -189,7 +189,6 @@ GameObject:
   - component: {fileID: 7096909999800872789}
   - component: {fileID: 2816266354413733883}
   - component: {fileID: 8579963207504009316}
-  - component: {fileID: 3256499361592261224}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -228,19 +227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3256499361592261224}
-        m_TargetAssemblyTypeName: SceneManager, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: MainMenu
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
   OnRightClick:
     m_PersistentCalls:
       m_Calls: []
@@ -375,18 +362,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3256499361592261224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907188141750812216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87858d3855ed3824fa23373a8a56cd08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4059069072258183889
 GameObject:
   m_ObjectHideFlags: 0

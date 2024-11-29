@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class CheatMode : MonoBehaviour
 {
@@ -36,7 +35,7 @@ public class CheatMode : MonoBehaviour
         }
         else if (CheatInput.text.Equals("/kill"))
         {
-            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.GAME_OVER });
+            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.GAME_OVER, Day = DayManager.GetToday(), Message = "You cheated"  });
         }
     }
 }

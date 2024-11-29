@@ -19,4 +19,5 @@ public class GameEvent
     public bool TriggerNextDailyEvent;
     public bool SellForFree;
     public List<Requirement> Requirements;
+    public string Message;
 }

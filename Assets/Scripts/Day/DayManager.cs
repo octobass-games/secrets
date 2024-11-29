@@ -32,6 +32,11 @@ public class DayManager : MonoBehaviour, Savable
         BeginNextDay();
     }
 
+    public DayDefinition GetToday()
+    {
+        return Today;
+    }
+
     public void SkipToDay(int day)
     {
        for (int i = 0; i < Days.Count; i++)

@@ -78,6 +78,11 @@ public class SaveManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("Shop");
     }
 
+    public void RestartDay()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Shop");
+    }
+
     public void DeleteSaveData()
     {
         if (HasSaveData())
