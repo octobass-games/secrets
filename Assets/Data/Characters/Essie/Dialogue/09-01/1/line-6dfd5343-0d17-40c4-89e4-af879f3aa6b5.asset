@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-6dfd5343-0d17-40c4-89e4-af879f3aa6b5
+  m_EditorClassIdentifier: 
+  Id: 6dfd5343-0d17-40c4-89e4-af879f3aa6b5
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: "I\u2019m sorry for burdening you with this dearie\u2026"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 831aef231f73fc248bca45bd2862d04c, type: 2}
+  - {fileID: 11400000, guid: bdb6d15e48d84604a8474ff415f65d78, type: 2}

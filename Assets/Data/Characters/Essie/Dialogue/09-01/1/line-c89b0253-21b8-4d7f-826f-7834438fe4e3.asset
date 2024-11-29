@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-c89b0253-21b8-4d7f-826f-7834438fe4e3
+  m_EditorClassIdentifier: 
+  Id: c89b0253-21b8-4d7f-826f-7834438fe4e3
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: "Anyway, I was hoping you\u2019d have a poetry book? My niece has picked
+    it up recently and I know nothing about it. So I thought I\u2019d introduce myself
+    to it so I can properly guide her\u2026"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: e5ec73bf5ec97bf48b2b9ba63dceec4c, type: 2}
+  - {fileID: 11400000, guid: 0a3ed857fa1aef442ae4737fa37c3851, type: 2}

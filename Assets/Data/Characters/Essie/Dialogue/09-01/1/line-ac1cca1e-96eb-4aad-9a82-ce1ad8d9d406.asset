@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-ac1cca1e-96eb-4aad-9a82-ce1ad8d9d406
+  m_EditorClassIdentifier: 
+  Id: ac1cca1e-96eb-4aad-9a82-ce1ad8d9d406
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: "Now this being said, I can\u2019t say I really want to see him at the moment.
+    All I can hear at the minute while I sit at home is that awful, awful, awful
+    tuba music day and night."
+  NextLine: {fileID: 11400000, guid: 6d927c8e5bdb1a040bda353fcd920324, type: 2}
+  Events: []
+  Choices: []
