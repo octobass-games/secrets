@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
-  m_Name: Biography 1
+  m_Name: Botany and you
   m_EditorClassIdentifier: 
-  Name: Biography 1
-  Author: 
-  Description: 
+  Name: Botany and you
+  Author: Simon Solander
+  Description: A guide to botany across the world.
+  ISBN: 0004
   Category: 13
-  Cover: {fileID: 0}
-  Colour: {r: 0, g: 0, b: 0, a: 0}
+  Cover: {fileID: -884762974, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Colour: {r: 0.24313727, g: 0.13333334, b: 0.1137255, a: 1}
   RecommendedSellPrice: 0
   SellPrice: 0
   Stock: 0

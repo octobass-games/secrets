@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: A Taste of Home
   m_EditorClassIdentifier: 
   Name: A Taste of Home
-  Author: 
-  Description: 50 recipes to warm your heart
+  Author: Abbie Apple
+  Description: 50 recipes to warm your heart.
+  ISBN: 0036
   Category: 8
   Cover: {fileID: 1742173823, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0.8745099, g: 0.4431373, b: 0.14901961, a: 1}
+  Colour: {r: 0.8745099, g: 0.4431373, b: 0.14901961, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 100
   Stock: 1

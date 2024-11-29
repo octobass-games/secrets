@@ -210,7 +210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arts and Crafts Book
+      name: Amigurumi
       rect:
         serializedVersion: 2
         x: 370
@@ -939,9 +939,9 @@ TextureImporter:
       name: A Guide to History Renowned Artists Book
       rect:
         serializedVersion: 2
-        x: 58
-        y: 62
-        width: 49
+        x: 842
+        y: 156
+        width: 48
         height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1406,7 +1406,7 @@ TextureImporter:
         width: 49
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1415,6 +1415,28 @@ TextureImporter:
       bones: []
       spriteID: bbd3df67a94d17546bbc981e23af20f8
       internalID: 1607840409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arts-and-crafts
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 216
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b6eca7c42aba246a643015ea23d4d6
+      internalID: -427105637
       vertices: []
       indices: 
       edges: []
@@ -1439,7 +1461,7 @@ TextureImporter:
       A Guide to History Renowned Artists Book: 1812923954
       A Taste of Home Book: 1742173823
       Advanced Spells Book: -1225844390
-      Arts and Crafts Book: -6021915194359845441
+      Amigurumi: -6021915194359845441
       Astrology and You, a Guide Book: -3014875416704299278
       Biography 1 Book: -884762974
       Biography 2 Book: -1179985979
@@ -1488,6 +1510,7 @@ TextureImporter:
       Wellbeing Book 2: -6736481670909618181
       Wellbeing Book 3: -2774007961960274977
       Which Way to Hold Your Bow and Other Projectile Safety Instructions Book: 2626397587094690290
+      arts-and-crafts: -427105637
       my-secret-gnome-boyfriend: 1607840409
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

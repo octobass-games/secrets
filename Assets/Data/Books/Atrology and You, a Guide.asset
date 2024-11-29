@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Atrology and You, a Guide
   m_EditorClassIdentifier: 
   Name: Astrology and You, a Guide
-  Author: 
+  Author: Professor Anyxa
   Description: Your go-to guide for getting into Astrology
+  ISBN: 0026
   Category: 6
   Cover: {fileID: -3014875416704299278, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0.29803923, g: 0.16862746, b: 0.34509805, a: 1}
+  Colour: {r: 0.29803923, g: 0.16862746, b: 0.34509805, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1
