@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-cf9c12d9-657e-4ace-a269-c8024024577d
+  m_EditorClassIdentifier: 
+  Id: cf9c12d9-657e-4ace-a269-c8024024577d
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "I\u2019ve just been relaxing to some Thomas Tubinian. He\u2019s truly one
+    of the greatest avant garde tuba players of our time. And while I was lying there,
+    it dawned on me! I thought, \u201CYou know what\u2019d make this ten times better?\u201D"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 658b9f6ed8bf135428edf04fa4e6ed7e, type: 2}
+  - {fileID: 11400000, guid: 6257519a6acfe924cbd8f910ca409749, type: 2}
+  - {fileID: 11400000, guid: 070890a411e872e479c488d2f2679416, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: retired-dwarf-11-01-1-root
+  m_EditorClassIdentifier: 
+  Id: 62dca396-1004-481d-9ac9-08abbadb294e
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "Afternoon kiddo! I hope you\u2019re well!"
+  NextLine: {fileID: 11400000, guid: 9e477adf1a3e3cd488eb846940e2b95d, type: 2}
+  Events: []
+  Choices: []

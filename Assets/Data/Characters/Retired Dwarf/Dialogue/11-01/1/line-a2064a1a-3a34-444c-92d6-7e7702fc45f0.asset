@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-a2064a1a-3a34-444c-92d6-7e7702fc45f0
+  m_EditorClassIdentifier: 
+  Id: a2064a1a-3a34-444c-92d6-7e7702fc45f0
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "Anyway, back to what I was saying. What would make it ten times better is
+    knitting peacefully while the beautiful call of Thomas\u2019s tuba plays in the
+    background."
+  NextLine: {fileID: 11400000, guid: 960d821b7f4cb4a4fb23a57f1d1c49da, type: 2}
+  Events: []
+  Choices: []
