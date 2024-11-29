@@ -11382,6 +11382,8 @@ MonoBehaviour:
   History: {fileID: 2113456429}
   BookCover: {fileID: 1544361534}
   Item: {fileID: 1735260204323192544}
+  DialogueManager: {fileID: 135454216}
+  FirstInspectionOfHollowBookDialogue: {fileID: 11400000, guid: bd9a95ee746d1784dbdd004bcef8f31b, type: 2}
   ItemPrefab: {fileID: 1245915539356007062, guid: 7e01b5014028b24449974f2bb6d3645d, type: 3}
   ItemsView: {fileID: 1573571567}
   ItemContainer: {fileID: 170541054}
@@ -16364,6 +16366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1617401058}
   - component: {fileID: 1617401057}
+  - component: {fileID: 1617401059}
   m_Layer: 0
   m_Name: Open
   m_TagString: Untagged
@@ -16442,6 +16445,21 @@ Transform:
   - {fileID: 622499450}
   m_Father: {fileID: 181328297}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1617401059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617401056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71159005bd7bc943bd3cb86e4864939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  History: {fileID: 2113456429}
+  DialogueManager: {fileID: 135454216}
+  HiddenCompartmentFoundDialogue: {fileID: 11400000, guid: cfe71db131b552c4ab86d1b8ab8af6f8, type: 2}
 --- !u!1 &1659931399
 GameObject:
   m_ObjectHideFlags: 0
@@ -17523,6 +17541,7 @@ MonoBehaviour:
   HollowBookPrefab: {fileID: 1167625805286789364, guid: 5c68cc8c776c77c4e82ccda05bd1c95a, type: 3}
   BookInspector: {fileID: 1099467804}
   Bookkeeper: {fileID: 509350324}
+  History: {fileID: 2113456429}
   ArtPosition: {fileID: 1664591748}
   BiographyPosition: {fileID: 1791708177}
   ChildrensPosition: {fileID: 1689720199}

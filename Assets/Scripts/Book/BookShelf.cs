@@ -9,6 +9,7 @@ public class Bookshelf : MonoBehaviour
     public GameObject HollowBookPrefab;
     public BookInspector BookInspector;
     public Bookkeeper Bookkeeper;
+    public History History;
 
     public Transform ArtPosition;
     public Transform BiographyPosition;
@@ -77,7 +78,7 @@ public class Bookshelf : MonoBehaviour
                 var hollowBookGo = Instantiate(HollowBookPrefab, HollowBooksPosition);
 
                 hollowBookGo.transform.position = new Vector3(hollowBookGo.transform.position.x + i * 7, hollowBookGo.transform.position.y, hollowBookGo.transform.position.z);
-                hollowBookGo.GetComponent<BookshelfBook>().Setup(hollowBook, Bookkeeper.MoveToTill, BookInspector.ShowBookInspector);
+                hollowBookGo.GetComponent<BookshelfBook>().Setup(hollowBook, OnPickup, OnInspect);
                 
                 HollowBooks.Add(hollowBookGo);
             }
@@ -105,6 +106,37 @@ public class Bookshelf : MonoBehaviour
 
         bookshelfBook.GetComponent<Clickable>().enabled = true;
         bookshelfBook.GetComponent<EventOnHover>().enabled = true;
+    }
+
+    private bool IsFirstBookAndInspectionNotDone(BookDefinition hollowBook)
+    {
+        return hollowBook.Item.Name == "Rat poison" && !History.Contains("hollow.book.discovered");
+    }
+
+    private void OnPickup(BookDefinition hollowBook)
+    {
+        if (IsFirstBookAndInspectionNotDone(hollowBook))
+        {
+            BookInspector.ShowBookInspector(hollowBook);
+            Bookkeeper.MoveToTill(hollowBook);
+        }
+        else
+        {
+            Bookkeeper.MoveToTill(hollowBook);
+        }
+    }
+
+    private void OnInspect(BookDefinition hollowBook)
+    {
+        if (IsFirstBookAndInspectionNotDone(hollowBook))
+        {
+            BookInspector.ShowBookInspector(hollowBook);
+            Bookkeeper.MoveToTill(hollowBook);
+        }
+        else
+        {
+            BookInspector.ShowBookInspector(hollowBook);
+        }
     }
 
     private GameObject FindBook(BookDefinition book)

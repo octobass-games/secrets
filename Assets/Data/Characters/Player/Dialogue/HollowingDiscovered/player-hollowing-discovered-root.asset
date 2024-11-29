@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: player-hollowing-discovered-root
+  m_EditorClassIdentifier: 
+  Id: 1d5c52c4-27c8-48f6-9085-952a5ea014a4
+  Speaker: {fileID: 11400000, guid: 814c93d76037f7b49862a6ff6b95fd74, type: 2}
+  Text: It looks like this book's been hollowed out... probably with the knife I
+    found in the compartment.
+  NextLine: {fileID: 11400000, guid: 13b975a868a56654ab4cc18c62431dca, type: 2}
+  Events: []
+  Choices: []

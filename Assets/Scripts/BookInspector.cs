@@ -19,6 +19,8 @@ public class BookInspector : MonoBehaviour
     public History History;
     public Image BookCover;
     public Image Item;
+    public DialogueManager DialogueManager;
+    public Line FirstInspectionOfHollowBookDialogue;
 
     public GameObject ItemPrefab;
     public GameObject ItemsView;
@@ -35,6 +37,7 @@ public class BookInspector : MonoBehaviour
         BookTitleView.text = definition.Name;
         BookDesciptionView.text = definition.Description;
         BookCover.color = definition.Colour;
+
         RRPView.text = "RRP: " +definition.RecommendedSellPrice + " coins";
         BookAuthorView.text = "Author: " + definition.Author;
         BookIspnView.text = "ISBN: " + definition.ISBN;
@@ -45,6 +48,12 @@ public class BookInspector : MonoBehaviour
         {
             BookHollow.SetActive(true);
 
+            RRPView.text = "";
+            BookAuthorView.text = "";
+            BookIspnView.text = "";
+            PriceView.text = "";
+            StockView.text = "";
+
             if (definition.Item != null)
             {
                 Item.gameObject.SetActive(true);
@@ -53,6 +62,11 @@ public class BookInspector : MonoBehaviour
             else
             {
                 Item.gameObject.SetActive(false);
+            }
+
+            if (definition.Item != null && definition.Item.Name == "Rat poison" && !History.Contains("hollow.book.discussed"))
+            {
+                DialogueManager.Begin(FirstInspectionOfHollowBookDialogue);
             }
         }
         else
