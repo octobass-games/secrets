@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-40a41a99-230b-4059-a7e2-9367418975d1
+  m_EditorClassIdentifier: 
+  Id: 40a41a99-230b-4059-a7e2-9367418975d1
+  Text: "You\u2019re about to find your inner zen."
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: b71a7dcce0fba6a479b95188954a8786, type: 2}
+  Requirements:
+  - Type: 1
+    Name: 
+    Book: {fileID: 0}
+    Books:
+    - {fileID: 11400000, guid: b31db01e4d657ed4092b94fdd3e4a92a, type: 2}
+    - {fileID: 11400000, guid: 447812950eaae574cbbaedabd44be0d1, type: 2}
+    - {fileID: 11400000, guid: c972f99a904752848955a6fc4a705ba1, type: 2}
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

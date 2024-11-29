@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-4a64c351-c80f-481d-b93c-b94b96dd6918
+  m_EditorClassIdentifier: 
+  Id: 4a64c351-c80f-481d-b93c-b94b96dd6918
+  Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+  Text: "Don\u2019t worry, I\u2019m not on duty. I\u2019m just here to buy a book."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: b78c2d5cee0f8eb40a243e7a990b1475, type: 2}
+  - {fileID: 11400000, guid: 9ff505078ddebff49807ba09c70712bf, type: 2}

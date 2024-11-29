@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-658f9d8e-5d85-40cc-9409-e64f0c0175e9
+  m_EditorClassIdentifier: 
+  Id: 658f9d8e-5d85-40cc-9409-e64f0c0175e9
+  Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+  Text: "Hmm\u2026 you make a compelling argument."
+  NextLine: {fileID: 11400000, guid: 8a3d09f348670f5458b36b9ee2feb181, type: 2}
+  Events: []
+  Choices: []

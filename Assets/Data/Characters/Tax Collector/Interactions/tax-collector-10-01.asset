@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: tax-collector-10-01
   m_EditorClassIdentifier: 
   RelationshipRequirement: 1
-  RootLines: []
+  RootLines:
+  - {fileID: 11400000, guid: d5a853e93a58f984083c69f9486dd7d6, type: 2}
+  - {fileID: 11400000, guid: 2d37894eeeb45674eb9b43aa4e3173c8, type: 2}
