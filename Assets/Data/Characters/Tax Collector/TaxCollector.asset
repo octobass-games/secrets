@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd38e5fec1b86ff4d9fe400986412c7e, type: 3}
   m_Name: TaxCollector
   m_EditorClassIdentifier: 
-  Name: "\xD8yvind"
+  Name: Oyvind
   Interactions:
   - {fileID: 11400000, guid: b1f5aa63ac5e18541be9aaeaff855f9e, type: 2}
   - {fileID: 11400000, guid: dd7d3d59f9bdcbb4cb3c176db9cfd337, type: 2}
