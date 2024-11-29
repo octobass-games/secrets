@@ -23,12 +23,15 @@ public class Log : MonoBehaviour
     public TMP_Text SalesRecordsTotal;
     public TMP_Text OutgoingCostsTotal;
     public TMP_Text EndOfDayBankBalance;
+    public GameObject LoadStamp;
+    public Button LoadStampButton;
 
     private int DailyTransactionsIndex;
     private List<GameObject> UniqueSales = new();
     private List<GameObject> SalesRecords = new();
     private List<GameObject> OutgoingCosts = new();
     private GameObject DailyTransactionsStamp;
+    private bool LoadingLog = true;
 
     public void DisplayLog()
     {
@@ -53,6 +56,11 @@ public class Log : MonoBehaviour
         Stamp.SetActive(false);
         PreviousPageButton.gameObject.SetActive(false);
         NextPageButton.gameObject.SetActive(false);
+    }
+
+    public void DisplayLoadingLog()
+    {
+        LoadingLog = true;
     }
 
     public void NextLog()
@@ -181,6 +189,18 @@ public class Log : MonoBehaviour
         UniqueSalesTotal.text = uniqueSalesTotal.ToString() + " coins";
         SalesRecordsTotal.text = bookSalesTotal.ToString() + " coins";
         OutgoingCostsTotal.text = outgoingsTotal.ToString() + " coins";
+
+        if (LoadingLog)
+        {
+            LoadStampButton.onClick.RemoveAllListeners();
+
+            LoadStamp.SetActive(true);
+            
+            LoadStampButton.onClick.AddListener(() =>
+            {
+                SaveManager.Instance.Rewind(DailyTransactionsIndex);
+            });
+        }
     }
 
     private void ClearDailyTransactions()

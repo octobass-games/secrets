@@ -22233,6 +22233,8 @@ MonoBehaviour:
   SalesRecordsTotal: {fileID: 963987239}
   OutgoingCostsTotal: {fileID: 660265082}
   EndOfDayBankBalance: {fileID: 1017963101}
+  LoadStamp: {fileID: 2154512900278508534}
+  LoadStampButton: {fileID: 2154512900278508533}
 --- !u!1 &2074705857
 GameObject:
   m_ObjectHideFlags: 0
@@ -23874,6 +23876,22 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 905731722}
   m_SourcePrefab: {fileID: 100100000, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+--- !u!114 &2154512900278508533 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4452376833976497650, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+  m_PrefabInstance: {fileID: 2154512900278508532}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2154512900278508534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2154512900278508534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8596516681836560431, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+  m_PrefabInstance: {fileID: 2154512900278508532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2999431808451543544
 PrefabInstance:
   m_ObjectHideFlags: 0
