@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-67ce11a5-3cae-4fa5-b5b2-d8e827a530a9
+  m_EditorClassIdentifier: 
+  Id: 67ce11a5-3cae-4fa5-b5b2-d8e827a530a9
+  Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
+  Text: "So\u2026 \u201CI Accidentally Moved in With the Devil?!?\u201D. AWESOME.
+    Abigale Crow may be coming for Renee\u2019s crown!"
+  NextLine: {fileID: 11400000, guid: 038f9823b639dcd43b99a09c1ed37f64, type: 2}
+  Events: []
+  Choices: []

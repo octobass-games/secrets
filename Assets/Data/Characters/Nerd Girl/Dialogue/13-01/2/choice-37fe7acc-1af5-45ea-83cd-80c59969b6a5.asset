@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-37fe7acc-1af5-45ea-83cd-80c59969b6a5
+  m_EditorClassIdentifier: 
+  Id: 37fe7acc-1af5-45ea-83cd-80c59969b6a5
+  Text: He's here, and looking very charming!
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: f5f81ccaebb77944c87e4fba0f315842, type: 2}
+  Requirements:
+  - Type: 1
+    Name: 
+    Book: {fileID: 11400000, guid: b11bcd9bae96c8347825d001776503a7, type: 2}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

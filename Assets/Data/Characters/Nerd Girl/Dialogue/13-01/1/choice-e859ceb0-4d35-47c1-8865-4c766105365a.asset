@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-e859ceb0-4d35-47c1-8865-4c766105365a
+  m_EditorClassIdentifier: 
+  Id: e859ceb0-4d35-47c1-8865-4c766105365a
+  Text: "Luckily for you he\u2019s not real, so that isn\u2019t a problem."
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: dbfb6724e0b61f648a4494986a4307f8, type: 2}
+  Requirements: []
