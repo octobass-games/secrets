@@ -31,7 +31,7 @@ public class Log : MonoBehaviour
     private List<GameObject> SalesRecords = new();
     private List<GameObject> OutgoingCosts = new();
     private GameObject DailyTransactionsStamp;
-    private bool LoadingLog = true;
+    private bool LoadingLog;
 
     public void DisplayLog()
     {
@@ -51,6 +51,10 @@ public class Log : MonoBehaviour
     {
         DisplayLog();
 
+        var dailyTransactions = Bookkeeper.GetDailyTransactions();
+
+        EndOfDayBankBalance.text = "Bank balance: " + dailyTransactions[dailyTransactions.Count - 1].EndOfDayBankBalance.ToString();
+
         CloseButton.SetActive(false);
         EndOfDayStamp.SetActive(true);
         Stamp.SetActive(false);
@@ -61,6 +65,7 @@ public class Log : MonoBehaviour
     public void DisplayLoadingLog()
     {
         LoadingLog = true;
+        DisplayLog();
     }
 
     public void NextLog()
@@ -78,6 +83,7 @@ public class Log : MonoBehaviour
     public void HideLog()
     {
         LogView.SetActive(false);
+        LoadingLog = false;
     }
 
     private void ListDailyTransactions()
