@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-051f35a9-cea6-493f-bbb8-c49e2c799e15
+  m_EditorClassIdentifier: 
+  Id: 051f35a9-cea6-493f-bbb8-c49e2c799e15
+  Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
+  Text: "Anyway, my understanding is that this week\u2019s bestseller is excellent,
+    so I\u2019d like to give it a read."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: a53a7692de3496c47bf6138d3ea3cc80, type: 2}

@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: landlord-12-01
   m_EditorClassIdentifier: 
   RelationshipRequirement: 1
-  RootLines: []
+  RootLines:
+  - {fileID: 11400000, guid: 1abaa7adb11f1354e8ec304f0958fc36, type: 2}
+  - {fileID: 11400000, guid: 7fd412c7a930b94439aa32f5db280cdc, type: 2}
