@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
-  m_Name: Horror 1
+  m_Name: The Castle on the hill
   m_EditorClassIdentifier: 
-  Name: Horror 1
-  Author: 
-  Description: 
+  Name: The Castle on the hill
+  Author: Eran Daniyal
+  Description: A lone castle stands on a old hill, unvisited in decades. Does Betty
+    dare approach?
+  ISBN: 0022
   Category: 15
-  Cover: {fileID: -242401414, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Cover: {fileID: 1656411517, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
   RecommendedSellPrice: 0
   SellPrice: 0
