@@ -152,6 +152,12 @@ public class Log : MonoBehaviour
             CreateOutgoingCost("Rent", record.Rent.ToString());
         }
 
+        if (record.MiscellaneousCosts != 0)
+        {
+            outgoingsTotal += record.MiscellaneousCosts;
+            CreateOutgoingCost("Miscellaneous", record.MiscellaneousCosts.ToString());
+        }
+
         int uniqueSalesTotal = 0;
 
         foreach (UniqueBookSale uniqueBookSale in record.UniqueBookSales)

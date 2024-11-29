@@ -65,6 +65,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Subscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Subscribe(GameEventType.ITEM_ORDER, OnItemOrder);
         EventManager.Instance.Subscribe(GameEventType.INVENTORY_SELL, OnBookSell);
+        EventManager.Instance.Subscribe(GameEventType.PAYING_FOR_INFORMATION, OnPayingForInformation);
         EventManager.Instance.Subscribe(GameEventType.MONTHLY_RENT_AGREED, OnMonthlyRentAgreed);
     }
 
@@ -77,7 +78,15 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Unsubscribe(GameEventType.BOOK_ORDER, OnBookOrder);
         EventManager.Instance.Unsubscribe(GameEventType.ITEM_ORDER, OnItemOrder);
         EventManager.Instance.Unsubscribe(GameEventType.INVENTORY_SELL, OnBookSell);
+        EventManager.Instance.Unsubscribe(GameEventType.PAYING_FOR_INFORMATION, OnPayingForInformation);
         EventManager.Instance.Unsubscribe(GameEventType.MONTHLY_RENT_AGREED, OnMonthlyRentAgreed);
+    }
+
+    private void OnPayingForInformation(GameEvent @event)
+    {
+        TransactionsToday.MiscellaneousCosts += @event.Amount;
+
+        Withdraw(@event.Amount);
     }
 
     public List<DailyTransactions> GetDailyTransactions()
@@ -112,7 +121,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         Today = @event.Day;
 
-        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new(), new(), 0, 0, 0);
+        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new(), new(), 0, 0, 0, 0);
         DailyTransactions.Add(TransactionsToday);
 
         var booksInStock = Books.FindAll(InStock).ToList();

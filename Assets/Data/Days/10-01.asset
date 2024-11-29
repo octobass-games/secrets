@@ -101,6 +101,43 @@ MonoBehaviour:
     ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 1
+    SellForFree: 0
+    Requirements: []
+  - Type: 8
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements:
+    - Type: 0
+      Name: paid.to.meet.supplier
+      Book: {fileID: 0}
+      Books: []
+      Negate: 0
+      Amount: 0
+      Item: {fileID: 0}
+  - Type: 9
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []

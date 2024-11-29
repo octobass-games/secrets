@@ -15,7 +15,7 @@ MonoBehaviour:
   Id: 57e7eb09-2543-4c53-a948-80f1774625a0
   Text: "Interesting\u2026 here you are."
   Events:
-  - Type: 11
+  - Type: 20
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}

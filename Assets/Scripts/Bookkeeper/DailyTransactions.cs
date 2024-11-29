@@ -9,11 +9,12 @@ public class DailyTransactions
     public List<BookSale> BookSales;
     public List<Order> BookOrders;
     public List<Order> ItemOrders;
+    public int MiscellaneousCosts;
     public int Tax;
     public int Rent;
     public int EndOfDayBankBalance;
 
-    public DailyTransactions(string date, List<UniqueBookSale> uniqueBookSales, List<BookSale> bookSales, List<Order> bookOrders, List<Order> itemOrders, int tax, int rent, int endOfDayBankBalance)
+    public DailyTransactions(string date, List<UniqueBookSale> uniqueBookSales, List<BookSale> bookSales, List<Order> bookOrders, List<Order> itemOrders, int tax, int rent, int endOfDayBankBalance, int miscellaneousCosts)
     {
         Date = date;
         UniqueBookSales = uniqueBookSales;
@@ -23,5 +24,6 @@ public class DailyTransactions
         Tax = tax;
         Rent = rent;
         EndOfDayBankBalance = endOfDayBankBalance;
+        MiscellaneousCosts = miscellaneousCosts;
     }
 }
