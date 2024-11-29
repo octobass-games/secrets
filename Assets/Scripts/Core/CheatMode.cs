@@ -24,10 +24,15 @@ public class CheatMode : MonoBehaviour
             {
                 var day = int.Parse(dayString);
                 DayManager.SkipToDay(day);
-            }catch
+            }
+            catch
             {
 
             }
+        }
+        else if (CheatInput.text.Equals("motherlode"))
+        {
+            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.BANK_DEPOSIT, Amount = 50000 });
         }
     }
 }
