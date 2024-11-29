@@ -13,12 +13,12 @@ GameObject:
   - component: {fileID: 5449384948121872842}
   - component: {fileID: 7192496154871981246}
   m_Layer: 5
-  m_Name: CostOfLivingRises
+  m_Name: Gem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4984694227750893204
 RectTransform:
   m_ObjectHideFlags: 0
@@ -460,7 +460,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7256949551890718123
 RectTransform:
   m_ObjectHideFlags: 0
@@ -840,7 +840,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3767953566087955437
 RectTransform:
   m_ObjectHideFlags: 0
