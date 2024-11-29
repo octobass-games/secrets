@@ -34,5 +34,9 @@ public class CheatMode : MonoBehaviour
         {
             EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.BANK_DEPOSIT, Amount = 50000 });
         }
+        else if (CheatInput.text.Equals("/kill"))
+        {
+            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.GAME_OVER });
+        }
     }
 }
