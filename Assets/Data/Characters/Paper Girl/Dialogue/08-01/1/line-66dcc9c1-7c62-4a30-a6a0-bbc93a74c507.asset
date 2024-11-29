@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-66dcc9c1-7c62-4a30-a6a0-bbc93a74c507
+  m_EditorClassIdentifier: 
+  Id: 66dcc9c1-7c62-4a30-a6a0-bbc93a74c507
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: "The police are trying their best, but useless as normal. No doubt they\u2019ll
+    mark it as suspicious but leave the case unsolved, much like your grandma."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 7a1c17abf51079c408f2cc439e90150f, type: 2}

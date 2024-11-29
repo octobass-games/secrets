@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-addd1614-369b-4391-91b9-bc23995f8746
+  m_EditorClassIdentifier: 
+  Id: addd1614-369b-4391-91b9-bc23995f8746
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: "Anyway sorry, enough of this dreary talk. I actually thought I\u2019d drop
+    by to offer you an introduction with an acquaintance of mine. It\u2019ll only
+    cost you 300 coins?"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 03a70bbee04198e4fb23ee6735825d15, type: 2}

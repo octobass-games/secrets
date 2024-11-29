@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-9ac3fe23-2483-4f44-bc1a-4f3dfc069587
+  m_EditorClassIdentifier: 
+  Id: 9ac3fe23-2483-4f44-bc1a-4f3dfc069587
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: "Yep, you can trust me it\u2019ll be worth your while. For what it\u2019s
+    worth, they and your grandma used to get on splendidly\u2026"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: f01ed3eb27d69ae409b147cea916adf5, type: 2}
+  - {fileID: 11400000, guid: 0034b7f6a7f97814da09ec55e6344859, type: 2}

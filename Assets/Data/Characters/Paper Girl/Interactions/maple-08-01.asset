@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: maple-08-01
   m_EditorClassIdentifier: 
   RelationshipRequirement: 1
-  RootLines: []
+  RootLines:
+  - {fileID: 11400000, guid: aafda6d2b036af6469f887e41d7a60bc, type: 2}
