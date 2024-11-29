@@ -31,7 +31,7 @@ MonoBehaviour:
     Requirements: []
   - Type: 10
     Memory: 
-    Paper: {fileID: 11400000, guid: 764f1087aa3294d49b717764a4d39074, type: 2}
+    Paper: {fileID: 11400000, guid: 836d434612baf854889e87dadbe434e7, type: 2}
     BookName: {fileID: 0}
     Day: {fileID: 0}
     Character: {fileID: 0}

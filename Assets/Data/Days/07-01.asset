@@ -71,7 +71,7 @@ MonoBehaviour:
     ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
-    TriggerNextDailyEvent: 0
+    TriggerNextDailyEvent: 1
     SellForFree: 0
     Requirements: []
   - Type: 8

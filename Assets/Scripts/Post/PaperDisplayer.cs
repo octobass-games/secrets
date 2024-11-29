@@ -1,48 +1,38 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PaperDisplayer : MonoBehaviour
 {
-    public GameObject IssueOne;
-    public Button IssueOneClose;
-    public GameObject IssueTwo;
-    public GameObject IssueThree;
-    public GameObject IssueFour;
 
-    public PaperDefinition PaperIssueOne;
-    public PaperDefinition PaperIssueTwo;
-    public PaperDefinition PaperIssueThree;
-    public PaperDefinition PaperIssueFour;
+    public List<PaperDefinition> PaperDefinitions;
+    public List<GameObject> Issues;
+    public List<Button> CloseButtons;
 
     public DayManager DayManager;
 
     public void RenderPaperFirstTime(PaperDefinition paper)
     {
-        if (paper == PaperIssueOne)
-        {
-            IssueOne.SetActive(true);
 
-            IssueOneClose.onClick.RemoveAllListeners();
-            IssueOneClose.onClick.AddListener(() =>
-            {
-                EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.NEXT_DAILY_EVENT });
-                IssueOne.SetActive(false);
+        int index = PaperDefinitions.FindIndex(p => p.Name == paper.Name);
+        if (index >= 0)
+        {
+            RenderPaper(Issues[index], CloseButtons[index]);
+        }
+    }
 
-                IssueOneClose.onClick.RemoveAllListeners();
-                IssueOneClose.onClick.AddListener(() => IssueOne.SetActive(false));
-            });
-        }
-        if (paper == PaperIssueTwo)
+    private void RenderPaper(GameObject Issue, Button Close)
+    {
+        Issue.SetActive(true);
+
+        Close.onClick.RemoveAllListeners();
+        Close.onClick.AddListener(() =>
         {
-            IssueOne.SetActive(true);
-        }
-        if (paper == PaperIssueThree)
-        {
-            IssueOne.SetActive(true);
-        }
-        if (paper == PaperIssueFour)
-        {
-            IssueOne.SetActive(true);
-        }
+            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.NEXT_DAILY_EVENT });
+            Issue.SetActive(false);
+
+            Close.onClick.RemoveAllListeners();
+            Close.onClick.AddListener(() => Issue.SetActive(false));
+        });
     }
 }
