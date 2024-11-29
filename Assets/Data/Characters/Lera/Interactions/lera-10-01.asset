@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: lera-10-01
   m_EditorClassIdentifier: 
   RelationshipRequirement: 2
-  RootLines: []
+  RootLines:
+  - {fileID: 11400000, guid: ea378e3867d510740a835d8120ec94c7, type: 2}
+  - {fileID: 11400000, guid: c594e74a1d1c0af4c8d33ec05c64542a, type: 2}

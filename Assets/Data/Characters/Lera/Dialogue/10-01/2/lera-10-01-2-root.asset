@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: lera-10-01-2-root
+  m_EditorClassIdentifier: 
+  Id: 8f01626e-d972-4e7d-8fb6-4c7993cdb963
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: Am I going to be getting more nicks and cuts, or are you going to spare me
+    with your trusty safety book?
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 32d9d97136fd99f448cbc41eca6ae34e, type: 2}
+  - {fileID: 11400000, guid: b188108d789949d46a7f4ebe009303a8, type: 2}
+  - {fileID: 11400000, guid: 4a8d9b573c3d5e547b97a4e193a7cfa6, type: 2}

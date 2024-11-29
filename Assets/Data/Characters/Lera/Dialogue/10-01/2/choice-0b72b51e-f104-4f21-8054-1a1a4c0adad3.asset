@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-0b72b51e-f104-4f21-8054-1a1a4c0adad3
+  m_EditorClassIdentifier: 
+  Id: 0b72b51e-f104-4f21-8054-1a1a4c0adad3
+  Text: "I\u2019m going to spare you."
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: 9e022537909ac1e43981cc157adbfb3e, type: 2}
+  Requirements:
+  - Type: 1
+    Name: 
+    Book: {fileID: 11400000, guid: 1fecaab016fdaf04da7ae4e7176fde5c, type: 2}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}
