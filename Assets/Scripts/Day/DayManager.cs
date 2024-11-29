@@ -11,7 +11,6 @@ public class DayManager : MonoBehaviour, Savable
     private DayDefinition Today;
     private int TodayEventIndex;
     public Interaction SignInteraction;
-    public RequirementManager RequirementManager;
 
     void Awake()
     {
@@ -75,39 +74,7 @@ public class DayManager : MonoBehaviour, Savable
 
         if (TodayEventIndex < Today.DailyEvents.Count)
         {
-            int NextIndex = TodayEventIndex;
-
-            Debug.Log("Hello: " + NextIndex);
-
-            for (int i = TodayEventIndex; i < Today.DailyEvents.Count; i++)
-            {
-                
-                var requirements = Today.DailyEvents[i].Requirements;
-
-                Debug.Log(requirements.Count);
-
-                if (requirements != null && requirements.Count > 0)
-                {
-                    if (RequirementManager.AllSatisfied(requirements))
-                    {
-                        NextIndex = i;
-                        break;
-                    }
-                }
-                else
-                {
-                    NextIndex = i;
-                    break;
-                }
-            }
-
-            TodayEventIndex = NextIndex;
-
-            if (Today.DailyEvents[TodayEventIndex].Type != GameEventType.CLOSE_SHOP)
-            {
-                Debug.Log(TodayEventIndex);
-                EventManager.Instance.Publish(Today.DailyEvents[TodayEventIndex]);
-            }
+            EventManager.Instance.Publish(Today.DailyEvents[TodayEventIndex]);
         }
         else
         {
