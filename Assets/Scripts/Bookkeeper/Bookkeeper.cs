@@ -252,29 +252,37 @@ public class Bookkeeper : MonoBehaviour, Savable
         return Books.Find(b => b.IsEqual(book)).Stock > 0;
     }
 
-    public BookDefinition HollowBook(BookDefinition book)
+    public bool CanHollow()
     {
         if (HollowBooks.Count >= 3)
         {
             DialogueManager.Begin(TooManyHollowBooks, null, null);
 
+            return false;
+        }
+
+        return true;
+    }
+
+    public BookDefinition HollowBook(BookDefinition book)
+    {
+        if (!CanHollow())
+        {
             return null;
         }
-        else
-        {
-            var b = Books.Find(b => b.IsEqual(book));
-            b.Stock--;
 
-            var hollow = Instantiate(book);
+        var b = Books.Find(b => b.IsEqual(book));
+        b.Stock--;
 
-            HollowBooks.Add(hollow);
+        var hollow = Instantiate(book);
 
-            var booksInStock = Books.FindAll(InStock).ToList();
-            hollow.IsHollow = true;
-            Bookshelf.PlaceBooks(booksInStock, HollowBooks, TillBook);
+        HollowBooks.Add(hollow);
 
-            return hollow;
-        }
+        var booksInStock = Books.FindAll(InStock).ToList();
+        hollow.IsHollow = true;
+        Bookshelf.PlaceBooks(booksInStock, HollowBooks, TillBook);
+
+        return hollow;
     }
 
     public void InsertIntoHollowBook(BookDefinition hollowBook, ItemDefinition item)

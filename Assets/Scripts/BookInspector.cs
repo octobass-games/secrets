@@ -109,7 +109,7 @@ public class BookInspector : MonoBehaviour
 
     public void HollowBook()
     {
-        if (!Book.IsHollow)
+        if (!Book.IsHollow && Bookkeeper.CanHollow())
         {
             Book = Bookkeeper.HollowBook(Book);
             BookHollow.SetActive(true);
