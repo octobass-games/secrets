@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
-  m_Name: Childrens 4
+  m_Name: The Lost Wolf
   m_EditorClassIdentifier: 
-  Name: Childrens 4
-  Author: 
-  Description: 
+  Name: The Lost Wolf
+  Author: Vera Ilona
+  Description: A sequel to The Lonely Wolf, A wolf gets lost in the mountains and
+    searches for their family again.
+  ISBN: 0010
   Category: 14
   Cover: {fileID: 621548208, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.21960786, g: 0.42352945, b: 0.5686275, a: 1}

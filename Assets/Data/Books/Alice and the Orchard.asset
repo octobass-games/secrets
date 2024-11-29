@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
-  m_Name: Childrens 2
+  m_Name: Alice and the Orchard
   m_EditorClassIdentifier: 
-  Name: Childrens 2
-  Author: 
-  Description: 
+  Name: Alice and the Orchard
+  Author: Lily Smith
+  Description: 'Alice learns to how her parents orchard works, and succeeds in continuing
+    it '
+  ISBN: 0007
   Category: 14
-  Cover: {fileID: -1515703465, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Cover: {fileID: -2029632008, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.21960786, g: 0.42352945, b: 0.5686275, a: 1}
   RecommendedSellPrice: 0
   SellPrice: 0

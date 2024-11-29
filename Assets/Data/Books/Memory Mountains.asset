@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
-  m_Name: Childrens 1
+  m_Name: Memory Mountains
   m_EditorClassIdentifier: 
-  Name: Childrens 1
-  Author: 
-  Description: 
+  Name: Memory Mountains
+  Author: Lily Smith
+  Description: A lost child climbs memory mountains, and discovers a secret
+  ISBN: 0009
   Category: 14
-  Cover: {fileID: -2029632008, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Cover: {fileID: -1221572577, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.21960786, g: 0.42352945, b: 0.5686275, a: 1}
   RecommendedSellPrice: 0
   SellPrice: 0
