@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-28a84f3c-b21c-4e81-9d3a-ea5949740ab3
+  m_EditorClassIdentifier: 
+  Id: 28a84f3c-b21c-4e81-9d3a-ea5949740ab3
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "Anyway, we have an upcoming exam and I can\u2019t let him beat me."
+  NextLine: {fileID: 11400000, guid: ad770b3cc227cc244a1b076280bc3dff, type: 2}
+  Events: []
+  Choices: []
