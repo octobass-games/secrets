@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
   m_Name: Poisons
   m_EditorClassIdentifier: 
-  Name: Poisons
-  Author: 
-  Description: 
+  Name: Poisons and when to use them
+  Author: Perry Poise
+  Description: A break down of a variety of poisons and how to use them
+  ISBN: 0032
   Category: 7
   Cover: {fileID: 1421452120, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  colour: {r: 0.29411766, g: 0.41176474, b: 0.18431373, a: 1}
+  Colour: {r: 0.29411766, g: 0.41176474, b: 0.18431373, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
   Stock: 1
