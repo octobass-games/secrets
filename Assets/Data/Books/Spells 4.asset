@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
-  m_Name: Wellbeing 1
+  m_Name: Spells 4
   m_EditorClassIdentifier: 
-  Name: Calm Breath
-  Author: Cat Bee
-  Description: Learn how to breathe better, to improve your wellbeing.
-  ISBN: 0056
-  Category: 11
-  Cover: {fileID: -93163123, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
-  Colour: {r: 0.27450982, g: 0.18431373, b: 0.2509804, a: 1}
+  Name: Advanced Spells 2
+  Author: 'Z. B. Emerald '
+  Description: Another advanced grimoire for another advanced wizard.
+  ISBN: 0049
+  Category: 9
+  Cover: {fileID: 2006332395, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
+  Colour: {r: 0.24313727, g: 0.24313727, b: 0.24313727, a: 1}
   RecommendedSellPrice: 100
   SellPrice: 0
-  Stock: 0
+  Stock: 1
   CostToOrder: 0
   Item: {fileID: 0}
   LikelihoodToSell: 0

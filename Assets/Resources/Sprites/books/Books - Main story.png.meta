@@ -1428,7 +1428,7 @@ TextureImporter:
         width: 56
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1437,6 +1437,28 @@ TextureImporter:
       bones: []
       spriteID: 38b6eca7c42aba246a643015ea23d4d6
       internalID: -427105637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapons-3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 221
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488212f91b809cb4db4da3d76fe8ee4f
+      internalID: -419859014
       vertices: []
       indices: 
       edges: []
@@ -1512,6 +1534,7 @@ TextureImporter:
       Which Way to Hold Your Bow and Other Projectile Safety Instructions Book: 2626397587094690290
       arts-and-crafts: -427105637
       my-secret-gnome-boyfriend: 1607840409
+      weapons-3: -419859014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
