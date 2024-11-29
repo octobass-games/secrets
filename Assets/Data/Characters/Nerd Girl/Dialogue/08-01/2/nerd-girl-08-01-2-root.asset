@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: nerd-girl-08-01-2-root
+  m_EditorClassIdentifier: 
+  Id: 2e8cfd58-47a0-4bfa-8349-beb5bcfacc7d
+  Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
+  Text: "OMG, OMG, OMG! I can\u2019t wait! So where is it?"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: feff4bcd6a3747342a2261e438d6d98d, type: 2}
+  - {fileID: 11400000, guid: 3519fe677a133f443a89554cbdade070, type: 2}
+  - {fileID: 11400000, guid: 562f2d9037fcfc5429729f6d5d69441a, type: 2}
