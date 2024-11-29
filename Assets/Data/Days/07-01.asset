@@ -18,13 +18,17 @@ MonoBehaviour:
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
-    Day: {fileID: 0}
+    Day: {fileID: 11400000}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
   - Type: 6
     Memory: 
     Paper: {fileID: 0}
@@ -34,8 +38,12 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
   - Type: 8
     Memory: 
     Paper: {fileID: 0}
@@ -45,8 +53,12 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
   - Type: 9
     Memory: 
     Paper: {fileID: 0}
@@ -56,8 +68,12 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
   - Type: 8
     Memory: 
     Paper: {fileID: 0}
@@ -67,8 +83,12 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
   - Type: 9
     Memory: 
     Paper: {fileID: 0}
@@ -78,8 +98,12 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
   - Type: 7
     Memory: 
     Paper: {fileID: 0}
@@ -89,8 +113,12 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
   - Type: 5
     Memory: 
     Paper: {fileID: 0}
@@ -100,7 +128,11 @@ MonoBehaviour:
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
   IsInThePast: 0
   SupplierDialogue: {fileID: 0}
