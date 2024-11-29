@@ -13107,6 +13107,7 @@ MonoBehaviour:
     StampId: 
     TriggerNextDailyEvent: 0
     SellForFree: 0
+    Requirements: []
 --- !u!114 &1351191893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16688,6 +16689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 203ff764266b69d4eb3cdd46da8f0f62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RequirementManager: {fileID: 135454215}
   Visitors:
   - {fileID: 1812931139}
   - {fileID: 22259087}

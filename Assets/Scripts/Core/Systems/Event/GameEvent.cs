@@ -18,4 +18,5 @@ public class GameEvent
     public string StampId;
     public bool TriggerNextDailyEvent;
     public bool SellForFree;
+    public List<Requirement> Requirements;
 }
