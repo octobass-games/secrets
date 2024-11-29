@@ -8,6 +8,8 @@ public class BookInspector : MonoBehaviour
     public GameObject InspectorView;
     public Bookkeeper Bookkeeper;
     public TMP_Text BookTitleView;
+    public TMP_Text BookAuthorView;
+    public TMP_Text BookIspnView;
     public TMP_Text RRPView;
     public TMP_Text StockView;
     public TMP_Text PriceView;
@@ -34,6 +36,8 @@ public class BookInspector : MonoBehaviour
         BookDesciptionView.text = definition.Description;
         BookCover.color = definition.Colour;
         RRPView.text = "RRP: " +definition.RecommendedSellPrice + " coins";
+        BookAuthorView.text = "Author: " + definition.Author;
+        BookIspnView.text = "ISBN: " + definition.ISBN;
         PriceView.text = "Price: " + definition.SellPrice + " coins";
         StockView.text = "Stock: " + definition.Stock ;
 
