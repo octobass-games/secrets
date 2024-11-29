@@ -19,9 +19,7 @@ MonoBehaviour:
     Tax: 12.5% of all outgoings, to be paid every 7 days
 
     Rent:
-    7850 every 1st of the month
-
-'
+    7850 every 2 weeks.'
   NextLine: {fileID: 0}
   Events: []
   Choices: []
