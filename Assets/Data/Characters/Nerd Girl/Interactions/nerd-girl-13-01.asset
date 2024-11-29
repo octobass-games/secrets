@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: nerd-girl-13-01
   m_EditorClassIdentifier: 
   RelationshipRequirement: 2
-  RootLines: []
+  RootLines:
+  - {fileID: 11400000, guid: 207f56aa6ad36f94b90fee64dc99cefb, type: 2}
+  - {fileID: 11400000, guid: 4e8bdb2f92aab3747a3c4e231e0c8115, type: 2}
