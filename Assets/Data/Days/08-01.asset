@@ -18,7 +18,7 @@ MonoBehaviour:
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
-    Day: {fileID: 0}
+    Day: {fileID: 11400000}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
     Amount: 0
