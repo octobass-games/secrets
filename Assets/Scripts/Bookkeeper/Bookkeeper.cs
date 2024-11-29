@@ -112,7 +112,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         Today = @event.Day;
 
-        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new(), new(), 0, 0);
+        TransactionsToday = new DailyTransactions(Today.Date, new(), new(), new(), new(), 0, 0, 0);
         DailyTransactions.Add(TransactionsToday);
 
         var booksInStock = Books.FindAll(InStock).ToList();
@@ -152,6 +152,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         UpdateSalesRecords();
         UpdateStock();
+        TransactionsToday.EndOfDayBankBalance = BankBalance;
     }
 
     public bool IsAffordablePayment(int paymentAmount)

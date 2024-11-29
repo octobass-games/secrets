@@ -10589,6 +10589,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1017963101 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8009922998416640607, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+  m_PrefabInstance: {fileID: 2154512900278508532}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1025523604
 GameObject:
   m_ObjectHideFlags: 0
@@ -21712,6 +21723,7 @@ MonoBehaviour:
   UniqueSalesTotal: {fileID: 732000454}
   SalesRecordsTotal: {fileID: 963987239}
   OutgoingCostsTotal: {fileID: 660265082}
+  EndOfDayBankBalance: {fileID: 1017963101}
 --- !u!1 &2074705857
 GameObject:
   m_ObjectHideFlags: 0
@@ -23326,6 +23338,10 @@ PrefabInstance:
     - target: {fileID: 7990142283617363417, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8009922998416640607, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8552404880453031817, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

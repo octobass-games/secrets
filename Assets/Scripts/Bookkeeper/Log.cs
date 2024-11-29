@@ -22,6 +22,7 @@ public class Log : MonoBehaviour
     public TMP_Text UniqueSalesTotal;
     public TMP_Text SalesRecordsTotal;
     public TMP_Text OutgoingCostsTotal;
+    public TMP_Text EndOfDayBankBalance;
 
     private int DailyTransactionsIndex;
     private List<GameObject> UniqueSales = new();
@@ -100,6 +101,15 @@ public class Log : MonoBehaviour
         DailyTransactions record = dailyTransactions[DailyTransactionsIndex];
 
         DateView.text = record.Date;
+
+        if (DailyTransactionsIndex < dailyTransactions.Count - 1)
+        {
+            EndOfDayBankBalance.text = "Bank balance: " + record.EndOfDayBankBalance.ToString();
+        }
+        else
+        {
+            EndOfDayBankBalance.text = "";
+        }
 
         int bookSalesTotal = 0;
 

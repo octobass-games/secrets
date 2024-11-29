@@ -11,8 +11,9 @@ public class DailyTransactions
     public List<Order> ItemOrders;
     public int Tax;
     public int Rent;
+    public int EndOfDayBankBalance;
 
-    public DailyTransactions(string date, List<UniqueBookSale> uniqueBookSales, List<BookSale> bookSales, List<Order> bookOrders, List<Order> itemOrders, int tax, int rent)
+    public DailyTransactions(string date, List<UniqueBookSale> uniqueBookSales, List<BookSale> bookSales, List<Order> bookOrders, List<Order> itemOrders, int tax, int rent, int endOfDayBankBalance)
     {
         Date = date;
         UniqueBookSales = uniqueBookSales;
@@ -21,5 +22,6 @@ public class DailyTransactions
         ItemOrders = itemOrders;
         Tax = tax;
         Rent = rent;
+        EndOfDayBankBalance = endOfDayBankBalance;
     }
 }
