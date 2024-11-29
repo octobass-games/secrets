@@ -308,7 +308,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         }
     }
 
-    private void RegisterBookSale(BookDefinition book, CharacterDefinition character)
+    private void RegisterBookSale(BookDefinition book, CharacterDefinition character, int customAmount = 0)
     {
         book.Stock--;
 
@@ -330,9 +330,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         }
         else
         {
-            BankBalance += book.RecommendedSellPrice;
+            var price = customAmount != 0 ? customAmount : book.RecommendedSellPrice;
 
-            TransactionsToday.UniqueBookSales.Add(new UniqueBookSale(character.Name, book.Name, book.RecommendedSellPrice));
+            BankBalance += price;
+
+            TransactionsToday.UniqueBookSales.Add(new UniqueBookSale(character.Name, book.Name, price));
         }
     }
 
@@ -472,7 +474,7 @@ public class Bookkeeper : MonoBehaviour, Savable
             else
             {
                 var b = Books.Find(b => b.IsEqual(book));
-                RegisterBookSale(b, @event.Character);
+                RegisterBookSale(b, @event.Character, @event.Amount);
                 
                 var booksInStock = Books.FindAll(InStock).ToList();
                 Bookshelf.PlaceBooks(booksInStock, HollowBooks, null);
