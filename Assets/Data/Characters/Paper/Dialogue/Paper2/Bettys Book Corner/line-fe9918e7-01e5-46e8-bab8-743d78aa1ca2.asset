@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-fe9918e7-01e5-46e8-bab8-743d78aa1ca2
+  m_EditorClassIdentifier: 
+  Id: fe9918e7-01e5-46e8-bab8-743d78aa1ca2
+  Speaker: {fileID: 11400000, guid: 371e351cd644cc44685c7d628c94c521, type: 2}
+  Text: This book is quickly rising up the bestsellers rankings. A must read.
+  NextLine: {fileID: 11400000, guid: 55352d9bb46830e4a874da4b1d771df3, type: 2}
+  Events: []
+  Choices: []
