@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: IssueOne
   DayDefinition: {fileID: 11400000, guid: a51c3613560d77a4888136ca0845abcd, type: 2}
+  ShouldTriggerNextEventWhenRead: 1

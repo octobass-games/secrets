@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: investor-09-01
   m_EditorClassIdentifier: 
   RelationshipRequirement: 1
-  RootLines: []
+  RootLines:
+  - {fileID: 11400000, guid: 67d3ab90a7101ec44bc5ae3bf2836661, type: 2}
