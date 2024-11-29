@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-cd4fceab-c8e1-423c-8140-f50a96e84b4c
+  m_EditorClassIdentifier: 
+  Id: cd4fceab-c8e1-423c-8140-f50a96e84b4c
+  Text: Here you are...
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: e72ba679a0ed87d489133fec1c46f135, type: 2}
+  Requirements:
+  - Type: 1
+    Name: 
+    Book: {fileID: 11400000, guid: 5adbfac9fddeb2b46ab85ceef388073c, type: 2}
+    Books: []
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}
+  - Type: 3
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

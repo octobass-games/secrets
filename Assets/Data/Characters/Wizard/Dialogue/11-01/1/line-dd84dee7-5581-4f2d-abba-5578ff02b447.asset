@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-dd84dee7-5581-4f2d-abba-5578ff02b447
+  m_EditorClassIdentifier: 
+  Id: dd84dee7-5581-4f2d-abba-5578ff02b447
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "They\u2019ve never seen another wizard with my level of talent for one so
+    young."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 35a06a0d4ac3924498819e5529837828, type: 2}
+  - {fileID: 11400000, guid: b201091c717039a4aa581995eba913ca, type: 2}
+  - {fileID: 11400000, guid: 3803e07f0a0fca54c9d8d315fdb11aaf, type: 2}
+  - {fileID: 11400000, guid: 03bb626d6f2d6be43b4c6de39baf05e0, type: 2}

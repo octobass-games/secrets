@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: gem-11-01
   m_EditorClassIdentifier: 
   RelationshipRequirement: 0
-  RootLines: []
+  RootLines:
+  - {fileID: 11400000, guid: 2db494f1f930828458ea5193c857746a, type: 2}
+  - {fileID: 11400000, guid: 78f4a7d65128ac6408ce318830e58c46, type: 2}
