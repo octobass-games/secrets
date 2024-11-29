@@ -7,6 +7,7 @@ public class BookDefinition : ScriptableObject
     public string Name;
     public string Author;
     public string Description;
+    public string ISBN;
     public BookCategory Category;
     [FormerlySerializedAs("Sprite")]
     public Sprite Cover;

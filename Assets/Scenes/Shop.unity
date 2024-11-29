@@ -5399,6 +5399,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &614607757 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3324302519015832244, guid: adc10dea52eae354fb750de329995ae5, type: 3}
+  m_PrefabInstance: {fileID: 1735260204323192543}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &622499449
 GameObject:
   m_ObjectHideFlags: 0
@@ -8796,6 +8807,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &921117937 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6083646954513925193, guid: adc10dea52eae354fb750de329995ae5, type: 3}
+  m_PrefabInstance: {fileID: 1735260204323192543}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &921446002 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3542579047062560969, guid: 147ef44e844e38a4da882858229cde01, type: 3}
@@ -10880,6 +10902,8 @@ MonoBehaviour:
   InspectorView: {fileID: 34328783}
   Bookkeeper: {fileID: 509350324}
   BookTitleView: {fileID: 16715407}
+  BookAuthorView: {fileID: 614607757}
+  BookIspnView: {fileID: 921117937}
   RRPView: {fileID: 1735260204323192548}
   StockView: {fileID: 1735260204323192547}
   PriceView: {fileID: 1735260204323192546}
