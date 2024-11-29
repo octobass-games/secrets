@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-a5309c90-12f8-4831-8a13-9f3790fa4784
+  m_EditorClassIdentifier: 
+  Id: a5309c90-12f8-4831-8a13-9f3790fa4784
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "Kiddo, that\u2019s worth a small fortune. And I\u2019m willing to put it
+    up if I could take it off your hands?"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: b02b7f9b1ff10b54c80f3f8195ebedb3, type: 2}
