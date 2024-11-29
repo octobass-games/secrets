@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67afce1760dc55641bcc7b998b46b331, type: 3}
   m_Name: Poetry 3
   m_EditorClassIdentifier: 
-  Name: Poetry 3
-  Author: 
-  Description: 
+  Name: Lost or am I
+  Author: Brent Summerweather
+  Description: Brent Summerweather's breakout poetry book.
+  ISBN: 0030
   Category: 16
   Cover: {fileID: -2310646805615957877, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.67058825, g: 0.46274513, b: 0.24705884, a: 1}
