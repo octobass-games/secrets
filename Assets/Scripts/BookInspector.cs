@@ -48,11 +48,7 @@ public class BookInspector : MonoBehaviour
         {
             BookHollow.SetActive(true);
 
-            RRPView.text = "";
-            BookAuthorView.text = "";
-            BookIspnView.text = "";
-            PriceView.text = "";
-            StockView.text = "";
+            ClearNonHollowFields();
 
             if (definition.Item != null)
             {
@@ -74,7 +70,7 @@ public class BookInspector : MonoBehaviour
             BookHollow.SetActive(false);
         }
 
-        if (History.Contains("knife.unlocked"))
+        if (History.Contains("knife.unlocked") && !definition.IsHollow)
         {
             Knife.SetActive(true);
         }
@@ -119,6 +115,7 @@ public class BookInspector : MonoBehaviour
             BookHollow.SetActive(true);
             Knife.SetActive(false);
             Item.gameObject.SetActive(false);
+            ClearNonHollowFields();
         }
     }
 
@@ -130,6 +127,15 @@ public class BookInspector : MonoBehaviour
         Item.sprite = item.Sprite;
         
         HideItemSelector();
+    }
+
+    private void ClearNonHollowFields()
+    {
+        RRPView.text = "";
+        BookAuthorView.text = "";
+        BookIspnView.text = "";
+        PriceView.text = "";
+        StockView.text = "";
     }
 
     private void ClearItems()
