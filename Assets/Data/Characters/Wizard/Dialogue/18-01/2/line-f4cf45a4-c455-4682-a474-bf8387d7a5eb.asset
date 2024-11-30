@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-f4cf45a4-c455-4682-a474-bf8387d7a5eb
+  m_EditorClassIdentifier: 
+  Id: f4cf45a4-c455-4682-a474-bf8387d7a5eb
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "Thank you, I\u2019ll take this off your hands."
+  NextLine: {fileID: 11400000, guid: c3858c46622787d40b60cb69a8d17277, type: 2}
+  Events: []
+  Choices: []

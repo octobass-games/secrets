@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-da3d719b-22c6-4a95-884d-1a10ee3820ab
+  m_EditorClassIdentifier: 
+  Id: da3d719b-22c6-4a95-884d-1a10ee3820ab
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "Hm\u2026 this sounds like it could have potential."
+  NextLine: {fileID: 11400000, guid: 111f86fd885f5334eb9b49aa1b772631, type: 2}
+  Events: []
+  Choices: []

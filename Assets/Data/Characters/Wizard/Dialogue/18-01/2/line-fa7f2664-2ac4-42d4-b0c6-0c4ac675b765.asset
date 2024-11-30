@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-fa7f2664-2ac4-42d4-b0c6-0c4ac675b765
+  m_EditorClassIdentifier: 
+  Id: fa7f2664-2ac4-42d4-b0c6-0c4ac675b765
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "What\u2019s this\u2026 a potion?"
+  NextLine: {fileID: 11400000, guid: 2c216c38014af7d49b2a278698395215, type: 2}
+  Events: []
+  Choices: []

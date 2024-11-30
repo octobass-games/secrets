@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-663b1273-aa10-44ef-90e1-89625d1895a5
+  m_EditorClassIdentifier: 
+  Id: 663b1273-aa10-44ef-90e1-89625d1895a5
+  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+  Text: "I knew your grandma you see\u2026 she used to provide me with items that
+    aren\u2019t easy to find. If you get what I mean?"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 7d4bd53cb8697cf48bd27a847d78e130, type: 2}
+  - {fileID: 11400000, guid: 9b9b1f4e7e422874493176971691ee97, type: 2}

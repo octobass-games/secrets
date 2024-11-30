@@ -10,16 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-45cb3f04-a6b0-4af8-aa9c-c33cca1438fd
+  m_Name: line-82916b37-3e48-4b4e-a1f8-676ee22ae160
   m_EditorClassIdentifier: 
-  Id: 45cb3f04-a6b0-4af8-aa9c-c33cca1438fd
-  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
-  Text: "Well, well, well\u2026 it\u2019s just as I suspected. I knew there were
-    illegal goods being traded on this premises. I\u2019ll be reporting you to the
-    police immediately!"
+  Id: 82916b37-3e48-4b4e-a1f8-676ee22ae160
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "I\u2019ll be back in a few days\u2026 bye."
   NextLine: {fileID: 0}
   Events:
-  - Type: 23
+  - Type: 1
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
@@ -34,5 +32,21 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
-    Message: Bookshop closed due to secret smuggling operation
+    Message: 
+  - Type: 3
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   Choices: []

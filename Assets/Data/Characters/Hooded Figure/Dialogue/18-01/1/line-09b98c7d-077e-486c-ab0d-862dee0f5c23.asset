@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-09b98c7d-077e-486c-ab0d-862dee0f5c23
+  m_EditorClassIdentifier: 
+  Id: 09b98c7d-077e-486c-ab0d-862dee0f5c23
+  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+  Text: I work for them occasionally, but not always. And visiting this shop is unrelated
+    to my work with them.
+  NextLine: {fileID: 11400000, guid: 8ee785e0c83a123499b5f5bcbadcaf74, type: 2}
+  Events: []
+  Choices: []
