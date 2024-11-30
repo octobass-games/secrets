@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 14252577}
   - component: {fileID: 14252576}
   - component: {fileID: 14252578}
+  - component: {fileID: 14252579}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -259,6 +260,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &14252579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14252574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!1 &14997896
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,6 +789,7 @@ GameObject:
   - component: {fileID: 41245248}
   - component: {fileID: 41245247}
   - component: {fileID: 41245249}
+  - component: {fileID: 41245250}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -902,6 +918,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &41245250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41245245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!1 &57862654
 GameObject:
   m_ObjectHideFlags: 0
@@ -3304,6 +3334,7 @@ GameObject:
   - component: {fileID: 270644789}
   - component: {fileID: 270644788}
   - component: {fileID: 270644790}
+  - component: {fileID: 270644791}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -3432,6 +3463,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &270644791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270644786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!1 &279493943
 GameObject:
   m_ObjectHideFlags: 0
@@ -3531,6 +3576,7 @@ GameObject:
   - component: {fileID: 289820376}
   - component: {fileID: 289820375}
   - component: {fileID: 289820377}
+  - component: {fileID: 289820378}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -3659,6 +3705,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &289820378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289820373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!1 &309565906 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6514952449186013678, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
@@ -3978,6 +4038,7 @@ GameObject:
   - component: {fileID: 359356300}
   - component: {fileID: 359356299}
   - component: {fileID: 359356301}
+  - component: {fileID: 359356302}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -4106,6 +4167,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &359356302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359356297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!1001 &383602851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5606,6 +5681,7 @@ GameObject:
   - component: {fileID: 568760373}
   - component: {fileID: 568760372}
   - component: {fileID: 568760374}
+  - component: {fileID: 568760375}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -5734,6 +5810,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &568760375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568760370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!4 &585501831 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8753914944388623358, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
@@ -6748,6 +6838,7 @@ GameObject:
   - component: {fileID: 708120568}
   - component: {fileID: 708120567}
   - component: {fileID: 708120569}
+  - component: {fileID: 708120570}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -6876,6 +6967,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &708120570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708120565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!1 &709198283 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3302937014814320955, guid: 6ba798e5968e4f74fb78b5334d8dc299, type: 3}
@@ -10693,6 +10798,7 @@ GameObject:
   - component: {fileID: 1013660078}
   - component: {fileID: 1013660077}
   - component: {fileID: 1013660079}
+  - component: {fileID: 1013660080}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -10821,6 +10927,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1013660080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013660075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!114 &1017963101 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8009922998416640607, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
@@ -15397,6 +15517,7 @@ GameObject:
   - component: {fileID: 1526008657}
   - component: {fileID: 1526008656}
   - component: {fileID: 1526008658}
+  - component: {fileID: 1526008659}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -15525,6 +15646,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1526008659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526008654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!1 &1526174202
 GameObject:
   m_ObjectHideFlags: 0
@@ -15537,6 +15672,7 @@ GameObject:
   - component: {fileID: 1526174205}
   - component: {fileID: 1526174204}
   - component: {fileID: 1526174206}
+  - component: {fileID: 1526174207}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -15665,6 +15801,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1526174207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526174202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!1 &1529941118
 GameObject:
   m_ObjectHideFlags: 0
@@ -19498,6 +19648,7 @@ GameObject:
   - component: {fileID: 1881706057}
   - component: {fileID: 1881706056}
   - component: {fileID: 1881706058}
+  - component: {fileID: 1881706059}
   m_Layer: 0
   m_Name: NPCSprite
   m_TagString: Untagged
@@ -19626,6 +19777,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1881706059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881706054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Door
+  is3D: 0
 --- !u!1 &1908863387
 GameObject:
   m_ObjectHideFlags: 0
