@@ -10,16 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-395873a2-3089-4f6a-a3fd-93528a96626a
   m_EditorClassIdentifier: 
-  Id: db49bc71-8069-414c-9ce4-1633df37167b
+  Id: 395873a2-3089-4f6a-a3fd-93528a96626a
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: "WELL!? Am I going to be getting my Berith\u2026 I mean having my relaxing
-    bath?"
+  Text: PLEASE DO! I'M DYING FOR A RELAXING BATH!
   NextLine: {fileID: 0}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: 0903277b922ca8440a8c900e38681747, type: 2}
-  - {fileID: 11400000, guid: 2cbd03ec7689af744aeec95c5675a9d7, type: 2}
-  - {fileID: 11400000, guid: e156482b6ffbea841bdd139f88af3c6c, type: 2}
-  - {fileID: 11400000, guid: 63726fe771e30fa41b9fdd24d9edab79, type: 2}
+  Choices: []

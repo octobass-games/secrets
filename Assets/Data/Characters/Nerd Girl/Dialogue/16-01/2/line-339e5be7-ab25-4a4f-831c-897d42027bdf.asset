@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 339e5be7-ab25-4a4f-831c-897d42027bdf
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: WOOOOO
+  Text: OMG! I CAN'T BELIEVE YOU HAD THEM. THANK YOU SO MUCH! :3 HERE'S YOUR MONEY.
+    GOT TO RUN, BYYYEEE!
   NextLine: {fileID: 0}
   Events:
   - Type: 1

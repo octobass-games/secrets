@@ -13,8 +13,15 @@ MonoBehaviour:
   m_Name: choice-dd78ae83-092e-4af7-8588-d56a75d1b3d8
   m_EditorClassIdentifier: 
   Id: dd78ae83-092e-4af7-8588-d56a75d1b3d8
-  Text: YES CANDLES
+  Text: And here are you candles... delivered discretely of course.
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 7e2b9d940faf9584eb99416b757fa3e9, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 5
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 11400000, guid: 05b8a73dbd0103a49b237bbf2bb4c1d4, type: 2}

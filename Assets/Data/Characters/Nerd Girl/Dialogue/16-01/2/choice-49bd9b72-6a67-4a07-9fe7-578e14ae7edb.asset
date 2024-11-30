@@ -13,8 +13,22 @@ MonoBehaviour:
   m_Name: choice-49bd9b72-6a67-4a07-9fe7-578e14ae7edb
   m_EditorClassIdentifier: 
   Id: 49bd9b72-6a67-4a07-9fe7-578e14ae7edb
-  Text: NO CANDLES
+  Text: Here you are!
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: b3e4bd173251db84bbfa78affb9dbfe1, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 5
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 11400000, guid: 05b8a73dbd0103a49b237bbf2bb4c1d4, type: 2}
+  - Type: 3
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 11400000, guid: 05b8a73dbd0103a49b237bbf2bb4c1d4, type: 2}

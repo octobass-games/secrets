@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-b096b59f-6ace-4d91-b4cd-7de5ae7fcd38
+  m_Name: line-0210fd1a-cd22-4923-b90b-5a94e510cc0a
   m_EditorClassIdentifier: 
-  Id: b096b59f-6ace-4d91-b4cd-7de5ae7fcd38
+  Id: 0210fd1a-cd22-4923-b90b-5a94e510cc0a
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: OMG!!! I DIDN'T ASK FOR THIS! WHERE ARE MY CANDLES?! I DON'T HAVE TIME FOR
-    THIS! BYE!
+  Text: BYYYEEEE!
   NextLine: {fileID: 0}
   Events:
   - Type: 1
@@ -23,7 +22,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
+    Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
