@@ -404,11 +404,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
   SpeakerAnimator: {fileID: 14252576}
---- !u!1 &25009736 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5494387766470336571, guid: a5797a14ac150164c9adebd5f6e43923, type: 3}
-  m_PrefabInstance: {fileID: 871736796}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &34328783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1509588439396107071, guid: adc10dea52eae354fb750de329995ae5, type: 3}
@@ -6511,9 +6506,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.055555556
+    width: 0.33333334
+    height: 0.3333333
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -7836,7 +7831,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 5
+      Value: 11
   TriggerEvent: 11
 --- !u!114 &822674498
 MonoBehaviour:
@@ -25469,12 +25464,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2729836463421762685, guid: 5275282111122934083a599607047641, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729836463421762685, guid: 5275282111122934083a599607047641, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 25009736}
+      objectReference: {fileID: 871736797}
     - target: {fileID: 2729836463421762685, guid: 5275282111122934083a599607047641, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetActive
+      value: ShowStamps
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729836463421762685, guid: 5275282111122934083a599607047641, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: StampCollector, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3228881850306550387, guid: 5275282111122934083a599607047641, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
