@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-fb3dbe32-4c43-48da-8e5e-12aa055960eb
+  m_Name: line-f4618086-f36f-4b0a-81cd-2c156941059f
   m_EditorClassIdentifier: 
-  Id: fb3dbe32-4c43-48da-8e5e-12aa055960eb
+  Id: f4618086-f36f-4b0a-81cd-2c156941059f
   Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
-  Text: Excellent! If it works as well as last time, more of the same is good with
-    me!
-  NextLine: {fileID: 11400000, guid: a88070c3d06303346b3ee23cc1d685be, type: 2}
+  Text: Are you this slow for everyone?
+  NextLine: {fileID: 0}
   Events: []
   Choices: []

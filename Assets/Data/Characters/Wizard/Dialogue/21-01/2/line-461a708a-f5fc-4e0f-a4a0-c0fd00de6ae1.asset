@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-fb3dbe32-4c43-48da-8e5e-12aa055960eb
+  m_Name: line-461a708a-f5fc-4e0f-a4a0-c0fd00de6ae1
   m_EditorClassIdentifier: 
-  Id: fb3dbe32-4c43-48da-8e5e-12aa055960eb
+  Id: 461a708a-f5fc-4e0f-a4a0-c0fd00de6ae1
   Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
-  Text: Excellent! If it works as well as last time, more of the same is good with
-    me!
-  NextLine: {fileID: 11400000, guid: a88070c3d06303346b3ee23cc1d685be, type: 2}
+  Text: These could prove very useful. I'll take them!
+  NextLine: {fileID: 11400000, guid: 6d7b3f817ee5c484385e56f4003395dc, type: 2}
   Events: []
   Choices: []

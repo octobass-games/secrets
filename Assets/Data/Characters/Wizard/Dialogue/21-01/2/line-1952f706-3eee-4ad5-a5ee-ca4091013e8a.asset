@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-6976d6c3-6b8c-4685-9133-a56768ffdbdf
+  m_Name: line-1952f706-3eee-4ad5-a5ee-ca4091013e8a
   m_EditorClassIdentifier: 
-  Id: 6976d6c3-6b8c-4685-9133-a56768ffdbdf
+  Id: 1952f706-3eee-4ad5-a5ee-ca4091013e8a
   Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
-  Text: Goodbye!
+  Text: I should have known better than to come to this establishment. I shall take
+    my leave now, goodbye!
   NextLine: {fileID: 0}
   Events:
   - Type: 1
@@ -39,22 +40,6 @@ MonoBehaviour:
     BookName: {fileID: 0}
     Day: {fileID: 0}
     Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-  - Type: 2
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []

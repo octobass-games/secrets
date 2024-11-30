@@ -10,25 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-bccca2e2-733c-4b83-9236-53d2c587647c
+  m_Name: choice-afbf8ccd-75db-496c-9d87-245f31fd49d3
   m_EditorClassIdentifier: 
-  Id: bccca2e2-733c-4b83-9236-53d2c587647c
+  Id: afbf8ccd-75db-496c-9d87-245f31fd49d3
   Text: Here you are!
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 5655acec6a3e6724083d119eb1d614e2, type: 2}
+  NextLine: {fileID: 11400000, guid: fffb9a5e4857c6d4f85d8107d5de0f58, type: 2}
   Requirements:
-  - Type: 0
-    Name: gem.stay.awake.potion
-    Book: {fileID: 0}
-    Books: []
-    Negate: 0
-    Amount: 0
-    Item: {fileID: 0}
   - Type: 5
     Name: 
     Book: {fileID: 0}
     Books: []
     Negate: 0
     Amount: 0
-    Item: {fileID: 11400000, guid: d15fe0c0218d6d447a5d01f2bec35a20, type: 2}
+    Item: {fileID: 11400000, guid: a9fe825fbc6111a48a4672e9c1e76ba3, type: 2}
