@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-d4bc3cac-6f1d-4ec5-9ee5-b4e8fe8c675e
+  m_EditorClassIdentifier: 
+  Id: d4bc3cac-6f1d-4ec5-9ee5-b4e8fe8c675e
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: I just need some fresh tuba music to spur me on until the end!
+  NextLine: {fileID: 11400000, guid: 0f91010e9e1ee9e488b765ded225e988, type: 2}
+  Events: []
+  Choices: []

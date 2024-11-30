@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-39e5f896-022b-4244-91cc-db2cc9c21bfe
+  m_EditorClassIdentifier: 
+  Id: 39e5f896-022b-4244-91cc-db2cc9c21bfe
+  Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+  Text: "I would\u2026 but I\u2019ve already used up all of my paid time off. So
+    I\u2019ve no choice but to continue\u2026"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: a871c109dac48b446a1f63cbdd691613, type: 2}

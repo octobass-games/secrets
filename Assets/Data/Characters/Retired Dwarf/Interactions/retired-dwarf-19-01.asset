@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6213566ad429a04c824721a064ee2fd, type: 3}
+  m_Name: retired-dwarf-19-01
+  m_EditorClassIdentifier: 
+  RelationshipRequirement: 4
+  RootLines:
+  - {fileID: 11400000, guid: ee2cb3f424dbf1d40b18c6aba9032d4c, type: 2}
+  - {fileID: 11400000, guid: 2fafdf796aa581e4f9f4797fb95e697f, type: 2}

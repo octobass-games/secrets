@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-22265aa9-4f06-4047-97a1-57fc92d363b5
+  m_EditorClassIdentifier: 
+  Id: 22265aa9-4f06-4047-97a1-57fc92d363b5
+  Text: "Well, why don\u2019t you take one!?"
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: 4ba51da9017a07342a3af4c431fd1fa7, type: 2}
+  Requirements: []

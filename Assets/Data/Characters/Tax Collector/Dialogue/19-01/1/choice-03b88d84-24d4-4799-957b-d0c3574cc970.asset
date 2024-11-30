@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-03b88d84-24d4-4799-957b-d0c3574cc970
+  m_EditorClassIdentifier: 
+  Id: 03b88d84-24d4-4799-957b-d0c3574cc970
+  Text: "Come on! It can\u2019t be that bad!"
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: 4020b49c13bc0b14daff030aa94f4657, type: 2}
+  Requirements: []
