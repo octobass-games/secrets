@@ -5,11 +5,11 @@ using UnityEngine;
 public class ItemData
 {
     public string Name;
-    public bool IsUnlocked;
+    public int Stock;
 
-    public ItemData(string name, bool isUnlocked)
+    public ItemData(string name, int stock)
     {
         Name = name;
-        IsUnlocked = isUnlocked;
+        Stock = stock;
     }
 }

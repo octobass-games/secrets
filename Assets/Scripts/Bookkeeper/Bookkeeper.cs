@@ -95,9 +95,12 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             foreach (var item in @event.Items)
             {
-                var i = Instantiate(item);
+                var i = Items.Find(it => it.Name == item.Name);
 
-                Items.Add(i);
+                if (i != null)
+                {
+                    i.Stock++;
+                }
             }
         }
     }
@@ -381,6 +384,8 @@ public class Bookkeeper : MonoBehaviour, Savable
 
         var i = Items.Find(item => item.Name == b.Item.Name);
 
+        i.Stock--;
+
         HollowBooks.Remove(b);
     }
 
@@ -399,7 +404,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         var booksData = Books.Select(b => new BookData(b.Name, b.SellPrice, b.Stock, null)).ToList();
         var hollowBooksData = HollowBooks.Select(b => new BookData(b.Name, b.SellPrice, b.Stock, b.Item != null ? b.Item.Name : null)).ToList();
-        var itemsData = Items.Select(i => new ItemData(i.Name, i.IsUnlocked)).ToList();
+        var itemsData = Items.Select(i => new ItemData(i.Name, i.Stock)).ToList();
 
         saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, itemsData, hollowBooksData, DailyTransactions, MonthlyRent);
     }
@@ -444,7 +449,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             var itemData = items.Find(item => i.Name == item.Name);
 
-            i.IsUnlocked = itemData.IsUnlocked;
+            i.Stock = itemData.Stock;
         });
 
         TillView.DisplayImmediately(BankBalance);
