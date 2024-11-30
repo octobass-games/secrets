@@ -14,39 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 22ab31a7-1cfb-4da0-9a44-8d714ac40341
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: 'YAY POINTY  [PLACEHOLDER]'
+  Text: My word! Look at how it glints in the light...
   NextLine: {fileID: 0}
-  Events:
-  - Type: 1
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-  - Type: 3
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-  Choices: []
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 71ce0e8b4c2148f4ba451a8049a863e4, type: 2}

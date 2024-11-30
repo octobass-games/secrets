@@ -13,8 +13,22 @@ MonoBehaviour:
   m_Name: choice-8b345485-b7b0-4c12-b5be-2556a7ab9108
   m_EditorClassIdentifier: 
   Id: 8b345485-b7b0-4c12-b5be-2556a7ab9108
-  Text: 'No but I do have this RUBBISH THING [PLACEHOLDER]'
+  Text: I'm not sure if this would interest you...
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 83c64bc5b459d784aae80436260bb3ff, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 5
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 11400000, guid: dfa62c74647b6994f97836113ebb8edf, type: 2}
+  - Type: 6
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

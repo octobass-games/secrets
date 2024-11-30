@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-5e53ab09-4c9a-4fc2-ad33-b239e45c608c
+  m_Name: line-fda5d93c-4d9b-47f6-ad04-ce792ef3ecba
   m_EditorClassIdentifier: 
-  Id: 5e53ab09-4c9a-4fc2-ad33-b239e45c608c
+  Id: fda5d93c-4d9b-47f6-ad04-ce792ef3ecba
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: All right! Excellent choice, this should keep me busy for a while.
-  NextLine: {fileID: 11400000, guid: cfb0d2612fdc636448dab4c35faaa722, type: 2}
+  Text: Anyway, I best be off as I've got some bodies to guard!
+  NextLine: {fileID: 11400000, guid: 4dab6cbef65a00d48a25106ad79ba60b, type: 2}
   Events: []
   Choices: []

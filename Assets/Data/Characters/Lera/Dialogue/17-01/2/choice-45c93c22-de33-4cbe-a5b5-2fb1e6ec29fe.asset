@@ -10,18 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-90444ca4-6f00-4113-9da0-0bde119f3819
+  m_Name: choice-45c93c22-de33-4cbe-a5b5-2fb1e6ec29fe
   m_EditorClassIdentifier: 
-  Id: 90444ca4-6f00-4113-9da0-0bde119f3819
-  Text: I think this'll be of interest to you...
+  Id: 45c93c22-de33-4cbe-a5b5-2fb1e6ec29fe
+  Text: Sorry, still looking...
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 2cd0b458ecc618342888af3c3ae9554e, type: 2}
-  Requirements:
-  - Type: 5
-    Name: 
-    Book: {fileID: 0}
-    Books: []
-    Negate: 0
-    Amount: 0
-    Item: {fileID: 11400000, guid: dfa62c74647b6994f97836113ebb8edf, type: 2}
+  NextLine: {fileID: 11400000, guid: bcf28b386d92f884994aaf091ac02c85, type: 2}
+  Requirements: []

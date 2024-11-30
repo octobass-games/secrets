@@ -13,8 +13,22 @@ MonoBehaviour:
   m_Name: choice-0d95392f-c48a-4b0d-8830-6dc8468c809c
   m_EditorClassIdentifier: 
   Id: 0d95392f-c48a-4b0d-8830-6dc8468c809c
-  Text: No but I do have this excellent book!
+  Text: How do you feel about this book?
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 80bc5496341f83743b689d4aa42fef9d, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 6
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}
+  - Type: 3
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

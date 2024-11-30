@@ -14,39 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: e1b12955-9f29-4971-89fc-368c8a26a111
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: 'NAY [PLACEHOLDER]'
-  NextLine: {fileID: 0}
-  Events:
-  - Type: 1
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-  - Type: 3
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
+  Text: Umm... it looks like you're going to need practice before you're at your
+    grandma's level...
+  NextLine: {fileID: 11400000, guid: 14024fc22649364499db02504e1889aa, type: 2}
+  Events: []
   Choices: []

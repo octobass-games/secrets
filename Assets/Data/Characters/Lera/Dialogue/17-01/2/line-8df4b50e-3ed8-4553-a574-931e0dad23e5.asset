@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-5e53ab09-4c9a-4fc2-ad33-b239e45c608c
+  m_Name: line-8df4b50e-3ed8-4553-a574-931e0dad23e5
   m_EditorClassIdentifier: 
-  Id: 5e53ab09-4c9a-4fc2-ad33-b239e45c608c
+  Id: 8df4b50e-3ed8-4553-a574-931e0dad23e5
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: All right! Excellent choice, this should keep me busy for a while.
-  NextLine: {fileID: 11400000, guid: cfb0d2612fdc636448dab4c35faaa722, type: 2}
+  Text: I'll take it! Here's your money!
+  NextLine: {fileID: 11400000, guid: 06f3063b331692d4ea8056f54b9d587f, type: 2}
   Events: []
   Choices: []
