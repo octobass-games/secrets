@@ -46,6 +46,9 @@ public class RequirementManager : MonoBehaviour
             case RequirementType.BOOK_WITH_SOME_ITEM:
                 satisfied = Bookkeeper.IsBookAtTillWithSomeItem();
                 break;
+            case RequirementType.CAN_AFFORD_TAXES:
+                satisfied = Bookkeeper.CanAffordTaxes();
+                break;
             default:
                 break;
         }

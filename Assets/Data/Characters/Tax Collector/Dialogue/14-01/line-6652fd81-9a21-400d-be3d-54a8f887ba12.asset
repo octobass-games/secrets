@@ -33,4 +33,5 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: Local Bookshop Suddenly Shuts Down Due to Tax Evasion
   Choices: []

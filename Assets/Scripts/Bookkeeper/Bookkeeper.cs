@@ -464,6 +464,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         return TillBook != null && TillBook.GetComponent<Book>().BookDefinition.Item != null;
     }
 
+    public bool CanAffordTaxes()
+    {
+        return BankBalance >= CalculateTax();
+    }
+
     private void OnBookSell(GameEvent @event)
     {
         if (TillBook != null)
