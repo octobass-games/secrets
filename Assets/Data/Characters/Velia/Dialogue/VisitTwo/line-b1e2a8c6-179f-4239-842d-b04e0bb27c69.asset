@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-b1e2a8c6-179f-4239-842d-b04e0bb27c69
+  m_EditorClassIdentifier: 
+  Id: b1e2a8c6-179f-4239-842d-b04e0bb27c69
+  Speaker: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
+  Text: Well, suit yourself.
+  NextLine: {fileID: 11400000, guid: c7831bc32dab00940b4797de235d078e, type: 2}
+  Events: []
+  Choices: []
