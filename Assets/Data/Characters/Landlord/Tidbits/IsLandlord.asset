@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b91ac017059d3747959639b22d970a3, type: 3}
-  m_Name: Maybe he'll be your boyfriend
+  m_Script: {fileID: 11500000, guid: 69527bc6cf362804695af89930e495ce, type: 3}
+  m_Name: IsLandlord
   m_EditorClassIdentifier: 
-  Name: Maybe he'll be your boyfriend?
+  Id: landlord
+  Tidbit: 'Job: landlord'
   IsUnlocked: 0
-  Description: Finish my secret gnome boyfriend
-  Image: {fileID: -1209862862, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}
