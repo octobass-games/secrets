@@ -29,6 +29,8 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   - Type: 6
     Memory: 
     Paper: {fileID: 0}
@@ -44,6 +46,8 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   - Type: 8
     Memory: 
     Paper: {fileID: 0}
@@ -59,6 +63,8 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   - Type: 9
     Memory: 
     Paper: {fileID: 0}
@@ -74,6 +80,8 @@ MonoBehaviour:
     TriggerNextDailyEvent: 1
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   - Type: 8
     Memory: 
     Paper: {fileID: 0}
@@ -89,6 +97,8 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   - Type: 9
     Memory: 
     Paper: {fileID: 0}
@@ -101,9 +111,52 @@ MonoBehaviour:
     ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
+    TriggerNextDailyEvent: 1
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
+  - Type: 8
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements:
+    - Type: 0
+      Name: paid.to.meet.supplier
+      Book: {fileID: 0}
+      Books: []
+      Negate: 0
+      Amount: 0
+      Item: {fileID: 0}
+    Message: 
+    Items: []
+  - Type: 9
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   - Type: 7
     Memory: 
     Paper: {fileID: 0}
@@ -119,6 +172,8 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   - Type: 5
     Memory: 
     Paper: {fileID: 0}
@@ -134,5 +189,7 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   IsInThePast: 0
   SupplierDialogue: {fileID: 0}
