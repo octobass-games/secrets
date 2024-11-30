@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-aa416c6a-03b9-4e5e-b845-d778b22c3fe5
+  m_EditorClassIdentifier: 
+  Id: aa416c6a-03b9-4e5e-b845-d778b22c3fe5
+  Text: "Hmm\u2026 I\u2019ll go have another look."
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: bf11bd8aed2a5bf4fb7c02aedc218610, type: 2}
+  Requirements: []
