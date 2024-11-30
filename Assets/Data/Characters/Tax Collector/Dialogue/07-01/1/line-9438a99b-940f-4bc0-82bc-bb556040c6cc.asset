@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-1884f41b-962e-49f6-9b71-910b595a62a2
+  m_Name: line-9438a99b-940f-4bc0-82bc-bb556040c6cc
   m_EditorClassIdentifier: 
-  Id: 1884f41b-962e-49f6-9b71-910b595a62a2
+  Id: 9438a99b-940f-4bc0-82bc-bb556040c6cc
   Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
-  Text: "Once you\u2019ve made your payment to me I\u2019ll be on my way."
-  NextLine: {fileID: 0}
+  Text: "That\u2019s most unfortunate."
+  NextLine: {fileID: 11400000, guid: 4fbe1e86fdb8a014aa233e8a2d2f343d, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: 954718b775c3183459db6345231112b0, type: 2}
-  - {fileID: 11400000, guid: 5effb9159fa52504db6e6c80c699460f, type: 2}
+  Choices: []
