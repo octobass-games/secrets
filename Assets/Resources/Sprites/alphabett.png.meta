@@ -406,6 +406,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: exclaim
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 236
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af164210ef7deed4b954a800d7fed349
+      internalID: 706343014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -433,6 +455,7 @@ TextureImporter:
       alphabett_7: 7919517678704994258
       alphabett_8: 3395161467875609927
       alphabett_9: 1172633807315262361
+      exclaim: 706343014
       how to play: 5923874019814326411
       load: 741097753
       load a day: -864069584

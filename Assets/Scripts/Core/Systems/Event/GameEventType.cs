@@ -23,5 +23,6 @@ public enum GameEventType
     PAYING_FOR_INFORMATION,
     BANK_DEPOSIT,
     VISITOR_ARRIVED,
-    GAME_OVER
+    GAME_OVER,
+    HOODED_FIGURE_PEEP
 }
