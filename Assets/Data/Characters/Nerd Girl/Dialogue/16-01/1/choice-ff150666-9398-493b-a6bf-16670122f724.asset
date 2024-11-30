@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-ff150666-9398-493b-a6bf-16670122f724
+  m_EditorClassIdentifier: 
+  Id: ff150666-9398-493b-a6bf-16670122f724
+  Text: "I\u2019m not sure why, but I\u2019m surprised you bathe\u2026"
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: d6e3e26d5fbaf784b940fd2a1dba636a, type: 2}
+  Requirements: []

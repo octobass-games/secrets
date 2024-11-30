@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-a660427c-c2cf-4d73-9996-f56bcc5b5344
+  m_EditorClassIdentifier: 
+  Id: a660427c-c2cf-4d73-9996-f56bcc5b5344
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "We used to be such good friends, but it feels like we\u2019re at each other's
+    throats lately. Sure\u2026 I was a little grumpy with her recently, but I\u2019m
+    over that now."
+  NextLine: {fileID: 11400000, guid: ea48bf55a7885ee46b5c7ce07e4dde2d, type: 2}
+  Events: []
+  Choices: []

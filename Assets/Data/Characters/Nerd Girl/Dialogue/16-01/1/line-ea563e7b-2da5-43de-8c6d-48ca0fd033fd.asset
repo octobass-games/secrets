@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-ea563e7b-2da5-43de-8c6d-48ca0fd033fd
+  m_EditorClassIdentifier: 
+  Id: ea563e7b-2da5-43de-8c6d-48ca0fd033fd
+  Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
+  Text: "Five of them preferably, for my\u2026 bath! They\u2019re supposed to be
+    SUPER relaxing!"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 92cd9aec93b96d74ba38393a30932172, type: 2}
