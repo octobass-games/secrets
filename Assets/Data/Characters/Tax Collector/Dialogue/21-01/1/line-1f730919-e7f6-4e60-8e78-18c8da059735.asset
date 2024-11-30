@@ -49,4 +49,20 @@ MonoBehaviour:
     SellForFree: 0
     Requirements: []
     Message: 
+  - Type: 17
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   Choices: []
