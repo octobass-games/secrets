@@ -56,6 +56,8 @@ MonoBehaviour:
   StampLocked: {fileID: 8011180925123291503}
   Name: {fileID: 5881244508571581583}
   Description: {fileID: 7176765394395056662}
+  Image: {fileID: 7739802911758333223}
+  DefaultImage: {fileID: 5763592439569607776, guid: 1b38ac611d96d6b49a09f5b2058216da, type: 3}
 --- !u!1 &4469706499513425164
 GameObject:
   m_ObjectHideFlags: 0
