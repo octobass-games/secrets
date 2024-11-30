@@ -7296,9 +7296,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.17592593
-    width: 0.14114584
-    height: 0.14114583
+    y: 0.2546296
+    width: 0.3479167
+    height: 0.34791666
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -18640,6 +18640,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1508949947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6703628300191886173, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703628300191886173, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703628300191886173, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703628300191886173, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703628300191886173, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703628300191886173, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703628300191886173, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703628300191886173, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703628300191886173, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703628300191886173, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9030143436199021472, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
+      propertyPath: m_Name
+      value: TidbitPopup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7a830abd00ea77342b6a2a509f523299, type: 3}
 --- !u!114 &1518237975 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8552404880453031817, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
@@ -29758,6 +29815,7 @@ SceneRoots:
   - {fileID: 1173111544}
   - {fileID: 871736796}
   - {fileID: 1536540832}
+  - {fileID: 1508949947}
   - {fileID: 919822540}
   - {fileID: 1140936528}
   - {fileID: 181328297}
