@@ -19,4 +19,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 03100acb9a81385458dcc07e65c31f26, type: 2}
   Relationship: 0
   Profile: {fileID: 21300000, guid: e149c4f84e71e954cbf5f656ebc752c3, type: 3}
-  Tidbits: []
+  Tidbits:
+  - {fileID: 11400000, guid: 7316ce99d354d7648807f0659d3004c7, type: 2}
