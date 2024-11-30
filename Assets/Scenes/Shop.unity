@@ -15209,6 +15209,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ef700a917edc8354e9b7a652eed7bc45, type: 2}
   - {fileID: 11400000, guid: 820fb40b38862514c8647c3be39b1979, type: 2}
   - {fileID: 11400000, guid: ef132ac8d07382c4c9d2d011c8171abc, type: 2}
+  - {fileID: 11400000, guid: 5fb193a386a5d2b409edb7c0dc110802, type: 2}
   SignInteraction: {fileID: 11400000, guid: 55152637b55f0d7449121063ca22da1d, type: 2}
   SaveManager: {fileID: 109054967}
 --- !u!4 &1425153796
