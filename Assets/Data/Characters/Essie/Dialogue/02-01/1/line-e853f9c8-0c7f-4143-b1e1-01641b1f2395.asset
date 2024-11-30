@@ -18,5 +18,22 @@ MonoBehaviour:
     has gone and caught a cold! So I figured I\u2019d cook him something to help
     perk him up."
   NextLine: {fileID: 11400000, guid: c6ea46a83d2eab64fab9341f3cf46a7b, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 78a14c5f725f9b042bca1c51a39c594f, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69527bc6cf362804695af89930e495ce, type: 3}
-  m_Name: IsCool
+  m_Name: TroublesomeNeighbou
   m_EditorClassIdentifier: 
-  Id: 
-  Tidbit: Is cool
+  Id: troublesome-neighbour
+  Tidbit: Has a troublesome neighbour
   IsUnlocked: 0
