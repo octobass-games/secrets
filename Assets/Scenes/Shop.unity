@@ -2795,7 +2795,6 @@ GameObject:
   - component: {fileID: 224822611}
   - component: {fileID: 224822610}
   - component: {fileID: 224822609}
-  - component: {fileID: 224822608}
   - component: {fileID: 224822607}
   m_Layer: 0
   m_Name: Interactions
@@ -2838,37 +2837,6 @@ MonoBehaviour:
     - Name: Character
       Value: 2
   TriggerEvent: 11
---- !u!114 &224822608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 224822605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!61 &224822609
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6246,7 +6214,6 @@ GameObject:
   - component: {fileID: 631647247}
   - component: {fileID: 631647246}
   - component: {fileID: 631647245}
-  - component: {fileID: 631647244}
   - component: {fileID: 631647243}
   m_Layer: 0
   m_Name: Interactions
@@ -6289,37 +6256,6 @@ MonoBehaviour:
     - Name: Character
       Value: 7
   TriggerEvent: 11
---- !u!114 &631647244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631647240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!61 &631647245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6506,9 +6442,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.055555556
+    width: 0.33333334
+    height: 0.3333333
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -7790,7 +7726,6 @@ GameObject:
   - component: {fileID: 822674501}
   - component: {fileID: 822674500}
   - component: {fileID: 822674499}
-  - component: {fileID: 822674498}
   - component: {fileID: 822674497}
   m_Layer: 0
   m_Name: Interactions
@@ -7833,37 +7768,6 @@ MonoBehaviour:
     - Name: Character
       Value: 11
   TriggerEvent: 11
---- !u!114 &822674498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822674494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!61 &822674499
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12442,7 +12346,6 @@ GameObject:
   - component: {fileID: 1179874826}
   - component: {fileID: 1179874825}
   - component: {fileID: 1179874824}
-  - component: {fileID: 1179874823}
   - component: {fileID: 1179874822}
   m_Layer: 0
   m_Name: Interactions
@@ -12485,37 +12388,6 @@ MonoBehaviour:
     - Name: Character
       Value: 8
   TriggerEvent: 11
---- !u!114 &1179874823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179874819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!61 &1179874824
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13455,7 +13327,6 @@ GameObject:
   - component: {fileID: 1316698016}
   - component: {fileID: 1316698015}
   - component: {fileID: 1316698014}
-  - component: {fileID: 1316698017}
   - component: {fileID: 1316698018}
   m_Layer: 0
   m_Name: Interactions
@@ -13597,37 +13468,6 @@ MonoBehaviour:
   OnRightClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1316698017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316698012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!114 &1316698018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15837,7 +15677,6 @@ GameObject:
   - component: {fileID: 1529941125}
   - component: {fileID: 1529941124}
   - component: {fileID: 1529941123}
-  - component: {fileID: 1529941122}
   - component: {fileID: 1529941121}
   m_Layer: 0
   m_Name: Interactions
@@ -15880,37 +15719,6 @@ MonoBehaviour:
     - Name: Character
       Value: 3
   TriggerEvent: 11
---- !u!114 &1529941122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529941118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!61 &1529941123
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16498,7 +16306,6 @@ GameObject:
   - component: {fileID: 1600397211}
   - component: {fileID: 1600397210}
   - component: {fileID: 1600397209}
-  - component: {fileID: 1600397208}
   - component: {fileID: 1600397207}
   m_Layer: 0
   m_Name: Interactions
@@ -16541,37 +16348,6 @@ MonoBehaviour:
     - Name: Character
       Value: 5
   TriggerEvent: 11
---- !u!114 &1600397208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1600397204}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!61 &1600397209
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17129,7 +16905,6 @@ GameObject:
   - component: {fileID: 1660102733}
   - component: {fileID: 1660102732}
   - component: {fileID: 1660102731}
-  - component: {fileID: 1660102730}
   - component: {fileID: 1660102729}
   m_Layer: 0
   m_Name: Interactions
@@ -17172,37 +16947,6 @@ MonoBehaviour:
     - Name: Character
       Value: 9
   TriggerEvent: 11
---- !u!114 &1660102730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660102727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!61 &1660102731
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17822,7 +17566,6 @@ GameObject:
   - component: {fileID: 1715207257}
   - component: {fileID: 1715207256}
   - component: {fileID: 1715207255}
-  - component: {fileID: 1715207254}
   - component: {fileID: 1715207253}
   m_Layer: 0
   m_Name: Interactions
@@ -17865,37 +17608,6 @@ MonoBehaviour:
     - Name: Character
       Value: 10
   TriggerEvent: 11
---- !u!114 &1715207254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715207250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!61 &1715207255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18891,7 +18603,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1812931138}
   - component: {fileID: 1812931139}
-  - component: {fileID: 1812931140}
   m_Layer: 0
   m_Name: Landlord
   m_TagString: Untagged
@@ -18929,37 +18640,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
   SpeakerAnimator: {fileID: 708120567}
---- !u!114 &1812931140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812931137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 12
-  EventStopTrigger: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!1 &1816685667
 GameObject:
   m_ObjectHideFlags: 0
@@ -21966,7 +21646,6 @@ GameObject:
   - component: {fileID: 2033724807}
   - component: {fileID: 2033724806}
   - component: {fileID: 2033724805}
-  - component: {fileID: 2033724804}
   - component: {fileID: 2033724803}
   m_Layer: 0
   m_Name: Interactions
@@ -22009,37 +21688,6 @@ MonoBehaviour:
     - Name: Character
       Value: 6
   TriggerEvent: 11
---- !u!114 &2033724804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033724800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!61 &2033724805
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23389,7 +23037,6 @@ GameObject:
   - component: {fileID: 2123600071}
   - component: {fileID: 2123600070}
   - component: {fileID: 2123600069}
-  - component: {fileID: 2123600068}
   - component: {fileID: 2123600067}
   m_Layer: 0
   m_Name: Interactions
@@ -23432,37 +23079,6 @@ MonoBehaviour:
     - Name: Character
       Value: 4
   TriggerEvent: 11
---- !u!114 &2123600068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123600065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 476966511
-      Data2: 1253927541
-      Data3: 1125480604
-      Data4: -1149321580
-    Path: event:/SFX/Door
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!61 &2123600069
 BoxCollider2D:
   m_ObjectHideFlags: 0
