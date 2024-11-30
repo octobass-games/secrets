@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-58d4e9b7-06cc-4ab2-bf5c-2ce8b28d080d
+  m_EditorClassIdentifier: 
+  Id: 58d4e9b7-06cc-4ab2-bf5c-2ce8b28d080d
+  Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+  Text: "Failure to provide them will lead to police involvement. You\u2019ll be
+    arrested for tax evasion with the possibility of prison."
+  NextLine: {fileID: 11400000, guid: 43dfc6406c650ab469e3cf652e766913, type: 2}
+  Events: []
+  Choices: []

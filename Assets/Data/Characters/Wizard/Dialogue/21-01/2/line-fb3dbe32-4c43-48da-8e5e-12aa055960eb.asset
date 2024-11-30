@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-fb3dbe32-4c43-48da-8e5e-12aa055960eb
+  m_EditorClassIdentifier: 
+  Id: fb3dbe32-4c43-48da-8e5e-12aa055960eb
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "Hmm\u2026 this isn\u2019t the same potion as before. It sounds like it has
+    much the same effects though."
+  NextLine: {fileID: 11400000, guid: a88070c3d06303346b3ee23cc1d685be, type: 2}
+  Events: []
+  Choices: []

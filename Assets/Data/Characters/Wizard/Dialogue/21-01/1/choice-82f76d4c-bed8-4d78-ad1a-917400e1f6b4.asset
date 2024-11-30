@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-82f76d4c-bed8-4d78-ad1a-917400e1f6b4
+  m_EditorClassIdentifier: 
+  Id: 82f76d4c-bed8-4d78-ad1a-917400e1f6b4
+  Text: You seem a bit happier!
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: fccd6224f1ee9884f969761a7b81b695, type: 2}
+  Requirements: []

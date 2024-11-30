@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-74b43ba5-6b0b-45e2-8e14-bb115c041dbd
+  m_EditorClassIdentifier: 
+  Id: 74b43ba5-6b0b-45e2-8e14-bb115c041dbd
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "Yes, well I realised that I\u2019ve been too hard on myself recently. Even
+    a genius such as I suffers from the limits of mere mortals such as yourself."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 57ae33c636daed74a8d2e9d014195238, type: 2}
