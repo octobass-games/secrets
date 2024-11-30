@@ -283,7 +283,7 @@ TextureImporter:
         width: 90
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,6 +292,116 @@ TextureImporter:
       bones: []
       spriteID: 751232d72e79ed74999dedb33609aea3
       internalID: -943526113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabett_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 142
+        width: 71
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15abca359a3b2bd41b20033b487b931c
+      internalID: 414691605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Restart Day
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 118
+        width: 107
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4c2d298a0c6ce44aaeaa831395efea
+      internalID: -999266113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: load a day
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 28
+        width: 76
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b168a493b69e09a449460a800cd609f7
+      internalID: -864069584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: load
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 178
+        width: 67
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379591f0a76d6a9459cd497b5b562bc8
+      internalID: 741097753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: main-menu
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 53
+        width: 79
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118297626d02d844782fe3c2a4c9e41e
+      internalID: -189714654
       vertices: []
       indices: 
       edges: []
@@ -312,7 +422,8 @@ TextureImporter:
     nameFileIdTable:
       Ding: -1689300303
       Dingsmall: 349057371
-      alphabett_1: -7499779229978165056
+      Restart Day: -7499779229978165056
+      alphabett_0: 414691605
       alphabett_10: 3573010311772145455
       alphabett_2: -524649789574889836
       alphabett_3: -1709963306821950050
@@ -323,6 +434,9 @@ TextureImporter:
       alphabett_8: 3395161467875609927
       alphabett_9: 1172633807315262361
       how to play: 5923874019814326411
+      load: 741097753
+      load a day: -864069584
+      main-menu: -189714654
       stamp: 1028301638
       stamp-found: -943526113
       stamps: 503895827
