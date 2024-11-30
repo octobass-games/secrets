@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-d971433b-fc06-4446-87f2-94d8c58c1f83
   m_EditorClassIdentifier: 
-  Id: d5a761b7-dfc7-4b2a-8a1d-5f6085abeb9c
+  Id: d971433b-fc06-4446-87f2-94d8c58c1f83
   Speaker: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
-  Text: Hello there, stranger!
-  NextLine: {fileID: 0}
+  Text: I'm a supplier of sorts... I used to work with your grandmother an awful
+    lot
+  NextLine: {fileID: 11400000, guid: 58eb30636207e2b4392dbbf83ce21fe9, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: c3d0049414a63574e91dff34ef087bab, type: 2}
+  Choices: []

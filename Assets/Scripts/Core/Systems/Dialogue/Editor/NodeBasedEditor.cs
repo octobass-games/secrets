@@ -159,7 +159,7 @@ public class NodeBasedEditor : EditorWindow
 
     private Node AddLineNode(Vector2 position, ScriptableObject baseScriptableObject)
     {
-        Node node = new LineNode(position, 250, 250, OnRemoveNode, BeginConnection, EndConnection, baseScriptableObject);
+        Node node = new LineNode(position, 250, 500, OnRemoveNode, BeginConnection, EndConnection, baseScriptableObject);
 
         Nodes.Add(node);
 
@@ -168,7 +168,7 @@ public class NodeBasedEditor : EditorWindow
 
     private Node AddChoiceNode(Vector2 position, ScriptableObject baseScriptableObject)
     {
-        Node node = new ChoiceNode(position, 250, 250, OnRemoveNode, BeginConnection, EndConnection, baseScriptableObject);
+        Node node = new ChoiceNode(position, 250, 500, OnRemoveNode, BeginConnection, EndConnection, baseScriptableObject);
 
         Nodes.Add(node);
 

@@ -110,7 +110,7 @@ public class Bookshelf : MonoBehaviour
 
     private bool IsFirstBookAndInspectionNotDone(BookDefinition hollowBook)
     {
-        return hollowBook.Item.Name == "Rat poison" && !History.Contains("hollow.book.discovered");
+        return hollowBook.Item != null && hollowBook.Item.Name == "Rat poison" && !History.Contains("hollow.book.discovered");
     }
 
     private void OnPickup(BookDefinition hollowBook)

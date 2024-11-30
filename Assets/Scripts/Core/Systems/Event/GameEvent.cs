@@ -20,4 +20,5 @@ public class GameEvent
     public bool SellForFree;
     public List<Requirement> Requirements;
     public string Message;
+    public List<ItemDefinition> Items;
 }

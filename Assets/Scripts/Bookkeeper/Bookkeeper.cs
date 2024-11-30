@@ -69,6 +69,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Subscribe(GameEventType.MONTHLY_RENT_AGREED, OnMonthlyRentAgreed);
         EventManager.Instance.Subscribe(GameEventType.BANK_DEPOSIT, OnBankDeposit);
         EventManager.Instance.Subscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
+        EventManager.Instance.Subscribe(GameEventType.VELIA_ITEM_RECEIVE, OnVeliaItemReceive);
     }
 
     void OnDisable()
@@ -84,6 +85,20 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Unsubscribe(GameEventType.MONTHLY_RENT_AGREED, OnMonthlyRentAgreed);
         EventManager.Instance.Unsubscribe(GameEventType.BANK_DEPOSIT, OnBankDeposit);
         EventManager.Instance.Unsubscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
+        EventManager.Instance.Unsubscribe(GameEventType.VELIA_ITEM_RECEIVE, OnVeliaItemReceive);
+    }
+
+    private void OnVeliaItemReceive(GameEvent @event)
+    {
+        if (@event.Items.Count > 0)
+        {
+            foreach (var item in @event.Items)
+            {
+                var i = Instantiate(item);
+
+                Items.Add(i);
+            }
+        }
     }
 
     private void OnBankDeposit(GameEvent @event)
@@ -362,6 +377,8 @@ public class Bookkeeper : MonoBehaviour, Savable
         TransactionsToday.UniqueBookSales.Add(new UniqueBookSale(character.Name, book.Name, price));
 
         var b = HollowBooks.Find(b => b.Item.Name == book.Item.Name);
+
+        var i = Items.Find(item => item.Name == b.Item.Name);
 
         HollowBooks.Remove(b);
     }

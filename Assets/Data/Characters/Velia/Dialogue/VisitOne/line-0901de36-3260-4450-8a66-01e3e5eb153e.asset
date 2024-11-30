@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-0901de36-3260-4450-8a66-01e3e5eb153e
   m_EditorClassIdentifier: 
-  Id: d5a761b7-dfc7-4b2a-8a1d-5f6085abeb9c
+  Id: 0901de36-3260-4450-8a66-01e3e5eb153e
   Speaker: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
-  Text: Hello there, stranger!
-  NextLine: {fileID: 0}
+  Text: And not only that, but they're happy to pay a good amount for them too. When
+    someone does want it, hollow out one of your books and place it inside.
+  NextLine: {fileID: 11400000, guid: 4099796a4f622304db8b71a1fcb07923, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: c3d0049414a63574e91dff34ef087bab, type: 2}
+  Choices: []
