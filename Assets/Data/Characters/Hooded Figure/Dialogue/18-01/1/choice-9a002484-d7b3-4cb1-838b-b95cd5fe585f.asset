@@ -15,7 +15,30 @@ MonoBehaviour:
   Id: 9a002484-d7b3-4cb1-838b-b95cd5fe585f
   Text: To collect information for your next shady back alley report to your police
     buddies?
-  Events: []
+  Events:
+  - Type: 0
+    Memory: hooded.figure.confronted
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 8da994b6ecd685e45a1504706abd6095, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 0
+    Name: hooded.figure.shady.alley
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}
