@@ -11,6 +11,8 @@ public class EventManager : MonoBehaviour
 
     void Awake()
     {
+        Debug.Log(Instance == null);
+
         if (Instance != null && Instance != this)
         {
             Destroy(this);
@@ -18,8 +20,12 @@ public class EventManager : MonoBehaviour
         else
         {
             Instance = this;
-            DontDestroyOnLoad(Instance);
         }
+    }
+
+    void OnDestroy()
+    {
+        Debug.Log("Goodbye!");
     }
 
     public void Subscribe(GameEventType eventType, EventHandler receiver)
