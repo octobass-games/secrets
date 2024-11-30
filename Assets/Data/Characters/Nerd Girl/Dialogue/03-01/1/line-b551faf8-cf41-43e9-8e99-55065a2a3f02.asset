@@ -16,6 +16,23 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
   Text: "Does she not know how fast Renne Alice\u2019s books sell out!"
   NextLine: {fileID: 0}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: ec46d57ea0babb84ea5a038e9d2bf2cb, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices:
   - {fileID: 11400000, guid: e8e4d0c7af50a6d45bc14e4bc7a9cb3c, type: 2}
