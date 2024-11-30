@@ -12,21 +12,15 @@ public class EventOnHover : MonoBehaviour
 
     void Update()
     {
-        if (IsMouseOverlapping && !EventSystem.current.IsPointerOverGameObject())
+        if (IsMouseOverlapping && !EventSystem.current.IsPointerOverGameObject() && !HasHoverInTriggered)
         {
-            if (!HasHoverInTriggered)
-            {
-                OnHoverIn?.Invoke();
-                HasHoverInTriggered = true;
-            }
+            OnHoverIn?.Invoke();
+            HasHoverInTriggered = true;
         }
-        else
+        else if (!IsMouseOverlapping && HasHoverInTriggered)
         {
-            if (HasHoverInTriggered)
-            {
-                OnHoverOut?.Invoke();
-                HasHoverInTriggered = false;
-            }
+            OnHoverOut?.Invoke();
+            HasHoverInTriggered = false;
         }
     }
 
