@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd38e5fec1b86ff4d9fe400986412c7e, type: 3}
-  m_Name: Velia
+  m_Script: {fileID: 11500000, guid: d6213566ad429a04c824721a064ee2fd, type: 3}
+  m_Name: VeliaInteractionOne
   m_EditorClassIdentifier: 
-  Name: Velia
-  Interactions:
-  - {fileID: 11400000, guid: 538c4e773cb61a841be781552a321bf4, type: 2}
-  Relationship: 0
-  Profile: {fileID: 0}
-  Tidbits: []
+  RelationshipRequirement: 0
+  RootLines:
+  - {fileID: 11400000, guid: 4fa35c707beea0043bdbf8b14709fb9d, type: 2}
