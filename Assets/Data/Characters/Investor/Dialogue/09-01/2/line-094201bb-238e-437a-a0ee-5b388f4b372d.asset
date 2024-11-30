@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-094201bb-238e-437a-a0ee-5b388f4b372d
+  m_EditorClassIdentifier: 
+  Id: 094201bb-238e-437a-a0ee-5b388f4b372d
+  Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+  Text: "I best be on my way then\u2026 gotta go check my stock."
+  NextLine: {fileID: 11400000, guid: 1a72d2d661329be4baa2c09a86618abd, type: 2}
+  Events: []
+  Choices: []

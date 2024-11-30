@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RelationshipRequirement: 1
   RootLines:
-  - {fileID: 11400000, guid: 67d3ab90a7101ec44bc5ae3bf2836661, type: 2}
+  - {fileID: 11400000, guid: aae86f0e136ed0b48a2b03bdcda70823, type: 2}
+  - {fileID: 11400000, guid: 7ff35d41f72e23c4cb0827e2cc90ed21, type: 2}

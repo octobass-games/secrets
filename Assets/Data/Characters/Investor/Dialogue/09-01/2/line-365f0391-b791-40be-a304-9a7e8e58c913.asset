@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-365f0391-b791-40be-a304-9a7e8e58c913
+  m_EditorClassIdentifier: 
+  Id: 365f0391-b791-40be-a304-9a7e8e58c913
+  Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+  Text: BRO! What is this?! This isn't going to make me a tax wizard
+  NextLine: {fileID: 11400000, guid: 239d154934cc142439c9e80e4fbf478b, type: 2}
+  Events: []
+  Choices: []
