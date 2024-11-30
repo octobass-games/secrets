@@ -29,6 +29,7 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         Books = Books.Select(b => Instantiate(b)).ToList();
         HollowBooks = HollowBooks.Select(b => Instantiate(b)).ToList();
+        Items = Items.Select(i => Instantiate(i)).ToList();
     }
 
     public int CalculateTax()
@@ -398,8 +399,9 @@ public class Bookkeeper : MonoBehaviour, Savable
     {
         var booksData = Books.Select(b => new BookData(b.Name, b.SellPrice, b.Stock, null)).ToList();
         var hollowBooksData = HollowBooks.Select(b => new BookData(b.Name, b.SellPrice, b.Stock, b.Item != null ? b.Item.Name : null)).ToList();
+        var itemsData = Items.Select(i => new ItemData(i.Name, i.IsUnlocked)).ToList();
 
-        saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, hollowBooksData, DailyTransactions, MonthlyRent);
+        saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, itemsData, hollowBooksData, DailyTransactions, MonthlyRent);
     }
 
     public void Load(SaveData saveData)
@@ -407,8 +409,9 @@ public class Bookkeeper : MonoBehaviour, Savable
         BookkeeperData bookkeeperData = saveData.Bookkeeper;
         List<BookData> booksData = bookkeeperData.Books;
         List<BookData> hollowBooksData = bookkeeperData.HollowBooks;
+        List<ItemData> items = bookkeeperData.Items;
 
-        BankBalance = bookkeeperData.BankBalance; 
+        BankBalance = bookkeeperData.BankBalance;
         DailyTransactions = bookkeeperData.DailyTransactions;
         MonthlyRent = bookkeeperData.MonthlyRent;
         Books.ForEach(book =>
@@ -425,7 +428,7 @@ public class Bookkeeper : MonoBehaviour, Savable
             var bookDefinition = Books.Find(book => book.Name == hollowBookData.Name);
 
             var hollowBook = Instantiate(bookDefinition);
-            
+
             hollowBook.IsHollow = true;
 
             if (hollowBookData.Item != null)
@@ -437,6 +440,12 @@ public class Bookkeeper : MonoBehaviour, Savable
 
             return hollowBook;
         }).ToList();
+        Items.ForEach(i =>
+        {
+            var itemData = items.Find(item => i.Name == item.Name);
+
+            i.IsUnlocked = itemData.IsUnlocked;
+        });
 
         TillView.DisplayImmediately(BankBalance);
     }

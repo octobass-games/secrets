@@ -7,6 +7,7 @@ public class ItemDefinition : ScriptableObject
     public int Stock;
     public Sprite Sprite;
     public int SellPrice;
+    public bool IsUnlocked;
 
     public bool IsEqual(ItemDefinition other)
     {
