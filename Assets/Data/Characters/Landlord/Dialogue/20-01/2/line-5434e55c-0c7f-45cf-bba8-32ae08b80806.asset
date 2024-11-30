@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-6ed3a4e7-22c9-47ca-b156-d03f747f5fc4
+  m_Name: line-5434e55c-0c7f-45cf-bba8-32ae08b80806
   m_EditorClassIdentifier: 
-  Id: 6ed3a4e7-22c9-47ca-b156-d03f747f5fc4
+  Id: 5434e55c-0c7f-45cf-bba8-32ae08b80806
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: "Well, I just finished reading My Secret Gnome Boyfriend and it\u2019s left
-    me feeling all fuzzy inside."
-  NextLine: {fileID: 11400000, guid: 76fa4e55b262b554393ca3a81f34e4ea, type: 2}
+  Text: Well don't take too long, haha!
+  NextLine: {fileID: 0}
   Events: []
   Choices: []

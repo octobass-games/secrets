@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-87c5622b-112d-46c7-8cff-92aeed36f0b7
+  m_Name: line-60bb8387-aadb-4fb0-ace6-79f43a21ea9f
   m_EditorClassIdentifier: 
-  Id: 87c5622b-112d-46c7-8cff-92aeed36f0b7
+  Id: 60bb8387-aadb-4fb0-ace6-79f43a21ea9f
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: "I\u2019ve got to go now, see you later!"
+  Text: Well, I better get going. Bye!
   NextLine: {fileID: 0}
   Events:
   - Type: 1
@@ -39,22 +39,6 @@ MonoBehaviour:
     BookName: {fileID: 0}
     Day: {fileID: 0}
     Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-  - Type: 2
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
