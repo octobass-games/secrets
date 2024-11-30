@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
+    public SaveManager SaveManager;
     public GameObject LoadButton;
 
     void Start()
     {
-        if (!SaveManager.Instance.HasSaveData())
+        if (!SaveManager.HasSaveData())
         {
             LoadButton.SetActive(false);
         }
@@ -14,7 +15,7 @@ public class MainMenu : MonoBehaviour
 
     public void NewGame()
     {
-        SaveManager.Instance.DeleteSaveData();
+        SaveManager.DeleteSaveData();
         LoadShopScene();
     }
 

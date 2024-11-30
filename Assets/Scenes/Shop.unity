@@ -6510,10 +6510,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.22864585
+    x: 0
     y: 0
-    width: 0.3
-    height: 0.29999998
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -15194,6 +15194,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 820fb40b38862514c8647c3be39b1979, type: 2}
   - {fileID: 11400000, guid: ef132ac8d07382c4c9d2d011c8171abc, type: 2}
   SignInteraction: {fileID: 11400000, guid: 55152637b55f0d7449121063ca22da1d, type: 2}
+  SaveManager: {fileID: 109054967}
 --- !u!4 &1425153796
 Transform:
   m_ObjectHideFlags: 0
@@ -22634,6 +22635,7 @@ MonoBehaviour:
   EndOfDayBankBalance: {fileID: 1017963101}
   LoadStamp: {fileID: 2154512900278508534}
   LoadStampButton: {fileID: 2154512900278508533}
+  SaveManager: {fileID: 109054967}
 --- !u!1 &2074705857
 GameObject:
   m_ObjectHideFlags: 0

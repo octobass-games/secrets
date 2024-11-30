@@ -2,12 +2,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SaveManager : MonoBehaviour
 {
-    public static SaveManager Instance {  get; private set; }
-
     private string SaveFilePath;
     private string StampFilePath;
 
@@ -15,16 +12,6 @@ public class SaveManager : MonoBehaviour
     {
         SaveFilePath = Application.persistentDataPath + "/save-data.json";
         StampFilePath = Application.persistentDataPath + "/save-stamp.json";
-
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-            DontDestroyOnLoad(Instance);
-        }
 
         Load();
     }

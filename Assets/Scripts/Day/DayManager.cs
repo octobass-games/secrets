@@ -11,6 +11,7 @@ public class DayManager : MonoBehaviour, Savable
     private DayDefinition Today;
     private int TodayEventIndex;
     public Interaction SignInteraction;
+    public SaveManager SaveManager;
 
     void Awake()
     {
@@ -62,7 +63,7 @@ public class DayManager : MonoBehaviour, Savable
 
         if (SaveOnDayEnd)
         {
-            SaveManager.Instance.Save();
+            SaveManager.Save();
         }
 
         BeginNextDay();

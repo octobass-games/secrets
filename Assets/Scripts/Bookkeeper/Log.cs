@@ -25,6 +25,7 @@ public class Log : MonoBehaviour
     public TMP_Text EndOfDayBankBalance;
     public GameObject LoadStamp;
     public Button LoadStampButton;
+    public SaveManager SaveManager;
 
     private int DailyTransactionsIndex;
     private List<GameObject> UniqueSales = new();
@@ -204,7 +205,7 @@ public class Log : MonoBehaviour
             
             LoadStampButton.onClick.AddListener(() =>
             {
-                SaveManager.Instance.Rewind(DailyTransactionsIndex);
+                SaveManager.Rewind(DailyTransactionsIndex);
             });
         }
     }

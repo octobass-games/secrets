@@ -175,9 +175,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.26481482
-    width: 0.32656252
-    height: 0.3265625
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -4554,6 +4554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d682549a51ef3c34eb4d6e3774af5612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SaveManager: {fileID: 1052984310}
   LoadButton: {fileID: 1734919273}
 --- !u!1 &1915427133
 GameObject:
