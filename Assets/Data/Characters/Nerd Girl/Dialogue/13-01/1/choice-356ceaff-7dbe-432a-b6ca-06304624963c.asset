@@ -14,7 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 356ceaff-7dbe-432a-b6ca-06304624963c
   Text: OMG! I love dating sims, of course!
-  Events: []
+  Events:
+  - Type: 0
+    Memory: play.my.secret.gnome.boyfriend
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: e8aba04815a674646af02607e3b06e76, type: 2}
   Requirements: []
