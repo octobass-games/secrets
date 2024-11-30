@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: Hey, Small Spender!
   IsUnlocked: 0
   Description: Spend 10,000
+  Image: {fileID: -6371591141657010041, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}

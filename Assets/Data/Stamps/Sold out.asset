@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b91ac017059d3747959639b22d970a3, type: 3}
-  m_Name: Nice to meet you, Velia
+  m_Name: Sold out
   m_EditorClassIdentifier: 
-  Name: Nice to meet you, Velia
+  Name: Sold out
   IsUnlocked: 0
-  Description: Meet Velia
-  Image: {fileID: 8702336374763978153, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}
+  Description: Shop purchased by a third party
+  Image: {fileID: -3048879284838761282, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}

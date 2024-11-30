@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: Death and taxes, but mainly taxes
   IsUnlocked: 0
   Description: Pay all your taxes
+  Image: {fileID: 4208961035300597257, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}

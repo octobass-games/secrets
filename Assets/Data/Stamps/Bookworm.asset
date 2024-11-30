@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: Bookworm
   IsUnlocked: 0
   Description: Sell every book
+  Image: {fileID: 6728336084784931729, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}
