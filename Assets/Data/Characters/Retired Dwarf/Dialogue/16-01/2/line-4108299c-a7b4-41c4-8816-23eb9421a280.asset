@@ -10,16 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-4108299c-a7b4-41c4-8816-23eb9421a280
   m_EditorClassIdentifier: 
-  Id: 8821da6f-3ac6-4f46-bb2e-585d5cfe2c01
+  Id: 4108299c-a7b4-41c4-8816-23eb9421a280
   Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
-  Text: Well, did you find a good one kiddo?
+  Text: No rush kiddo! Take your time.
   NextLine: {fileID: 0}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: 47d11984d8bffbd4b99ac89501117393, type: 2}
-  - {fileID: 11400000, guid: 1e061ba13be5dec42adbb0ea85758a88, type: 2}
-  - {fileID: 11400000, guid: e9737f8ce9bb42f4483e24f6c5cd2abb, type: 2}
-  - {fileID: 11400000, guid: b757ba37610ddb443b47a545feba5fc6, type: 2}
-  - {fileID: 11400000, guid: 59dc752b031496947819317749f36b59, type: 2}
+  Choices: []

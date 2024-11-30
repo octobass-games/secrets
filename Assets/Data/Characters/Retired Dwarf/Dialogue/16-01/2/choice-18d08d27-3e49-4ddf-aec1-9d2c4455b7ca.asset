@@ -13,8 +13,26 @@ MonoBehaviour:
   m_Name: choice-18d08d27-3e49-4ddf-aec1-9d2c4455b7ca
   m_EditorClassIdentifier: 
   Id: 18d08d27-3e49-4ddf-aec1-9d2c4455b7ca
-  Text: BAD CRAFT BOOK CHOICE
+  Text: Maybe this one will do the trick!
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 33b2f9d9b4cb3ec4da031f28d724f848, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 1
+    Name: 
+    Book: {fileID: 11400000, guid: 9bbcf60a242caac459bc60e40880140f, type: 2}
+    Books: []
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}
+  - Type: 1
+    Name: 
+    Book: {fileID: 0}
+    Books:
+    - {fileID: 11400000, guid: ab8cf8464b872304d9cdfc751fac4c67, type: 2}
+    - {fileID: 11400000, guid: 32ea0a36e3c765d4595628a6526cffe4, type: 2}
+    - {fileID: 11400000, guid: 709a913593d0ae44faba32be193f4cae, type: 2}
+    - {fileID: 11400000, guid: 0974ca73b5a2ed0468776a510cbaccf7, type: 2}
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

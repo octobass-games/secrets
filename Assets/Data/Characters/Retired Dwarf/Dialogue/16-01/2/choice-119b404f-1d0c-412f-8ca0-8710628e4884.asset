@@ -13,8 +13,27 @@ MonoBehaviour:
   m_Name: choice-119b404f-1d0c-412f-8ca0-8710628e4884
   m_EditorClassIdentifier: 
   Id: 119b404f-1d0c-412f-8ca0-8710628e4884
-  Text: REALLY BAD BOOK CHOICE
+  Text: Here you go!
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 1de67ed63c41df2439415c677474b7d5, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 1
+    Name: 
+    Book: {fileID: 0}
+    Books:
+    - {fileID: 11400000, guid: 9bbcf60a242caac459bc60e40880140f, type: 2}
+    - {fileID: 11400000, guid: ab8cf8464b872304d9cdfc751fac4c67, type: 2}
+    - {fileID: 11400000, guid: 32ea0a36e3c765d4595628a6526cffe4, type: 2}
+    - {fileID: 11400000, guid: 0974ca73b5a2ed0468776a510cbaccf7, type: 2}
+    - {fileID: 11400000, guid: 709a913593d0ae44faba32be193f4cae, type: 2}
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}
+  - Type: 3
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}
