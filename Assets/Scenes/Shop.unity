@@ -6506,9 +6506,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.055555556
+    width: 0.33333334
+    height: 0.3333333
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -19195,6 +19195,7 @@ GameObject:
   - component: {fileID: 1820940950}
   - component: {fileID: 1820940951}
   - component: {fileID: 1820940952}
+  - component: {fileID: 1820940953}
   m_Layer: 0
   m_Name: upcomingPayments
   m_TagString: Untagged
@@ -19342,6 +19343,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1820940953}
+        m_TargetAssemblyTypeName: AudioTrigger, Assembly-CSharp
+        m_MethodName: FmodOneShot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnRightClick:
     m_PersistentCalls:
       m_Calls: []
@@ -19409,6 +19422,20 @@ MonoBehaviour:
   MonthlyRent7900: {fileID: 11400000, guid: bc313cec56c65a348a048b6c400d005f, type: 2}
   MonthlyRent7850: {fileID: 11400000, guid: 3d7bc6929007d5a42a6feb141766b100, type: 2}
   MonthlyRentOriginal: {fileID: 11400000, guid: fb8a59bd03927c24da2379a7125ccb93, type: 2}
+--- !u!114 &1820940953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820940946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Click
+  is3D: 0
 --- !u!1 &1821195877
 GameObject:
   m_ObjectHideFlags: 0
