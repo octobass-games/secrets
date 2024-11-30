@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-0daaaae7-4365-4e4a-a9bc-4cf68a38103d
+  m_Name: line-16051ee7-a2bc-4b93-a2cf-86e3cd98ca0d
   m_EditorClassIdentifier: 
-  Id: 0daaaae7-4365-4e4a-a9bc-4cf68a38103d
+  Id: 16051ee7-a2bc-4b93-a2cf-86e3cd98ca0d
   Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
-  Text: See you later kiddo!
+  Text: I've got to go now, but I'll stop by again sometime! Bye for now!
   NextLine: {fileID: 0}
   Events:
   - Type: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+    Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
@@ -39,22 +39,6 @@ MonoBehaviour:
     BookName: {fileID: 0}
     Day: {fileID: 0}
     Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-  - Type: 2
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []

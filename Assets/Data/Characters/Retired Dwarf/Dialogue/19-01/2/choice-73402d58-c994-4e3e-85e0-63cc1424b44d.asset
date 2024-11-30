@@ -10,18 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-e4dff198-2221-4685-a204-df4e0be7d868
+  m_Name: choice-73402d58-c994-4e3e-85e0-63cc1424b44d
   m_EditorClassIdentifier: 
-  Id: e4dff198-2221-4685-a204-df4e0be7d868
-  Text: Here you are!
+  Id: 73402d58-c994-4e3e-85e0-63cc1424b44d
+  Text: I'm sorry but I can't find anything...
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 88a7d44eec438174eb9d45d3abeb224d, type: 2}
-  Requirements:
-  - Type: 5
-    Name: 
-    Book: {fileID: 0}
-    Books: []
-    Negate: 0
-    Amount: 0
-    Item: {fileID: 11400000, guid: ef100ad89c754e74897d85d4fec14a18, type: 2}
+  NextLine: {fileID: 11400000, guid: 4a33feaa01404934882e0ab22b407472, type: 2}
+  Requirements: []
