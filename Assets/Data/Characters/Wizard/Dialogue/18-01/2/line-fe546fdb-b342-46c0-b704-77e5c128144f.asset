@@ -17,5 +17,21 @@ MonoBehaviour:
   Text: "\u201CJeremy\u2019s Remarkable Remedy! Sure to keep you awake longer. Sleep
     is a thing of the past with this amazing potion.\u201D"
   NextLine: {fileID: 11400000, guid: 397f6bd95f901964d9549aac5796b474, type: 2}
-  Events: []
+  Events:
+  - Type: 0
+    Memory: gem.stay.awake.potion
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   Choices: []
