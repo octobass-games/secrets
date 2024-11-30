@@ -10,15 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-a175a386-68c1-4bb1-9629-98bc0a620d79
   m_EditorClassIdentifier: 
-  Id: d0502913-7059-465d-b74c-7a39ce3fb0cf
+  Id: a175a386-68c1-4bb1-9629-98bc0a620d79
   Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
-  Text: What do you have for me then?
+  Text: I have to be somewhere, please hurry!
   NextLine: {fileID: 0}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: b3df440548f943c4dae3071990d8b241, type: 2}
-  - {fileID: 11400000, guid: bf5568340a657514fba869a9ddb859ef, type: 2}
-  - {fileID: 11400000, guid: 2f49608b7c6283c4dad87a24c4de852f, type: 2}
-  - {fileID: 11400000, guid: 0d5fd4b032120da43bccc87d8c7d63cf, type: 2}
+  Choices: []

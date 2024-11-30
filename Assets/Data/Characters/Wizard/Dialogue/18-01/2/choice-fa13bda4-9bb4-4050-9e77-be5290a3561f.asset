@@ -10,18 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-68e8d6ed-b89c-4c38-a86a-8481c04397b2
+  m_Name: choice-fa13bda4-9bb4-4050-9e77-be5290a3561f
   m_EditorClassIdentifier: 
-  Id: 68e8d6ed-b89c-4c38-a86a-8481c04397b2
-  Text: "Maybe have a little flick through this\u2026"
+  Id: fa13bda4-9bb4-4050-9e77-be5290a3561f
+  Text: What do you think of this?
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 4f18a23b0da82aa40a02b8d02c761323, type: 2}
+  NextLine: {fileID: 11400000, guid: 8e77d7cc0d229584ab7ac9436ca3d52d, type: 2}
   Requirements:
   - Type: 5
     Name: 
     Book: {fileID: 0}
     Books: []
-    Negate: 0
+    Negate: 1
     Amount: 0
     Item: {fileID: 11400000, guid: d15fe0c0218d6d447a5d01f2bec35a20, type: 2}
+  - Type: 3
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

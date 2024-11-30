@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 27283dd0-1e4e-4c4d-b857-46fd3fe4a236
   Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
-  Text: Well what use are you! I'm going elsewhere!
+  Text: And yet you kept me waiting for so long!? I'm going now, good day!
   NextLine: {fileID: 0}
   Events:
   - Type: 1

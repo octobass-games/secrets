@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-62f64538-74b4-4b84-9586-e7c21e92d0d7
   m_EditorClassIdentifier: 
   Id: 62f64538-74b4-4b84-9586-e7c21e92d0d7
-  Text: Sorry I don't have anything for you
+  Text: Sorry, I don't think I have anything for you after all...
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: ef4e0bc1a7e49b541b49e62273e8eda9, type: 2}
