@@ -10,11 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-f28c5711-2c24-48d9-96d0-106228df6faf
+  m_Name: choice-b5a94a73-275c-40c2-808c-d41c1c0aa927
   m_EditorClassIdentifier: 
-  Id: f28c5711-2c24-48d9-96d0-106228df6faf
-  Text: "Umm\u2026 it appears I can\u2019t afford to invest actually."
+  Id: b5a94a73-275c-40c2-808c-d41c1c0aa927
+  Text: Oh... it appears I can't afford to invest actually!
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: ed3fa24d1171d514297f3da723cf3b5e, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 4
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 1
+    Amount: 1000
+    Item: {fileID: 0}

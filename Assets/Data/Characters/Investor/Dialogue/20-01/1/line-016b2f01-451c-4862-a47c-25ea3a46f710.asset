@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 016b2f01-451c-4862-a47c-25ea3a46f710
   Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
-  Text: Sweet bro! And how much are you looking to invest?
+  Text: Sweet bro! And how much are you looking to invest? 1000 or 3000 coins?
   NextLine: {fileID: 0}
   Events: []
   Choices:
   - {fileID: 11400000, guid: 21eef12475d7fef4884f418205104594, type: 2}
   - {fileID: 11400000, guid: bfe6039272045a34ebe02438f42c31a0, type: 2}
+  - {fileID: 11400000, guid: e0c7d12eea6324c44b8df56aa55a2b44, type: 2}
