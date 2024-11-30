@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class StampCollector : MonoBehaviour, Savable
+public class StampCollector : MonoBehaviour
 {
     public List<StampDefinition> Stamps;
     public GameObject StampBook;
@@ -74,9 +74,9 @@ public class StampCollector : MonoBehaviour, Savable
         stamp.IsUnlocked = true;
     }
 
-    public void Load(SaveData saveData)
+    public void Load(List<StampData> stamps)
     {
-        foreach (var stamp in saveData.Stamps)
+        foreach (var stamp in stamps)
         {
             var stampDefinition = Stamps.Find(s => s.Name == stamp.Id);
 
@@ -87,9 +87,9 @@ public class StampCollector : MonoBehaviour, Savable
         }
     }
 
-    public void Save(SaveData saveData)
+    public List<StampData> GetSaveData()
     {
-        saveData.Stamps = Stamps.Select(s => new StampData(s.Name, s.IsUnlocked)).ToList();
+        return Stamps.Select(s => new StampData(s.Name, s.IsUnlocked)).ToList();
     }
 
     public void NextPage()

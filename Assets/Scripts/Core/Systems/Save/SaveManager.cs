@@ -9,10 +9,12 @@ public class SaveManager : MonoBehaviour
     public static SaveManager Instance {  get; private set; }
 
     private string SaveFilePath;
+    private string StampFilePath;
 
     void Awake()
     {
         SaveFilePath = Application.persistentDataPath + "/save-data.json";
+        StampFilePath = Application.persistentDataPath + "/save-stamp.json";
 
         if (Instance != null && Instance != this)
         {
@@ -32,7 +34,7 @@ public class SaveManager : MonoBehaviour
         SaveData saveData = new();
 
         List<Savable> savables = FindObjectsByType<MonoBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.None).OfType<Savable>().ToList();
-
+        
         foreach (Savable savable in savables)
         {
             savable.Save(saveData);
@@ -42,12 +44,23 @@ public class SaveManager : MonoBehaviour
 
         wrapper.TimePoints.Add(saveData);
 
-        WriteSaveData(wrapper);
+        WriteData(wrapper, SaveFilePath, "save-data");
+        
+        StampCollector stampCollector = FindFirstObjectByType<StampCollector>();
+
+        if (stampCollector != null)
+        {
+            var stamps = stampCollector.GetSaveData();
+
+            var data = new StampWrapperData(stamps);
+
+            WriteData(data, StampFilePath, "save-stamp");
+        }
     }
 
     public void Load()
     {
-        if (HasSaveData())
+        if (HasData(SaveFilePath, "save-data"))
         {
             var wrapper = ReadSaveData();
             
@@ -55,25 +68,33 @@ public class SaveManager : MonoBehaviour
 
             foreach (Savable savable in savables)
             {
-                savable.Load(wrapper.TimePoints[wrapper.TimePoints.Count-1]);
+                if (wrapper.TimePoints.Count > 0)
+                {
+                    savable.Load(wrapper.TimePoints[wrapper.TimePoints.Count-1]);
+                }
+            }
+        }
+
+        if (HasData(StampFilePath, "save-stamp"))
+        {
+            StampCollector stampCollector = FindFirstObjectByType<StampCollector>();
+
+            if (stampCollector != null)
+            {
+                var stamps = ReadStampData();
+                
+                stampCollector.Load(stamps.StampData);
             }
         }
     }
 
     public void Rewind(int dayIndex)
     {
-        if (dayIndex == 0)
-        {
-            DeleteSaveData();
-        }
-        else
-        {
-            var wrapper = ReadSaveData();
+        var wrapper = ReadSaveData();
 
-            wrapper.TimePoints = wrapper.TimePoints.Take(dayIndex).ToList();
+        wrapper.TimePoints = wrapper.TimePoints.Take(dayIndex).ToList();
 
-            WriteSaveData(wrapper);
-        }
+        WriteSaveData(wrapper);
 
         UnityEngine.SceneManagement.SceneManager.LoadScene("Shop");
     }
@@ -85,7 +106,7 @@ public class SaveManager : MonoBehaviour
 
     public void DeleteSaveData()
     {
-        if (HasSaveData())
+        if (HasData(SaveFilePath, "save-data"))
         {
             if (Application.platform != RuntimePlatform.WebGLPlayer)
             {
@@ -100,53 +121,83 @@ public class SaveManager : MonoBehaviour
 
     public bool HasSaveData()
     {
-        if (Application.platform != RuntimePlatform.WebGLPlayer)
-        {
-            return File.Exists(SaveFilePath);
-        }
-        else
-        {
-            return PlayerPrefs.GetString("save-data") != "";
-        }
+        return HasData(SaveFilePath, "save-data");
+    }
+
+    public bool HasStampData()
+    {
+        return HasData(StampFilePath, "save-stamp");
+    }
+
+    private SaveDataWrapper ReadSaveData()
+    {
+        return ReadData<SaveDataWrapper>(SaveFilePath, "save-data");
+    }
+
+    private StampWrapperData ReadStampData()
+    {
+        return ReadData<StampWrapperData>(StampFilePath, "save-stamp");
     }
 
     private void WriteSaveData(SaveDataWrapper wrapper)
+    {
+        WriteData(wrapper, SaveFilePath, "save-data");
+    }
+
+    private void WriteStampData(StampData wrapper)
+    {
+        WriteData(wrapper, StampFilePath, "save-stamp");
+    }
+
+    private bool HasData(string path, string key)
+    {
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        {
+            return File.Exists(path);
+        }
+        else
+        {
+            return PlayerPrefs.GetString(key) != "";
+        }
+    }
+
+    private T ReadData<T>(string path, string key) where T : new()
+    {
+        if (HasData(path, key))
+        {
+            string json;
+
+            if (Application.platform != RuntimePlatform.WebGLPlayer)
+            {
+                using var streamReader = new StreamReader(path);
+                json = streamReader.ReadToEnd();
+            }
+            else
+            {
+                json = PlayerPrefs.GetString(key);
+            }
+
+            return JsonUtility.FromJson<T>(json);
+        }
+
+        return new T();
+    }
+
+    private void WriteData<T>(T wrapper, string path, string key)
     {
         var json = JsonUtility.ToJson(wrapper);
 
         if (Application.platform != RuntimePlatform.WebGLPlayer)
         {
-            using var fileStream = new FileStream(SaveFilePath, FileMode.Create);
+            using var fileStream = new FileStream(path, FileMode.Create);
             using var streamWriter = new StreamWriter(fileStream);
 
             streamWriter.Write(json);
         }
         else
         {
-            PlayerPrefs.SetString("save-data", json);
+            PlayerPrefs.SetString(key, json);
             PlayerPrefs.Save();
         }
-    }
-
-    private SaveDataWrapper ReadSaveData()
-    {
-        if (HasSaveData())
-        {
-            string json;
-
-            if (Application.platform != RuntimePlatform.WebGLPlayer)
-            {
-                using var streamReader = new StreamReader(SaveFilePath);
-                json = streamReader.ReadToEnd();
-            }
-            else
-            {
-                json = PlayerPrefs.GetString("save-data");
-            }
-
-            return JsonUtility.FromJson<SaveDataWrapper>(json);
-        }
-
-        return new SaveDataWrapper();
     }
 }
