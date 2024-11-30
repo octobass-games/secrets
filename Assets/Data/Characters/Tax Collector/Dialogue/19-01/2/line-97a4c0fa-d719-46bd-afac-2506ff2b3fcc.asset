@@ -14,7 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 97a4c0fa-d719-46bd-afac-2506ff2b3fcc
   Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
-  Text: Thanks
+  Text: Hmm... this looks like it'll be a fun read. I'll take it.
   NextLine: {fileID: 11400000, guid: aa36a83a82fca5747ad3149d1d281471, type: 2}
-  Events: []
+  Events:
+  - Type: 2
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   Choices: []

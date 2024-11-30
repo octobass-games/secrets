@@ -13,8 +13,19 @@ MonoBehaviour:
   m_Name: choice-75990fef-3578-49c6-b7fd-fab27d154c73
   m_EditorClassIdentifier: 
   Id: 75990fef-3578-49c6-b7fd-fab27d154c73
-  Text: 'YES [PLACEHOLDER]'
+  Text: I certainly did!
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: f5595c3ffd30e2045aa360a7ab4d305c, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 1
+    Name: 
+    Book: {fileID: 0}
+    Books:
+    - {fileID: 11400000, guid: 80d2bbdfdb071b64eb288ddc5267c743, type: 2}
+    - {fileID: 11400000, guid: 72cb8683effe2524bb7f4d0a5d61dc56, type: 2}
+    - {fileID: 11400000, guid: 7d6fddb8b941f2f45a79b0b0e6199954, type: 2}
+    - {fileID: 11400000, guid: 3da957bbab3bf3949b9027ec50fbef46, type: 2}
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

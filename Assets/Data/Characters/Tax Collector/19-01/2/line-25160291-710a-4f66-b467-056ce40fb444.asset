@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-2e38b1e9-5f37-4eaa-a6da-cfbc6e7fbb53
+  m_Name: line-25160291-710a-4f66-b467-056ce40fb444
   m_EditorClassIdentifier: 
-  Id: 2e38b1e9-5f37-4eaa-a6da-cfbc6e7fbb53
+  Id: 25160291-710a-4f66-b467-056ce40fb444
   Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
-  Text: "Anyway, I don\u2019t suppose you have any good horror books to take my mind
-    off my monotonous job?"
-  NextLine: {fileID: 11400000, guid: a6f1456dbf5506b49a739440cf7c2ad6, type: 2}
+  Text: Take your time, I'm not in a rush.
+  NextLine: {fileID: 0}
   Events: []
   Choices: []

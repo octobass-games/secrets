@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 083e3b0b-d350-43ab-aa76-f7ff45912a64
   Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
-  Text: Bye
+  Text: Well I best be going now, bye.
   NextLine: {fileID: 0}
   Events:
   - Type: 1

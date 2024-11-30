@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 8992359a-6c88-4170-aa37-2a44c1764996
   Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
-  Text: Did you find story books to take my mind off my monotonous job?
+  Text: Did you find a good horror to take my mind off my monotonous job?
   NextLine: {fileID: 0}
   Events: []
   Choices:
   - {fileID: 11400000, guid: 9654230624454bd4e949c2d502b92869, type: 2}
   - {fileID: 11400000, guid: 1bf26743a45a991478dae5e136748975, type: 2}
   - {fileID: 11400000, guid: 55955629a2d97254a8c346b8b0a9421d, type: 2}
+  - {fileID: 11400000, guid: 14ba528b9c7ac72428db84406882daa7, type: 2}
