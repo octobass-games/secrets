@@ -166,7 +166,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     private void Withdraw(int amount)
     {
-        BankBalance -= amount;
+        BankBalance = Mathf.Max(0, BankBalance - amount);
 
         TillView.Display(BankBalance);
     }
