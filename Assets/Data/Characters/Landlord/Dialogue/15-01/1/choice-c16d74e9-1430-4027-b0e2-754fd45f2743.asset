@@ -18,4 +18,11 @@ MonoBehaviour:
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: ca7cca27637d4bb47953876d740eb7bd, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 0
+    Name: landlord.no.my.secret.gnome.boyfriend
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}
