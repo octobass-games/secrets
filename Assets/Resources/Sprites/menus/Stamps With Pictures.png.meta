@@ -759,6 +759,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 29
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc935c4f7b68fe4cbfa17cde103590c
+      internalID: -1209862862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -775,6 +797,7 @@ TextureImporter:
     nameFileIdTable:
       Neighbourhood Friends: 2765607509869445008
       Stamps With Pictures_0: -2669946268643079862
+      Stamps With Pictures_1: -1209862862
       Stamps With Pictures_10: 4981023157300436904
       Stamps With Pictures_11: 9197412853276736181
       Stamps With Pictures_12: -765306731878022152
