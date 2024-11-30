@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -6,20 +5,24 @@ public class CharacterPage : MonoBehaviour
 {
     public Character Character;
 
-    public List<TMP_Text> Tidbits;
+    public GameObject TidbitContainer;
+    public GameObject TidbitPrefab;
+    public TMPro.TextMeshProUGUI CharacterName;
 
     void OnEnable()
     {
         var tidbits = Character.GetUnlockedTidbits();
+        if (tidbits.Count > 0)
+        {
+            CharacterName.text = Character.CharacterDefinition.Name;
+        }
 
         for (int i = 0; i < tidbits.Count; i++)
         {
-            var tidbit = tidbits[i].Tidbit;
-
-            if (i < Tidbits.Count)
-            {
-                Tidbits[i].text = tidbit; 
-            }
+            var thing = Instantiate(TidbitPrefab);
+            thing.transform.SetParent(TidbitContainer.transform);
+            thing.transform.localScale = Vector3.one;
+            thing.GetComponent<TMPro.TextMeshProUGUI>().text = tidbits[i].Tidbit;
         }
     }
 }
