@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6213566ad429a04c824721a064ee2fd, type: 3}
   m_Name: Velia-2
   m_EditorClassIdentifier: 
-  RelationshipRequirement: 0
-  RootLines: []
+  RelationshipRequirement: 1
+  RootLines:
+  - {fileID: 11400000, guid: 9b163e4271971df4c90ab6ed488f2957, type: 2}
