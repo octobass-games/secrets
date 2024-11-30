@@ -68,6 +68,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Subscribe(GameEventType.PAYING_FOR_INFORMATION, OnPayingForInformation);
         EventManager.Instance.Subscribe(GameEventType.MONTHLY_RENT_AGREED, OnMonthlyRentAgreed);
         EventManager.Instance.Subscribe(GameEventType.BANK_DEPOSIT, OnBankDeposit);
+        EventManager.Instance.Subscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
     }
 
     void OnDisable()
@@ -82,11 +83,17 @@ public class Bookkeeper : MonoBehaviour, Savable
         EventManager.Instance.Unsubscribe(GameEventType.PAYING_FOR_INFORMATION, OnPayingForInformation);
         EventManager.Instance.Unsubscribe(GameEventType.MONTHLY_RENT_AGREED, OnMonthlyRentAgreed);
         EventManager.Instance.Unsubscribe(GameEventType.BANK_DEPOSIT, OnBankDeposit);
+        EventManager.Instance.Unsubscribe(GameEventType.BANK_WITHDRAWAL, OnBankWithdrawal);
     }
 
     private void OnBankDeposit(GameEvent @event)
     {
         Deposit(@event.Amount);
+    }
+
+    private void OnBankWithdrawal(GameEvent @event)
+    {
+        Withdraw(@event.Amount);
     }
 
     private void OnPayingForInformation(GameEvent @event)
@@ -159,7 +166,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     private void Withdraw(int amount)
     {
-        BankBalance -= amount;
+        BankBalance = Mathf.Max(0, BankBalance - amount);
 
         TillView.Display(BankBalance);
     }
