@@ -17,6 +17,22 @@ MonoBehaviour:
   Text: "I\u2019ll be back in a few days. See you later."
   NextLine: {fileID: 0}
   Events:
+  - Type: 0
+    Memory: supplier.available
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   - Type: 1
     Memory: 
     Paper: {fileID: 0}
@@ -30,6 +46,9 @@ MonoBehaviour:
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   - Type: 3
     Memory: 
     Paper: {fileID: 0}
@@ -43,4 +62,7 @@ MonoBehaviour:
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   Choices: []

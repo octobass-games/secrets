@@ -16,6 +16,22 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: 61287b88000fa1b4386797bcb2979580, type: 2}
   Text: Would you like some amazing books?
   NextLine: {fileID: 0}
-  Events: []
+  Events:
+  - Type: 0
+    Memory: spoken.to.supplier
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   Choices:
   - {fileID: 11400000, guid: f8c73d463728a014d9466cc4757a172c, type: 2}

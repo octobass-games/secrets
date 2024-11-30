@@ -6,6 +6,8 @@ public class HistoricalAction : MonoBehaviour
     public History History;
     public string Event;
     public UnityEvent Action;
+    public string UntilEvent;
+    public UnityEvent UntilAction;
 
     void OnEnable()
     {
@@ -19,7 +21,7 @@ public class HistoricalAction : MonoBehaviour
 
     void Start()
     {
-        if (History.Contains(Event))
+        if (History.Contains(Event) && !History.Contains(UntilEvent))
         {
             Action?.Invoke();
         }
@@ -27,9 +29,14 @@ public class HistoricalAction : MonoBehaviour
 
     private void OnHistoryEvent(GameEvent @event)
     {
-        if (@event.Memory == Event)
+        if (@event.Memory == Event && !History.Contains(UntilEvent))
         {
             Action?.Invoke();
+        }
+
+        if (@event.Memory == UntilEvent)
+        {
+            UntilAction?.Invoke();
         }
     }
 }

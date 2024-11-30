@@ -17,18 +17,5 @@ MonoBehaviour:
   Text: I'm going to head off, but once I'm gone you're going to want to ring your
     supplier.
   NextLine: {fileID: 11400000, guid: 182ad4f71646a1e4a83a1424565b0650, type: 2}
-  Events:
-  - Type: 0
-    Memory: supplier.available
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
+  Events: []
   Choices: []
