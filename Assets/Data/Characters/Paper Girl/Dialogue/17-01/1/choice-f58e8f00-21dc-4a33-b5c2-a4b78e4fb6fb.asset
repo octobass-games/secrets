@@ -10,18 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-b8142edb-d59a-42ae-92d4-bb76b4bf8a69
+  m_Name: choice-f58e8f00-21dc-4a33-b5c2-a4b78e4fb6fb
   m_EditorClassIdentifier: 
-  Id: b8142edb-d59a-42ae-92d4-bb76b4bf8a69
-  Text: "Oh, I can\u2019t afford that\u2026"
+  Id: f58e8f00-21dc-4a33-b5c2-a4b78e4fb6fb
+  Text: I've changed my mind actually. I'm not interested, sorry!
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 13fa03225e0b9d744bbe5c7037f33654, type: 2}
-  Requirements:
-  - Type: 4
-    Name: 
-    Book: {fileID: 0}
-    Books: []
-    Negate: 1
-    Amount: 100
-    Item: {fileID: 0}
+  NextLine: {fileID: 11400000, guid: 04436851146545f448bea89ea355ada8, type: 2}
+  Requirements: []

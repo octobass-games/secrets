@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: line-756ac5cb-f216-4d2e-b33d-d0107fddaf0b
   m_EditorClassIdentifier: 
   Id: 756ac5cb-f216-4d2e-b33d-d0107fddaf0b
-  Speaker: {fileID: 0}
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
   Text: "Another body\u2019s been found this morning. A 19 year old man, missing
     his heart."
   NextLine: {fileID: 11400000, guid: a1e5e4b885ce6a642ba30af2f3948d63, type: 2}

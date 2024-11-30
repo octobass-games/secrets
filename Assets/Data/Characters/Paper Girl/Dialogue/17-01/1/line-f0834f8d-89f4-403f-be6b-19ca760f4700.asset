@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-22ab31a7-1cfb-4da0-9a44-8d714ac40341
+  m_Name: line-f0834f8d-89f4-403f-be6b-19ca760f4700
   m_EditorClassIdentifier: 
-  Id: 22ab31a7-1cfb-4da0-9a44-8d714ac40341
-  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: My word! Look at how it glints in the light...
-  NextLine: {fileID: 11400000, guid: 81ab5be9aacd9404a8457706b3bf071c, type: 2}
+  Id: f0834f8d-89f4-403f-be6b-19ca760f4700
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: Oh well! Just let me know if you change your mind.
+  NextLine: {fileID: 11400000, guid: 00d0534657831f942a68910091b74b65, type: 2}
   Events: []
   Choices: []

@@ -14,7 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 820c6bc6-f66d-42b3-b588-db0e1760a6f2
   Text: What do you know about Ivy?
-  Events: []
+  Events:
+  - Type: 20
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 100
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 009bbda0e8195ac4d8bb57ae69f5bb4d, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 4
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 100
+    Item: {fileID: 0}
