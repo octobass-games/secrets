@@ -17,5 +17,22 @@ MonoBehaviour:
   Text: "I\u2019ve been meaning to properly stop by for a little while. I\u2019m
     Maple, the local paper girl for The Aurora Weekly."
   NextLine: {fileID: 11400000, guid: e1ed789644288994a9f5bd1dd1b08139, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 7abebb9a7661b3348bc6955fed211af4, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []

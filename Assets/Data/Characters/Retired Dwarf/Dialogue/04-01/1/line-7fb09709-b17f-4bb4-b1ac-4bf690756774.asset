@@ -16,5 +16,22 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
   Text: "Look, you can\u2019t trust the healers around here."
   NextLine: {fileID: 11400000, guid: cdc5ec997538ab542a973f8bf24022e9, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 020523214c9671a41b3c30859eaffd2a, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
