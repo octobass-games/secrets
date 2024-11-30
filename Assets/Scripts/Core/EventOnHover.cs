@@ -26,19 +26,13 @@ public class EventOnHover : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if (enabled)
-        {
-            IsMouseOverlapping = true;
-        }
+        IsMouseOverlapping = true;
     }
 
 
     void OnMouseExit()
     {
-        if (enabled)
-        {
-            IsMouseOverlapping = false;
-        }
+        IsMouseOverlapping = false;
     }
 
     void OnDisable()

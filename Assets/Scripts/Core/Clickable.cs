@@ -8,11 +8,9 @@ public class Clickable : MonoBehaviour
     public UnityEvent OnClick;
     public UnityEvent OnRightClick;
 
-    private bool IsMouseOverlapping;
-
-    void Update()
+    void OnMouseOver()
     {
-        if (IsMouseOverlapping && !EventSystem.current.IsPointerOverGameObject())
+        if (enabled && !EventSystem.current.IsPointerOverGameObject())
         {
             if (Mouse.current.leftButton.wasPressedThisFrame)
             {
@@ -22,22 +20,6 @@ public class Clickable : MonoBehaviour
             {
                 OnRightClick?.Invoke();
             }
-        }
-    }
-
-    void OnMouseEnter()
-    {
-        if (enabled)
-        {
-            IsMouseOverlapping = true;
-        }
-    }
-
-    void OnMouseExit()
-    {
-        if (enabled)
-        {
-            IsMouseOverlapping = false;
         }
     }
 }
