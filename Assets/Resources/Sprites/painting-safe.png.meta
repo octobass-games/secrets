@@ -484,6 +484,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: outline-safe-button
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 56
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f9a6fd6ae97744e9400a563309ee88
+      internalID: 1164890795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -498,6 +520,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      outline-safe-button: 1164890795
       painting-safe_0: 1288680417787627932
       painting-safe_1: -7809075951630883264
       painting-safe_2: -2861670800683221993
