@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: Neighbourhood Friends
   IsUnlocked: 0
   Description: Essie and Cuthbert resolve their differences
+  Image: {fileID: 2765607509869445008, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}

@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 5e8034e65c0dc8844a8c3f5978a5e388
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2669946268643079862
+    second: Stamps With Pictures_0
+  - first:
+      213: 2765607509869445008
+    second: Stamps With Pictures_1
+  - first:
+      213: 3984381503686735535
+    second: Stamps With Pictures_2
+  - first:
+      213: 2070620203743589546
+    second: Stamps With Pictures_3
+  - first:
+      213: -8804372692930493195
+    second: Stamps With Pictures_4
+  - first:
+      213: 2067032906194145901
+    second: Stamps With Pictures_5
+  - first:
+      213: -2584799720231705059
+    second: Stamps With Pictures_6
+  - first:
+      213: 5817574137564179821
+    second: Stamps With Pictures_7
+  - first:
+      213: 6728336084784931729
+    second: Stamps With Pictures_8
+  - first:
+      213: 8702336374763978153
+    second: Stamps With Pictures_9
+  - first:
+      213: 4981023157300436904
+    second: Stamps With Pictures_10
+  - first:
+      213: 9197412853276736181
+    second: Stamps With Pictures_11
+  - first:
+      213: -765306731878022152
+    second: Stamps With Pictures_12
+  - first:
+      213: -203087822296286399
+    second: Stamps With Pictures_13
+  - first:
+      213: 5816008643692279167
+    second: Stamps With Pictures_14
+  - first:
+      213: 4208961035300597257
+    second: Stamps With Pictures_15
+  - first:
+      213: -3004789956100014825
+    second: Stamps With Pictures_16
+  - first:
+      213: 3472932134100614115
+    second: Stamps With Pictures_17
+  - first:
+      213: -7492562784375672303
+    second: Stamps With Pictures_18
+  - first:
+      213: -5468690573510180940
+    second: Stamps With Pictures_19
+  - first:
+      213: -6371591141657010041
+    second: Stamps With Pictures_20
+  - first:
+      213: 372844556398396378
+    second: Stamps With Pictures_21
+  - first:
+      213: 7050676796486859543
+    second: Stamps With Pictures_22
+  - first:
+      213: -1944440438174179729
+    second: Stamps With Pictures_23
+  - first:
+      213: -6745831577367101459
+    second: Stamps With Pictures_24
+  - first:
+      213: -3048879284838761282
+    second: Stamps With Pictures_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stamps With Pictures_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 211
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a494620c30272fad0800000000000000
+      internalID: -2669946268643079862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neighbourhood Friends
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 212
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fbbed9069616620800000000000000
+      internalID: 2765607509869445008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 212
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa672e01edd5b4730800000000000000
+      internalID: 3984381503686735535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 211
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa432ecca125cbc10800000000000000
+      internalID: 2070620203743589546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 210
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f48abfeea590d580800000000000000
+      internalID: -8804372692930493195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 211
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62deb00a739fac10800000000000000
+      internalID: 2067032906194145901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_6
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 211
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d166f0c6952f02cd0800000000000000
+      internalID: -2584799720231705059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thanks for playing!
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 153
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d2304fadc2cb050800000000000000
+      internalID: 5817574137564179821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 153
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1936c07550adf5d50800000000000000
+      internalID: 6728336084784931729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_9
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 153
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad74cd63d8e4c870800000000000000
+      internalID: 8702336374763978153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 152
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af13e4cb26202540800000000000000
+      internalID: 4981023157300436904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 152
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bafb249246c3af70800000000000000
+      internalID: 9197412853276736181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_12
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 153
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3023605951165f0800000000000000
+      internalID: -765306731878022152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_13
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 152
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b72dd93bc7e2df0800000000000000
+      internalID: -203087822296286399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 94
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7531e10c0d96b050800000000000000
+      internalID: 5816008643692279167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 94
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e6d86f2cb396a30800000000000000
+      internalID: 4208961035300597257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 93
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d3ff97477dc46d0800000000000000
+      internalID: -3004789956100014825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 93
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb3b162065523030800000000000000
+      internalID: 3472932134100614115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 92
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112f9fb48d1150890800000000000000
+      internalID: -7492562784375672303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 91
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bff563d5ee4b14b0800000000000000
+      internalID: -5468690573510180940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 90
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78022836d9f8397a0800000000000000
+      internalID: -6371591141657010041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 31
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3809c062c9c2500800000000000000
+      internalID: 372844556398396378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_22
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 31
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b30b8b03909d160800000000000000
+      internalID: 7050676796486859543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 30
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e19bb39b5f305e0800000000000000
+      internalID: -1944440438174179729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 30
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defbb6cdbedf162a0800000000000000
+      internalID: -6745831577367101459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamps With Pictures_25
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 30
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc7320b17430b5d0800000000000000
+      internalID: -3048879284838761282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c8459c6b7e58ba43905e232aef4667e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Neighbourhood Friends: 2765607509869445008
+      Stamps With Pictures_0: -2669946268643079862
+      Stamps With Pictures_10: 4981023157300436904
+      Stamps With Pictures_11: 9197412853276736181
+      Stamps With Pictures_12: -765306731878022152
+      Stamps With Pictures_13: -203087822296286399
+      Stamps With Pictures_14: 5816008643692279167
+      Stamps With Pictures_15: 4208961035300597257
+      Stamps With Pictures_16: -3004789956100014825
+      Stamps With Pictures_17: 3472932134100614115
+      Stamps With Pictures_18: -7492562784375672303
+      Stamps With Pictures_19: -5468690573510180940
+      Stamps With Pictures_2: 3984381503686735535
+      Stamps With Pictures_20: -6371591141657010041
+      Stamps With Pictures_21: 372844556398396378
+      Stamps With Pictures_22: 7050676796486859543
+      Stamps With Pictures_23: -1944440438174179729
+      Stamps With Pictures_24: -6745831577367101459
+      Stamps With Pictures_25: -3048879284838761282
+      Stamps With Pictures_3: 2070620203743589546
+      Stamps With Pictures_4: -8804372692930493195
+      Stamps With Pictures_5: 2067032906194145901
+      Stamps With Pictures_6: -2584799720231705059
+      Stamps With Pictures_8: 6728336084784931729
+      Stamps With Pictures_9: 8702336374763978153
+      Thanks for playing!: 5817574137564179821
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

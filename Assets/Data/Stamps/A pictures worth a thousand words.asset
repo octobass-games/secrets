@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: A pictures worth a thousand words
   IsUnlocked: 0
   Description: Unlock grandmas safe
+  Image: {fileID: 3984381503686735535, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}

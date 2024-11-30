@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b91ac017059d3747959639b22d970a3, type: 3}
-  m_Name: Nice to meet you, Velia
+  m_Name: 1 Star
   m_EditorClassIdentifier: 
-  Name: Nice to meet you, Velia
+  Name: 1 Star
   IsUnlocked: 0
-  Description: Meet Velia
-  Image: {fileID: 8702336374763978153, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}
+  Description: Shop closes due to 1 star reviews
+  Image: {fileID: -6745831577367101459, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}

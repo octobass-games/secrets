@@ -15,3 +15,4 @@ MonoBehaviour:
   Name: Ace Attorney
   IsUnlocked: 0
   Description: Save on rent by citing the law
+  Image: {fileID: 2070620203743589546, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}
