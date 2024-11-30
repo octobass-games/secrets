@@ -6510,10 +6510,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.22864585
     y: 0
-    width: 1
-    height: 1
+    width: 0.3
+    height: 0.29999998
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -17145,7 +17145,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 1
+      Value: 9
   TriggerEvent: 11
 --- !u!114 &1660102730
 MonoBehaviour:
@@ -17838,7 +17838,7 @@ MonoBehaviour:
   - Target: {fileID: 1948967781}
     Params:
     - Name: Character
-      Value: 9
+      Value: 10
   TriggerEvent: 11
 --- !u!114 &1715207254
 MonoBehaviour:
