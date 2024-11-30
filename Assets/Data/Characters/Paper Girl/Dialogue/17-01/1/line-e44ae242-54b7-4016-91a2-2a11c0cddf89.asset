@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-e44ae242-54b7-4016-91a2-2a11c0cddf89
+  m_EditorClassIdentifier: 
+  Id: e44ae242-54b7-4016-91a2-2a11c0cddf89
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: "Oh, haha! I don\u2019t suppose you spotted the family resemblance?"
+  NextLine: {fileID: 11400000, guid: a84c95c84af442d46a31e5b7d7f3d90b, type: 2}
+  Events: []
+  Choices: []

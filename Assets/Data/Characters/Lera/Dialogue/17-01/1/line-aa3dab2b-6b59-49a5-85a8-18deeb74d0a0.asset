@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-aa3dab2b-6b59-49a5-85a8-18deeb74d0a0
+  m_EditorClassIdentifier: 
+  Id: aa3dab2b-6b59-49a5-85a8-18deeb74d0a0
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "It\u2019s probably of no surprise to you, but I\u2019m interested in purchasing
+    some of your\u2026 expanded wares."
+  NextLine: {fileID: 11400000, guid: 1c87ea392ef93f04fa0e992da201f03a, type: 2}
+  Events: []
+  Choices: []

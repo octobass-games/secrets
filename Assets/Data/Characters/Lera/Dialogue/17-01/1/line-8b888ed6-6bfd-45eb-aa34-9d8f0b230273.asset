@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-8b888ed6-6bfd-45eb-aa34-9d8f0b230273
+  m_EditorClassIdentifier: 
+  Id: 8b888ed6-6bfd-45eb-aa34-9d8f0b230273
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "Well\u2026 I guess you really are her grandchild! I was beginning to think
+    the brains stopped at her generation, haha!"
+  NextLine: {fileID: 11400000, guid: 14dc2fee50a66ca4ebe9811930f207c3, type: 2}
+  Events: []
+  Choices: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-d32b7c16-d98d-4a50-9e55-b9cdb1762408
+  m_EditorClassIdentifier: 
+  Id: d32b7c16-d98d-4a50-9e55-b9cdb1762408
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "I\u2019m in need of things that are sharp and pointy\u2026 if you catch
+    my drift? But failing that, a good book to keep me entertained wouldn\u2019t
+    be unwanted."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 6a3396c17df04b9469169703c29af510, type: 2}

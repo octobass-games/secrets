@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-086efc76-c2e7-4a61-9e9b-d2516c345b16
+  m_EditorClassIdentifier: 
+  Id: 086efc76-c2e7-4a61-9e9b-d2516c345b16
+  Text: Is that not a bit harsh?
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: 58dfb6925c8f7b94a9e804f59ae6b42f, type: 2}
+  Requirements: []

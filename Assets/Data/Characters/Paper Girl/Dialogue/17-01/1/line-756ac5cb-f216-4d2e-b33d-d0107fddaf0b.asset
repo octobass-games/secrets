@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-756ac5cb-f216-4d2e-b33d-d0107fddaf0b
+  m_EditorClassIdentifier: 
+  Id: 756ac5cb-f216-4d2e-b33d-d0107fddaf0b
+  Speaker: {fileID: 0}
+  Text: "Another body\u2019s been found this morning. A 19 year old man, missing
+    his heart."
+  NextLine: {fileID: 11400000, guid: a1e5e4b885ce6a642ba30af2f3948d63, type: 2}
+  Events: []
+  Choices: []

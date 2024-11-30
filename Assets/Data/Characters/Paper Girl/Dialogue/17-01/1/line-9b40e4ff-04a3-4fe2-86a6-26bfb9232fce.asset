@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-9b40e4ff-04a3-4fe2-86a6-26bfb9232fce
+  m_EditorClassIdentifier: 
+  Id: 9b40e4ff-04a3-4fe2-86a6-26bfb9232fce
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: Everyone is playing detective, on account of the police sucking so much.
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 720727de4f293384abd5d5b302f3041f, type: 2}
+  - {fileID: 11400000, guid: 20155b4e684769546a425255e3a42642, type: 2}

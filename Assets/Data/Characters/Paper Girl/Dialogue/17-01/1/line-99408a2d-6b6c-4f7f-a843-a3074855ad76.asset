@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-99408a2d-6b6c-4f7f-a843-a3074855ad76
+  m_EditorClassIdentifier: 
+  Id: 99408a2d-6b6c-4f7f-a843-a3074855ad76
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: "Is there anyone in particular you\u2019d like to know about?"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 9af5b6c9d5abddf46b01a9152cfae383, type: 2}
+  - {fileID: 11400000, guid: f75e7850ffe162d49be553ae5e5fdb70, type: 2}
+  - {fileID: 11400000, guid: 31e035e0764bceb43b50a886d50d812c, type: 2}
