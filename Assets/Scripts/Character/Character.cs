@@ -13,9 +13,11 @@ public class Character : MonoBehaviour, Savable
 
     void Awake()
     {
+        var tidbits = CharacterDefinition.Tidbits.Select(t => Instantiate(t)).ToList();
         CharacterDefinition = Instantiate(CharacterDefinition);
 
         Interactions = CharacterDefinition.Interactions;
+        CharacterDefinition.Tidbits = tidbits;
 
         gameObject.SetActive(false);
     }
