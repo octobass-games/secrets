@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 290ffe81-4bac-4433-ab8f-ae98effc1c1b
   Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
-  Text: No problem.
+  Text: That's all right. I guess I'll just go on with my monotonous job in mind...
   NextLine: {fileID: 11400000, guid: aa36a83a82fca5747ad3149d1d281471, type: 2}
   Events: []
   Choices: []

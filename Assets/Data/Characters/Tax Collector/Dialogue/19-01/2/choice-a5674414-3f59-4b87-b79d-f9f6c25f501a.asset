@@ -13,8 +13,26 @@ MonoBehaviour:
   m_Name: choice-a5674414-3f59-4b87-b79d-f9f6c25f501a
   m_EditorClassIdentifier: 
   Id: a5674414-3f59-4b87-b79d-f9f6c25f501a
-  Text: 'YES BUT ITS A BAD CHOICE  [PLACEHOLDER]'
+  Text: I certainly did!
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 6e75cea2447b550478c29629de03536a, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 1
+    Name: 
+    Book: {fileID: 0}
+    Books:
+    - {fileID: 11400000, guid: 80d2bbdfdb071b64eb288ddc5267c743, type: 2}
+    - {fileID: 11400000, guid: 72cb8683effe2524bb7f4d0a5d61dc56, type: 2}
+    - {fileID: 11400000, guid: 7d6fddb8b941f2f45a79b0b0e6199954, type: 2}
+    - {fileID: 11400000, guid: 3da957bbab3bf3949b9027ec50fbef46, type: 2}
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}
+  - Type: 3
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

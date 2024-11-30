@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: c031b4ad-0622-4a2b-af7f-419b6af06b2d
   Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
-  Text: "Ah sorry I\u2019m not interested in this."
+  Text: Hmm... I'm sorry but I'm not interested in this.
   NextLine: {fileID: 11400000, guid: aa36a83a82fca5747ad3149d1d281471, type: 2}
   Events: []
   Choices: []
