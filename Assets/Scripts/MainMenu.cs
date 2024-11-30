@@ -3,6 +3,7 @@ using UnityEngine;
 public class MainMenu : MonoBehaviour
 {
     public SaveManager SaveManager;
+    public SceneManager SceneManager;
     public GameObject LoadButton;
 
     void Start()
@@ -21,11 +22,11 @@ public class MainMenu : MonoBehaviour
 
     public void LoadShopScene()
     {
-        SceneManager.Instance.ChangeScene("Shop");
+        SceneManager.ChangeScene("Shop");
     }
 
     public void LoadCreditsScene()
     {
-        SceneManager.Instance.ChangeScene("Credits");
+        SceneManager.ChangeScene("Credits");
     }
 }
