@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-c44f8b90-8f5b-4881-af52-5a12e1e704f5
+  m_EditorClassIdentifier: 
+  Id: c44f8b90-8f5b-4881-af52-5a12e1e704f5
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "Yes, \u2018Wow\u2019 is what I would probably say too if I was in the presence
+    of someone such as I."
+  NextLine: {fileID: 11400000, guid: a02a4c721f791724da217e93c8e2a8f5, type: 2}
+  Events: []
+  Choices: []
