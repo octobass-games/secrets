@@ -17,5 +17,22 @@ MonoBehaviour:
   Text: "Oh my, how rude! You\u2019re just like the troublesome \u201Cmusically gifted\u201D
     neighbour of mine."
   NextLine: {fileID: 11400000, guid: 5d94e8a8695d11b42a94d3671cdb05bb, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 78a14c5f725f9b042bca1c51a39c594f, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
