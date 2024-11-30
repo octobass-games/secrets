@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-8a59bc64-ab4b-4af1-b0d1-8860b90445f0
+  m_EditorClassIdentifier: 
+  Id: 8a59bc64-ab4b-4af1-b0d1-8860b90445f0
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: "As for the past murders, they\u2019ve not got much further with those either.
+    Although there was one small piece of evidence they found."
+  NextLine: {fileID: 11400000, guid: 67a45163e7210f345af790185d84f303, type: 2}
+  Events: []
+  Choices: []

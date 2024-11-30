@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-90e6b9a7-83e5-4c34-b025-817218e22e0a
+  m_EditorClassIdentifier: 
+  Id: 90e6b9a7-83e5-4c34-b025-817218e22e0a
+  Text: "Oh\u2026 and here I thought we were becoming friends\u2026"
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: 144a6efdde7439440b78baa9291e202f, type: 2}
+  Requirements: []

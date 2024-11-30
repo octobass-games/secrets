@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-f131ed18-5c42-4d79-b1b0-263b2e297473
+  m_Name: line-4d3b990e-cb85-40f4-a932-f13c2c867783
   m_EditorClassIdentifier: 
-  Id: f131ed18-5c42-4d79-b1b0-263b2e297473
+  Id: 4d3b990e-cb85-40f4-a932-f13c2c867783
   Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
-  Text: I better get going now, bye!
+  Text: "I\u2019ll see you later!"
   NextLine: {fileID: 0}
   Events:
   - Type: 1

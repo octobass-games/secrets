@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-02a5d5c7-63f6-490d-930b-c800ab37858a
+  m_EditorClassIdentifier: 
+  Id: 02a5d5c7-63f6-490d-930b-c800ab37858a
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: They found a knife at the bottom of the river which had a blade that seemed
+    to match up with the stab wounds of the previous victim.
+  NextLine: {fileID: 11400000, guid: 7cfd4f0f2d70a544c82f604454e3f3ff, type: 2}
+  Events: []
+  Choices: []

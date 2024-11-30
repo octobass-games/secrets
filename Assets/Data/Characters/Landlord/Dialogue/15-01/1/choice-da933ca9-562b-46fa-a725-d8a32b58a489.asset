@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-da933ca9-562b-46fa-a725-d8a32b58a489
+  m_EditorClassIdentifier: 
+  Id: da933ca9-562b-46fa-a725-d8a32b58a489
+  Text: Good evening.
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: f73b24d7398381c47b7d05c06d0f9a05, type: 2}
+  Requirements: []

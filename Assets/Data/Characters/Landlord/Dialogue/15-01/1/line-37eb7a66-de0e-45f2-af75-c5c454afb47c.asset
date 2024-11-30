@@ -10,30 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-f131ed18-5c42-4d79-b1b0-263b2e297473
+  m_Name: line-37eb7a66-de0e-45f2-af75-c5c454afb47c
   m_EditorClassIdentifier: 
-  Id: f131ed18-5c42-4d79-b1b0-263b2e297473
-  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
-  Text: I better get going now, bye!
+  Id: 37eb7a66-de0e-45f2-af75-c5c454afb47c
+  Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
+  Text: "I\u2019m afraid I\u2019m going to have to ask you to vacate the premises,
+    effective immediately."
   NextLine: {fileID: 0}
   Events:
-  - Type: 1
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-  - Type: 3
+  - Type: 23
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
@@ -48,5 +33,5 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
-    Message: 
+    Message: Bookshop closes suddenly due to raising rents!
   Choices: []
