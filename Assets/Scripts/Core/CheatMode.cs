@@ -37,5 +37,9 @@ public class CheatMode : MonoBehaviour
         {
             EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.GAME_OVER, Day = DayManager.GetToday(), Message = "You cheated"  });
         }
+        else if (CheatInput.text.Equals("bankrupt"))
+        {
+            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.BANK_WITHDRAWAL, Amount = 50000 });
+        }
     }
 }
