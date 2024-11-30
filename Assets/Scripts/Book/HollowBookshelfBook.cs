@@ -10,7 +10,15 @@ public class HollowBookshelfBook : MonoBehaviour
     public void Setup(BookDefinition bookDefinition, Bookkeeper bookkeeper)
     {
         Clickable.OnClick.AddListener(() => bookkeeper.MoveToTill(bookDefinition));
-        HoverCover.sprite = bookDefinition.Cover;
-        HoverDescription.text = bookDefinition.Name;
+        if (bookDefinition.Item != null )
+        {
+            HoverCover.sprite = bookDefinition.Item.Sprite;
+            HoverDescription.text = bookDefinition.Item.Name;
+        }
+        else
+        {
+            HoverCover.sprite = bookDefinition.Cover;
+            HoverDescription.text = bookDefinition.Name;
+        }
     }
 }
