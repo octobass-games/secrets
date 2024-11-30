@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-82916b37-3e48-4b4e-a1f8-676ee22ae160
+  m_Name: line-5bdc2ee2-4788-492a-b411-64dc4d8c8f36
   m_EditorClassIdentifier: 
-  Id: 82916b37-3e48-4b4e-a1f8-676ee22ae160
+  Id: 5bdc2ee2-4788-492a-b411-64dc4d8c8f36
   Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
-  Text: "I\u2019ll be back in a few days\u2026 bye."
+  Text: What is this rubbish!? I don't have time for this, I'm leaving. Good day!
   NextLine: {fileID: 0}
   Events:
   - Type: 1
@@ -39,22 +39,6 @@ MonoBehaviour:
     BookName: {fileID: 0}
     Day: {fileID: 0}
     Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-  - Type: 2
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
