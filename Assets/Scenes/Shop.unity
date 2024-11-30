@@ -6011,6 +6011,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1fecaab016fdaf04da7ae4e7176fde5c, type: 2}
   Items:
   - {fileID: 11400000, guid: 3322d1e1900eace4c99fa3acc6fd1185, type: 2}
+  - {fileID: 11400000, guid: 05b8a73dbd0103a49b237bbf2bb4c1d4, type: 2}
+  - {fileID: 11400000, guid: 2e6fa8c615351844ab449af8be8f15ba, type: 2}
+  - {fileID: 11400000, guid: a9fe825fbc6111a48a4672e9c1e76ba3, type: 2}
+  - {fileID: 11400000, guid: d472099be7624be40878b8644203d2df, type: 2}
+  - {fileID: 11400000, guid: dfa62c74647b6994f97836113ebb8edf, type: 2}
+  - {fileID: 11400000, guid: d15fe0c0218d6d447a5d01f2bec35a20, type: 2}
+  - {fileID: 11400000, guid: ef100ad89c754e74897d85d4fec14a18, type: 2}
   TillView: {fileID: 469674917}
   Bookshelf: {fileID: 1719886218}
   TillBook: {fileID: 0}
@@ -7263,10 +7270,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.15
     y: 0
-    width: 1
-    height: 1
+    width: 0.5787037
+    height: 0.5787037
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

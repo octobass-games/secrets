@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Candles
   m_EditorClassIdentifier: 
   Name: Candles
-  Stock: 1
+  Stock: 0
   Sprite: {fileID: 0}
   SellPrice: 0

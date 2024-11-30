@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: EyelixWool
   m_EditorClassIdentifier: 
   Name: Eyelix Wool
-  Stock: 1
+  Stock: 0
   Sprite: {fileID: 0}
   SellPrice: 1000
