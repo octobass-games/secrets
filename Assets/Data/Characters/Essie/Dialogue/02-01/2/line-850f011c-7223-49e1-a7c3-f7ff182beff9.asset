@@ -10,31 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-c3fd93fa-afca-4226-a1a4-fb333282ebc8
+  m_Name: line-850f011c-7223-49e1-a7c3-f7ff182beff9
   m_EditorClassIdentifier: 
-  Id: c3fd93fa-afca-4226-a1a4-fb333282ebc8
+  Id: 850f011c-7223-49e1-a7c3-f7ff182beff9
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
-  Text: "Right, well I\u2019ll be on my way. I hope my neighbour and I can make up
-    soon\u2026"
+  Text: I guess I better be getting on my way. See you later!
   NextLine: {fileID: 0}
   Events:
-  - Type: 2
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-    Items: []
   - Type: 1
     Memory: 
     Paper: {fileID: 0}

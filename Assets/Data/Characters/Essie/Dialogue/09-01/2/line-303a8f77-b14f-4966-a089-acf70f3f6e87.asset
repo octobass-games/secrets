@@ -10,37 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-c3fd93fa-afca-4226-a1a4-fb333282ebc8
+  m_Name: line-303a8f77-b14f-4966-a089-acf70f3f6e87
   m_EditorClassIdentifier: 
-  Id: c3fd93fa-afca-4226-a1a4-fb333282ebc8
+  Id: 303a8f77-b14f-4966-a089-acf70f3f6e87
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
-  Text: "Right, well I\u2019ll be on my way. I hope my neighbour and I can make up
-    soon\u2026"
+  Text: Oh well, guess I'll have to look somewhere else. See you later!
   NextLine: {fileID: 0}
   Events:
-  - Type: 2
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-    Items: []
   - Type: 1
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 0}
+    Character: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []
