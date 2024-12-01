@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-b1e79546-8937-429e-9da1-5ac850729b1b
+  m_EditorClassIdentifier: 
+  Id: b1e79546-8937-429e-9da1-5ac850729b1b
+  Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+  Text: "Not loud enough bro\u2026"
+  NextLine: {fileID: 11400000, guid: 4022e6450c10667408c7f9cb0f476861, type: 2}
+  Events: []
+  Choices: []

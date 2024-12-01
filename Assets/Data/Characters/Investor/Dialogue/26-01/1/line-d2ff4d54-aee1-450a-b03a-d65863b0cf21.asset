@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-d2ff4d54-aee1-450a-b03a-d65863b0cf21
+  m_EditorClassIdentifier: 
+  Id: d2ff4d54-aee1-450a-b03a-d65863b0cf21
+  Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+  Text: Well bro, you invested big and you won big!
+  NextLine: {fileID: 11400000, guid: 2591c410777b7fe45b799779521fddb5, type: 2}
+  Events: []
+  Choices: []

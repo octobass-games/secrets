@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-f8f107c0-de3a-4f65-a09f-0b2438574ed0
+  m_EditorClassIdentifier: 
+  Id: f8f107c0-de3a-4f65-a09f-0b2438574ed0
+  Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+  Text: "You\u2019re about to witness the power of the free market\u2026"
+  NextLine: {fileID: 11400000, guid: 2083f4a3ae9af7e43ab74fd0c69fa7aa, type: 2}
+  Events: []
+  Choices: []
