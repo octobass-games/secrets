@@ -16,10 +16,12 @@ MonoBehaviour:
   Text: Yes, please!
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 9c43eb195e98c17468fa99325df2dad3, type: 2}
+  NextLine: {fileID: 11400000, guid: d23b8316fd769dc4e8a46d76e20a26d1, type: 2}
   Requirements:
   - Type: 4
     Name: 
     Book: {fileID: 0}
+    Books: []
     Negate: 0
     Amount: 500
+    Item: {fileID: 0}

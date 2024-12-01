@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 4ff4c764-dbda-42bb-b4a9-1cc0e0f1ff64
   Speaker: {fileID: 11400000, guid: 61287b88000fa1b4386797bcb2979580, type: 2}
-  Text: Excellent! Your order will arrive first thing tomorrow.
+  Text: Your order will arrive first thing tomorrow.
   NextLine: {fileID: 0}
   Events:
   - Type: 13
@@ -24,13 +24,35 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
-    Amount: 10
+    CharacterTidbits: []
+    Amount: 50
     BooksToOrder:
-    - {fileID: 11400000, guid: 32ea0a36e3c765d4595628a6526cffe4, type: 2}
+    - {fileID: 11400000, guid: 950eeea628e2b174e95fa37e94d0daec, type: 2}
     - {fileID: 11400000, guid: ad08555d4b62edd41a1095051b217665, type: 2}
+    - {fileID: 11400000, guid: 97973244d5b8589499643ac7e9438abb, type: 2}
+    - {fileID: 11400000, guid: 5adbfac9fddeb2b46ab85ceef388073c, type: 2}
+    - {fileID: 11400000, guid: 447812950eaae574cbbaedabd44be0d1, type: 2}
+    - {fileID: 11400000, guid: c2a5d6747a2ffad4a89c64c53a857335, type: 2}
+    - {fileID: 11400000, guid: a96b7803a4a93154a800514364c517e9, type: 2}
+    - {fileID: 11400000, guid: 8416b7a9733b8d642927f91aec7364a9, type: 2}
+    - {fileID: 11400000, guid: 357cf458ebbd4044f9bee826a5e4741d, type: 2}
+    - {fileID: 11400000, guid: f9dcac95fb178e2489689ae9b5928cec, type: 2}
+    - {fileID: 11400000, guid: a7eb238ff6458314a9fa9026812c8365, type: 2}
+    - {fileID: 11400000, guid: 54dac9a263e62f74daf0454996163761, type: 2}
+    - {fileID: 11400000, guid: 0642325a8e6eea143acba87236d4987a, type: 2}
+    - {fileID: 11400000, guid: 29043daa377656c41a62b45f6e68c840, type: 2}
+    - {fileID: 11400000, guid: 80d2bbdfdb071b64eb288ddc5267c743, type: 2}
+    - {fileID: 11400000, guid: b11bcd9bae96c8347825d001776503a7, type: 2}
+    - {fileID: 11400000, guid: 2f67fb86b28cf4940ae3d184afab575b, type: 2}
+    - {fileID: 11400000, guid: 4917e6ad439fc684fb7e41677a502bf9, type: 2}
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   - Type: 3
     Memory: 
     Paper: {fileID: 0}
@@ -38,9 +60,15 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
+    ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
     TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 5de2cba7-7d13-4ad0-95ad-df2af0b39acb
   Speaker: {fileID: 11400000, guid: 61287b88000fa1b4386797bcb2979580, type: 2}
-  Text: Would you like some amazing books?
+  Text: I'm guessing you'd like to order some stock?
   NextLine: {fileID: 0}
   Events:
   - Type: 0
@@ -24,6 +24,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -33,5 +34,6 @@ MonoBehaviour:
     SellForFree: 0
     Requirements: []
     Message: 
+    Items: []
   Choices:
   - {fileID: 11400000, guid: f8c73d463728a014d9466cc4757a172c, type: 2}
