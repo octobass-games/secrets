@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: gem-materials
   Tidbit: Blood and gems are hard to get hold of.
-  IsUnlocked: 1
+  IsUnlocked: 0

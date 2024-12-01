@@ -32,6 +32,6 @@ MonoBehaviour:
     Name: 
     Book: {fileID: 0}
     Books: []
-    Negate: 1
+    Negate: 0
     Amount: 0
     Item: {fileID: 0}
