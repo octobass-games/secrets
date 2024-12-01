@@ -116,17 +116,45 @@ public class Character : MonoBehaviour, Savable
         }
     }
 
-    public void OnCharacterTidbitUnlocked(GameEvent @event)
+    public void UnlockTidbit(CharacterTidbit tidbit)
     {
-        var tidbit = CharacterDefinition.Tidbits.Find(t => t.IsEqual(@event.CharacterTidbit));
+        var characterTidbit = CharacterDefinition.Tidbits.Find(t => t.IsEqual(tidbit));
 
-        if (tidbit != null)
+        if (characterTidbit != null)
         {
-            tidbit.IsUnlocked = true;
+            characterTidbit.IsUnlocked = true;
         }
         else
         {
             Debug.LogError("Attempted to unlock tidbit but could not find it");
+        }
+    }
+
+    public void OnCharacterTidbitUnlocked(GameEvent @event)
+    {
+        if (@event.Character != null)
+        {
+            var characters = FindObjectsByType<Character>(FindObjectsInactive.Include, FindObjectsSortMode.None).ToList();
+
+            var character = characters.Find(c => c.CharacterDefinition.Name == @event.Character.Name);
+
+            if (character != null)
+            {
+                character.UnlockTidbit(@event.CharacterTidbit);
+            }
+        }
+        else
+        {
+            var tidbit = CharacterDefinition.Tidbits.Find(t => t.IsEqual(@event.CharacterTidbit));
+
+            if (tidbit != null)
+            {
+                tidbit.IsUnlocked = true;
+            }
+            else
+            {
+                Debug.LogError("Attempted to unlock tidbit but could not find it");
+            }
         }
     }
 
