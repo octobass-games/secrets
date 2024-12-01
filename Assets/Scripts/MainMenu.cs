@@ -17,13 +17,20 @@ public class MainMenu : MonoBehaviour
     public void NewGame()
     {
         SaveManager.DeleteSaveData();
-        LoadShopScene();
+        LoadOpeningScene();
     }
 
     public void LoadShopScene()
     {
         SceneManager.ChangeScene("Shop");
     }
+
+
+    public void LoadOpeningScene()
+    {
+        SceneManager.ChangeScene("Opening");
+    }
+
 
     public void LoadCreditsScene()
     {
