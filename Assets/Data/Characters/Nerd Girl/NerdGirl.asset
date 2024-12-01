@@ -22,9 +22,3 @@ MonoBehaviour:
   Profile: {fileID: 21300000, guid: 455eb053d7bf3494cabf1fa8df70679c, type: 3}
   Tidbits:
   - {fileID: 11400000, guid: ec46d57ea0babb84ea5a038e9d2bf2cb, type: 2}
-  - {fileID: 11400000, guid: 3c5fdad10435cf5458c7fcbf521be399, type: 2}
-  - {fileID: 11400000, guid: bd87c1b22990d0645acc981350e45c63, type: 2}
-  - {fileID: 11400000, guid: c04c4f1d8c2f1b14f8f05eb7aea041ff, type: 2}
-  - {fileID: 11400000, guid: 1644300d3fe394e4e84af596e2d50793, type: 2}
-  Confrontation: {fileID: 11400000, guid: 6f73410653a887943b002d7a843a74fc, type: 2}
-  ConfrontationWrong: {fileID: 11400000, guid: 748ab7aa19d9cf64e80f7ce2874261df, type: 2}
