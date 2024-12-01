@@ -16,6 +16,24 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
   Text: Hello there, stranger!
   NextLine: {fileID: 0}
-  Events: []
+  Events:
+  - Type: 14
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 11400000, guid: a6e5b3b02a4e27b46abfc3896e94ba06, type: 2}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices:
   - {fileID: 11400000, guid: c3d0049414a63574e91dff34ef087bab, type: 2}
