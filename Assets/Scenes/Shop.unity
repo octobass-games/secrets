@@ -506,6 +506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
   SpeakerAnimator: {fileID: 14252576}
+  InConfrontation: 0
 --- !u!1 &27399405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1857,6 +1858,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 366384877235737788, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 545247528}
+    - target: {fileID: 1293620258065151659, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 1854833034}
+    - target: {fileID: 1555558205283729460, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 1610332599}
+    - target: {fileID: 2530074061241784260, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 1554619034}
     - target: {fileID: 3380041412466169466, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
       propertyPath: Gem
       value: 
@@ -1881,6 +1898,14 @@ PrefabInstance:
       propertyPath: HoodedFigue
       value: 
       objectReference: {fileID: 545247528}
+    - target: {fileID: 3903072688067985060, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 979863138}
+    - target: {fileID: 5180715349177878383, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 1812931139}
     - target: {fileID: 5665956249713062889, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 96.064804
@@ -1921,10 +1946,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6303427022591094467, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 1718586189}
     - target: {fileID: 6815822853175065825, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
       propertyPath: m_Name
       value: Confrontation
       objectReference: {fileID: 0}
+    - target: {fileID: 7228626950037978325, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 1659931401}
+    - target: {fileID: 7430758038789219147, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 22259087}
+    - target: {fileID: 8239808265699950493, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 2027909571}
+    - target: {fileID: 8323580579434912148, guid: 3fe1b561bffc05a4895b1b0e2641c0b8, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 1946525629}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6481,6 +6526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
   SpeakerAnimator: {fileID: 568760372}
+  InConfrontation: 0
 --- !u!1 &565213037
 GameObject:
   m_ObjectHideFlags: 0
@@ -7431,9 +7477,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.055555556
-    width: 0.33333334
-    height: 0.3333333
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -13091,6 +13137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
   SpeakerAnimator: {fileID: 41245247}
+  InConfrontation: 0
 --- !u!1 &985147398
 GameObject:
   m_ObjectHideFlags: 0
@@ -20137,6 +20184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
   SpeakerAnimator: {fileID: 1881706056}
+  InConfrontation: 0
 --- !u!1 &1573571567 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 683157932582851369, guid: adc10dea52eae354fb750de329995ae5, type: 3}
@@ -20481,6 +20529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
   SpeakerAnimator: {fileID: 359356299}
+  InConfrontation: 0
 --- !u!1 &1612387471
 GameObject:
   m_ObjectHideFlags: 0
@@ -20993,6 +21042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
   SpeakerAnimator: {fileID: 1526008656}
+  InConfrontation: 0
 --- !u!1 &1660102727
 GameObject:
   m_ObjectHideFlags: 0
@@ -21976,6 +22026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
   SpeakerAnimator: {fileID: 1526174204}
+  InConfrontation: 0
 --- !u!1 &1719886216
 GameObject:
   m_ObjectHideFlags: 0
@@ -22775,6 +22826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
   SpeakerAnimator: {fileID: 708120567}
+  InConfrontation: 0
 --- !u!1 &1816685667
 GameObject:
   m_ObjectHideFlags: 0
@@ -23529,6 +23581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
   SpeakerAnimator: {fileID: 289820375}
+  InConfrontation: 0
 --- !u!1 &1861378751
 GameObject:
   m_ObjectHideFlags: 0
@@ -25131,6 +25184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
   SpeakerAnimator: {fileID: 270644788}
+  InConfrontation: 0
 --- !u!1 &1948967775
 GameObject:
   m_ObjectHideFlags: 0
@@ -25939,6 +25993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterDefinition: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
   SpeakerAnimator: {fileID: 1013660077}
+  InConfrontation: 0
 --- !u!1 &2033724800
 GameObject:
   m_ObjectHideFlags: 0
