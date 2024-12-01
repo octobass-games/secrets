@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-d35e649d-e9a4-4cfe-a0ce-70ebf1fe0ae4
+  m_EditorClassIdentifier: 
+  Id: d35e649d-e9a4-4cfe-a0ce-70ebf1fe0ae4
+  Text: Audagar?
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: ec0abea2265bf3942834700058409887, type: 2}
+  Requirements: []
