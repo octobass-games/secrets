@@ -17,6 +17,24 @@ MonoBehaviour:
   Text: "\xACTrue End\xAC"
   NextLine: {fileID: 0}
   Events:
+  - Type: 14
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 11400000, guid: 57170f8d713dde74995d3454e76e326f, type: 2}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: Thanks for playing!
+    Items: []
   - Type: 23
     Memory: 
     Paper: {fileID: 0}
