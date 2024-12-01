@@ -11,6 +11,7 @@ public class GameEvent
     public DayDefinition Day;
     public CharacterDefinition Character;
     public CharacterTidbit CharacterTidbit;
+    public List<CharacterTidbit> CharacterTidbits;
     public int Amount;
     public List<BookDefinition> BooksToOrder;
     public List<ItemDefinition> ItemsToOrder;

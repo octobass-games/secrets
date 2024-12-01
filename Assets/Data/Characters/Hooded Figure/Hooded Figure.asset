@@ -21,3 +21,6 @@ MonoBehaviour:
   Profile: {fileID: 21300000, guid: e149c4f84e71e954cbf5f656ebc752c3, type: 3}
   Tidbits:
   - {fileID: 11400000, guid: 7316ce99d354d7648807f0659d3004c7, type: 2}
+  - {fileID: 11400000, guid: 399b38bd02f38ff43acc277a7f383e74, type: 2}
+  Confrontation: {fileID: 0}
+  ConfrontationWrong: {fileID: 0}

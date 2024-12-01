@@ -22,3 +22,7 @@ MonoBehaviour:
   Profile: {fileID: 0}
   Tidbits:
   - {fileID: 11400000, guid: 025bbba338aa5b242bb937d09b6225be, type: 2}
+  - {fileID: 11400000, guid: 3e4343a77f63b9b458bfeea4562e8fba, type: 2}
+  - {fileID: 11400000, guid: 36f718306f34c204a84f1b682eb39019, type: 2}
+  Confrontation: {fileID: 11400000, guid: d2996cd21473fc449801e89a754c2421, type: 2}
+  ConfrontationWrong: {fileID: 11400000, guid: a939445d505d6bc44b2df2748f8a9472, type: 2}

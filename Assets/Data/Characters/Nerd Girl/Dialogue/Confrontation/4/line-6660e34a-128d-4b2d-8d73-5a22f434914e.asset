@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-6660e34a-128d-4b2d-8d73-5a22f434914e
+  m_EditorClassIdentifier: 
+  Id: 6660e34a-128d-4b2d-8d73-5a22f434914e
+  Speaker: {fileID: 11400000, guid: 5a0777d51f0e5734bbded8207e431ce7, type: 2}
+  Text: You do not have to say anything. But, it may harm your defence if you do
+    not mention when questioned something which you later rely on in court. Anything
+    you do say may be given in evidence.
+  NextLine: {fileID: 11400000, guid: ed333f003ef2bd444ba0fbbaefc24730, type: 2}
+  Events: []
+  Choices: []
