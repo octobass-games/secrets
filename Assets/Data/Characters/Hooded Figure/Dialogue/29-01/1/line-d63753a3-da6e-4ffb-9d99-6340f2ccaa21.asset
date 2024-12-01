@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-d63753a3-da6e-4ffb-9d99-6340f2ccaa21
+  m_EditorClassIdentifier: 
+  Id: d63753a3-da6e-4ffb-9d99-6340f2ccaa21
+  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+  Text: "Don\u2019t ask me how I didn\u2019t already know this\u2026I guess it was
+    before me."
+  NextLine: {fileID: 11400000, guid: 77f404e1b888d804fbcb730298adce66, type: 2}
+  Events: []
+  Choices: []
