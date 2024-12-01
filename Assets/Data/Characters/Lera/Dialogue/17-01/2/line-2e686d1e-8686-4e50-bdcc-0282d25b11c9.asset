@@ -24,6 +24,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -34,13 +35,14 @@ MonoBehaviour:
     Requirements: []
     Message: 
     Items: []
-  - Type: 1
+  - Type: 2
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
     Character: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -58,6 +60,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []

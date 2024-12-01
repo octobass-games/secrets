@@ -23,7 +23,7 @@ public class CharacterPage : MonoBehaviour
 
 
         int numChildren = TidbitContainer.transform.childCount;
-        for (int i = numChildren - 1; i > 0; i--)
+        for (int i = numChildren - 1; i >= 0; i--)
         {
             GameObject.Destroy(TidbitContainer.transform.GetChild(i).gameObject);
         }

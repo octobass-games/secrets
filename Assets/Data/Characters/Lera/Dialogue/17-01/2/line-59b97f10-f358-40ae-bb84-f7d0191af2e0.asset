@@ -24,6 +24,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -41,6 +42,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -58,6 +60,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
