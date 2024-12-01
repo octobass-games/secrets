@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-04dcebf3-0fc2-4339-a162-b791db6e3d52
+  m_EditorClassIdentifier: 
+  Id: 04dcebf3-0fc2-4339-a162-b791db6e3d52
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: "I\u2019m afraid I\u2019ve got yet another rat infestation. They\u2019re
+    being particularly loud\u2026 and all they do is listen to Thomas Tubinian\u2026"
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 30caff1c23b9eef4bb8b0fd7c5b2f8fd, type: 2}

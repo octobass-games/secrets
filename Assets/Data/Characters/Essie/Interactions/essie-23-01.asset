@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6213566ad429a04c824721a064ee2fd, type: 3}
+  m_Name: essie-23-01
+  m_EditorClassIdentifier: 
+  RelationshipRequirement: 4
+  RootLines:
+  - {fileID: 11400000, guid: d4c8b56048ee7ba49ac94752eed62e1b, type: 2}
+  - {fileID: 11400000, guid: 9c9c1c03c6fd2c542a5be60475dd3d2a, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-fb90c5d3-2b37-4d59-bea1-c28e5ef7c745
+  m_EditorClassIdentifier: 
+  Id: fb90c5d3-2b37-4d59-bea1-c28e5ef7c745
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: DOES THIS LOOK LIKE RAT POISON DEARIE!
+  NextLine: {fileID: 11400000, guid: 0c773680eebde7f47a2d170bd6fbd3b6, type: 2}
+  Events: []
+  Choices: []
