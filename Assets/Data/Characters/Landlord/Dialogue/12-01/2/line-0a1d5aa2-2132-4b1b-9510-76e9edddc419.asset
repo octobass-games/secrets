@@ -10,36 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-4ce8ce9f-5d16-4bdd-9b52-e3493a17304c
+  m_Name: line-0a1d5aa2-2132-4b1b-9510-76e9edddc419
   m_EditorClassIdentifier: 
-  Id: 4ce8ce9f-5d16-4bdd-9b52-e3493a17304c
+  Id: 0a1d5aa2-2132-4b1b-9510-76e9edddc419
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: I'll be back in a few days to collect your rent. Have a good day!
+  Text: Never mind, I'm sure I'll find it elsewhere. Good day.
   NextLine: {fileID: 0}
   Events:
-  - Type: 2
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-    Items: []
   - Type: 1
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 0}
+    Character: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []

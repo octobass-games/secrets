@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-c211810e-a8a4-4d10-8cdc-fcb29a59b82c
+  m_Name: line-22f49d1a-2d2f-4ab3-9d12-d48e132c834e
   m_EditorClassIdentifier: 
-  Id: c211810e-a8a4-4d10-8cdc-fcb29a59b82c
+  Id: 22f49d1a-2d2f-4ab3-9d12-d48e132c834e
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
-  Text: "As previously agreed it\u2019ll be X coins."
-  NextLine: {fileID: 0}
+  Text: Hmm... this is quite the business I'm renting my property to...
+  NextLine: {fileID: 11400000, guid: 62c1515ec0d013748b85dcceed1a30ca, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: 5d99e76698b366147beacaabfbe11973, type: 2}
+  Choices: []

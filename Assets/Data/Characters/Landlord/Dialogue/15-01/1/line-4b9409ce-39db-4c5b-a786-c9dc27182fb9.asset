@@ -15,6 +15,7 @@ MonoBehaviour:
   Id: 4b9409ce-39db-4c5b-a786-c9dc27182fb9
   Speaker: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
   Text: "I\u2019m here to collect your rent."
-  NextLine: {fileID: 11400000, guid: 8fb14049df4c36342af0edc440125624, type: 2}
+  NextLine: {fileID: 0}
   Events: []
-  Choices: []
+  Choices:
+  - {fileID: 11400000, guid: 5d99e76698b366147beacaabfbe11973, type: 2}
