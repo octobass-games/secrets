@@ -5,6 +5,7 @@ public class MainMenu : MonoBehaviour
     public SaveManager SaveManager;
     public SceneManager SceneManager;
     public GameObject LoadButton;
+    public GameObject QuitButton;
 
     void Start()
     {
@@ -12,12 +13,22 @@ public class MainMenu : MonoBehaviour
         {
             LoadButton.SetActive(false);
         }
+
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        {
+            QuitButton.SetActive(false);
+        }
     }
 
     public void NewGame()
     {
         SaveManager.DeleteSaveData();
         LoadOpeningScene();
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 
     public void LoadShopScene()
