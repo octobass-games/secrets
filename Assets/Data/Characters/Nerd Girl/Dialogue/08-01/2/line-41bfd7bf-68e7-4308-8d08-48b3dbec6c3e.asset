@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-50ff59a8-a6c7-4a4b-929d-5c3e09644763
+  m_Name: line-41bfd7bf-68e7-4308-8d08-48b3dbec6c3e
   m_EditorClassIdentifier: 
-  Id: 50ff59a8-a6c7-4a4b-929d-5c3e09644763
+  Id: 41bfd7bf-68e7-4308-8d08-48b3dbec6c3e
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: I've got to go! If I'm fast I'm sure I can find My Secret Gnome Boyfriend
-    somewhere else...
+  Text: NOOOOO! EVERYONE OUT OF MY WAY! I'VE GOT GO! THIS IS AN EMERGENCY!!!
   NextLine: {fileID: 0}
   Events:
   - Type: 1

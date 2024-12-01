@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 20ab6550-b1de-458d-a49c-cedc6c6cf5f8
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: NO! OF COURSE IT WON'T DO!
+  Text: NO! THIS WON'T DO!
   NextLine: {fileID: 11400000, guid: 738f4fcc20afa3042a618ea5c62d6579, type: 2}
   Events: []
   Choices: []
