@@ -18483,6 +18483,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5ef8f095507a2fa43bd7ca205e439143, type: 2}
   - {fileID: 11400000, guid: da22e6a1a2668e349a61d3915bd97dec, type: 2}
   - {fileID: 11400000, guid: 738a40763a97f8b4189c90133a4fea82, type: 2}
+  - {fileID: 11400000, guid: d13e9329e7c5cf24294a53ee0916779a, type: 2}
+  - {fileID: 11400000, guid: 762fcbfd1d8cd2748b578bc45cf982a7, type: 2}
+  - {fileID: 11400000, guid: ff55c038d0372774bbcfb2f21ffe0dc0, type: 2}
   SignInteraction: {fileID: 11400000, guid: 55152637b55f0d7449121063ca22da1d, type: 2}
   SaveManager: {fileID: 109054967}
 --- !u!4 &1425153796
