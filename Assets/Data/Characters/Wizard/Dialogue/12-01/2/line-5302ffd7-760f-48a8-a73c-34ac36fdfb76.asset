@@ -32,6 +32,8 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   - Type: 1
     Memory: 
     Paper: {fileID: 0}
@@ -47,6 +49,8 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   - Type: 3
     Memory: 
     Paper: {fileID: 0}
@@ -62,4 +66,6 @@ MonoBehaviour:
     TriggerNextDailyEvent: 0
     SellForFree: 0
     Requirements: []
+    Message: 
+    Items: []
   Choices: []

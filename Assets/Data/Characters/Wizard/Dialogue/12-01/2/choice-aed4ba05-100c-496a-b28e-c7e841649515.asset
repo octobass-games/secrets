@@ -17,4 +17,22 @@ MonoBehaviour:
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 571624252fb90cf4e949daa8f69512d0, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 3
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}
+  - Type: 1
+    Name: 
+    Book: {fileID: 0}
+    Books:
+    - {fileID: 11400000, guid: 489f3942d8596194eb0c29a2232be9f7, type: 2}
+    - {fileID: 11400000, guid: 2f67fb86b28cf4940ae3d184afab575b, type: 2}
+    - {fileID: 11400000, guid: 8bfca554b68f0ae4f9f1e7e46bfc82d8, type: 2}
+    - {fileID: 11400000, guid: 5adbfac9fddeb2b46ab85ceef388073c, type: 2}
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}

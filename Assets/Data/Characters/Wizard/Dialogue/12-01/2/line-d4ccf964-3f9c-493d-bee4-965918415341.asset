@@ -10,15 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: gem-11-01-2-root
+  m_Name: line-d4ccf964-3f9c-493d-bee4-965918415341
   m_EditorClassIdentifier: 
-  Id: 402244d8-048a-421d-959c-614f132ad175
+  Id: d4ccf964-3f9c-493d-bee4-965918415341
   Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
-  Text: I'm finally about to get my hands on a grimoire...
-  NextLine: {fileID: 0}
+  Text: I should have expected as much.
+  NextLine: {fileID: 11400000, guid: 830cdb9e468004b40912d6bd307a2be0, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: 78008067d2d796b48abadfa76985e66b, type: 2}
-  - {fileID: 11400000, guid: 838b2ddef7965c84d96de6c51ddbc798, type: 2}
-  - {fileID: 11400000, guid: d2fe02a89cc25cf40a4175c830deaa7d, type: 2}
-  - {fileID: 11400000, guid: fe3af5f082451a648be4c95575cfb00f, type: 2}
+  Choices: []
