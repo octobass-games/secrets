@@ -17,4 +17,11 @@ MonoBehaviour:
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: fccd6224f1ee9884f969761a7b81b695, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 0
+    Name: gem.stay.awake.potion
+    Book: {fileID: 0}
+    Books: []
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}
