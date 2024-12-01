@@ -64,6 +64,8 @@ public class BookInspector : MonoBehaviour
             {
                 DialogueManager.Begin(FirstInspectionOfHollowBookDialogue);
             }
+
+            Knife.SetActive(false);
         }
         else
         {
