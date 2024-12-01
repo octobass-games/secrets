@@ -50,7 +50,6 @@ public class DialogueManager : MonoBehaviour
     {
         if (LineToSpeak.Events != null && LineToSpeak.Events.Count > 0)
         {
-            Debug.Log("emitting events" + LineToSpeak.Events[0].Type);
             EventManager eventManager = FindFirstObjectByType<EventManager>();
 
             LineToSpeak.Events.ForEach(e => eventManager.Publish(e));

@@ -34,8 +34,6 @@ public class TillView : MonoBehaviour
     {
         TryStopChangingBalance();
 
-        Debug.Log("Changing balance to: " + amount);
-
         ChangeVisibleBalanceCoroutine = ChangeVisibleBalance(amount);
 
         StartCoroutine(ChangeVisibleBalanceCoroutine);

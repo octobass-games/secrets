@@ -13,7 +13,5 @@ public class InitialCharacter : MonoBehaviour
 
         instance = FMODUnity.RuntimeManager.CreateInstance(fmodEvent);
         instance.setParameterByName("Character", parameter);
-
-        Debug.Log(parameter);
     }
 }

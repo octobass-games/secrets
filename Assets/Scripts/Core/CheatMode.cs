@@ -16,7 +16,6 @@ public class CheatMode : MonoBehaviour
 
     public void SubmitCheat()
     {
-        Debug.Log("Submit Cheat: " + CheatInput.text);
         if (CheatInput.text.Equals("motherlode"))
         {
             EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.BANK_DEPOSIT, Amount = 50000 });

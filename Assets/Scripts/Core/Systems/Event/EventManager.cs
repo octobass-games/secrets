@@ -43,7 +43,6 @@ public class EventManager : MonoBehaviour
 
     public void Publish(GameEvent gameEvent)
     {
-        Debug.Log("Publish Game Event: " + gameEvent.Type);
         GameEventType eventName = gameEvent.Type;
 
         if (Instance.EventSubscribers.ContainsKey(eventName))

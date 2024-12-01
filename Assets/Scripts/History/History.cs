@@ -17,7 +17,6 @@ public class History : MonoBehaviour, Savable
 
     public void Record(string eventName)
     {
-        Debug.Log("Recorded: " + eventName);
         Events.Add(eventName);
     }
 
