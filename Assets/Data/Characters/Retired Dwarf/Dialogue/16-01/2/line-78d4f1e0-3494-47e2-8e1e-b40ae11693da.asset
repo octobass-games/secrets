@@ -34,6 +34,7 @@ MonoBehaviour:
     SellForFree: 0
     Requirements: []
     Message: 
+    Items: []
   - Type: 3
     Memory: 
     Paper: {fileID: 0}
@@ -50,4 +51,22 @@ MonoBehaviour:
     SellForFree: 0
     Requirements: []
     Message: 
+    Items: []
+  - Type: 2
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
