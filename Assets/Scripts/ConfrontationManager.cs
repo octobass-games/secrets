@@ -81,7 +81,7 @@ public class ConfrontationManager : MonoBehaviour
         EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.VISITOR_ARRIVAL, Character = PickedCharacter.CharacterDefinition });
         ConfrontationIndex = 0;
         var clickable = PickedCharacter.GetComponentInChildren<Clickable>();
-        clickable.OnClick.RemoveAllListeners();
+        PickedCharacter.InConfrontation = true;
         clickable.OnClick.AddListener(() =>
         {
             PickedCharacter.BeginConfrontation(ConfrontationIndex);

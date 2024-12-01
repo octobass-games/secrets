@@ -10,6 +10,7 @@ public class Character : MonoBehaviour, Savable
     private List<Interaction> Interactions;
     private Interaction CurrentInteraction;
     private int CurrentInteractionDialogueIndex;
+    public bool InConfrontation;
 
     void Awake()
     {
@@ -36,6 +37,10 @@ public class Character : MonoBehaviour, Savable
 
     public void BeginInteraction()
     {
+        if (InConfrontation)
+        {
+            return;
+        }
         CurrentInteraction = Interactions.FindAll(i => i.RelationshipRequirement == CharacterDefinition.Relationship)[0];
 
         DialogueManager dialogueManager = FindAnyObjectByType<DialogueManager>();
