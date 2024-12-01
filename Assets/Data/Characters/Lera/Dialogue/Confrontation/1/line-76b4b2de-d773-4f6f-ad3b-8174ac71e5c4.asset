@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-76b4b2de-d773-4f6f-ad3b-8174ac71e5c4
+  m_EditorClassIdentifier: 
+  Id: 76b4b2de-d773-4f6f-ad3b-8174ac71e5c4
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "What I\u2019ve been doing? Look I think you\u2019ve got a wrong idea somewhere
+    in that head of yours."
+  NextLine: {fileID: 11400000, guid: a8e1f3c3a399aae41809139876344826, type: 2}
+  Events: []
+  Choices: []

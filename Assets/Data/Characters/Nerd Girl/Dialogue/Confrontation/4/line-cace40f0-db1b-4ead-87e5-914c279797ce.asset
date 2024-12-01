@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-cace40f0-db1b-4ead-87e5-914c279797ce
+  m_EditorClassIdentifier: 
+  Id: cace40f0-db1b-4ead-87e5-914c279797ce
+  Speaker: {fileID: 11400000, guid: 5a0777d51f0e5734bbded8207e431ce7, type: 2}
+  Text: May your grandma rest in peace.
+  NextLine: {fileID: 11400000, guid: cf4a24a67e1c1684a98ac3287e701fee, type: 2}
+  Events: []
+  Choices: []

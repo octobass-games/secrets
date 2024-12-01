@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: root
+  m_EditorClassIdentifier: 
+  Id: e8917199-9bba-4219-b21c-a9c85f6ee5d7
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: Hey.
+  NextLine: {fileID: 11400000, guid: 5e458e2521deebe419b48e3051305645, type: 2}
+  Events: []
+  Choices: []

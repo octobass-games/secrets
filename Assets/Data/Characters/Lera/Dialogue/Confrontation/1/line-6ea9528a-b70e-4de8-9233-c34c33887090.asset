@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-6ea9528a-b70e-4de8-9233-c34c33887090
+  m_EditorClassIdentifier: 
+  Id: 6ea9528a-b70e-4de8-9233-c34c33887090
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: How are you? It's unusual of you to call me to the shop.
+  NextLine: {fileID: 11400000, guid: ee479fd39f160874b9634d01a6df919f, type: 2}
+  Events: []
+  Choices: []

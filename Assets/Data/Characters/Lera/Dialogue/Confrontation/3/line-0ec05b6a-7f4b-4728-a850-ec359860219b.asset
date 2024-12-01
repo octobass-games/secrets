@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-0ec05b6a-7f4b-4728-a850-ec359860219b
+  m_EditorClassIdentifier: 
+  Id: 0ec05b6a-7f4b-4728-a850-ec359860219b
+  Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
+  Text: "But it was just that, an accident. Ask anyone who was there, that's why
+    I\u2019m free right now, do you really think they\u2019d just let me go if I
+    was chopping off people's arms on purpose left and right?"
+  NextLine: {fileID: 11400000, guid: 79bee6e85b8b7b64584ba2ae6811edbd, type: 2}
+  Events: []
+  Choices: []

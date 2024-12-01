@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-aa683605-4535-490c-a866-cbb01fe84b61
+  m_EditorClassIdentifier: 
+  Id: aa683605-4535-490c-a866-cbb01fe84b61
+  Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
+  Text: "Didn\u2019t you know the victims are missing body parts too, if I was selling
+    blood why would I go to the effort of removing them too?"
+  NextLine: {fileID: 0}
+  Events:
+  - Type: 28
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits:
+    - {fileID: 11400000, guid: bd87c1b22990d0645acc981350e45c63, type: 2}
+    - {fileID: 11400000, guid: c04c4f1d8c2f1b14f8f05eb7aea041ff, type: 2}
+    - {fileID: 11400000, guid: 1644300d3fe394e4e84af596e2d50793, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
+  Choices: []

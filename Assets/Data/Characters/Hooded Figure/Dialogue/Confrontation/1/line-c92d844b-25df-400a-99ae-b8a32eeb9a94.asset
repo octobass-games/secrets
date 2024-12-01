@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-c92d844b-25df-400a-99ae-b8a32eeb9a94
+  m_EditorClassIdentifier: 
+  Id: c92d844b-25df-400a-99ae-b8a32eeb9a94
+  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+  Text: Is something up?
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: d0b51d15c290d28409368d1dd3ff9271, type: 2}
