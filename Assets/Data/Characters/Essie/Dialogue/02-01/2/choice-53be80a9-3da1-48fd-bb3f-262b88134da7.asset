@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: choice-53be80a9-3da1-48fd-bb3f-262b88134da7
   m_EditorClassIdentifier: 
   Id: 53be80a9-3da1-48fd-bb3f-262b88134da7
-  Text: I'm sorry, I kind find anything suitable!
+  Text: I'm sorry, I can't find anything suitable!
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 4430e51cb7ce9754e9fcea7e260b848b, type: 2}

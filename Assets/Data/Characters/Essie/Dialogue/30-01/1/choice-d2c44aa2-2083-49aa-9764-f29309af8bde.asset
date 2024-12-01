@@ -10,25 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-040eba03-8308-4001-bd1c-ca8e2735e6ef
+  m_Name: choice-d2c44aa2-2083-49aa-9764-f29309af8bde
   m_EditorClassIdentifier: 
-  Id: 040eba03-8308-4001-bd1c-ca8e2735e6ef
+  Id: d2c44aa2-2083-49aa-9764-f29309af8bde
   Text: Good morning!
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 5994a03e091dfc8408c18b4dcf2f9bb7, type: 2}
+  NextLine: {fileID: 11400000, guid: 5bb51bc8cd0201f42a56b319e5394d39, type: 2}
   Requirements:
   - Type: 0
     Name: cuthbert.squirrel.book
     Book: {fileID: 0}
     Books: []
-    Negate: 0
+    Negate: 1
     Amount: 0
     Item: {fileID: 0}
   - Type: 0
     Name: cuthbert.headphones
     Book: {fileID: 0}
     Books: []
-    Negate: 1
+    Negate: 0
     Amount: 0
     Item: {fileID: 0}
