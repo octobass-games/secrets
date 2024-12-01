@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-f108bff4-fbfe-4d85-a620-8fa9b9a5252a
+  m_Name: line-990916d0-5061-4c6b-aafe-cb56e74c1f90
   m_EditorClassIdentifier: 
-  Id: f108bff4-fbfe-4d85-a620-8fa9b9a5252a
+  Id: 990916d0-5061-4c6b-aafe-cb56e74c1f90
   Speaker: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
-  Text: This is going to be a quick visit, but I wanted to drop by to give you these...
-  NextLine: {fileID: 11400000, guid: f58fb9a182fbe54469210e3f405cc013, type: 2}
+  Text: The first thing is more rat poison, as I believe your grandmother used to
+    struggle with them...
+  NextLine: {fileID: 11400000, guid: 4b16cd81623e5dd4e99f0af80c61ade9, type: 2}
   Events: []
   Choices: []

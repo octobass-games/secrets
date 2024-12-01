@@ -35,6 +35,7 @@ MonoBehaviour:
     Message: 
     Items:
     - {fileID: 11400000, guid: 2e6fa8c615351844ab449af8be8f15ba, type: 2}
+    - {fileID: 11400000, guid: 3322d1e1900eace4c99fa3acc6fd1185, type: 2}
   - Type: 1
     Memory: 
     Paper: {fileID: 0}

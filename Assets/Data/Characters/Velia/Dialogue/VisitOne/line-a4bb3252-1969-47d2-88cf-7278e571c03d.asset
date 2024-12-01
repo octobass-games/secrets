@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: a4bb3252-1969-47d2-88cf-7278e571c03d
   Speaker: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
-  Text: It's rare wool from a sheep known as the Eyelix. You'll find people around
-    here want all sorts of weird things.
+  Text: The second is rare wool from a sheep known as the Eyelix. You'll find people
+    around here want all sorts of weird things.
   NextLine: {fileID: 11400000, guid: adf348718c42a4e4c9fabe213ef615b9, type: 2}
   Events: []
   Choices: []
