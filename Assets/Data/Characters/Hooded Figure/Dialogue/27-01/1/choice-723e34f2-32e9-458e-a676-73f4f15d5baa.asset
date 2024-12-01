@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-723e34f2-32e9-458e-a676-73f4f15d5baa
+  m_EditorClassIdentifier: 
+  Id: 723e34f2-32e9-458e-a676-73f4f15d5baa
+  Text: "Although I guess maybe you aren\u2019t allowed to see the reports\u2026"
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: 86111c12621e41644bba9a0175c70f45, type: 2}
+  Requirements: []

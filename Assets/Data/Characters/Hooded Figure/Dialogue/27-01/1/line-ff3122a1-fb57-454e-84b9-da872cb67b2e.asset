@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-ff3122a1-fb57-454e-84b9-da872cb67b2e
+  m_EditorClassIdentifier: 
+  Id: ff3122a1-fb57-454e-84b9-da872cb67b2e
+  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+  Text: "She always seems to be butting heads with whoever she crosses paths with\u2026"
+  NextLine: {fileID: 11400000, guid: d4555e78416112e4495e0b92f7398286, type: 2}
+  Events: []
+  Choices: []

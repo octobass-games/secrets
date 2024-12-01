@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-2880f6eb-497a-4fc2-941d-adcc4c8ee50a
+  m_EditorClassIdentifier: 
+  Id: 2880f6eb-497a-4fc2-941d-adcc4c8ee50a
+  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+  Text: "Well\u2026 I\u2019ll skip some of the details as I don\u2019t think you
+    want to know\u2026"
+  NextLine: {fileID: 11400000, guid: f2406908550bf974cb776ad7b12b8a74, type: 2}
+  Events: []
+  Choices: []
