@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 
   Tidbit: Purchased 5 Convocatio candles
-  IsUnlocked: 1
+  IsUnlocked: 0
