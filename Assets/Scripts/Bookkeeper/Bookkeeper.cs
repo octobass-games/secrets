@@ -251,7 +251,9 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             float likelihoodOfBookSale = CalculateLikelihoodOfSale(book);
 
-            for (int i = 1; i < book.Stock; i++)
+            int numberToTry = book.Stock / 20;
+
+            for (int i = 1; i < numberToTry; i++)
             {
                 if (RandomNumberGenerator.Next(0, 100) < likelihoodOfBookSale)
                 {
@@ -364,7 +366,7 @@ public class Bookkeeper : MonoBehaviour, Savable
         }
         else
         {
-            var price = customAmount != 0 ? customAmount : book.RecommendedSellPrice;
+            var price = customAmount != 0 ? customAmount : book.RecommendedSellPrice * 3;
 
             BankBalance += price;
 
