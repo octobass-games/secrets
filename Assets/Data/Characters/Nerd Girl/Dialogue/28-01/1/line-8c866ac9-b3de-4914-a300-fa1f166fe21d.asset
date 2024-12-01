@@ -17,5 +17,23 @@ MonoBehaviour:
   Text: "Nothing\u2026 I just help him source a certain material that\u2019s hard
     to find\u2026"
   NextLine: {fileID: 11400000, guid: 262a6e49b81eb374fbad286ff1cc7090, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 3c5fdad10435cf5458c7fcbf521be399, type: 2}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
