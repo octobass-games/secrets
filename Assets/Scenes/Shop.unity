@@ -6184,7 +6184,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f43a2f5a8d526f244b350207c429ad5f, type: 2}
   - {fileID: 11400000, guid: 6f055a755a090c740a1c2a8588648342, type: 2}
   - {fileID: 11400000, guid: a7eb238ff6458314a9fa9026812c8365, type: 2}
-  - {fileID: 11400000, guid: 3865cc1abd53ed940a236674e0cbcdd4, type: 2}
   - {fileID: 11400000, guid: 67bbdef0d15ea224ba025e5acf8f0476, type: 2}
   - {fileID: 11400000, guid: ab8cf8464b872304d9cdfc751fac4c67, type: 2}
   - {fileID: 11400000, guid: ad08555d4b62edd41a1095051b217665, type: 2}
@@ -7477,9 +7476,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.055555556
+    width: 0.33333334
+    height: 0.3333333
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
