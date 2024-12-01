@@ -22,7 +22,7 @@ MonoBehaviour:
   Colour: {r: 0.21960786, g: 0.42352945, b: 0.5686275, a: 1}
   RecommendedSellPrice: 56
   SellPrice: 56
-  Stock: 0
+  Stock: 23
   CostToOrder: 15
   Item: {fileID: 0}
   LikelihoodToSell: 0
