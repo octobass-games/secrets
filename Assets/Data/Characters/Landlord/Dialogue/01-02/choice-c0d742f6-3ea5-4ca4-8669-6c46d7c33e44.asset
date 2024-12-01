@@ -13,8 +13,15 @@ MonoBehaviour:
   m_Name: choice-c0d742f6-3ea5-4ca4-8669-6c46d7c33e44
   m_EditorClassIdentifier: 
   Id: c0d742f6-3ea5-4ca4-8669-6c46d7c33e44
-  Text: Here you are.
+  Text: Of course, here you are!
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: ff744d29cac29d840a285c62ea157270, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 8
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}

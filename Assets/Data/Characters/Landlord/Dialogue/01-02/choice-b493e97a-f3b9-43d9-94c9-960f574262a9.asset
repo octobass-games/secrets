@@ -13,8 +13,15 @@ MonoBehaviour:
   m_Name: choice-b493e97a-f3b9-43d9-94c9-960f574262a9
   m_EditorClassIdentifier: 
   Id: b493e97a-f3b9-43d9-94c9-960f574262a9
-  Text: "I can\u2019t afford it this month."
+  Text: "Umm... I can\u2019t afford it this month."
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 0d3be949c7b12bd44bb53a4adef1d728, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 8
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}
