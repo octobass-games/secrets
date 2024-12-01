@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-faf04ffa-93b4-4b09-b8e3-88cd12aff3f8
+  m_EditorClassIdentifier: 
+  Id: faf04ffa-93b4-4b09-b8e3-88cd12aff3f8
+  Speaker: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+  Text: "Somehow she managed to get away with few repercussions though\u2026 I guess
+    them being best friends went a long way!"
+  NextLine: {fileID: 11400000, guid: 6976ad2c118146b479a84b2c10891ec6, type: 2}
+  Events: []
+  Choices: []
