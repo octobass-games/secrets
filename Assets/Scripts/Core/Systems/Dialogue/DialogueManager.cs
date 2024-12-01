@@ -41,7 +41,7 @@ public class DialogueManager : MonoBehaviour
 
     private void SpeakLine()
     {
-        var choices = LineToSpeak.Choices.FindAll(c => RequirementManager.AllSatisfied(c.Requirements));
+        var choices = LineToSpeak.Choices.FindAll(c => RequirementManager != null && RequirementManager.AllSatisfied(c.Requirements));
 
         ConversationView.Display(LineToSpeak.Speaker.Name, LineToSpeak.Text, choices, OnChoice, SpeakerAnimator);
     }
