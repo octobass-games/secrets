@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-eca5efcc-5b9e-4a28-a14e-5679eaceeeea
+  m_EditorClassIdentifier: 
+  Id: eca5efcc-5b9e-4a28-a14e-5679eaceeeea
+  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+  Text: "Look, if you don\u2019t mention any of this to the police, I suppose I could
+    return her things."
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 85d02329551011f468035a1b4c031541, type: 2}
+  - {fileID: 11400000, guid: 3ce4746b512f220479b5d595349ee428, type: 2}

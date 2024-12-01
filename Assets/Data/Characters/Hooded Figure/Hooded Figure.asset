@@ -22,5 +22,5 @@ MonoBehaviour:
   Tidbits:
   - {fileID: 11400000, guid: 7316ce99d354d7648807f0659d3004c7, type: 2}
   - {fileID: 11400000, guid: 399b38bd02f38ff43acc277a7f383e74, type: 2}
-  Confrontation: {fileID: 0}
+  Confrontation: {fileID: 11400000, guid: 94db95037290c7f49a6ca1bee2e00083, type: 2}
   ConfrontationWrong: {fileID: 0}
