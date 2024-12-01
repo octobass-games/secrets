@@ -4795,6 +4795,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2459683521344692635, guid: adc10dea52eae354fb750de329995ae5, type: 3}
   m_PrefabInstance: {fileID: 1735260204323192543}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &353221696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353221690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/glass
+  is3D: 0
 --- !u!1 &359356297
 GameObject:
   m_ObjectHideFlags: 0
@@ -7416,10 +7430,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.15
-    y: 0
-    width: 0.5787037
-    height: 0.5787037
+    x: 0
+    y: 0.055555556
+    width: 0.33333334
+    height: 0.3333333
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -27508,37 +27522,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fmodEvent: event:/SFX/Loot
   is3D: 0
---- !u!114 &2119590272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119590266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1313672110
-      Data2: 1273983533
-      Data3: 713994634
-      Data4: -1715767310
-    Path: event:/SFX/glass
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 12
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!1 &2123071710
 GameObject:
   m_ObjectHideFlags: 0
@@ -28876,7 +28859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 698114810246031357, guid: adc10dea52eae354fb750de329995ae5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 698114810246031357, guid: adc10dea52eae354fb750de329995ae5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -28889,7 +28872,7 @@ PrefabInstance:
     - target: {fileID: 698114810246031357, guid: adc10dea52eae354fb750de329995ae5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 353221696}
     - target: {fileID: 698114810246031357, guid: adc10dea52eae354fb750de329995ae5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -29120,9 +29103,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7679302172700073598, guid: adc10dea52eae354fb750de329995ae5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2119590271}
-    - targetCorrespondingSourceObject: {fileID: 7679302172700073598, guid: adc10dea52eae354fb750de329995ae5, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 2459683521344692635, guid: adc10dea52eae354fb750de329995ae5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2119590272}
+      addedObject: {fileID: 353221696}
   m_SourcePrefab: {fileID: 100100000, guid: adc10dea52eae354fb750de329995ae5, type: 3}
 --- !u!114 &1735260204323192544 stripped
 MonoBehaviour:
