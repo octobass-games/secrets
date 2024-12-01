@@ -23,6 +23,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -32,6 +33,25 @@ MonoBehaviour:
     SellForFree: 0
     Requirements: []
     Message: 
+    Items: []
+  - Type: 14
+    Memory: hooded.figure.confronted
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 11400000, guid: 81402575b00315b48963e3b71fb4ad4c, type: 2}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 8da994b6ecd685e45a1504706abd6095, type: 2}
   Requirements:

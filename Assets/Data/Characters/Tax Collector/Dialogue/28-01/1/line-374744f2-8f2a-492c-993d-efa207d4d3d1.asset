@@ -17,6 +17,24 @@ MonoBehaviour:
   Text: Thank you, goodbye.
   NextLine: {fileID: 0}
   Events:
+  - Type: 14
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 11400000, guid: 1eff3924f8364674db14fe4ba55b28ab, type: 2}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   - Type: 17
     Memory: 
     Paper: {fileID: 0}
