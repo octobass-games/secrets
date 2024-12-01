@@ -985,7 +985,9 @@ MonoBehaviour:
 
     /kill
 
-    bankrupt'
+    bankrupt
+
+    tidbits'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8905648bc55afa14a88831582344c6a2, type: 2}
   m_sharedMaterial: {fileID: -1916309550598522235, guid: 8905648bc55afa14a88831582344c6a2, type: 2}
