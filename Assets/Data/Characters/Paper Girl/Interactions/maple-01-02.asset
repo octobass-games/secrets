@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6213566ad429a04c824721a064ee2fd, type: 3}
   m_Name: maple-01-02
   m_EditorClassIdentifier: 
-  RelationshipRequirement: 0
+  RelationshipRequirement: 6
   RootLines:
   - {fileID: 11400000, guid: 83bd514a8869f404886f0bb1dc33da20, type: 2}
   - {fileID: 11400000, guid: 2317ced90e3a9854fbd37a10abf8cda8, type: 2}
