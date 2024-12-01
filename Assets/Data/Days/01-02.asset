@@ -55,7 +55,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+    Character: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+    Character: {fileID: 11400000, guid: 56ecb7b137c4a2441af5fa4b4b4c05f4, type: 2}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0
