@@ -16,6 +16,24 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
   Text: "I\u2019m going to have THE BEST cosplay partner!"
   NextLine: {fileID: 0}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 1644300d3fe394e4e84af596e2d50793, type: 2}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices:
   - {fileID: 11400000, guid: b13a0ea33fe6c22488febb9d3490f480, type: 2}
