@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-bb836b25-0ac8-4b6b-a9ce-0bcdbfe15732
+  m_EditorClassIdentifier: 
+  Id: bb836b25-0ac8-4b6b-a9ce-0bcdbfe15732
+  Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+  Text: "That\u2019s most unfortunate."
+  NextLine: {fileID: 11400000, guid: 9bff8ea03eede874e95341b192bb35b8, type: 2}
+  Events: []
+  Choices: []
