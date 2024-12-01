@@ -5976,7 +5976,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b31db01e4d657ed4092b94fdd3e4a92a, type: 2}
   - {fileID: 11400000, guid: 447812950eaae574cbbaedabd44be0d1, type: 2}
   - {fileID: 11400000, guid: c972f99a904752848955a6fc4a705ba1, type: 2}
-  - {fileID: 11400000, guid: 1fecaab016fdaf04da7ae4e7176fde5c, type: 2}
+  - {fileID: 11400000, guid: 3e30725d580e0b247ab3228b55e9ac48, type: 2}
+  - {fileID: 11400000, guid: 313aa3e092d632141b1e2326ab71360c, type: 2}
+  - {fileID: 11400000, guid: e4593105a7e2e3149b445d9eea45fcc2, type: 2}
+  - {fileID: 11400000, guid: a96b7803a4a93154a800514364c517e9, type: 2}
+  - {fileID: 11400000, guid: 97973244d5b8589499643ac7e9438abb, type: 2}
+  - {fileID: 11400000, guid: 54dac9a263e62f74daf0454996163761, type: 2}
+  - {fileID: 11400000, guid: d0e37caecb005f4439412b5b052c9979, type: 2}
+  - {fileID: 11400000, guid: fca8cc2e595ad6c46b78764f50b89a56, type: 2}
+  - {fileID: 11400000, guid: 507799de30cf7f84cab18c9c0ac40896, type: 2}
+  - {fileID: 11400000, guid: 686ecba683cd432449d15692fe3999ef, type: 2}
   Items:
   - {fileID: 11400000, guid: 3322d1e1900eace4c99fa3acc6fd1185, type: 2}
   - {fileID: 11400000, guid: 05b8a73dbd0103a49b237bbf2bb4c1d4, type: 2}
@@ -7238,10 +7247,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.15
     y: 0
-    width: 1
-    height: 1
+    width: 0.5787037
+    height: 0.5787037
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
