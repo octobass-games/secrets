@@ -22,7 +22,7 @@ MonoBehaviour:
   RecommendedSellPrice: 50
   SellPrice: 50
   Stock: 0
-  CostToOrder: 25
+  CostToOrder: 3
   Item: {fileID: 0}
   LikelihoodToSell: 0
   BaseLikelihoodToSell: 30
