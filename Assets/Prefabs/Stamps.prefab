@@ -168,6 +168,7 @@ MonoBehaviour:
   - {fileID: 4668805267556108778}
   - {fileID: 3087794267394217126}
   - {fileID: 9070628253048505037}
+  SaveManager: {fileID: 0}
   Pages:
   - {fileID: 9038280360309719948}
   - {fileID: 4766290417382215344}
@@ -4608,6 +4609,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1870231058291199681}
     m_Modifications:
+    - target: {fileID: 152708220154901772, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1591003959501969363, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4708,6 +4713,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hey Big Spender
       objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6647339619981056428, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
       propertyPath: m_SizeDelta.y
       value: 61.245003
@@ -4732,6 +4753,26 @@ PrefabInstance:
       propertyPath: StampDefinition
       value: 
       objectReference: {fileID: 11400000, guid: 78d923ceb287b3e4fb6da91795474153, type: 2}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739802911758333223, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5067,6 +5108,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1870231058291199681}
     m_Modifications:
+    - target: {fileID: 152708220154901772, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1591003959501969363, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5167,6 +5212,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hey Small Spender
       objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6647339619981056428, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
       propertyPath: m_SizeDelta.y
       value: 61.245003
@@ -5191,6 +5252,26 @@ PrefabInstance:
       propertyPath: StampDefinition
       value: 
       objectReference: {fileID: 11400000, guid: 3cc7e00b58acf31459ac485d22f99d09, type: 2}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739802911758333223, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5526,6 +5607,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1870231058291199681}
     m_Modifications:
+    - target: {fileID: 152708220154901772, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1591003959501969363, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5626,6 +5711,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bookworm
       objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881244508571581583, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6647339619981056428, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
       propertyPath: m_SizeDelta.y
       value: 61.245003
@@ -5650,6 +5751,26 @@ PrefabInstance:
       propertyPath: StampDefinition
       value: 
       objectReference: {fileID: 11400000, guid: 79934e51386e7a24e9edfbf2a47cbca2, type: 2}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7176765394395056662, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739802911758333223, guid: 3a88d5864177702408eefbb97a786c0f, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
