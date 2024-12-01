@@ -81,17 +81,17 @@ MonoBehaviour:
     ItemsToOrder: []
     Stamp: {fileID: 0}
     StampId: 
-    TriggerNextDailyEvent: 0
+    TriggerNextDailyEvent: 1
     SellForFree: 0
     Requirements: []
     Message: 
     Items: []
-  - Type: 7
+  - Type: 8
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 0}
+    Character: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0
@@ -104,7 +104,25 @@ MonoBehaviour:
     Requirements: []
     Message: 
     Items: []
-  - Type: 5
+  - Type: 9
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 1
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
+  - Type: 27
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
