@@ -251,7 +251,9 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             float likelihoodOfBookSale = CalculateLikelihoodOfSale(book);
 
-            int numberToTry = book.Stock / 20;
+            float denominator = book.Stock < 10 ? 2f : 10f;
+
+            int numberToTry = Mathf.CeilToInt(book.Stock / denominator);
 
             for (int i = 1; i < numberToTry; i++)
             {
