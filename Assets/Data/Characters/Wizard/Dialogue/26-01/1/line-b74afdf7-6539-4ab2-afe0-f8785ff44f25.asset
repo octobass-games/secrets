@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-b74afdf7-6539-4ab2-afe0-f8785ff44f25
+  m_EditorClassIdentifier: 
+  Id: b74afdf7-6539-4ab2-afe0-f8785ff44f25
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "In fact, I did so well I was told I\u2019ll be given a research grant\u2026
+    not that I need the money!"
+  NextLine: {fileID: 11400000, guid: ca1e13238a97571418d11ab2706a72b9, type: 2}
+  Events: []
+  Choices: []
