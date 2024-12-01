@@ -17,7 +17,24 @@ MonoBehaviour:
   Text: "Who am I? Just a local up-and-coming broker, bro. Say, how\u2019d you like
     to have a go at investing? I can triple your investment, no sweat."
   NextLine: {fileID: 0}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: d972431e0f4f92042bb1e03b24795a4d, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices:
   - {fileID: 11400000, guid: aa52433f76e8e754e89a5fe82f057a10, type: 2}
   - {fileID: 11400000, guid: 6d6f2ba7fa505af4899ac42d35228b20, type: 2}
