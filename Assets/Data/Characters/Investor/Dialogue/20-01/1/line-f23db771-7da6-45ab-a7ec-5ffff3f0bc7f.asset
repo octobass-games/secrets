@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-983f2301-f252-4159-a50d-5ff4d261e714
+  m_Name: line-f23db771-7da6-45ab-a7ec-5ffff3f0bc7f
   m_EditorClassIdentifier: 
-  Id: 983f2301-f252-4159-a50d-5ff4d261e714
+  Id: f23db771-7da6-45ab-a7ec-5ffff3f0bc7f
   Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
-  Text: "Until then bro, that\u2019s it from me. See you around!"
+  Text: Well, that's it! See you soon bro!
   NextLine: {fileID: 0}
   Events:
   - Type: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+    Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0
@@ -40,7 +40,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
+    Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0

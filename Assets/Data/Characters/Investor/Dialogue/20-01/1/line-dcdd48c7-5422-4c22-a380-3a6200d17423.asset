@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-dcdd48c7-5422-4c22-a380-3a6200d17423
   m_EditorClassIdentifier: 
-  Id: 16a41924-07e1-4b50-aca3-b8f31bbc7f9e
+  Id: dcdd48c7-5422-4c22-a380-3a6200d17423
   Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
-  Text: Morning bro!
-  NextLine: {fileID: 0}
+  Text: Just needed to let you know the power of the free market
+  NextLine: {fileID: 11400000, guid: c73fae14e3465c64bb8c652437a85077, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: 0b300085adccd9a4085e8cdc7f4bdec4, type: 2}
-  - {fileID: 11400000, guid: 6b4522a65948d8d4a946defb6de81a42, type: 2}
-  - {fileID: 11400000, guid: 0024c6e2bbd69ec47ad8194c32176569, type: 2}
+  Choices: []

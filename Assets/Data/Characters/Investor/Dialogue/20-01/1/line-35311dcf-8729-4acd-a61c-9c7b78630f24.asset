@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: root
+  m_Name: line-35311dcf-8729-4acd-a61c-9c7b78630f24
   m_EditorClassIdentifier: 
-  Id: 16a41924-07e1-4b50-aca3-b8f31bbc7f9e
+  Id: 35311dcf-8729-4acd-a61c-9c7b78630f24
   Speaker: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
-  Text: Morning bro!
-  NextLine: {fileID: 0}
+  Text: I'm just stopping by to tell you that I'm rolling in dough.
+  NextLine: {fileID: 11400000, guid: b63e16e0a8c73254e9d024c0f112ff15, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: 0b300085adccd9a4085e8cdc7f4bdec4, type: 2}
-  - {fileID: 11400000, guid: 6b4522a65948d8d4a946defb6de81a42, type: 2}
-  - {fileID: 11400000, guid: 0024c6e2bbd69ec47ad8194c32176569, type: 2}
+  Choices: []

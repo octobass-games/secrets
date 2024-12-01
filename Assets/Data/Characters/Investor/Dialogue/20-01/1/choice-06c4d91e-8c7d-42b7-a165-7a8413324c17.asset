@@ -22,6 +22,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 3000
     BooksToOrder: []
     ItemsToOrder: []
@@ -31,6 +32,7 @@ MonoBehaviour:
     SellForFree: 0
     Requirements: []
     Message: 
+    Items: []
   - Type: 0
     Memory: invested.3000.coins
     Paper: {fileID: 0}
@@ -38,6 +40,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -47,6 +50,7 @@ MonoBehaviour:
     SellForFree: 0
     Requirements: []
     Message: 
+    Items: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: d83ebeb127d1f3d489d22152fcf2db8b, type: 2}
   Requirements:
