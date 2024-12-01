@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 2194b318-920d-4982-9ed7-701a9b0132b0
   Speaker: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
-  Text: And every timeI feel like I learn a little more about Berith.
+  Text: And every time I feel like I learn a little more about Berith.
   NextLine: {fileID: 11400000, guid: 25db7b1808179e24e9b3985ac09e4377, type: 2}
   Events: []
   Choices: []
