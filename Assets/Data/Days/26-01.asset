@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d30453d2fa5724749a8599c5e36eb607, type: 3}
-  m_Name: 25-01
+  m_Name: 26-01
   m_EditorClassIdentifier: 
-  Date: 25/01
+  Date: 26/01
   DailyEvents:
   - Type: 4
     Memory: 
@@ -55,7 +55,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+    Character: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+    Character: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+    Character: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+    Character: {fileID: 11400000, guid: d076a849d39717643aaa9148f7ca6b2c, type: 2}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0
