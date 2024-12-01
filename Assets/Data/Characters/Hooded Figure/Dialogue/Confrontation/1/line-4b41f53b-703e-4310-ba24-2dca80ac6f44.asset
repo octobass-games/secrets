@@ -35,4 +35,22 @@ MonoBehaviour:
     Requirements: []
     Message: 'Local bookshop owner revamps store front, how did they afford that? '
     Items: []
+  - Type: 14
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 11400000, guid: 348f0be5f26072e46a94629b86178321, type: 2}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 'Local bookshop owner revamps store front, how did they afford that? '
+    Items: []
   Choices: []
