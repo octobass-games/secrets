@@ -14,7 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: c7d88377-e3af-490e-90c6-ca805bf1d6ff
   Text: AFTERNOON! Did you bring that game we spoke about the other day?
-  Events: []
+  Events:
+  - Type: 14
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 11400000, guid: b3e720cb6d067684887609235e5120b7, type: 2}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 85e5fa82a35086f4fa9246328ec3e9a2, type: 2}
   Requirements:
