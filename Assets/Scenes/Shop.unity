@@ -4396,27 +4396,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fmodEvent: event:/SFX/Door
   is3D: 0
---- !u!1 &309565906 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6514952449186013678, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
-  m_PrefabInstance: {fileID: 1103887721580294010}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &309565910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309565906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ee03e0908facba46976096c8f890204, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Character: {fileID: 1718586189}
-  TidbitContainer: {fileID: 0}
-  TidbitPrefab: {fileID: 0}
-  CharacterName: {fileID: 0}
 --- !u!1 &319218030
 GameObject:
   m_ObjectHideFlags: 0
@@ -27905,6 +27884,14 @@ PrefabInstance:
       propertyPath: Character
       value: 
       objectReference: {fileID: 545247528}
+    - target: {fileID: 4021876444958002324, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021876444958002324, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4116316164575076548, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -27942,6 +27929,26 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4268276681849300792, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362385420627677210, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362385420627677210, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362385420627677210, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362385420627677210, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362385420627677210, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -28109,6 +28116,10 @@ PrefabInstance:
       propertyPath: Character
       value: 
       objectReference: {fileID: 22259087}
+    - target: {fileID: 6847396800639034237, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
+      propertyPath: Character
+      value: 
+      objectReference: {fileID: 1718586189}
     - target: {fileID: 7073426842878559462, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -28208,9 +28219,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4767996055628146213, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1993333272}
-    - targetCorrespondingSourceObject: {fileID: 6514952449186013678, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 309565910}
   m_SourcePrefab: {fileID: 100100000, guid: a462063f15e6db74cb4b64589fa4b281, type: 3}
 --- !u!1001 &1735260204323192543
 PrefabInstance:

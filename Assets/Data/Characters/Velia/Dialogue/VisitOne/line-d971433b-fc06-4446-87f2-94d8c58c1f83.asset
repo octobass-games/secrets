@@ -17,5 +17,22 @@ MonoBehaviour:
   Text: I'm a supplier of sorts... I used to work with your grandmother an awful
     lot
   NextLine: {fileID: 11400000, guid: 58eb30636207e2b4392dbbf83ce21fe9, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: bfee5ced9b158894eb917ed62a25b9b8, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
