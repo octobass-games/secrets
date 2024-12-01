@@ -49,6 +49,9 @@ public class RequirementManager : MonoBehaviour
             case RequirementType.CAN_AFFORD_TAXES:
                 satisfied = Bookkeeper.CanAffordTaxes();
                 break;
+            case RequirementType.CAN_AFFORD_RENT:
+                satisfied = Bookkeeper.CanAffordRent();
+                break;
             default:
                 break;
         }

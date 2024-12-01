@@ -409,6 +409,11 @@ public class Bookkeeper : MonoBehaviour, Savable
         saveData.Bookkeeper = new BookkeeperData(BankBalance, booksData, itemsData, hollowBooksData, DailyTransactions, MonthlyRent);
     }
 
+    public bool CanAffordRent()
+    {
+        return BankBalance >= MonthlyRent;
+    }
+
     public void Load(SaveData saveData)
     {
         BookkeeperData bookkeeperData = saveData.Bookkeeper;
