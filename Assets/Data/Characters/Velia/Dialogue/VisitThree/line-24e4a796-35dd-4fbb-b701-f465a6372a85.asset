@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-24e4a796-35dd-4fbb-b701-f465a6372a85
+  m_EditorClassIdentifier: 
+  Id: 24e4a796-35dd-4fbb-b701-f465a6372a85
+  Speaker: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
+  Text: So which will it be? Oh, and the bundles are 1500 coins each... that little
+    detail nearly slipped my mind!
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: f58f786be931742419bec933761acdfb, type: 2}
+  - {fileID: 11400000, guid: 13a37275abcccfc47bbe9c5788a45cbd, type: 2}
+  - {fileID: 11400000, guid: f935ba670e5cbd14f9fd1152c9aeee28, type: 2}
+  - {fileID: 11400000, guid: 373916f7b46450f40917a49f39182f03, type: 2}

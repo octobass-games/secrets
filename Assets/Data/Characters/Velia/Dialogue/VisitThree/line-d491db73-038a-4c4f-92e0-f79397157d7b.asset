@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-d491db73-038a-4c4f-92e0-f79397157d7b
+  m_EditorClassIdentifier: 
+  Id: d491db73-038a-4c4f-92e0-f79397157d7b
+  Speaker: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
+  Text: And it's yours!
+  NextLine: {fileID: 11400000, guid: dcb263a956743fe4bbb5c0f53d8e0c1b, type: 2}
+  Events:
+  - Type: 25
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items:
+    - {fileID: 11400000, guid: d472099be7624be40878b8644203d2df, type: 2}
+    - {fileID: 11400000, guid: ef100ad89c754e74897d85d4fec14a18, type: 2}
+  Choices: []

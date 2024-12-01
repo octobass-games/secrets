@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-f8542885-c1e9-46cc-a4d3-b83bdb2bb0a6
+  m_EditorClassIdentifier: 
+  Id: f8542885-c1e9-46cc-a4d3-b83bdb2bb0a6
+  Speaker: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
+  Text: And there's the option of telling me to leave!
+  NextLine: {fileID: 11400000, guid: 0500ebbfad880ae4aa4134fa394cf848, type: 2}
+  Events: []
+  Choices: []
