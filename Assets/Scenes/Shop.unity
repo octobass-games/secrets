@@ -5173,6 +5173,7 @@ GameObject:
   - component: {fileID: 457660934}
   - component: {fileID: 457660935}
   - component: {fileID: 457660936}
+  - component: {fileID: 457660937}
   m_Layer: 0
   m_Name: mini-game-system
   m_TagString: Untagged
@@ -5339,6 +5340,36 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 56, y: 30}
   m_EdgeRadius: 0
+--- !u!114 &457660937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457660932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde12f56f603fd641b73ffc554236569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 135454216}
+        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+        m_MethodName: Begin
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 9689b7452f36ef04fb5af0b0cfe96554, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Line, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnRightClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &469674913
 GameObject:
   m_ObjectHideFlags: 0
