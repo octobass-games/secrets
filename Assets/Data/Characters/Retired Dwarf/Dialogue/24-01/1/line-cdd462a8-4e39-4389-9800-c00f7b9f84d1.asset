@@ -10,16 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-f72ce6b7-44f9-4950-9a0c-39a69557db90
+  m_Name: line-cdd462a8-4e39-4389-9800-c00f7b9f84d1
   m_EditorClassIdentifier: 
-  Id: f72ce6b7-44f9-4950-9a0c-39a69557db90
+  Id: cdd462a8-4e39-4389-9800-c00f7b9f84d1
   Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
-  Text: "Oh, great pick! I can make her one of these cute little squirrels. She\u2019s
-    going to love it!"
-  NextLine: {fileID: 11400000, guid: cd6892bfebc4fd74a8cb4d02d92d6465, type: 2}
+  Text: Anyway kiddo, I best be running. See you later!
+  NextLine: {fileID: 0}
   Events:
-  - Type: 0
-    Memory: cuthbert.squirrel.book
+  - Type: 1
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
+  - Type: 3
+    Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}

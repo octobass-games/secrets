@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-782863d4-8a34-495c-8c86-cdaa4faa36ac
+  m_EditorClassIdentifier: 
+  Id: 782863d4-8a34-495c-8c86-cdaa4faa36ac
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "I\u2019m thinking of celebrating, so there may be a party invite with your
+    name on it, haha!"
+  NextLine: {fileID: 11400000, guid: e5f6e8500674d924c8d427d58b7080c6, type: 2}
+  Events: []
+  Choices: []

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-20825ab7-1585-4b7c-ad38-e28f65c31d6c
+  m_EditorClassIdentifier: 
+  Id: 20825ab7-1585-4b7c-ad38-e28f65c31d6c
+  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
+  Text: "She was looking pretty shaky when I turned up\u2026 but once she got her
+    squirrel she was over the moon!"
+  NextLine: {fileID: 11400000, guid: 52b5c8fa12359da4493da216ed6de481, type: 2}
+  Events: []
+  Choices: []
