@@ -21,10 +21,10 @@ MonoBehaviour:
   Cover: {fileID: -4223073193200393471, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.5176471, g: 0.11764707, b: 0.11764707, a: 1}
   RecommendedSellPrice: 100
-  SellPrice: 0
-  Stock: 1
-  CostToOrder: 0
+  SellPrice: 100
+  Stock: 33
+  CostToOrder: 9
   Item: {fileID: 0}
   LikelihoodToSell: 0
-  BaseLikelihoodToSell: 0
+  BaseLikelihoodToSell: 56
   IsHollow: 0

@@ -20,11 +20,11 @@ MonoBehaviour:
   Category: 6
   Cover: {fileID: -1213657295233197196, guid: 9eb79305a13cf54459a908585ebf13a2, type: 3}
   Colour: {r: 0.29803923, g: 0.16862746, b: 0.34509805, a: 1}
-  RecommendedSellPrice: 1250
-  SellPrice: 1250
-  Stock: 14
-  CostToOrder: 0
+  RecommendedSellPrice: 88
+  SellPrice: 88
+  Stock: 30
+  CostToOrder: 25
   Item: {fileID: 0}
   LikelihoodToSell: 0
-  BaseLikelihoodToSell: 80
+  BaseLikelihoodToSell: 40
   IsHollow: 0
