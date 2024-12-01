@@ -134,7 +134,7 @@ public class Bookkeeper : MonoBehaviour, Savable
 
     private void OnRentPayment(GameEvent @event)
     {
-        int rent = @event.Amount;
+        int rent = @event.Amount != 0 ? @event.Amount : MonthlyRent;
 
         TransactionsToday.Rent = rent;
 
