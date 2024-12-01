@@ -21,6 +21,25 @@ MonoBehaviour:
     Day: {fileID: 11400000}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
+  - Type: 10
+    Memory: 
+    Paper: {fileID: 11400000, guid: 2ade429a06c20664bacedbff084e8729, type: 2}
+    BookName: {fileID: 0}
+    Day: {fileID: 11400000}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -38,6 +57,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -55,6 +75,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -72,6 +93,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -89,6 +111,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -106,6 +129,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -123,6 +147,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -140,6 +165,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: PaperIssueFour
   m_EditorClassIdentifier: 
   Name: IssueFour
-  DayDefinition: {fileID: 0}
+  DayDefinition: {fileID: 11400000, guid: 3596ccb4d7f132a48a5f74b3e1c645be, type: 2}
+  ShouldTriggerNextEventWhenRead: 0
