@@ -10,14 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: retired-dwarf-11-01-2-root
+  m_Name: line-883f17fe-86a6-458d-886b-10aa7b465d10
   m_EditorClassIdentifier: 
-  Id: 804ed5d7-fa63-4fd0-8580-1b4675a8266a
+  Id: 883f17fe-86a6-458d-886b-10aa7b465d10
   Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
-  Text: Well, any luck finding that wool?
-  NextLine: {fileID: 0}
+  Text: So be it kiddo, so be it...
+  NextLine: {fileID: 11400000, guid: 427e59baf7235924da7a5d6e8318ac87, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: 022290de0b9a9de46b8f02d335062cf5, type: 2}
-  - {fileID: 11400000, guid: b086c82b390d84c48bc2ad7b586b8020, type: 2}
-  - {fileID: 11400000, guid: 2e0ce05024b90964e9a5f4b8106b0dcd, type: 2}
+  Choices: []
