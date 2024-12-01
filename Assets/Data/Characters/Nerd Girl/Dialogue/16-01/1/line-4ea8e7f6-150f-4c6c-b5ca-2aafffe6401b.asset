@@ -17,5 +17,23 @@ MonoBehaviour:
   Text: "I\u2019m looking for some candles. But not just any candles, they MUST be
     of the Convocatio brand."
   NextLine: {fileID: 11400000, guid: a49b655e23f019543b678e9bffbe2992, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: c04c4f1d8c2f1b14f8f05eb7aea041ff, type: 2}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
