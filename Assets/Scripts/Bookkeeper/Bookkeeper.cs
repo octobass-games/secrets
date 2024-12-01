@@ -15,6 +15,9 @@ public class Bookkeeper : MonoBehaviour, Savable
     public DialogueManager DialogueManager;
     public Line TooManyHollowBooks;
     public List<BookDefinition> HollowBooks = new();
+    public StampDefinition Bankrupt;
+    public StampDefinition MoneyCanBuyBooks;
+    public StampDefinition MoneyCanBuyHapiness;
 
     private int BankBalance = 10000;
 
@@ -188,13 +191,28 @@ public class Bookkeeper : MonoBehaviour, Savable
         BankBalance = Mathf.Max(0, BankBalance - amount);
 
         TillView.Display(BankBalance);
+
+        if (BankBalance == 0)
+        {
+            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.STAMP_COLLECTED, Stamp = Bankrupt });
+        }
     }
 
     private void Deposit(int amount)
     {
+        var before = BankBalance;
         BankBalance += amount;
 
         TillView.Display(BankBalance);
+
+        if (before < 10000 && BankBalance >= 10000)
+        {
+            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.STAMP_COLLECTED, Stamp = MoneyCanBuyBooks });
+        }
+        if (before < 100000 && BankBalance >= 100000)
+        {
+            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.STAMP_COLLECTED, Stamp = MoneyCanBuyHapiness });
+        }
     }
 
     public void UpdateBooks()

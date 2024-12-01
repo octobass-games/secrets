@@ -6248,6 +6248,9 @@ MonoBehaviour:
   TooManyHollowBooks: {fileID: 11400000, guid: 3d46862bd8f9c7a4baf14ba34d71d44d, type: 2}
   HollowBooks:
   - {fileID: 11400000, guid: 7a9d1888db1e7624aac7aa06cfec82ca, type: 2}
+  Bankrupt: {fileID: 11400000, guid: 38a236cf85e6cab4e945258fe4efc227, type: 2}
+  MoneyCanBuyBooks: {fileID: 11400000, guid: ffb3298e4bdfdb641b79a1a218fdea18, type: 2}
+  MoneyCanBuyHapiness: {fileID: 11400000, guid: 864a53325ac601d4887dc6b513e32134, type: 2}
 --- !u!4 &509350325
 Transform:
   m_ObjectHideFlags: 0
