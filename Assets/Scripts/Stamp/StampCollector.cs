@@ -7,6 +7,7 @@ public class StampCollector : MonoBehaviour
     public List<StampDefinition> Stamps;
     public GameObject StampBook;
     public List<Stamp> BookStamps;
+    public SaveManager SaveManager;
 
     public List<GameObject> Pages;
     private int PageIndex;
@@ -72,6 +73,11 @@ public class StampCollector : MonoBehaviour
         }
 
         stamp.IsUnlocked = true;
+
+        if (SaveManager != null)
+        {
+            SaveManager.SaveStamps();
+        }
     }
 
     public void Load(List<StampData> stamps)

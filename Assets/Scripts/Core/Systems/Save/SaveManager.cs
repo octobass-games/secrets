@@ -45,6 +45,20 @@ public class SaveManager : MonoBehaviour
         }
     }
 
+    public void SaveStamps()
+    {
+        StampCollector stampCollector = FindFirstObjectByType<StampCollector>();
+
+        if (stampCollector != null)
+        {
+            var stamps = stampCollector.GetSaveData();
+
+            var data = new StampWrapperData(stamps);
+
+            WriteData(data, StampFilePath, "save-stamp");
+        }
+    }
+
     public void Load()
     {
         if (HasData(SaveFilePath, "save-data"))
