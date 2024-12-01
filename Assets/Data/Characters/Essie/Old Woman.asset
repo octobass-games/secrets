@@ -23,3 +23,5 @@ MonoBehaviour:
   Profile: {fileID: 8142547509244237355, guid: cf558ba14f5c7384da51b54823a4a800, type: 3}
   Tidbits:
   - {fileID: 11400000, guid: 78a14c5f725f9b042bca1c51a39c594f, type: 2}
+  Confrontation: {fileID: 11400000, guid: ace13a099b3b64742bf0d4869e0a094f, type: 2}
+  ConfrontationWrong: {fileID: 11400000, guid: 5cfa7ba8f25be6e46a03bd24668b0ff4, type: 2}
