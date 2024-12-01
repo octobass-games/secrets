@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9746af8efb47046b60f553422593e6, type: 3}
-  m_Name: Knife
+  m_Script: {fileID: 11500000, guid: d6213566ad429a04c824721a064ee2fd, type: 3}
+  m_Name: Velia-4
   m_EditorClassIdentifier: 
-  Name: Fancy knife
-  Stock: 0
-  Sprite: {fileID: 21300000, guid: 392acd2e42f7262459fe7f7f1fce4537, type: 3}
-  SellPrice: 2000
+  RelationshipRequirement: 3
+  RootLines:
+  - {fileID: 11400000, guid: aca8d99a12249754284a36475d8027f4, type: 2}

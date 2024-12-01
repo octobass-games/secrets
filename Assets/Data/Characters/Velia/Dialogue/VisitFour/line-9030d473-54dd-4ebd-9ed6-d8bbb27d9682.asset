@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-9030d473-54dd-4ebd-9ed6-d8bbb27d9682
+  m_EditorClassIdentifier: 
+  Id: 9030d473-54dd-4ebd-9ed6-d8bbb27d9682
+  Speaker: {fileID: 11400000, guid: 6fd0f8c3ed0ff614f9d3c55ce7bbd44a, type: 2}
+  Text: A magical potion to help with sleep. Well, how about it?
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 3ca28fb708685fa4abacc1f5ca294d69, type: 2}
+  - {fileID: 11400000, guid: 25da0416d9804b3439f5dffd749910c2, type: 2}
+  - {fileID: 11400000, guid: fd483a538b5137a4bb34c48f4c2d25da, type: 2}

@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: Headphones
   Stock: 0
   Sprite: {fileID: 21300000, guid: 5cd655a1f5bb1854db12a952f6ec0343, type: 3}
-  SellPrice: 1000
+  SellPrice: 2500

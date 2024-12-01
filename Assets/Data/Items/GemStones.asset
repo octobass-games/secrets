@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: Gem stones
   Stock: 0
   Sprite: {fileID: 21300000, guid: ee7e8145428595e43a544e3a77d53841, type: 3}
-  SellPrice: 1500
+  SellPrice: 1900

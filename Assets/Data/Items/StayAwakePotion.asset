@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: StayAwakePotion
   Stock: 0
   Sprite: {fileID: 21300000, guid: 605ba74b2a0f4cd478eca7c25f824561, type: 3}
-  SellPrice: 900
+  SellPrice: 2000
