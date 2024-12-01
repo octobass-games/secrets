@@ -19,6 +19,7 @@ public class Safe : MonoBehaviour
     public GameObject OpenSafe;
     public GameObject ClosedSafe;
     public GameObject Painting;
+    public StampDefinition UnlockSafeStamp;
     public void SafeReset()
     {
         AttemptedOrder = new List<int>();    
@@ -39,7 +40,9 @@ public class Safe : MonoBehaviour
             ClosedSafe.SetActive(false);
             Painting.SetActive(false);
             OpenSafe.SetActive(true);
-        }else
+            EventManager.Instance.Publish(new GameEvent() { Type = GameEventType.STAMP_COLLECTED, Stamp = UnlockSafeStamp });
+        }
+        else
         {
             SafeReset();
         }

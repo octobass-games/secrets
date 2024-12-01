@@ -21405,6 +21405,7 @@ MonoBehaviour:
   OpenSafe: {fileID: 1337368000}
   ClosedSafe: {fileID: 1816685667}
   Painting: {fileID: 1183010655}
+  UnlockSafeStamp: {fileID: 11400000, guid: 18bb49383e127f045951d4ba62667cf7, type: 2}
 --- !u!1 &1688612636
 GameObject:
   m_ObjectHideFlags: 0
