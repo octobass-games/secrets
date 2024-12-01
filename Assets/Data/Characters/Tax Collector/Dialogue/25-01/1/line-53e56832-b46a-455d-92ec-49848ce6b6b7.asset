@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-53e56832-b46a-455d-92ec-49848ce6b6b7
+  m_EditorClassIdentifier: 
+  Id: 53e56832-b46a-455d-92ec-49848ce6b6b7
+  Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+  Text: "I don\u2019t suppose you have something that could help me get to sleep?"
+  NextLine: {fileID: 11400000, guid: cfe289b442123fd4c957bd32414db60a, type: 2}
+  Events: []
+  Choices: []

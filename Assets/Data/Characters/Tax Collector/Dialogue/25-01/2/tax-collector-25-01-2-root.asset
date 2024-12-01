@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: tax-collector-25-01-2-root
+  m_EditorClassIdentifier: 
+  Id: 803bfd3d-d126-4166-b39f-4f241dac364d
+  Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
+  Text: Am I going to sleep well?
+  NextLine: {fileID: 0}
+  Events: []
+  Choices:
+  - {fileID: 11400000, guid: 9bca0d703a699a140b6f76b4bdefecb3, type: 2}
+  - {fileID: 11400000, guid: 0bcc8386317e4284f8d655fc44d97a0e, type: 2}
+  - {fileID: 11400000, guid: 577244bd7e3491c48a16e83253a516a7, type: 2}
+  - {fileID: 11400000, guid: 29e117cccd16df947a79964a0a782ae4, type: 2}
