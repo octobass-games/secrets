@@ -24,6 +24,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -33,4 +34,5 @@ MonoBehaviour:
     SellForFree: 0
     Requirements: []
     Message: Local Bookshop Forced to Close After Landlord Bankrupted Owner
+    Items: []
   Choices: []

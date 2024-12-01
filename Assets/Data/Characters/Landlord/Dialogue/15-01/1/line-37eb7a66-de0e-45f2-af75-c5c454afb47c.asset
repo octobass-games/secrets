@@ -25,6 +25,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -34,4 +35,5 @@ MonoBehaviour:
     SellForFree: 0
     Requirements: []
     Message: Bookshop closes suddenly due to raising rents!
+    Items: []
   Choices: []

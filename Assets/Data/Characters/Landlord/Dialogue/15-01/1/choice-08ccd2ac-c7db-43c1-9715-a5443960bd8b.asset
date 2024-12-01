@@ -25,3 +25,10 @@ MonoBehaviour:
     Negate: 1
     Amount: 0
     Item: {fileID: 0}
+  - Type: 8
+    Name: 
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}
