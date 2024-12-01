@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-f12fe511-fb8f-446b-a180-52bcdbaa27d5
+  m_Name: line-7d4a36bb-ef83-4ae2-b240-163ee02caa3e
   m_EditorClassIdentifier: 
-  Id: f12fe511-fb8f-446b-a180-52bcdbaa27d5
-  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
-  Text: Oh! What have we here? Headphones?
+  Id: 7d4a36bb-ef83-4ae2-b240-163ee02caa3e
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: See you later dearie!
   NextLine: {fileID: 0}
   Events:
-  - Type: 0
-    Memory: cuthbert.headphones
+  - Type: 1
+    Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
@@ -35,5 +35,22 @@ MonoBehaviour:
     Requirements: []
     Message: 
     Items: []
-  Choices:
-  - {fileID: 11400000, guid: ddc86732a54e2cd43a571eaf066e86aa, type: 2}
+  - Type: 3
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
+  Choices: []

@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-829bd7b2-d385-4971-981f-6c8342bad03e
+  m_Name: root
   m_EditorClassIdentifier: 
-  Id: 829bd7b2-d385-4971-981f-6c8342bad03e
-  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
-  Text: I COME TO YOUR LOVELY SHOP ALL OF THE TIME, AND THIS IS HOW YOU REPAY ME!
-  NextLine: {fileID: 11400000, guid: 5affc8474deffee42bff654584877836, type: 2}
+  Id: 4523bb0c-c426-4cc5-a592-cba1dbf14220
+  Speaker: {fileID: 11400000, guid: 371e351cd644cc44685c7d628c94c521, type: 2}
+  Text: An elderly man's body was discovered on 11/1. He was poisoned and missing
+    a calf.
+  NextLine: {fileID: 11400000, guid: 2013f631c3a67d9408b75167240a97a4, type: 2}
   Events: []
   Choices: []

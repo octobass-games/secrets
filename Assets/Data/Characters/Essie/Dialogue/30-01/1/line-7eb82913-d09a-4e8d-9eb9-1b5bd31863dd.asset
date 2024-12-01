@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-f12fe511-fb8f-446b-a180-52bcdbaa27d5
+  m_Name: line-7eb82913-d09a-4e8d-9eb9-1b5bd31863dd
   m_EditorClassIdentifier: 
-  Id: f12fe511-fb8f-446b-a180-52bcdbaa27d5
-  Speaker: {fileID: 11400000, guid: e37ea3de70952f0438c6c5b6fce655a2, type: 2}
-  Text: Oh! What have we here? Headphones?
-  NextLine: {fileID: 0}
+  Id: 7eb82913-d09a-4e8d-9eb9-1b5bd31863dd
+  Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
+  Text: I poured that rat poison down the drain, and the giant rat disappeared too!
+  NextLine: {fileID: 11400000, guid: 22220fc203eec8d41bf28e4b74a57238, type: 2}
   Events:
   - Type: 0
-    Memory: cuthbert.headphones
+    Memory: essie.rat.poison
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
@@ -35,5 +35,4 @@ MonoBehaviour:
     Requirements: []
     Message: 
     Items: []
-  Choices:
-  - {fileID: 11400000, guid: ddc86732a54e2cd43a571eaf066e86aa, type: 2}
+  Choices: []

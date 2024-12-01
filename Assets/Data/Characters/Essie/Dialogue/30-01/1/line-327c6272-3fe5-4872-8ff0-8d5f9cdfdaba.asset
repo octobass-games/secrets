@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-829bd7b2-d385-4971-981f-6c8342bad03e
+  m_Name: line-327c6272-3fe5-4872-8ff0-8d5f9cdfdaba
   m_EditorClassIdentifier: 
-  Id: 829bd7b2-d385-4971-981f-6c8342bad03e
+  Id: 327c6272-3fe5-4872-8ff0-8d5f9cdfdaba
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
-  Text: I COME TO YOUR LOVELY SHOP ALL OF THE TIME, AND THIS IS HOW YOU REPAY ME!
-  NextLine: {fileID: 11400000, guid: 5affc8474deffee42bff654584877836, type: 2}
+  Text: But what can you do but move on! Everyone's time comes eventually.
+  NextLine: {fileID: 11400000, guid: bd4f465fff9b96b4a82df8675e0e76c3, type: 2}
   Events: []
   Choices: []

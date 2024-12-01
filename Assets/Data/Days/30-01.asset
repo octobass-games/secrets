@@ -10,31 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d30453d2fa5724749a8599c5e36eb607, type: 3}
-  m_Name: 22-01
+  m_Name: 30-01
   m_EditorClassIdentifier: 
-  Date: 22/01
+  Date: 30/01
   DailyEvents:
   - Type: 4
     Memory: 
     Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 11400000}
-    Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    CharacterTidbits: []
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-    Items: []
-  - Type: 10
-    Memory: 
-    Paper: {fileID: 11400000, guid: 2ade429a06c20664bacedbff084e8729, type: 2}
     BookName: {fileID: 0}
     Day: {fileID: 11400000}
     Character: {fileID: 0}
@@ -73,7 +55,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
+    Character: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0
@@ -91,43 +73,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: b58ee0b26a65676418f693893e352ed8, type: 2}
-    CharacterTidbit: {fileID: 0}
-    CharacterTidbits: []
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 1
-    SellForFree: 0
-    Requirements: []
-    Message: 
-    Items: []
-  - Type: 8
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
-    CharacterTidbit: {fileID: 0}
-    CharacterTidbits: []
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-    Items: []
-  - Type: 9
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+    Character: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0

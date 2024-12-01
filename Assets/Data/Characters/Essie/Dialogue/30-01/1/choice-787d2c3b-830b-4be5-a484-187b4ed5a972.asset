@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
+  m_Name: choice-787d2c3b-830b-4be5-a484-187b4ed5a972
+  m_EditorClassIdentifier: 
+  Id: 787d2c3b-830b-4be5-a484-187b4ed5a972
+  Text: Good morning!
+  Events: []
+  RelationshipPoints: 0
+  NextLine: {fileID: 11400000, guid: 1f4ae2914739a394b9475e85c886d1d9, type: 2}
+  Requirements:
+  - Type: 0
+    Name: cuthbert.squirrel.book
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}
+  - Type: 0
+    Name: cuthbert.headphones
+    Book: {fileID: 0}
+    Books: []
+    Negate: 0
+    Amount: 0
+    Item: {fileID: 0}
