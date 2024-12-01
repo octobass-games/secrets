@@ -7330,9 +7330,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.055555556
-    width: 0.33333334
-    height: 0.3333333
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -20286,6 +20286,7 @@ GameObject:
   - component: {fileID: 1617401058}
   - component: {fileID: 1617401057}
   - component: {fileID: 1617401059}
+  - component: {fileID: 1617401060}
   m_Layer: 0
   m_Name: Open
   m_TagString: Untagged
@@ -20380,6 +20381,37 @@ MonoBehaviour:
   History: {fileID: 2113456429}
   DialogueManager: {fileID: 135454216}
   HiddenCompartmentFoundDialogue: {fileID: 11400000, guid: cfe71db131b552c4ab86d1b8ab8af6f8, type: 2}
+--- !u!114 &1617401060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617401056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1212461099
+      Data2: 1074007365
+      Data3: -807491654
+      Data4: 761390627
+    Path: event:/SFX/Painting
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1623699048
 GameObject:
   m_ObjectHideFlags: 0
