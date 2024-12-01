@@ -17,7 +17,24 @@ MonoBehaviour:
   Text: "I\u2019m sorry to disturb you, but I\u2019m here to collect this week\u2019s
     taxes."
   NextLine: {fileID: 0}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 28e6b57fbf4104a4db3bed8c92dee7bf, type: 2}
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices:
   - {fileID: 11400000, guid: f9de41e515aa6474bb124d09ed9aa362, type: 2}
   - {fileID: 11400000, guid: bd7089c429ad52d47bbd7b6d4a9c6231, type: 2}
