@@ -25,6 +25,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -32,6 +33,9 @@ MonoBehaviour:
     StampId: 
     TriggerNextDailyEvent: 0
     SellForFree: 1
+    Requirements: []
+    Message: 
+    Items: []
   - Type: 1
     Memory: 
     Paper: {fileID: 0}
@@ -39,6 +43,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -46,6 +51,27 @@ MonoBehaviour:
     StampId: 
     TriggerNextDailyEvent: 0
     SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 06e5141f5aad4954fb18b6f4a4defe02, type: 2}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   - Type: 3
     Memory: 
     Paper: {fileID: 0}
@@ -53,6 +79,7 @@ MonoBehaviour:
     Day: {fileID: 0}
     Character: {fileID: 0}
     CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
     Amount: 0
     BooksToOrder: []
     ItemsToOrder: []
@@ -60,4 +87,7 @@ MonoBehaviour:
     StampId: 
     TriggerNextDailyEvent: 0
     SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
