@@ -7306,9 +7306,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.055555556
+    width: 0.33333334
+    height: 0.3333333
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -11572,7 +11572,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6675753854356093621, guid: a5797a14ac150164c9adebd5f6e43923, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 871736799}
   m_SourcePrefab: {fileID: 100100000, guid: a5797a14ac150164c9adebd5f6e43923, type: 3}
 --- !u!114 &871736797 stripped
 MonoBehaviour:
@@ -11585,6 +11588,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8339be71dfe9c64793b44cd3f9d14f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &871736798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6675753854356093621, guid: a5797a14ac150164c9adebd5f6e43923, type: 3}
+  m_PrefabInstance: {fileID: 871736796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &871736799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871736798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Loot
+  is3D: 0
 --- !u!1 &874633413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2945713011586558808, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
@@ -28955,6 +28977,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8818881995918543431, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2154512900278508536}
+    - targetCorrespondingSourceObject: {fileID: 8818881995918543431, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2154512900278508542}
     - targetCorrespondingSourceObject: {fileID: 812786807417991029, guid: 60ab4cd2ca87e0e49838d6f67b5019df, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1978982095}
@@ -29017,6 +29042,20 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!114 &2154512900278508542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2154512900278508535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Loot
+  is3D: 0
 --- !u!1001 &2999431808451543544
 PrefabInstance:
   m_ObjectHideFlags: 0

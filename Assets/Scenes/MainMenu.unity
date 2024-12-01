@@ -174,10 +174,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.228125
+    x: 0
     y: 0
-    width: 0.30185187
-    height: 0.30185184
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1255,7 +1255,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6675753854356093621, guid: a5797a14ac150164c9adebd5f6e43923, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1458814273}
   m_SourcePrefab: {fileID: 100100000, guid: a5797a14ac150164c9adebd5f6e43923, type: 3}
 --- !u!1 &228878711
 GameObject:
@@ -3703,6 +3706,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1458814268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6675753854356093621, guid: a5797a14ac150164c9adebd5f6e43923, type: 3}
+  m_PrefabInstance: {fileID: 217428454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1458814273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458814268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ce5b5358bd3e4dbdb1552957fda85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEvent: event:/SFX/Loot
+  is3D: 0
 --- !u!1001 &1497412990
 PrefabInstance:
   m_ObjectHideFlags: 0
