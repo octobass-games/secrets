@@ -14,7 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: c0d742f6-3ea5-4ca4-8669-6c46d7c33e44
   Text: Of course, here you are!
-  Events: []
+  Events:
+  - Type: 14
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 11400000, guid: bf2ae77f4cdb828458f6053f0bd4f06c, type: 2}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: ff744d29cac29d840a285c62ea157270, type: 2}
   Requirements:
