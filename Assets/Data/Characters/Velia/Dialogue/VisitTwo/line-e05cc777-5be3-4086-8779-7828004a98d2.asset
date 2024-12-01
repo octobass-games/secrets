@@ -50,7 +50,8 @@ MonoBehaviour:
     SellForFree: 0
     Requirements: []
     Message: 
-    Items: []
+    Items:
+    - {fileID: 11400000, guid: dfa62c74647b6994f97836113ebb8edf, type: 2}
   - Type: 1
     Memory: 
     Paper: {fileID: 0}
