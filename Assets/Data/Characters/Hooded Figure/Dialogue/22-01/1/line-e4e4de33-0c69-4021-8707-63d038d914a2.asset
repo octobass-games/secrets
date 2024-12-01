@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-e4e4de33-0c69-4021-8707-63d038d914a2
+  m_EditorClassIdentifier: 
+  Id: e4e4de33-0c69-4021-8707-63d038d914a2
+  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+  Text: "And her death was so odd\u2026 definitely suspicious. I\u2019d spend all
+    day and all night trying to work out what the motive for killing her would be."
+  NextLine: {fileID: 11400000, guid: 2d733868189dd23468c0a6ec747de278, type: 2}
+  Events: []
+  Choices: []

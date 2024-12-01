@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-9ea2f7d8-1372-425d-9b2d-e1df7d1237d8
+  m_EditorClassIdentifier: 
+  Id: 9ea2f7d8-1372-425d-9b2d-e1df7d1237d8
+  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+  Text: "I was looking into your grandma\u2019s shop, and I know that more gets sold
+    here than books\u2026"
+  NextLine: {fileID: 11400000, guid: fbfeee950f4a3e74db294ce6cb03eccb, type: 2}
+  Events: []
+  Choices: []
