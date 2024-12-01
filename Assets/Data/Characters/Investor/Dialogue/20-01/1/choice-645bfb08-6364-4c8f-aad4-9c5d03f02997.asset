@@ -17,4 +17,18 @@ MonoBehaviour:
   Events: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: af383f3bbf4b4444596efb283f7a025b, type: 2}
-  Requirements: []
+  Requirements:
+  - Type: 0
+    Name: invested.3000.coins
+    Book: {fileID: 0}
+    Books: []
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}
+  - Type: 0
+    Name: invested.1000.coins
+    Book: {fileID: 0}
+    Books: []
+    Negate: 1
+    Amount: 0
+    Item: {fileID: 0}
