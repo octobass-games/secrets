@@ -14,7 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 3e6bd41d-c5de-478f-8db9-bf4ddfa06213
   Text: Do you know anything about Lera?
-  Events: []
+  Events:
+  - Type: 20
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 100
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 1c3452912942039439dc6c894e423d15, type: 2}
   Requirements:
