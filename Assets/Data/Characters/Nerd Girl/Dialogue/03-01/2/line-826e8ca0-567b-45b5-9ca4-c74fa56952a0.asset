@@ -58,7 +58,7 @@ MonoBehaviour:
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: 57ccebe1da975ba4baa6ade9a8d0c530, type: 2}
+    Character: {fileID: 11400000, guid: 4eea3e0fd2cd76140a3ec483207cd43f, type: 2}
     CharacterTidbit: {fileID: 0}
     CharacterTidbits: []
     Amount: 0
