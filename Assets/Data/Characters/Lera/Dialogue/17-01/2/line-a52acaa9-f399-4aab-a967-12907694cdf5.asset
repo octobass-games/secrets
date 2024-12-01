@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-89622dc9-0a27-4d7f-800e-9a1b9967e6c8
+  m_Name: line-a52acaa9-f399-4aab-a967-12907694cdf5
   m_EditorClassIdentifier: 
-  Id: 89622dc9-0a27-4d7f-800e-9a1b9967e6c8
+  Id: a52acaa9-f399-4aab-a967-12907694cdf5
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: Come on now, you must have at least one weapons book back there...
-  NextLine: {fileID: 0}
+  Text: Haha! Oh well, never mind!
+  NextLine: {fileID: 11400000, guid: 95625ebde9a6c0f4d9518e0253cfcabf, type: 2}
   Events: []
   Choices: []

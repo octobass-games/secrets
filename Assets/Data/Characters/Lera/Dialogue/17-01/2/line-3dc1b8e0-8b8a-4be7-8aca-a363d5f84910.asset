@@ -10,36 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-690f9600-b02a-487d-947c-1708dcb5449c
+  m_Name: line-3dc1b8e0-8b8a-4be7-8aca-a363d5f84910
   m_EditorClassIdentifier: 
-  Id: 690f9600-b02a-487d-947c-1708dcb5449c
+  Id: 3dc1b8e0-8b8a-4be7-8aca-a363d5f84910
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: "I\u2019ll be back in a few days. See you later."
+  Text: I'll see you around!
   NextLine: {fileID: 0}
   Events:
-  - Type: 0
-    Memory: supplier.available
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 0}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-    Items: []
   - Type: 1
     Memory: 
     Paper: {fileID: 0}
     BookName: {fileID: 0}
     Day: {fileID: 0}
-    Character: {fileID: 0}
+    Character: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
     CharacterTidbit: {fileID: 0}
     Amount: 0
     BooksToOrder: []

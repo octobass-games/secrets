@@ -10,18 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d636c5d0b3d978043a8200f2924896b3, type: 3}
-  m_Name: choice-8efc09aa-0319-4a4f-bdb1-66918769b857
+  m_Name: choice-44d229d8-00e3-41bb-a305-8196ddc987ad
   m_EditorClassIdentifier: 
-  Id: 8efc09aa-0319-4a4f-bdb1-66918769b857
-  Text: I think this is the best I can do for now...
+  Id: 44d229d8-00e3-41bb-a305-8196ddc987ad
+  Text: Sorry, but I can't find anything. Book shaped or sharp and pointy!
   Events: []
   RelationshipPoints: 0
-  NextLine: {fileID: 11400000, guid: 1eb32c46ad5739b4fa4ee25a11c76cb9, type: 2}
-  Requirements:
-  - Type: 3
-    Name: 
-    Book: {fileID: 0}
-    Books: []
-    Negate: 0
-    Amount: 0
-    Item: {fileID: 0}
+  NextLine: {fileID: 11400000, guid: dc9779157589001498a646742728feac, type: 2}
+  Requirements: []

@@ -10,15 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: lera-07-01-2-root
+  m_Name: line-a12ad9b4-a5a5-42c0-9219-c6ff860261ee
   m_EditorClassIdentifier: 
-  Id: 0f7b2647-96db-42a1-97a3-cd18d1ab0789
+  Id: a12ad9b4-a5a5-42c0-9219-c6ff860261ee
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
-  Text: Am I finally going to be able to sharpen my blades then?
-  NextLine: {fileID: 0}
+  Text: Blimey! We'll let's just hope there are no accidents then!
+  NextLine: {fileID: 11400000, guid: b59fbb71fcc93a2468a51e6b185eaff9, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: 2c2f2163d84131a479c8796f4a9605a5, type: 2}
-  - {fileID: 11400000, guid: 6e6a4628056b47042a61d095bffeff6b, type: 2}
-  - {fileID: 11400000, guid: 5598b49351cb47f4b981cd776d559984, type: 2}
-  - {fileID: 11400000, guid: a7cbe5fa60d8bdf4c99239dee8d775dd, type: 2}
+  Choices: []
