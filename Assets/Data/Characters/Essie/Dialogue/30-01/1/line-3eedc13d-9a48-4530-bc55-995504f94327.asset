@@ -17,5 +17,23 @@ MonoBehaviour:
   Text: "Well\u2026 My rat problem has been dealt with. The poison you gave me was
     very effective."
   NextLine: {fileID: 11400000, guid: c323377b30266ac43ac31addb8fdeedf, type: 2}
-  Events: []
+  Events:
+  - Type: 14
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 11400000, guid: 4a12f0e98c9d0e349b8faaa928ae95be, type: 2}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
