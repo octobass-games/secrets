@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-829bd7b2-d385-4971-981f-6c8342bad03e
+  m_Name: line-45d6b93d-2109-4ae8-8a6c-7ccf1376f310
   m_EditorClassIdentifier: 
-  Id: 829bd7b2-d385-4971-981f-6c8342bad03e
+  Id: 45d6b93d-2109-4ae8-8a6c-7ccf1376f310
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
-  Text: I COME TO YOUR LOVELY SHOP ALL OF THE TIME, AND THIS IS HOW YOU REPAY ME!
-  NextLine: {fileID: 11400000, guid: 5affc8474deffee42bff654584877836, type: 2}
+  Text: That being said, my neighbour did make me a wonderful knitted squirrel.
+  NextLine: {fileID: 11400000, guid: f5a36fa368529c34eaa228876474c2ae, type: 2}
   Events: []
   Choices: []

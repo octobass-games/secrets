@@ -16,5 +16,23 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: 5505c6f424a65c54ebc0ed36a4496348, type: 2}
   Text: Oh my! Thank you so much dearie.
   NextLine: {fileID: 11400000, guid: 926ce00bcd1081e498f95f51e3dc50e6, type: 2}
-  Events: []
+  Events:
+  - Type: 0
+    Memory: essie.rat.poison
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
