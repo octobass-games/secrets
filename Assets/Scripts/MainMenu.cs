@@ -14,7 +14,7 @@ public class MainMenu : MonoBehaviour
             LoadButton.SetActive(false);
         }
 
-        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        if (Application.platform == RuntimePlatform.WebGLPlayer)
         {
             QuitButton.SetActive(false);
         }
