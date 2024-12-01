@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-c7a941fb-0286-4138-8203-131501ea975a
+  m_EditorClassIdentifier: 
+  Id: c7a941fb-0286-4138-8203-131501ea975a
+  Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
+  Text: "Anyway\u2026 I felt it pertinent that I tell you of my latest victory in
+    life."
+  NextLine: {fileID: 11400000, guid: 933aa1d804cdbda4e93d462cc0727345, type: 2}
+  Events: []
+  Choices: []
