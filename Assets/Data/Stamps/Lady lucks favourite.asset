@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Lady lucks favourite
   IsUnlocked: 0
-  Description: Win enough money via investing to retire
+  Description: Win big via investing
   Image: {fileID: 4981023157300436904, guid: 5e8034e65c0dc8844a8c3f5978a5e388, type: 3}

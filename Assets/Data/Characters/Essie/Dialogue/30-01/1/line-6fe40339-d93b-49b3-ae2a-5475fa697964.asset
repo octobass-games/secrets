@@ -17,5 +17,23 @@ MonoBehaviour:
   Text: My neighbour knitted me the most beautiful squirrel. It captures their essence
     perfectly!
   NextLine: {fileID: 11400000, guid: 22d7c9b97f900d14ba3338c0a04ea916, type: 2}
-  Events: []
+  Events:
+  - Type: 14
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 11400000, guid: a00b777768d23fe45a751425e2cf02dd, type: 2}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
