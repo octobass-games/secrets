@@ -5995,6 +5995,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dfa62c74647b6994f97836113ebb8edf, type: 2}
   - {fileID: 11400000, guid: d15fe0c0218d6d447a5d01f2bec35a20, type: 2}
   - {fileID: 11400000, guid: ef100ad89c754e74897d85d4fec14a18, type: 2}
+  - {fileID: 11400000, guid: 4ffa898886ccb784b80f2278f69cfd8e, type: 2}
   TillView: {fileID: 469674917}
   Bookshelf: {fileID: 1719886218}
   TillBook: {fileID: 0}

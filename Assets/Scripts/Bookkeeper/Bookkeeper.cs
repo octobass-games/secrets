@@ -449,7 +449,10 @@ public class Bookkeeper : MonoBehaviour, Savable
         {
             var itemData = items.Find(item => i.Name == item.Name);
 
-            i.Stock = itemData.Stock;
+            if (itemData != null)
+            {
+                i.Stock = itemData.Stock;
+            }
         });
 
         TillView.DisplayImmediately(BankBalance);
