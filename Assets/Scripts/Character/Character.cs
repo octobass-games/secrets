@@ -46,6 +46,29 @@ public class Character : MonoBehaviour, Savable
         }
     }
 
+
+    public void BeginConfrontation(int index)
+    {
+
+        DialogueManager dialogueManager = FindAnyObjectByType<DialogueManager>();
+
+        if (dialogueManager != null)
+        {
+            dialogueManager.Begin(CharacterDefinition.Confrontation.RootLines[index], SpeakerAnimator, null);
+        }
+    }
+
+    public void BadChoiceInConfronation()
+    {
+
+        DialogueManager dialogueManager = FindAnyObjectByType<DialogueManager>();
+
+        if (dialogueManager != null)
+        {
+            dialogueManager.Begin(CharacterDefinition.ConfrontationWrong.RootLines[0], SpeakerAnimator, null);
+        }
+    }
+
     public void EndInteraction()
     {
         CharacterDefinition.Relationship++;

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
+  m_Name: line-1e9dec86-6d6b-410f-b675-773eb2d4dfc7
+  m_EditorClassIdentifier: 
+  Id: 1e9dec86-6d6b-410f-b675-773eb2d4dfc7
+  Speaker: {fileID: 11400000, guid: ea8beeeb1665dc04291e07efe569adb9, type: 2}
+  Text: I loved her! We would have been married in the spring!
+  NextLine: {fileID: 11400000, guid: e81e6dba8174d4f47a7d1a082c1b84b3, type: 2}
+  Events: []
+  Choices: []

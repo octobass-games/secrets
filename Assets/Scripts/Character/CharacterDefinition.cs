@@ -9,6 +9,8 @@ public class CharacterDefinition : ScriptableObject
     public int Relationship;
     public Sprite Profile;
     public List<CharacterTidbit> Tidbits;
+    public Interaction Confrontation;
+    public Interaction ConfrontationWrong;
 
     public bool IsEqual(CharacterDefinition other)
     {
