@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9746af8efb47046b60f553422593e6, type: 3}
   m_Name: TubaMusic
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Tubinian Classics
   Stock: 0
-  Sprite: {fileID: 0}
-  SellPrice: 0
+  Sprite: {fileID: 21300000, guid: b38c0a3a0a1e67443bc83183c0566f38, type: 3}
+  SellPrice: 650

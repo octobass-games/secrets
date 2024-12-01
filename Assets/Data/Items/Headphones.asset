@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9746af8efb47046b60f553422593e6, type: 3}
   m_Name: Headphones
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Headphones
   Stock: 0
-  Sprite: {fileID: 0}
-  SellPrice: 0
+  Sprite: {fileID: 21300000, guid: 5cd655a1f5bb1854db12a952f6ec0343, type: 3}
+  SellPrice: 1000

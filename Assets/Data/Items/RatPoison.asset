@@ -15,4 +15,4 @@ MonoBehaviour:
   Name: Rat poison
   Stock: 1
   Sprite: {fileID: 21300000, guid: db235f126b65b3c4495d35c963843922, type: 3}
-  SellPrice: 125
+  SellPrice: 500

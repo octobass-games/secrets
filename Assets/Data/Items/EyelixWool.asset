@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9746af8efb47046b60f553422593e6, type: 3}
   m_Name: EyelixWool
   m_EditorClassIdentifier: 
-  Name: Eyelix Wool
+  Name: Eyelix wool
   Stock: 0
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: 4fbd2f4a4e6a36341aeecb6dbfb2a5c0, type: 3}
   SellPrice: 1000
