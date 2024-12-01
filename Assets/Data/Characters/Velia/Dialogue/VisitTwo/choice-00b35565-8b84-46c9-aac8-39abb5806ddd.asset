@@ -14,7 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 00b35565-8b84-46c9-aac8-39abb5806ddd
   Text: I'll take the candles, please.
-  Events: []
+  Events:
+  - Type: 14
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 0}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 11400000, guid: ed26d8598b821004cb1cf242ae8420f6, type: 2}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   RelationshipPoints: 0
   NextLine: {fileID: 11400000, guid: 0c78079d968781e45a306773ae19ec4f, type: 2}
   Requirements:
