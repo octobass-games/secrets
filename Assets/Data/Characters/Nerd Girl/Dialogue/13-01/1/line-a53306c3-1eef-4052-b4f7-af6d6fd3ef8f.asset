@@ -17,5 +17,23 @@ MonoBehaviour:
   Text: "I think Berith might be best boy\u2026 I need some time to think that through
     though\u2026 big struggles\u2026"
   NextLine: {fileID: 11400000, guid: a74059e5ca83dbd41905d79f6a7a919c, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: bd87c1b22990d0645acc981350e45c63, type: 2}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []

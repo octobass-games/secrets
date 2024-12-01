@@ -16,5 +16,23 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: fd269d9b56d63884fb790c65ea596c71, type: 2}
   Text: "The main thing I need at the minute is actually blood for my fusions\u2026"
   NextLine: {fileID: 11400000, guid: 9b31ce84c5fdee749bfc66aabc9d1ad2, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: aa3ceebe685dd3947acb6d5915a6e139, type: 2}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
