@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: lera-business
   m_EditorClassIdentifier: 
   Id: lera-business
-  Tidbit: "Getting a lot more business with the murders happening\r"
+  Tidbit: "Getting a lot more business with the murders happening.\r"
   IsUnlocked: 0

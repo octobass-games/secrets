@@ -16,5 +16,23 @@ MonoBehaviour:
   Speaker: {fileID: 11400000, guid: e1c0ecf591791974293125cddd1b567d, type: 2}
   Text: I can charge twice my normal rate, and people will pay it!
   NextLine: {fileID: 11400000, guid: 7706c55caafbea046abfd7627135426b, type: 2}
-  Events: []
+  Events:
+  - Type: 12
+    Memory: 
+    Paper: {fileID: 0}
+    BookName: {fileID: 0}
+    Day: {fileID: 0}
+    Character: {fileID: 0}
+    CharacterTidbit: {fileID: 11400000, guid: 3e4343a77f63b9b458bfeea4562e8fba, type: 2}
+    CharacterTidbits: []
+    Amount: 0
+    BooksToOrder: []
+    ItemsToOrder: []
+    Stamp: {fileID: 0}
+    StampId: 
+    TriggerNextDailyEvent: 0
+    SellForFree: 0
+    Requirements: []
+    Message: 
+    Items: []
   Choices: []
