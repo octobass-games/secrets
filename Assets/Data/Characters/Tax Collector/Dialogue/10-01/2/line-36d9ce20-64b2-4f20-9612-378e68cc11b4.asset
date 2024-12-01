@@ -10,15 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: tax-collector-10-01-2-root
+  m_Name: line-36d9ce20-64b2-4f20-9612-378e68cc11b4
   m_EditorClassIdentifier: 
-  Id: 0fcf4ffa-cf51-4c1c-8882-7dbdc5c41113
+  Id: 36d9ce20-64b2-4f20-9612-378e68cc11b4
   Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
-  Text: Is my well-being about to improve?
-  NextLine: {fileID: 0}
+  Text: Oh well... never mind.
+  NextLine: {fileID: 11400000, guid: ddeed1935ce6bed4c87ad1ab31217775, type: 2}
   Events: []
-  Choices:
-  - {fileID: 11400000, guid: a6979db8c982e4c44848ac217d73349e, type: 2}
-  - {fileID: 11400000, guid: 98d6d57c798c61144bfa9b70b2f4596a, type: 2}
-  - {fileID: 11400000, guid: c4804ec00837fde45a0c877ec0a1229e, type: 2}
-  - {fileID: 11400000, guid: 7fd23cafe98a49446b11603072ee9fca, type: 2}
+  Choices: []

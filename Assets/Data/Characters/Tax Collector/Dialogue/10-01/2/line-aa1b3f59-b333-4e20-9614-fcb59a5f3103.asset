@@ -10,30 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f63b2f23df074942bb59b3f5cf9afa7, type: 3}
-  m_Name: line-2a7880a4-377f-423c-b3cb-dd8da05e33d3
+  m_Name: line-aa1b3f59-b333-4e20-9614-fcb59a5f3103
   m_EditorClassIdentifier: 
-  Id: 2a7880a4-377f-423c-b3cb-dd8da05e33d3
+  Id: aa1b3f59-b333-4e20-9614-fcb59a5f3103
   Speaker: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
-  Text: Thank you, I'll see you later.
+  Text: Well I suppose I should get back out there... bye.
   NextLine: {fileID: 0}
   Events:
-  - Type: 2
-    Memory: 
-    Paper: {fileID: 0}
-    BookName: {fileID: 0}
-    Day: {fileID: 0}
-    Character: {fileID: 11400000, guid: aee4f0107501fd64f9034c39c63eb410, type: 2}
-    CharacterTidbit: {fileID: 0}
-    Amount: 0
-    BooksToOrder: []
-    ItemsToOrder: []
-    Stamp: {fileID: 0}
-    StampId: 
-    TriggerNextDailyEvent: 0
-    SellForFree: 0
-    Requirements: []
-    Message: 
-    Items: []
   - Type: 1
     Memory: 
     Paper: {fileID: 0}
